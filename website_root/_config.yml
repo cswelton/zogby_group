@@ -1,0 +1,27 @@
+baseurl: /zogby_group
+collections:
+  players:
+      output: true
+      sort_by: name
+  rounds:
+      output: true
+      sort_by: date_timestamp
+
+defaults:
+  - scope:
+      path: ""
+      type: "players"
+    values:
+      layout: "player"
+  - scope:
+      path: ""
+      type: "rounds"
+    values:
+      layout: "round"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+sass:
+  sass_dir: assets/css

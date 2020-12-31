@@ -1,0 +1,126 @@
+---
+layout: default
+---
+{% assign player_data = site.data.player_data | where: 'name', page.name | first %}
+<div class="jumbotron">
+    <h1 class="display-4">
+        <img class="img img-thumbnail" width="75px" height="50px" src="{{site.baseurl}}{{ page.image }}" alt="{{page.name}}">
+        {{ page.name }}
+        <small>
+            <span class="badge badge-dark">
+                <span class="fas fa-coins"></span>
+                {{page.points}}
+            </span>
+        </small>
+    </h1>
+    <p class="lead">{{ page.content }}</p>
+</div>
+
+<div class="alert alert-danger">This page is currently under development.</div>
+
+<div class="container-fluid">
+    <div id="chart_player_rounds" style="width:100%; height:400px;"></div>
+</div>
+
+<div class="container-fluid">
+    <h2>Scoring Average: {{ player_data.scoring_average }}</h2>
+    <h2>Rounds <small><span class="badge badge-pill badge-dark">{{ player_data.rounds | size }}</span></small></h2>
+</div>
+{% if player_data.rounds %}
+    {% assign sorted = player_data.rounds | sort: 'date_timestamp' | reverse %}
+    {% for round in sorted %}
+    <div class="row">
+        <div class="col-10">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">{{ round.name }}
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-sm">
+                            <thead>
+                            <tr class="text-center">
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                        <th>6</th>
+                                        <th>7</th>
+                                        <th>8</th>
+                                        <th>9</th>
+                                        <th>Out</th>
+                                        <th>10</th>
+                                        <th>11</th>
+                                        <th>12</th>
+                                        <th>13</th>
+                                        <th>14</th>
+                                        <th>15</th>
+                                        <th>16</th>
+                                        <th>17</th>
+                                        <th>18</th>
+                                        <th>In</th>
+                                        <th>Total</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="text-center">
+                                        {% for hole_data in round.front %}
+                                        <td class='table-{% if hole_data.type contains "eagle" %}primary{% elsif hole_data.type contains "birdie" %}success{% elsif hole_data.type == "plus1" %}warning{% elsif hole_data.type contains "plus" %}danger{% else %}light{% endif %}'>
+                                            {{ hole_data.score }}
+                                        </td>
+                                        {% endfor %}
+                                        <td class="table-light">{{ round.out }}</td>
+                                        {% for hole_data in round.back %}
+                                        <td class='table-{% if hole_data.type contains "eagle" %}primary{% elsif hole_data.type contains "birdie" %}success{% elsif hole_data.type == "plus1" %}warning{% elsif hole_data.type contains "plus" %}danger{% else %}light{% endif %}'>
+                                            {{ hole_data.score }}
+                                        </td>
+                                        {% endfor %}
+                                        <td class="table-light">{{ round.in }}</td>
+                                        <td class="table-light">{{ round.score }}</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% endif %}
+
+<script>
+    var categories = [];
+    var total_data = [];
+    var front_data = [];
+    var back_data = [];
+    {% assign last_ten = sorted | slice: 0, 19 | reverse %}
+    {% for round in last_ten %}
+        total_data.push({{ round.total }});
+        categories.push("{{ round.name }}");
+    {% endfor %}
+    var series = [
+        {
+            name: "Total",
+            data: total_data
+        }
+    ];
+document.addEventListener('DOMContentLoaded', function () {
+        const chart = Highcharts.chart('chart_player_rounds', {
+
+            title: {
+                text: 'Last 20 Rounds'
+            },
+            xAxis: {
+                categories: categories
+            },
+            yAxis: {
+                title: {
+                    text: 'Score'
+                }
+            },
+            series: series
+        });
+      });
+</script>

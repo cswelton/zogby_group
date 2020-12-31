@@ -1,0 +1,30 @@
+---
+title: Rounds
+---
+
+<h1 class="display-3">Rounds</h1>
+    {% assign sorted = site.rounds | sort: 'date_timestamp' | reverse %}
+    <div class="table-responsive">
+        <table id="all-rounds-table" class="table table-striped table-hover table-sm">
+            <thead class="thead-dark">
+            <tr class="text-center">
+                <th>id</th>
+                <th>Round</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for round in sorted %}
+            <tr class="text-center">
+                <td>{{ round.date_timestamp }}</td>
+                <td>
+                    <a class="btn btn-outline-dark btn-block" href="{{ site.baseurl }}{{ round.url }}">
+                        <span class="fas fa-golf-ball"></span>
+                        {{ round.name }}
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+

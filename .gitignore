@@ -1,0 +1,15 @@
+geckodriver.log
+.screenshots/
+golfgenius/golfgenius/drivers/
+/results/
+*.pyc
+dist/
+/*.egg-info
+.DS_Store
+.idea/
+.tox/
+.eggs/
+.archive/
+build/
+/screenshots/
+/results/

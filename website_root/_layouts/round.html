@@ -1,0 +1,94 @@
+---
+layout: default
+---
+<div class="jumbotron">
+    <h1 class="display-4">
+        {{ page.name }}
+    </h1>
+    <p class="lead">{{ page.content }}</p>
+</div>
+
+<h4 class="display-4">Results</h4>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+            <tr>
+                <th>Front</th>
+                <th>Back</th>
+                <th>Overall</th>
+                {% for p in page.teams[0].players %}
+                <th></th>
+                {% endfor %}
+            </tr>
+            </thead>
+            <tbody>
+            {% for team in page.teams %}
+            <tr class="text-center">
+                {% if team.front %}
+                <td class="text-success"><h3><span class="fas fa-lg fa-check"></span></h3></td>
+                {% else %}
+                <td></td>
+                {% endif %}
+                {% if team.back %}
+                <td class="text-success"><h3><span class="fas fa-lg fa-check"></span></h3></td>
+                {% else %}
+                <td></td>
+                {% endif %}
+                {% if team.overall %}
+                <td class="text-success"><h3><span class="fas fa-lg fa-check"></span></h3></td>
+                {% else %}
+                <td></td>
+                {% endif %}
+                {% for player_hash in team.players %}
+                {% assign player = site.players | where: 'name', player_hash["name"] | first %}
+                <td>
+                    <a class="btn btn-link" href="{{ site.baseurl }}{{ player.url }}">
+                        <img class="img img-thumbnail rounded" width="50px" height="25px" src="{{site.baseurl}}{{ player.image }}" alt="{{player.name}}">
+
+                        <h6>
+                            {% if page.flight_winners contains player.name %}
+                            <span class="badge badge-pill badge-success">{{ player.name }} <span class="badge badge-light">{{ player_hash['score'] }}</span> <span class="fas fa-medal"></span></span>
+                            {% else %}
+                            <span class="badge badge-pill badge-dark">{{ player.name }} <span class="badge badge-light">{{ player_hash['score'] }}</span></span>
+                            {% endif %}
+                        </h6>
+                    </a>
+
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+<hr>
+
+<h4 class="display-4">Skins</h4>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-sm table-hover">
+            <thead class="thead-dark">
+            <tr>
+                <th>Player</th>
+                <th>Skins</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in page.skins %}
+            <tr>
+                <td>
+                    {% assign player = site.players | where: 'name', item[0] | first %}
+                    <img class="img img-thumbnail rounded" width="50px" height="25px" src="{{site.baseurl}}{{ player.image }}" alt="{{player.name}}">
+                    <a class="btn btn-link" href="{{ site.baseurl }}{{player.url}}">{{player.name}}</a>
+                </td>
+                <td>
+                    {% for skin in item[1] %}
+                    <span class="badge badge-success"><span class="fas fa-flag"></span> {{ skin }}</span>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
