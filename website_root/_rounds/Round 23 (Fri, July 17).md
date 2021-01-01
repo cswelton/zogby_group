@@ -8,6 +8,23 @@ flight_winners:
 - Michalek, Geoff
 gg_url: null
 name: Round 23 (Fri, July 17)
+points:
+  Capwell, Robert: 0
+  Corcoran, Scott: 0
+  Cutler, Jeff: 0
+  Ellzey, Matt: 0
+  Fish, Tony: 2
+  Hilliard, Tj: 0
+  Long, Glen: 7
+  Michalek, Geoff: 3
+  Nash, Rudy: 3
+  Rogers, Ken: 7
+  Samuel, Matthew: 2
+  Shoffner, Chris: 0
+  Short, Jeff: 0
+  Smith, Brian: 7
+  Stefanacci, Michael: 2
+  Wagner, Scott: 5
 skins:
   Long, Glen:
   - 3

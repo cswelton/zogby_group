@@ -8,6 +8,19 @@ flight_winners:
 - Zogby, Kevin
 gg_url: null
 name: Round 40 (Sun, October 18)
+points:
+  Alford, Sumner: 7
+  Ellzey, Matt: 2
+  Hilliard, Tj: 0
+  Matthews, Brian: 0
+  McDougald, Kevin: 5
+  Moore, Josh: 4
+  Shoffner, Chris: 1
+  Shope, Robert: 6
+  Smith, Brian: 1
+  Welton, Craig: 3
+  Williford, Luke: 5
+  Zogby, Kevin: 3
 skins:
   Alford, Sumner:
   - 17

@@ -29,14 +29,49 @@ layout: default
 {% if player_data.rounds %}
     {% assign sorted = player_data.rounds | sort: 'date_timestamp' | reverse %}
     {% for round in sorted %}
+    {% assign round_data = site.rounds | where: 'name', round.name | first %}
     <div class="row">
         <div class="col-10">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="card-title">{{ round.name }}
-                    </h5>
+                    <h4 class="card-title">{{ round.name }}
+                    </h4>
                 </div>
                 <div class="card-body">
+                    <span class="badge badge-dark">
+                        <span class="fas fa-coins"></span>
+                        {{ round_data["points"][page.name] }}
+                        Points
+                    </span>
+
+                    {% for team in round_data.teams %}
+                        {% for item in team.players %}
+                            {% if item.name == page.name %}
+                    {% if team.front %}<span class="badge badge-primary">Front <span class="fas fa-medal"></span></span>{% endif %}
+                    {% if team.back %}<span class="badge badge-primary">Back <span class="fas fa-medal"></span></span>{% endif %}
+                    {% if team.overall %}<span class="badge badge-primary">Overall <span class="fas fa-medal"></span></span>{% endif %}
+
+                    {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+
+                    {% if round_data.flight_winners contains page.name %}
+                    <span class="badge badge-info">Flight <span class="fas fa-medal"></span></span>
+                    {% endif %}
+
+                    {% if round_data.skins contains page.name %}
+                    {% for skin in round_data.skins[page.name] %}
+                            <span class="badge badge-success">
+                                <span class="fas fa-flag"></span>
+                                {{ skin }}
+                                Skin
+                            </span>
+                    {% endfor %}
+                    {% endif %}
+
+                </div>
+                <div class="card-body">
+                    <h5>Scorecard</h5>
                     <div class="table-responsive">
                         <table class="table table-bordered table-sm">
                             <thead>

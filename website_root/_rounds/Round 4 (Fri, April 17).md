@@ -9,6 +9,27 @@ flight_winners:
 - Hardison, Bart
 gg_url: null
 name: Round 4 (Fri, April 17)
+points:
+  Alford, Sumner: 9
+  Card, D: 0
+  Corcoran, Scott: 0
+  Ellzey, Matt: 9
+  Fish, Tony: 1
+  Hardison, Bart: 1
+  Howard, Matt: 8
+  Long, Glen: 0
+  Matthews, Brian: 0
+  McDougald, Kevin: 0
+  Moore, Josh: 1
+  Parker, Shane: 1
+  Paul, Jeff: 9
+  Perry, Robbie: 1
+  Smith, Brian: 1
+  Stefanacci, Michael: 0
+  Wagner, Scott: 0
+  Welton, Craig: 0
+  Williford, Luke: 0
+  Zogby, Kevin: 0
 skins:
   Alford, Sumner:
   - 10

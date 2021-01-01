@@ -8,6 +8,38 @@ layout: default
     <p class="lead">{{ page.content }}</p>
 </div>
 
+<h4 class="display-4">Points</h4>
+<div class="table-responsive">
+    <table id="round_points_table" class="table table-sm table-striped table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <th>Player</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in page.points %}
+        {% assign player = site.players | where: 'name', item[0] | first %}
+        <tr>
+            <td>
+                <a class="btn btn-link" href="{{ site.baseurl }}{{ player.url }}">
+                    {{ player.name }}
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    {{ item[1] }}
+                </span>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<hr>
+
 <h4 class="display-4">Results</h4>
     <div class="table-responsive">
         <table class="table table-striped table-hover">
@@ -92,3 +124,4 @@ layout: default
             </tbody>
         </table>
     </div>
+

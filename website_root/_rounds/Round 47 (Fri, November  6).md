@@ -10,6 +10,19 @@ flight_winners:
 - Stefanacci, Michael
 gg_url: null
 name: Round 47 (Fri, November  6)
+points:
+  Capwell, Robert: 1
+  Corcoran, Scott: 9
+  Ellzey, Matt: 1
+  Hardison, Bart: 0
+  Hilliard, Tj: 9
+  James, Brian: 7
+  Parker, Shane: 2
+  Rogers, Ken: 0
+  Samuel, Matthew: 10
+  Smith, Brian: 1
+  Stefanacci, Michael: 1
+  Zogby, Kevin: 0
 skins:
   Capwell, Robert:
   - 9

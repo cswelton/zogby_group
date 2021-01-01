@@ -9,6 +9,23 @@ flight_winners:
 - Shoffner, Chris
 gg_url: null
 name: Round 25 (Fri, July 31)
+points:
+  Beaird, Ray: 1
+  Capwell, Robert: 0
+  Corcoran, Scott: 6
+  Ellzey, Matt: 3
+  Fish, Tony: 1
+  Hilliard, Tj: 3
+  Long, Glen: 7
+  Matthews, Brian: 0
+  Perry, Robbie: 0
+  Rogers, Ken: 0
+  Shoffner, Chris: 2
+  Smith, Brian: 6
+  Stefanacci, Michael: 2
+  Wagner, Scott: 5
+  Welton, Craig: 3
+  Zogby, Kevin: 0
 skins:
   Ellzey, Matt:
   - 12

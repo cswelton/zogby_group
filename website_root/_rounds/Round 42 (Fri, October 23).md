@@ -9,6 +9,23 @@ flight_winners:
 - Perry, Andrew
 gg_url: null
 name: Round 42 (Fri, October 23)
+points:
+  Alford, Sumner: 1
+  Capwell, Robert: 1
+  Corcoran, Scott: 0
+  Ellzey, Matt: 0
+  Fish, Tony: 1
+  Hilliard, Tj: 5
+  Langworthy, Brandon: 0
+  Matthews, Brian: 2
+  Perry, Andrew: 6
+  Perry, Robbie: 6
+  Rogers, Ken: 4
+  Rollins, Brad: 0
+  Shoffner, Chris: 0
+  Smith, Brian: 4
+  Stefanacci, Michael: 5
+  Zogby, Kevin: 3
 skins:
   Alford, Sumner:
   - 11

@@ -8,6 +8,27 @@ flight_winners:
 - Williford, Luke
 gg_url: null
 name: Round 10 (Fri, May  8)
+points:
+  Alford, Sumner: 0
+  Beaird, Ray: 8
+  Coelho, Adam: 0
+  Corcoran, Scott: 1
+  Ellzey, Matt: 1
+  Fish, Tony: 0
+  Hardison, Bart: 0
+  Long, Glen: 8
+  Mangum, Caleb: 0
+  Matthews, Brian: 0
+  McDougald, Kevin: 0
+  Moore, Josh: 7
+  Perry, Robbie: 0
+  Shoffner, Chris: 0
+  Smith, Brian: 3
+  Stefanacci, Michael: 0
+  Wagner, Scott: 0
+  Welton, Craig: 0
+  Williford, Luke: 8
+  Zogby, Kevin: 0
 skins:
   Beaird, Ray:
   - 4

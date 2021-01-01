@@ -39,7 +39,7 @@
         <small>
             <span class="badge badge-dark">
                 <span class="fas fa-coins"></span>
-                3
+                5
             </span>
         </small>
     </h1>
@@ -60,14 +60,75 @@
 
     
     
+    
     <div class="row">
         <div class="col-10">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="card-title">Round 32 (Fri, August 28)
-                    </h5>
+                    <h4 class="card-title">Round 32 (Fri, August 28)
+                    </h4>
                 </div>
                 <div class="card-body">
+                    <span class="badge badge-dark">
+                        <span class="fas fa-coins"></span>
+                        2
+                        Points
+                    </span>
+
+                    
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    
+                        
+                            
+                        
+                            
+                    
+                    <span class="badge badge-primary">Back <span class="fas fa-medal"></span></span>
+                    
+
+                    
+                        
+                            
+                        
+                            
+                        
+                    
+
+                    
+
+                    
+
+                </div>
+                <div class="card-body">
+                    <h5>Scorecard</h5>
                     <div class="table-responsive">
                         <table class="table table-bordered table-sm">
                             <thead>
@@ -183,14 +244,67 @@
         </div>
     </div>
     
+    
     <div class="row">
         <div class="col-10">
             <div class="card">
                 <div class="card-header">
-                    <h5 class="card-title">Round 28 (Tue, August 11)
-                    </h5>
+                    <h4 class="card-title">Round 28 (Tue, August 11)
+                    </h4>
                 </div>
                 <div class="card-body">
+                    <span class="badge badge-dark">
+                        <span class="fas fa-coins"></span>
+                        3
+                        Points
+                    </span>
+
+                    
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    
+                        
+                            
+                        
+                            
+                    
+                    <span class="badge badge-primary">Back <span class="fas fa-medal"></span></span>
+                    
+
+                    
+                        
+                            
+                        
+                    
+
+                    
+
+                    
+                    
+                            <span class="badge badge-success">
+                                <span class="fas fa-flag"></span>
+                                13
+                                Skin
+                            </span>
+                    
+                    
+
+                </div>
+                <div class="card-body">
+                    <h5>Scorecard</h5>
                     <div class="table-responsive">
                         <table class="table table-bordered table-sm">
                             <thead>
@@ -364,6 +478,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         $('#all-players-table').DataTable({
           "order": [[0, "asc"]]
+        });
+        $('#round_points_table').DataTable({
+           "order": [[1, "desc"]]
         });
       });
 

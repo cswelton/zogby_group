@@ -9,6 +9,31 @@ flight_winners:
 - Paul, Jeff
 gg_url: null
 name: Round 26 (Fri, August  7)
+points:
+  Alford, Sumner: 2
+  Beaird, Ray: 0
+  Capwell, Robert: 0
+  Card, D: 7
+  Chan, Edward: 8
+  Corcoran, Scott: 0
+  Earp, Lee: 8
+  Ellzey, Matt: 7
+  Fish, Tony: 0
+  Hardison, Bart: 0
+  Hilliard, Tj: 0
+  Long, Glen: 2
+  Matthews, Brian: 0
+  McDougald, Kevin: 2
+  Paul, Jeff: 1
+  Perry, Robbie: 0
+  Rogers, Ken: 0
+  Samuel, Matthew: 0
+  Shoffner, Chris: 0
+  Smith, Brian: 0
+  Stefanacci, Michael: 0
+  Wagner, Scott: 0
+  Welton, Craig: 1
+  Zogby, Kevin: 0
 skins:
   Alford, Sumner:
   - 14

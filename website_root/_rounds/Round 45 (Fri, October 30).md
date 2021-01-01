@@ -8,6 +8,19 @@ flight_winners:
 - McDougald, Kevin
 gg_url: null
 name: Round 45 (Fri, October 30)
+points:
+  Alford, Sumner: 0
+  Beaird, Ray: 0
+  Capwell, Robert: 3
+  Chan, Edward: 2
+  Fish, Tony: 8
+  Hilliard, Tj: 3
+  Matthews, Brian: 7
+  McDougald, Kevin: 3
+  Perry, Robbie: 0
+  Rogers, Ken: 3
+  Smith, Brian: 9
+  Zogby, Kevin: 8
 skins:
   Chan, Edward:
   - 9

@@ -8,6 +8,23 @@ flight_winners:
 - Howell, Currie
 gg_url: null
 name: Round 2 (Sun, April  5)
+points:
+  Akins, Kyle: 0
+  Alford, Sumner: 1
+  Ellzey, Matt: 0
+  Fish, Tony: 0
+  Hardison, Bart: 0
+  Howell, Currie: 7
+  Long, Glen: 7
+  Matthews, Brian: 0
+  McDougald, Kevin: 1
+  Parker, Shane: 5
+  Perry, Robbie: 3
+  Smith, Brian: 7
+  Stefanacci, Michael: 3
+  Wagner, Scott: 2
+  Welton, Craig: 6
+  Zogby, Kevin: 0
 skins:
   Alford, Sumner:
   - 8

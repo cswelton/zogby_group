@@ -8,6 +8,23 @@ flight_winners:
 - Middlebrook, Ken
 gg_url: null
 name: Round 59 (Wed, December 23)
+points:
+  Capwell, Robert: 9
+  Chan, Edward: 2
+  Corcoran, Scott: 2
+  Ellzey, Matt: 3
+  Fish, Tony: 4
+  Hardison, Bart: 7
+  Hilliard, Tj: 2
+  James, Brian: 2
+  McDougald, Kevin: 2
+  Middlebrook, Ken: 3
+  Parker, Shane: 5
+  Perry, Robbie: 7
+  Samuel, Matthew: 2
+  Shoffner, Chris: 8
+  Smith, Brian: 3
+  Stanaland, Marcus: 2
 skins:
   Capwell, Robert:
   - 13

@@ -9,6 +9,23 @@ flight_winners:
 - Perry, Andrew
 gg_url: null
 name: Round 53 (Fri, November 27)
+points:
+  Capwell, Robert: 7
+  Chan, Edward: 0
+  Corcoran, Scott: 4
+  Fish, Tony: 2
+  Hardison, Bart: 0
+  Hardison, Eli: 0
+  Hilliard, Tj: 5
+  McDougald, Kevin: 2
+  Parker, Shane: 0
+  Perry, Andrew: 1
+  Perry, Robbie: 0
+  Rogers, Ken: 0
+  Samuel, Matthew: 11
+  Smith, Brian: 7
+  Stefanacci, Michael: 2
+  Zogby, Kevin: 8
 skins:
   Corcoran, Scott:
   - 9

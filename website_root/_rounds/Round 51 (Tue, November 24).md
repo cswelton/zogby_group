@@ -8,6 +8,15 @@ flight_winners:
 - Shoffner, Chris
 gg_url: null
 name: Round 51 (Tue, November 24)
+points:
+  Capwell, Robert: 3
+  Cline, Doug: 2
+  Hilliard, Tj: 10
+  Long, Glen: 3
+  McDougald, Kevin: 10
+  Perry, Andrew: 10
+  Perry, Robbie: 3
+  Shoffner, Chris: 8
 skins:
   Capwell, Robert:
   - 14

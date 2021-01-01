@@ -39,6 +39,203 @@
 </p>
 </div>
 
+<h4 class="display-4">Points</h4>
+<div class="table-responsive">
+    <table id="round_points_table" class="table table-sm table-striped table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <th>Player</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Capwell_Robert.html">
+                    Capwell, Robert
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    0
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Ellzey_Matt.html">
+                    Ellzey, Matt
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    0
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Fish_Tony.html">
+                    Fish, Tony
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    5
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Hardison_Bart.html">
+                    Hardison, Bart
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    1
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Hilliard_Tj.html">
+                    Hilliard, Tj
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    2
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Long_Glen.html">
+                    Long, Glen
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    8
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Matthews_Brian.html">
+                    Matthews, Brian
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    2
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/McDougald_Kevin.html">
+                    McDougald, Kevin
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    7
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Perry_Robbie.html">
+                    Perry, Robbie
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    8
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Shoffner_Chris.html">
+                    Shoffner, Chris
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    3
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Smith_Brian.html">
+                    Smith, Brian
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    2
+                </span>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a class="btn btn-link" href="/zogby_group/players/Zogby_Kevin.html">
+                    Zogby, Kevin
+                </a>
+            </td>
+            <td>
+                <span class="badge badge-dark">
+                    <span class="fas fa-2xl fa-coins"></span>
+                    8
+                </span>
+            </td>
+        </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+<hr>
+
 <h4 class="display-4">Results</h4>
     <div class="table-responsive">
         <table class="table table-striped table-hover">
@@ -356,6 +553,7 @@
         </table>
     </div>
 
+
     </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -375,6 +573,9 @@
         });
         $('#all-players-table').DataTable({
           "order": [[0, "asc"]]
+        });
+        $('#round_points_table').DataTable({
+           "order": [[1, "desc"]]
         });
       });
 

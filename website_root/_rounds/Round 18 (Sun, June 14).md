@@ -8,6 +8,19 @@ flight_winners:
 - Zogby, Kevin
 gg_url: null
 name: Round 18 (Sun, June 14)
+points:
+  Alford, Sumner: 0
+  Moore, Josh: 1
+  Nordstrom, Bill: 0
+  Paul, Jeff: 9
+  Perry, Robbie: 1
+  Samuel, Matthew: 8
+  Shoffner, Chris: 0
+  Smith, Brian: 12
+  Stefanacci, Michael: 0
+  Wagner, Scott: 0
+  Welton, Craig: 0
+  Zogby, Kevin: 10
 skins:
   Paul, Jeff:
   - 15

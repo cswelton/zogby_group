@@ -9,6 +9,15 @@ flight_winners:
 - McDougald, Kevin
 gg_url: null
 name: Round 30 (Sun, August 16)
+points:
+  Capwell, Robert: 11
+  Fish, Tony: 2
+  Matthews, Brian: 0
+  McDougald, Kevin: 8
+  Perry, Robbie: 8
+  Samuel, Matthew: 12
+  Smith, Brian: 1
+  Zogby, Kevin: 0
 skins:
   Capwell, Robert:
   - 12

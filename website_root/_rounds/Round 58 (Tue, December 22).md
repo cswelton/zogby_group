@@ -8,6 +8,23 @@ flight_winners:
 - F, Scott
 gg_url: null
 name: Round 58 (Tue, December 22)
+points:
+  Alford, Sumner: 1
+  C, Matt: 0
+  Capwell, Robert: 6
+  Chan, Edward: 0
+  Corcoran, Scott: 5
+  F, Scott: 6
+  Fish, Tony: 5
+  Hilliard, Tj: 1
+  McDougald, Kevin: 0
+  Parker, Shane: 6
+  Perry, Robbie: 1
+  Samuel, Matthew: 5
+  Shoffner, Chris: 2
+  Smith, Brian: 7
+  Stefanacci, Michael: 6
+  Welton, Craig: 0
 skins:
   Alford, Sumner:
   - 11

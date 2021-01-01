@@ -8,6 +8,15 @@ flight_winners:
 - Zogby, Kevin
 gg_url: null
 name: Round 39 (Fri, October  9)
+points:
+  Beaird, Ray: 7
+  Capwell, Robert: 0
+  Fish, Tony: 1
+  McDougald, Kevin: 8
+  Perry, Robbie: 10
+  Rogers, Ken: 9
+  Welton, Craig: 4
+  Zogby, Kevin: 1
 skins:
   Fish, Tony:
   - 2

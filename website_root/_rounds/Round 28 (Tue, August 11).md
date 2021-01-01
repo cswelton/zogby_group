@@ -7,6 +7,16 @@ flight_winners:
 - Perry, Robbie
 gg_url: null
 name: Round 28 (Tue, August 11)
+points:
+  Capwell, Robert: 7
+  Long, Glen: 2
+  Matthews, Brian: 2
+  Moore, Josh: 8
+  Perry, Robbie: 4
+  Shoffner, Chris: 3
+  Shope, Robert: 10
+  Smith, Brian: 4
+  Smith, Phil: 3
 skins:
   Perry, Robbie:
   - 17

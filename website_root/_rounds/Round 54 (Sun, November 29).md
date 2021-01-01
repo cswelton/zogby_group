@@ -8,6 +8,19 @@ flight_winners:
 - Long, Glen
 gg_url: null
 name: Round 54 (Sun, November 29)
+points:
+  Alford, Sumner: 7
+  Capwell, Robert: 2
+  Ellzey, Matt: 1
+  Fish, Tony: 3
+  Guest, LZ: 0
+  Long, Glen: 3
+  McDougald, Kevin: 0
+  Perry, Robbie: 0
+  Smith, Brian: 7
+  Stefanacci, Michael: 5
+  Welton, Craig: 2
+  Zogby, Kevin: 7
 skins:
   Alford, Sumner:
   - 9

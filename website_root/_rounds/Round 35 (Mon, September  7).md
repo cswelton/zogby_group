@@ -8,6 +8,19 @@ flight_winners:
 - Zogby, Kevin
 gg_url: null
 name: Round 35 (Mon, September  7)
+points:
+  Capwell, Robert: 7
+  Corcoran, Scott: 0
+  Fish, Tony: 0
+  Long, Glen: 8
+  Matthews, Brian: 0
+  McDougald, Kevin: 0
+  Michalek, Geoff: 8
+  Parker, Shane: 11
+  Samuel, Matthew: 1
+  Shoffner, Chris: 1
+  Smith, Brian: 1
+  Zogby, Kevin: 1
 skins:
   Michalek, Geoff:
   - 18

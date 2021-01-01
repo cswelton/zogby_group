@@ -9,6 +9,19 @@ flight_winners:
 - Stefanacci, Michael
 gg_url: null
 name: Round 14 (Fri, May 29)
+points:
+  Alford, Sumner: 0
+  Bullock, Arnie: 1
+  Ellzey, Matt: 7
+  Fish, Tony: 1
+  Long, Glen: 0
+  McDougald, Kevin: 0
+  Moore, Josh: 9
+  Paul, Jeff: 0
+  Perry, Robbie: 1
+  Shoffner, Chris: 2
+  Smith, Brian: 9
+  Stefanacci, Michael: 9
 skins:
   Bullock, Arnie:
   - 7

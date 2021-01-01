@@ -8,6 +8,27 @@ flight_winners:
 - Hardison, Bart
 gg_url: null
 name: Round 20 (Fri, June 26)
+points:
+  Alford, Sumner: 1
+  Beaird, Ray: 7
+  Capwell, Robert: 7
+  Corcoran, Scott: 0
+  Ellzey, Matt: 1
+  Faircloth, Courtney: 10
+  Fish, Tony: 1
+  Hardison, Bart: 3
+  Hilliard, Tj: 0
+  Howard, Matt: 0
+  Long, Glen: 0
+  McDougald, Chaz: 0
+  McDougald, Kevin: 0
+  Michalek, Geoff: 0
+  Nash, Rudy: 8
+  Perry, Robbie: 0
+  Shoffner, Chris: 0
+  Smith, Brian: 0
+  Stefanacci, Michael: 0
+  Zogby, Kevin: 1
 skins:
   Alford, Sumner:
   - 18

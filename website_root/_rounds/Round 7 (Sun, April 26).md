@@ -8,6 +8,19 @@ flight_winners:
 - Shoffner, Chris
 gg_url: null
 name: Round 7 (Sun, April 26)
+points:
+  Alford, Sumner: 0
+  Ellzey, Matt: 2
+  Fish, Tony: 2
+  Long, Glen: 1
+  McDougald, Kevin: 2
+  Moore, Josh: 9
+  Paul, Jeff: 5
+  Perry, Robbie: 3
+  Shoffner, Chris: 6
+  Smith, Brian: 5
+  Welton, Craig: 0
+  Zogby, Kevin: 2
 skins:
   Long, Glen:
   - 5

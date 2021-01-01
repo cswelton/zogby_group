@@ -9,6 +9,19 @@ flight_winners:
 - Corcoran, Scott
 gg_url: null
 name: Round 57 (Sun, December 13)
+points:
+  Alford, Sumner: 2
+  Capwell, Robert: 7
+  Corcoran, Scott: 6
+  Fish, Tony: 0
+  Hilliard, Tj: 8
+  James, Brian: 2
+  McDougald, Kevin: 0
+  Perry, Robbie: 5
+  Rogers, Ken: 3
+  Samuel, Matthew: 6
+  Smith, Brian: 0
+  Zogby, Kevin: 0
 skins:
   Capwell, Robert:
   - 18

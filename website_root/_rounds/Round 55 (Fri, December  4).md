@@ -9,6 +9,23 @@ flight_winners:
 - Shoffner, Chris
 gg_url: null
 name: Round 55 (Fri, December  4)
+points:
+  Alford, Sumner: 0
+  Capwell, Robert: 5
+  Card, D: 5
+  Ellzey, Matt: 2
+  Faircloth, Courtney: 2
+  Fish, Tony: 0
+  Hilliard, Tj: 7
+  James, Brian: 0
+  Long, Glen: 2
+  Matthews, Brian: 0
+  McDougald, Kevin: 2
+  Perry, Robbie: 0
+  Rogers, Ken: 7
+  Shoffner, Chris: 4
+  Smith, Brian: 0
+  Zogby, Kevin: 1
 skins:
   Ellzey, Matt:
   - 18

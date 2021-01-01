@@ -8,6 +8,19 @@ flight_winners:
 - Beaird, Ray
 gg_url: null
 name: Round 12 (Fri, May 22)
+points:
+  Akins, Kyle: 1
+  Beaird, Ray: 3
+  Corcoran, Scott: 7
+  Fish, Tony: 5
+  Hardison, Bart: 0
+  Long, Glen: 2
+  McGowan, Michael: 3
+  Perry, Robbie: 5
+  Smith, Brian: 1
+  Stefanacci, Michael: 5
+  Wagner, Scott: 0
+  Welton, Craig: 2
 skins:
   Corcoran, Scott:
   - 14

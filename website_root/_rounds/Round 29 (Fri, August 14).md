@@ -9,6 +9,15 @@ flight_winners:
 - Capwell, Robert
 gg_url: null
 name: Round 29 (Fri, August 14)
+points:
+  Capwell, Robert: 8
+  Fish, Tony: 5
+  Hilliard, Tj: 6
+  Long, Glen: 7
+  McDougald, Kevin: 7
+  Perry, Robbie: 5
+  Wagner, Scott: 2
+  Zogby, Kevin: 3
 skins:
   Capwell, Robert:
   - 3

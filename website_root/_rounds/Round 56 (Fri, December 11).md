@@ -8,6 +8,19 @@ flight_winners:
 - McDougald, Kevin
 gg_url: null
 name: Round 56 (Fri, December 11)
+points:
+  Beaird, Ray: 5
+  Ellzey, Matt: 0
+  Fish, Tony: 0
+  Hilliard, Tj: 8
+  McDougald, Kevin: 6
+  Parker, Shane: 4
+  Perry, Robbie: 6
+  Shoffner, Chris: 5
+  Smith, Brian: 7
+  Stefanacci, Michael: 8
+  Welton, Craig: 5
+  Zogby, Kevin: 0
 skins:
   Hilliard, Tj:
   - 1

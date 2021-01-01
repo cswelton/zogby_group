@@ -39,6 +39,23 @@
 </p>
 </div>
 
+<h4 class="display-4">Points</h4>
+<div class="table-responsive">
+    <table id="round_points_table" class="table table-sm table-striped table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <th>Player</th>
+            <th>Points</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+    </table>
+</div>
+
+<hr>
+
 <h4 class="display-4">Results</h4>
     <div class="table-responsive">
         <table class="table table-striped table-hover">
@@ -289,6 +306,7 @@
         </table>
     </div>
 
+
     </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -308,6 +326,9 @@
         });
         $('#all-players-table').DataTable({
           "order": [[0, "asc"]]
+        });
+        $('#round_points_table').DataTable({
+           "order": [[1, "desc"]]
         });
       });
 

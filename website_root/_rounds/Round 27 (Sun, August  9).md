@@ -9,6 +9,19 @@ flight_winners:
 - Paul, Jeff
 gg_url: null
 name: Round 27 (Sun, August  9)
+points:
+  Baranowski, Ryan: 2
+  Corcoran, Scott: 2
+  Long, Glen: 4
+  Matthews, Brian: 3
+  Moore, Josh: 6
+  Paul, Jeff: 6
+  Perry, Robbie: 3
+  Samuel, Matthew: 8
+  Smith, Brian: 5
+  Stefanacci, Michael: 5
+  Welton, Craig: 3
+  Zogby, Kevin: 3
 skins:
   Long, Glen:
   - 1

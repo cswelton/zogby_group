@@ -11,6 +11,17 @@ flight_winners:
 - Ellzey, Matt
 gg_url: null
 name: Round 44 (Wed, October 28)
+points:
+  Alford, Sumner: 9
+  Capwell, Robert: 8
+  Ellzey, Matt: 2
+  Fish, Tony: 8
+  Hardison, Bart: 1
+  Hilliard, Tj: 2
+  Howard, Matt: 7
+  Long, Glen: 8
+  Perry, Robbie: 0
+  Samuel, Matthew: 1
 skins:
   Alford, Sumner:
   - 1

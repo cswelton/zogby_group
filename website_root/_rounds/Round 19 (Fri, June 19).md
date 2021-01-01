@@ -8,6 +8,27 @@ flight_winners:
 - Zogby, Kevin
 gg_url: null
 name: Round 19 (Fri, June 19)
+points:
+  Alford, Sumner: 0
+  Beaird, Ray: 0
+  Corcoran, Scott: 6
+  Fish, Tony: 7
+  Long, Glen: 1
+  Mangum, Caleb: 0
+  Matthews, Brian: 0
+  McDougald, Kevin: 1
+  Michalek, Geoff: 5
+  Moore, Josh: 0
+  Parker, Shane: 2
+  Paul, Jeff: 0
+  Perry, Robbie: 6
+  Samuel, Matthew: 0
+  Shoffner, Chris: 2
+  Smith, Brian: 5
+  Stefanacci, Michael: 5
+  Wagner, Scott: 0
+  Welton, Craig: 5
+  Zogby, Kevin: 6
 skins:
   Corcoran, Scott:
   - 13

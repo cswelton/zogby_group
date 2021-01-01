@@ -9,6 +9,15 @@ flight_winners:
 - Zogby, Kevin
 gg_url: null
 name: Round 33 (Sun, August 30)
+points:
+  Alford, Sumner: 3
+  Capwell, Robert: 10
+  Cutler, Jeff: 2
+  McDougald, Kevin: 9
+  Perry, Robbie: 3
+  Samuel, Matthew: 9
+  Shoffner, Chris: 2
+  Zogby, Kevin: 8
 skins:
   Alford, Sumner:
   - 18
