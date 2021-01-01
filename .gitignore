@@ -1,7 +1,6 @@
 geckodriver.log
 .screenshots/
 golfgenius/golfgenius/drivers/
-/results/
 *.pyc
 dist/
 /*.egg-info
