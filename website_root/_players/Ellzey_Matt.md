@@ -1,11 +1,11 @@
 ---
-back_wins: 13
-flight_wins: 8
-front_wins: 13
+back_wins: 10
+flight_wins: 7
+front_wins: 10
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 10
-points: 56
-rounds: 33
-skins: 12
+overall_wins: 6
+points: 44
+rounds: 28
+skins: 11
 ---

@@ -1,11 +1,11 @@
 ---
-back_wins: 11
-flight_wins: 12
-front_wins: 9
+back_wins: 10
+flight_wins: 11
+front_wins: 8
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 11
-points: 65
-rounds: 30
-skins: 22
+overall_wins: 9
+points: 59
+rounds: 27
+skins: 21
 ---

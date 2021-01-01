@@ -5,7 +5,7 @@ front_wins: 1
 image: /assets/images/default.png
 name: McGowan, Michael
 overall_wins: 0
-points: 3
-rounds: 2
-skins: 2
+points: 2
+rounds: 1
+skins: 1
 ---

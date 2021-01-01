@@ -6,6 +6,6 @@ image: /assets/images/default.png
 name: Paul, Jeff
 overall_wins: 5
 points: 23
-rounds: 15
+rounds: 13
 skins: 4
 ---

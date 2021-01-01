@@ -1,11 +1,11 @@
 ---
-back_wins: 2
+back_wins: 1
 flight_wins: 0
-front_wins: 7
+front_wins: 6
 image: /assets/images/default.png
 name: Wagner, Scott
-overall_wins: 3
-points: 12
-rounds: 20
+overall_wins: 2
+points: 9
+rounds: 17
 skins: 0
 ---

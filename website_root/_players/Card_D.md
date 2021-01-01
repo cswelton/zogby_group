@@ -6,6 +6,6 @@ image: /assets/images/default.png
 name: Card, D
 overall_wins: 2
 points: 5
-rounds: 5
+rounds: 4
 skins: 0
 ---

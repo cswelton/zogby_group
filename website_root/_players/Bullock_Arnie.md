@@ -6,6 +6,6 @@ image: /assets/images/default.png
 name: Bullock, Arnie
 overall_wins: 0
 points: 1
-rounds: 2
+rounds: 1
 skins: 1
 ---

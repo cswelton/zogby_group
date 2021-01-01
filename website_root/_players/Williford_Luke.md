@@ -6,6 +6,6 @@ image: /assets/images/Williford_Luke.png
 name: Williford, Luke
 overall_wins: 2
 points: 6
-rounds: 6
+rounds: 4
 skins: 0
 ---

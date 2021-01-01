@@ -6,6 +6,6 @@ image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 2
 points: 7
-rounds: 5
+rounds: 4
 skins: 1
 ---

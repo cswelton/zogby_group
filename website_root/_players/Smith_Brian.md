@@ -1,11 +1,11 @@
 ---
-back_wins: 14
+back_wins: 13
 flight_wins: 21
-front_wins: 18
+front_wins: 17
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 18
-points: 109
-rounds: 48
-skins: 38
+overall_wins: 17
+points: 105
+rounds: 43
+skins: 37
 ---

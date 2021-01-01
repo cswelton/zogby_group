@@ -6,6 +6,6 @@ image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 7
 points: 26
-rounds: 19
+rounds: 17
 skins: 3
 ---

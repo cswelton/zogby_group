@@ -1,11 +1,11 @@
 ---
-back_wins: 1
+back_wins: 0
 flight_wins: 0
-front_wins: 1
+front_wins: 0
 image: /assets/images/default.png
 name: D, CARD
-overall_wins: 1
-points: 3
-rounds: 3
+overall_wins: 0
+points: 0
+rounds: 1
 skins: 0
 ---

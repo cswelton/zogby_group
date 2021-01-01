@@ -5,7 +5,7 @@ front_wins: 11
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 10
-points: 57
-rounds: 37
-skins: 13
+points: 56
+rounds: 34
+skins: 12
 ---

@@ -6,6 +6,6 @@ image: /assets/images/Faircloth_Courtney.png
 name: Faircloth, Courtney
 overall_wins: 2
 points: 16
-rounds: 8
+rounds: 6
 skins: 6
 ---
