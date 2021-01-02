@@ -27,11 +27,13 @@ The tentative schedule is as follows:
 ## Points  (Needs Review)
 Each round is an opportunity for all participants to earn points. 
 Points are awarded based on the following:
+
 - Front side team bet win/ties: **{{ site.data.points_config.fr }}** *(for each team member)*
 - Back side team bet win/ties: **{{ site.data.points_config.ba }}** *(for each team member)*
 - Overall team bet win/ties: **{{ site.data.points_config.ov }}** *(for each team member)*
 - Skins: **{{ site.data.points_config.s }}** *(for each skin)*
 - Flight Wins (A/B/C/D low round/ties): **{{ site.data.points_config.fw }}**
+
 Your 4 best rounds per month will count towards official points.
 
 ## Official Rounds
