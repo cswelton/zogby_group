@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Whorton, Randall
 overall_wins: 0
-points: 1
+points: 2
 rounds: 1
 rounds_by_month:
   3:
@@ -48,7 +48,7 @@ rounds_by_month:
   - name: Round 10 (Fri, May  8)
     points: 0
   - name: Round 15 (Sun, May 31)
-    points: 1
+    points: 2
   - name: Round 12 (Fri, May 22)
     points: 0
   - name: Round 8 (Fri, May  1)

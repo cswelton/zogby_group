@@ -10,18 +10,18 @@ flight_winners:
 gg_url: null
 name: Round 38 (Fri, October  2)
 points:
-  Beaird, Ray: 2
-  Capwell, Robert: 5
-  Corcoran, Scott: 1
+  Beaird, Ray: 3
+  Capwell, Robert: 9
+  Corcoran, Scott: 2
   Hilliard, Tj: 2
   Long, Glen: 2
-  Parker, Shane: 3
-  Perry, Robbie: 2
-  Samuel, Matthew: 2
-  Shoffner, Chris: 4
+  Parker, Shane: 7
+  Perry, Robbie: 3
+  Samuel, Matthew: 3
+  Shoffner, Chris: 8
   Smith, Brian: 0
   Stefanacci, Michael: 0
-  Welton, Craig: 5
+  Welton, Craig: 9
 skins:
   Beaird, Ray:
   - 16
@@ -73,6 +73,6 @@ teams:
     score: 81
   - name: Long, Glen
     score: 75
-total_points: 28
+total_points: 48
 valid: true
 ---

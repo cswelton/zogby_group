@@ -10,11 +10,11 @@ gg_url: null
 name: Round 20 (Fri, June 26)
 points:
   Alford, Sumner: 1
-  Beaird, Ray: 3
-  Capwell, Robert: 3
+  Beaird, Ray: 7
+  Capwell, Robert: 7
   Corcoran, Scott: 0
   Ellzey, Matt: 1
-  Faircloth, Courtney: 6
+  Faircloth, Courtney: 10
   Fish, Tony: 1
   Hardison, Bart: 3
   Hilliard, Tj: 0
@@ -23,7 +23,7 @@ points:
   McDougald, Chaz: 0
   McDougald, Kevin: 0
   Michalek, Geoff: 0
-  Nash, Rudy: 4
+  Nash, Rudy: 8
   Perry, Robbie: 0
   Shoffner, Chris: 0
   Smith, Brian: 0
@@ -103,6 +103,6 @@ teams:
     score: 77
   - name: Howard, Matt
     score: 81
-total_points: 23
+total_points: 39
 valid: true
 ---

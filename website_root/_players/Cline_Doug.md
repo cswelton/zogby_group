@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Cline, Doug
 overall_wins: 0
-points: 1
+points: 2
 rounds: 1
 rounds_by_month:
   3:
@@ -134,7 +134,7 @@ rounds_by_month:
   - name: Round 48 (Tue, November 10)
     points: 0
   - name: Round 51 (Tue, November 24)
-    points: 1
+    points: 2
   12:
   - name: Round 55 (Fri, December  4)
     points: 0

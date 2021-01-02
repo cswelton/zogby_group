@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 2
-points: 7
+points: 15
 rounds: 4
 rounds_by_month:
   3:
@@ -33,7 +33,7 @@ rounds_by_month:
     points: 0
   4:
   - name: Round 4 (Fri, April 17)
-    points: 4
+    points: 8
   - name: Round 6 (Fri, April 24)
     points: 0
   - name: Round 2 (Sun, April  5)
@@ -105,7 +105,7 @@ rounds_by_month:
   - name: Round 43 (Tue, October 27)
     points: 0
   - name: Round 44 (Wed, October 28)
-    points: 3
+    points: 7
   - name: Round 42 (Fri, October 23)
     points: 0
   - name: Round 38 (Fri, October  2)

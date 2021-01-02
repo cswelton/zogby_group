@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Baranowski, Ryan
 overall_wins: 0
-points: 1
+points: 2
 rounds: 1
 rounds_by_month:
   3:
@@ -81,7 +81,7 @@ rounds_by_month:
   - name: Round 26 (Fri, August  7)
     points: 0
   - name: Round 27 (Sun, August  9)
-    points: 1
+    points: 2
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)

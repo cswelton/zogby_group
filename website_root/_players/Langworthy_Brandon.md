@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 1
-points: 3
+points: 6
 rounds: 3
 rounds_by_month:
   3:
@@ -130,7 +130,7 @@ rounds_by_month:
   - name: Round 49 (Sat, November 14)
     points: 0
   - name: Round 52 (Wed, November 25)
-    points: 3
+    points: 6
   - name: Round 48 (Tue, November 10)
     points: 0
   - name: Round 51 (Tue, November 24)

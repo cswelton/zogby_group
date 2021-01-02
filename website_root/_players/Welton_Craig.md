@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 10
-points: 43
+points: 83
 rounds: 26
 rounds_by_month:
   3:
@@ -35,9 +35,9 @@ rounds_by_month:
   - name: Round 4 (Fri, April 17)
     points: 0
   - name: Round 6 (Fri, April 24)
-    points: 3
+    points: 7
   - name: Round 2 (Sun, April  5)
-    points: 3
+    points: 6
   - name: Round 7 (Sun, April 26)
     points: 0
   - name: Round 3 (Fri, April 10)
@@ -48,13 +48,13 @@ rounds_by_month:
   - name: Round 10 (Fri, May  8)
     points: 0
   - name: Round 15 (Sun, May 31)
-    points: 1
-  - name: Round 12 (Fri, May 22)
-    points: 1
-  - name: Round 8 (Fri, May  1)
     points: 2
-  - name: Round 9 (Sun, May  3)
+  - name: Round 12 (Fri, May 22)
+    points: 2
+  - name: Round 8 (Fri, May  1)
     points: 3
+  - name: Round 9 (Sun, May  3)
+    points: 7
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
@@ -67,21 +67,21 @@ rounds_by_month:
   - name: Round 20 (Fri, June 26)
     points: 0
   - name: Round 19 (Fri, June 19)
-    points: 2
+    points: 5
   7:
   - name: Round 21 (Fri, July  3)
-    points: 3
+    points: 7
   - name: Round 23 (Fri, July 17)
     points: 0
   - name: Round 25 (Fri, July 31)
-    points: 2
+    points: 3
   - name: Round 22 (Fri, July 10)
     points: 0
   8:
   - name: Round 26 (Fri, August  7)
     points: 1
   - name: Round 27 (Sun, August  9)
-    points: 1
+    points: 3
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)
@@ -91,7 +91,7 @@ rounds_by_month:
   - name: Round 30 (Sun, August 16)
     points: 0
   - name: Round 32 (Fri, August 28)
-    points: 1
+    points: 2
   - name: Round 31 (Fri, August 21)
     points: 0
   9:
@@ -109,26 +109,26 @@ rounds_by_month:
   - name: Round 42 (Fri, October 23)
     points: 0
   - name: Round 38 (Fri, October  2)
-    points: 5
+    points: 9
   - name: Round 39 (Fri, October  9)
     points: 4
   - name: Round 40 (Sun, October 18)
-    points: 2
+    points: 3
   - name: Round 41 (Wed, October 21)
     points: 0
   - name: Round 45 (Fri, October 30)
     points: 0
   11:
   - name: Round 54 (Sun, November 29)
-    points: 1
+    points: 2
   - name: Round 47 (Fri, November  6)
     points: 0
   - name: Round 53 (Fri, November 27)
     points: 0
   - name: Round 50 (Fri, November 20)
-    points: 3
+    points: 6
   - name: Round 49 (Sat, November 14)
-    points: 3
+    points: 6
   - name: Round 52 (Wed, November 25)
     points: 0
   - name: Round 48 (Tue, November 10)
@@ -147,6 +147,6 @@ rounds_by_month:
   - name: Round 58 (Tue, December 22)
     points: 0
   - name: Round 56 (Fri, December 11)
-    points: 2
+    points: 5
 skins: 9
 ---

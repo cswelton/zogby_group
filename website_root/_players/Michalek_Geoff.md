@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Michalek, Geoff
 overall_wins: 2
-points: 10
+points: 18
 rounds: 7
 rounds_by_month:
   3:
@@ -67,12 +67,12 @@ rounds_by_month:
   - name: Round 20 (Fri, June 26)
     points: 0
   - name: Round 19 (Fri, June 19)
-    points: 2
+    points: 5
   7:
   - name: Round 21 (Fri, July  3)
     points: 1
   - name: Round 23 (Fri, July 17)
-    points: 2
+    points: 3
   - name: Round 25 (Fri, July 31)
     points: 0
   - name: Round 22 (Fri, July 10)
@@ -96,7 +96,7 @@ rounds_by_month:
     points: 0
   9:
   - name: Round 35 (Mon, September  7)
-    points: 4
+    points: 8
   - name: Round 37 (Wed, September 23)
     points: 0
   - name: Round 34 (Fri, September  4)

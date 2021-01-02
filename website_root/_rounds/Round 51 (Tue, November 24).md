@@ -9,14 +9,14 @@ flight_winners:
 gg_url: null
 name: Round 51 (Tue, November 24)
 points:
-  Capwell, Robert: 2
-  Cline, Doug: 1
-  Hilliard, Tj: 6
-  Long, Glen: 2
-  McDougald, Kevin: 6
-  Perry, Andrew: 6
-  Perry, Robbie: 2
-  Shoffner, Chris: 4
+  Capwell, Robert: 3
+  Cline, Doug: 2
+  Hilliard, Tj: 10
+  Long, Glen: 3
+  McDougald, Kevin: 10
+  Perry, Andrew: 10
+  Perry, Robbie: 3
+  Shoffner, Chris: 8
 skins:
   Capwell, Robert:
   - 14
@@ -58,6 +58,6 @@ teams:
     score: 74
   - name: Cline, Doug
     score: 88
-total_points: 29
+total_points: 49
 valid: true
 ---

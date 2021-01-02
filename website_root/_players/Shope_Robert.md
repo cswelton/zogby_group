@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Shope, Robert
 overall_wins: 2
-points: 9
+points: 16
 rounds: 2
 rounds_by_month:
   3:
@@ -85,7 +85,7 @@ rounds_by_month:
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)
-    points: 6
+    points: 10
   - name: Round 33 (Sun, August 30)
     points: 0
   - name: Round 30 (Sun, August 16)
@@ -113,7 +113,7 @@ rounds_by_month:
   - name: Round 39 (Fri, October  9)
     points: 0
   - name: Round 40 (Sun, October 18)
-    points: 3
+    points: 6
   - name: Round 41 (Wed, October 21)
     points: 0
   - name: Round 45 (Fri, October 30)

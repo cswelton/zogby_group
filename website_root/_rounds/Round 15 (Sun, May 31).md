@@ -10,21 +10,21 @@ flight_winners:
 gg_url: null
 name: Round 15 (Sun, May 31)
 points:
-  Alford, Sumner: 3
-  Beaird, Ray: 1
+  Alford, Sumner: 5
+  Beaird, Ray: 3
   Corcoran, Scott: 0
-  Ellzey, Matt: 3
-  Hardison, Bart: 1
+  Ellzey, Matt: 4
+  Hardison, Bart: 2
   Matthews, Brian: 0
-  McDougald, Kevin: 2
-  Moore, Josh: 1
-  Paul, Jeff: 1
-  Perry, Andrew: 1
-  Perry, Robbie: 2
-  Shoffner, Chris: 2
+  McDougald, Kevin: 3
+  Moore, Josh: 2
+  Paul, Jeff: 3
+  Perry, Andrew: 3
+  Perry, Robbie: 3
+  Shoffner, Chris: 3
   Smith, Brian: 0
-  Welton, Craig: 1
-  Whorton, Randall: 1
+  Welton, Craig: 2
+  Whorton, Randall: 2
   Zogby, Kevin: 2
 skins:
   Alford, Sumner:
@@ -84,6 +84,6 @@ teams:
     score: 78
   - name: Hardison, Bart
     score: 88
-total_points: 21
+total_points: 37
 valid: true
 ---

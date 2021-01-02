@@ -9,18 +9,18 @@ flight_winners:
 gg_url: null
 name: Round 40 (Sun, October 18)
 points:
-  Alford, Sumner: 4
-  Ellzey, Matt: 1
+  Alford, Sumner: 7
+  Ellzey, Matt: 2
   Hilliard, Tj: 0
   Matthews, Brian: 0
-  McDougald, Kevin: 2
-  Moore, Josh: 3
+  McDougald, Kevin: 5
+  Moore, Josh: 4
   Shoffner, Chris: 1
-  Shope, Robert: 3
+  Shope, Robert: 6
   Smith, Brian: 1
-  Welton, Craig: 2
-  Williford, Luke: 2
-  Zogby, Kevin: 2
+  Welton, Craig: 3
+  Williford, Luke: 5
+  Zogby, Kevin: 3
 skins:
   Alford, Sumner:
   - 17
@@ -68,6 +68,6 @@ teams:
     score: 76
   - name: Matthews, Brian
     score: 83
-total_points: 21
+total_points: 37
 valid: true
 ---

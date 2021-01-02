@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 0
-points: 2
+points: 4
 rounds: 6
 rounds_by_month:
   3:
@@ -70,7 +70,7 @@ rounds_by_month:
     points: 0
   7:
   - name: Round 21 (Fri, July  3)
-    points: 1
+    points: 2
   - name: Round 23 (Fri, July 17)
     points: 0
   - name: Round 25 (Fri, July 31)
@@ -100,7 +100,7 @@ rounds_by_month:
   - name: Round 37 (Wed, September 23)
     points: 0
   - name: Round 34 (Fri, September  4)
-    points: 1
+    points: 2
   10:
   - name: Round 43 (Tue, October 27)
     points: 0

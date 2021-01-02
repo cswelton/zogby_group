@@ -10,26 +10,26 @@ flight_winners:
 gg_url: null
 name: Round 8 (Fri, May  1)
 points:
-  Alford, Sumner: 4
+  Alford, Sumner: 7
   Beaird, Ray: 0
   Corcoran, Scott: 0
-  Ellzey, Matt: 1
+  Ellzey, Matt: 2
   Faircloth, Courtney: 0
-  Fish, Tony: 2
+  Fish, Tony: 5
   Howard, Matt: 0
   Long, Glen: 0
   Mangum, Caleb: 0
-  Matthews, Brian: 3
+  Matthews, Brian: 4
   McDougald, Kevin: 0
   Moore, Josh: 2
-  Parker, Shane: 2
+  Parker, Shane: 3
   Paul, Jeff: 1
   Perry, Robbie: 0
-  Shoffner, Chris: 3
+  Shoffner, Chris: 6
   Smith, Brian: 0
   Wagner, Scott: 0
-  Welton, Craig: 2
-  Zogby, Kevin: 3
+  Welton, Craig: 3
+  Zogby, Kevin: 6
 skins:
   Alford, Sumner:
   - 6
@@ -104,6 +104,6 @@ teams:
     score: 81
   - name: Matthews, Brian
     score: 79
-total_points: 23
+total_points: 39
 valid: true
 ---

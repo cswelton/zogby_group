@@ -11,17 +11,17 @@ flight_winners:
 gg_url: null
 name: Round 37 (Wed, September 23)
 points:
-  Alford, Sumner: 5
-  Capwell, Robert: 1
-  Ellzey, Matt: 1
-  Fish, Tony: 2
+  Alford, Sumner: 9
+  Capwell, Robert: 2
+  Ellzey, Matt: 2
+  Fish, Tony: 3
   Hilliard, Tj: 1
   Long, Glen: 1
   Parker, Shane: 1
-  Perry, Robbie: 5
-  Samuel, Matthew: 4
-  Shoffner, Chris: 4
-  Smith, Brian: 5
+  Perry, Robbie: 9
+  Samuel, Matthew: 8
+  Shoffner, Chris: 8
+  Smith, Brian: 6
   Stefanacci, Michael: 0
 skins:
   Alford, Sumner:
@@ -74,6 +74,6 @@ teams:
     score: 81
   - name: Ellzey, Matt
     score: 80
-total_points: 30
+total_points: 50
 valid: true
 ---

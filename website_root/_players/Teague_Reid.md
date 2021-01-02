@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Teague, Reid
 overall_wins: 0
-points: 1
+points: 2
 rounds: 1
 rounds_by_month:
   3:
@@ -91,7 +91,7 @@ rounds_by_month:
   - name: Round 30 (Sun, August 16)
     points: 0
   - name: Round 32 (Fri, August 28)
-    points: 1
+    points: 2
   - name: Round 31 (Fri, August 21)
     points: 0
   9:

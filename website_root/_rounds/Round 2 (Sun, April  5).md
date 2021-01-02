@@ -14,16 +14,16 @@ points:
   Ellzey, Matt: 0
   Fish, Tony: 0
   Hardison, Bart: 0
-  Howell, Currie: 4
-  Long, Glen: 4
+  Howell, Currie: 7
+  Long, Glen: 7
   Matthews, Brian: 0
   McDougald, Kevin: 1
-  Parker, Shane: 2
-  Perry, Robbie: 2
-  Smith, Brian: 6
-  Stefanacci, Michael: 2
-  Wagner, Scott: 1
-  Welton, Craig: 3
+  Parker, Shane: 5
+  Perry, Robbie: 3
+  Smith, Brian: 7
+  Stefanacci, Michael: 3
+  Wagner, Scott: 2
+  Welton, Craig: 6
   Zogby, Kevin: 0
 skins:
   Alford, Sumner:
@@ -91,6 +91,6 @@ teams:
     score: 79
   - name: Matthews, Brian
     score: 85
-total_points: 26
+total_points: 42
 valid: true
 ---

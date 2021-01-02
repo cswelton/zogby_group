@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Nash, Rudy
 overall_wins: 1
-points: 6
+points: 11
 rounds: 4
 rounds_by_month:
   3:
@@ -65,14 +65,14 @@ rounds_by_month:
   - name: Round 17 (Fri, June 12)
     points: 0
   - name: Round 20 (Fri, June 26)
-    points: 4
+    points: 8
   - name: Round 19 (Fri, June 19)
     points: 0
   7:
   - name: Round 21 (Fri, July  3)
     points: 0
   - name: Round 23 (Fri, July 17)
-    points: 2
+    points: 3
   - name: Round 25 (Fri, July 31)
     points: 0
   - name: Round 22 (Fri, July 10)

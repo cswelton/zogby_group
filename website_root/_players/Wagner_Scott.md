@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Wagner, Scott
 overall_wins: 2
-points: 9
+points: 20
 rounds: 17
 rounds_by_month:
   3:
@@ -35,9 +35,9 @@ rounds_by_month:
   - name: Round 4 (Fri, April 17)
     points: 0
   - name: Round 6 (Fri, April 24)
-    points: 1
+    points: 2
   - name: Round 2 (Sun, April  5)
-    points: 1
+    points: 2
   - name: Round 7 (Sun, April 26)
     points: 0
   - name: Round 3 (Fri, April 10)
@@ -54,7 +54,7 @@ rounds_by_month:
   - name: Round 8 (Fri, May  1)
     points: 0
   - name: Round 9 (Sun, May  3)
-    points: 1
+    points: 2
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
@@ -70,11 +70,11 @@ rounds_by_month:
     points: 0
   7:
   - name: Round 21 (Fri, July  3)
-    points: 1
+    points: 2
   - name: Round 23 (Fri, July 17)
-    points: 2
+    points: 5
   - name: Round 25 (Fri, July 31)
-    points: 2
+    points: 5
   - name: Round 22 (Fri, July 10)
     points: 0
   8:
@@ -83,7 +83,7 @@ rounds_by_month:
   - name: Round 27 (Sun, August  9)
     points: 0
   - name: Round 29 (Fri, August 14)
-    points: 1
+    points: 2
   - name: Round 28 (Tue, August 11)
     points: 0
   - name: Round 33 (Sun, August 30)

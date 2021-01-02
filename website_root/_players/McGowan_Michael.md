@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: McGowan, Michael
 overall_wins: 0
-points: 2
+points: 3
 rounds: 1
 rounds_by_month:
   3:
@@ -50,7 +50,7 @@ rounds_by_month:
   - name: Round 15 (Sun, May 31)
     points: 0
   - name: Round 12 (Fri, May 22)
-    points: 2
+    points: 3
   - name: Round 8 (Fri, May  1)
     points: 0
   - name: Round 9 (Sun, May  3)

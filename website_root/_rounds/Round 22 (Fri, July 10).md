@@ -11,19 +11,19 @@ gg_url: null
 name: Round 22 (Fri, July 10)
 points:
   Alford, Sumner: 1
-  Beaird, Ray: 4
+  Beaird, Ray: 8
   Chan, Edward: 1
   Ellzey, Matt: 0
   Fish, Tony: 0
-  McDougald, Kevin: 4
+  McDougald, Kevin: 8
   Nash, Rudy: 0
   Parker, Shane: 1
-  Perry, Robbie: 5
+  Perry, Robbie: 9
   Rogers, Ken: 0
   Samuel, Matthew: 0
   Shoffner, Chris: 0
   Smith, Brian: 0
-  Stefanacci, Michael: 5
+  Stefanacci, Michael: 9
   Wagner, Scott: 0
   Zogby, Kevin: 0
 skins:
@@ -84,6 +84,6 @@ teams:
     score: 77
   - name: Wagner, Scott
     score: 95
-total_points: 21
+total_points: 37
 valid: true
 ---

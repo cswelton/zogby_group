@@ -9,22 +9,22 @@ flight_winners:
 gg_url: null
 name: Round 5 (Sun, April 19)
 points:
-  Akins, Kyle: 3
+  Akins, Kyle: 7
   Alford, Sumner: 0
-  Corcoran, Scott: 4
+  Corcoran, Scott: 8
   Ellzey, Matt: 0
-  Fish, Tony: 2
+  Fish, Tony: 3
   Howell, Currie: 0
-  Matthews, Brian: 1
-  McDougald, Kevin: 3
+  Matthews, Brian: 2
+  McDougald, Kevin: 4
   Moore, Josh: 0
   Parker, Shane: 2
   Paul, Jeff: 0
-  Perry, Robbie: 1
-  Smith, Brian: 4
+  Perry, Robbie: 2
+  Smith, Brian: 8
   Stefanacci, Michael: 1
   Wagner, Scott: 0
-  Zogby, Kevin: 4
+  Zogby, Kevin: 8
 skins:
   Corcoran, Scott:
   - 10
@@ -85,6 +85,6 @@ teams:
     score: 77
   - name: Matthews, Brian
     score: 84
-total_points: 25
+total_points: 45
 valid: true
 ---

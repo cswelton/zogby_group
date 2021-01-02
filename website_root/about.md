@@ -27,11 +27,11 @@ The tentative schedule is as follows:
 ## Points  (Needs Review)
 Each round is an opportunity for all participants to earn points. 
 Points are awarded based on the following:
-- Front side team bet win/ties: 1 point for all team members
-- Back side team bet win/ties: 1 point for all team members
-- Overall team bet win/ties: 1 point for all team members
-- Skins: 1 point for each skin
-- Flight Wins: (A/B/C/D low round/ties): 1 point
+- Front side team bet win/ties: **{{ site.data.points_config.fr }}** *(for each team member)*
+- Back side team bet win/ties: **{{ site.data.points_config.ba }}** *(for each team member)*
+- Overall team bet win/ties: **{{ site.data.points_config.ov }}** *(for each team member)*
+- Skins: **{{ site.data.points_config.s }}** *(for each skin)*
+- Flight Wins (A/B/C/D low round/ties): **{{ site.data.points_config.fw }}**
 
 ## Official Rounds
 In order for a round to generate official race-for-8 points the following criteria must be met:

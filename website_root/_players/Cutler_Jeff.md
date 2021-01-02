@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Cutler, Jeff
 overall_wins: 0
-points: 1
+points: 2
 rounds: 2
 rounds_by_month:
   3:
@@ -87,7 +87,7 @@ rounds_by_month:
   - name: Round 28 (Tue, August 11)
     points: 0
   - name: Round 33 (Sun, August 30)
-    points: 1
+    points: 2
   - name: Round 30 (Sun, August 16)
     points: 0
   - name: Round 32 (Fri, August 28)

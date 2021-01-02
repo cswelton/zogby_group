@@ -11,24 +11,24 @@ name: Round 19 (Fri, June 19)
 points:
   Alford, Sumner: 0
   Beaird, Ray: 0
-  Corcoran, Scott: 3
-  Fish, Tony: 4
+  Corcoran, Scott: 6
+  Fish, Tony: 7
   Long, Glen: 1
   Mangum, Caleb: 0
   Matthews, Brian: 0
   McDougald, Kevin: 1
-  Michalek, Geoff: 2
+  Michalek, Geoff: 5
   Moore, Josh: 0
   Parker, Shane: 2
   Paul, Jeff: 0
-  Perry, Robbie: 3
+  Perry, Robbie: 6
   Samuel, Matthew: 0
   Shoffner, Chris: 2
-  Smith, Brian: 2
-  Stefanacci, Michael: 2
+  Smith, Brian: 5
+  Stefanacci, Michael: 5
   Wagner, Scott: 0
-  Welton, Craig: 2
-  Zogby, Kevin: 3
+  Welton, Craig: 5
+  Zogby, Kevin: 6
 skins:
   Corcoran, Scott:
   - 13
@@ -105,6 +105,6 @@ teams:
     score: 79
   - name: Wagner, Scott
     score: 96
-total_points: 27
+total_points: 51
 valid: true
 ---

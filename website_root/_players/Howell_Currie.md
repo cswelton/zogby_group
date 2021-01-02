@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Howell_Currie.png
 name: Howell, Currie
 overall_wins: 1
-points: 6
+points: 9
 rounds: 4
 rounds_by_month:
   3:
@@ -37,7 +37,7 @@ rounds_by_month:
   - name: Round 6 (Fri, April 24)
     points: 0
   - name: Round 2 (Sun, April  5)
-    points: 4
+    points: 7
   - name: Round 7 (Sun, April 26)
     points: 0
   - name: Round 3 (Fri, April 10)

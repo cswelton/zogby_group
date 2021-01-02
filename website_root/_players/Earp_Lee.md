@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Earp, Lee
 overall_wins: 1
-points: 4
+points: 8
 rounds: 1
 rounds_by_month:
   3:
@@ -79,7 +79,7 @@ rounds_by_month:
     points: 0
   8:
   - name: Round 26 (Fri, August  7)
-    points: 4
+    points: 8
   - name: Round 27 (Sun, August  9)
     points: 0
   - name: Round 29 (Fri, August 14)

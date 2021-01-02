@@ -7,7 +7,17 @@ If you have not, do that first then come back here.
 
 #### This tutorial will update the zogby group website with all round data available
 
-#### Step 1: Collect the round data
+#### Step 1: Sync the repository
+Do this every time before making updates so you pull in the latest copy of the website:
+```
+git clone https://github.com/cswelton/zogby_group.git
+```
+Now change into the *zogby_group* directory
+```
+cd zogby_group
+```
+
+#### Step 2: Collect the round data
 The first step we need to do is collect the data we need from Golf Genius.
 
 We need to use a GGID code, this can be ANY GGID code from ANY round in the BBC group.
@@ -64,12 +74,12 @@ $
 
 Next we will use the `bbc-stats` tool to parse these results into the data files for the website.
 
-#### Step 2: Parse rounds into data files for website
+#### Step 3: Parse rounds into data files for website
 The website is driven by data stored in various files located in this repository under *website_root/*.
 This step will build those data files using the *results/* files we collected in step #1.
 
 ```
-bbc-stats --results-directory='./results' --github-site='./website_root'
+bbc-stats --results-directory='./results' --github-site='./website_root' --points-config-file='./website_root/_data/points_config.json'
 ```
 
 This will printout 2 tables, a power-rankings summary and a points summary.
@@ -77,7 +87,7 @@ It will also update the data files under `website_root/` folder.
 
 Now we can test and verify the website before we push it live.
 
-#### Step 3: Test and Verify website
+#### Step 4: Test and Verify website
 We're going to run the website locally so we can verify it looks right before we
 push it live.
 
@@ -102,7 +112,7 @@ website is operational and contains the updated data.
 
 When your ready to proceed, press `ctrl-c` to stop the local server.
 
-#### Step 4: Build and Push the website live
+#### Step 5: Build and Push the website live
 Once we are satisfied with the website its time to build and push it live.
 
 First, rebuild the website into the *docs/* folder:
@@ -128,4 +138,3 @@ git commit -m 'Updating Website'
 git push
 ```
 Once pushed, github will deploy the website usually in under 1 min.
-

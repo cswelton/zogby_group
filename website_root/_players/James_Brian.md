@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: James, Brian
 overall_wins: 1
-points: 7
+points: 14
 rounds: 5
 rounds_by_month:
   3:
@@ -122,13 +122,13 @@ rounds_by_month:
   - name: Round 54 (Sun, November 29)
     points: 0
   - name: Round 47 (Fri, November  6)
-    points: 3
+    points: 7
   - name: Round 53 (Fri, November 27)
     points: 0
   - name: Round 50 (Fri, November 20)
     points: 0
   - name: Round 49 (Sat, November 14)
-    points: 2
+    points: 3
   - name: Round 52 (Wed, November 25)
     points: 0
   - name: Round 48 (Tue, November 10)
@@ -139,11 +139,11 @@ rounds_by_month:
   - name: Round 55 (Fri, December  4)
     points: 0
   - name: Round 59 (Wed, December 23)
-    points: 1
+    points: 2
   - name: Round 60 (Thu, December 31)
     points: 0
   - name: Round 57 (Sun, December 13)
-    points: 1
+    points: 2
   - name: Round 58 (Tue, December 22)
     points: 0
   - name: Round 56 (Fri, December 11)

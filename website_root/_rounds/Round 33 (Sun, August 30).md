@@ -10,14 +10,14 @@ flight_winners:
 gg_url: null
 name: Round 33 (Sun, August 30)
 points:
-  Alford, Sumner: 2
-  Capwell, Robert: 6
-  Cutler, Jeff: 1
-  McDougald, Kevin: 5
-  Perry, Robbie: 2
-  Samuel, Matthew: 5
-  Shoffner, Chris: 1
-  Zogby, Kevin: 4
+  Alford, Sumner: 3
+  Capwell, Robert: 10
+  Cutler, Jeff: 2
+  McDougald, Kevin: 9
+  Perry, Robbie: 3
+  Samuel, Matthew: 9
+  Shoffner, Chris: 2
+  Zogby, Kevin: 8
 skins:
   Alford, Sumner:
   - 18
@@ -53,6 +53,6 @@ teams:
     score: 78
   - name: Shoffner, Chris
     score: 77
-total_points: 26
+total_points: 46
 valid: true
 ---

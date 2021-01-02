@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 1
-points: 8
+points: 13
 rounds: 7
 rounds_by_month:
   3:
@@ -79,7 +79,7 @@ rounds_by_month:
     points: 1
   8:
   - name: Round 26 (Fri, August  7)
-    points: 4
+    points: 8
   - name: Round 27 (Sun, August  9)
     points: 0
   - name: Round 29 (Fri, August 14)
@@ -139,7 +139,7 @@ rounds_by_month:
   - name: Round 55 (Fri, December  4)
     points: 0
   - name: Round 59 (Wed, December 23)
-    points: 1
+    points: 2
   - name: Round 60 (Thu, December 31)
     points: 0
   - name: Round 57 (Sun, December 13)

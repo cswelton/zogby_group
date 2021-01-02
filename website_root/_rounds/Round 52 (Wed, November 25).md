@@ -10,17 +10,17 @@ flight_winners:
 gg_url: null
 name: Round 52 (Wed, November 25)
 points:
-  Alford, Sumner: 2
+  Alford, Sumner: 5
   Capwell, Robert: 0
-  Corcoran, Scott: 2
-  Langworthy, Brandon: 3
+  Corcoran, Scott: 5
+  Langworthy, Brandon: 6
   Matthews, Brian: 1
-  McDougald, Kevin: 2
-  Parker, Shane: 4
-  Perry, Andrew: 3
+  McDougald, Kevin: 5
+  Parker, Shane: 7
+  Perry, Andrew: 6
   Perry, Robbie: 1
-  Smith, Brian: 5
-  Stefanacci, Michael: 2
+  Smith, Brian: 8
+  Stefanacci, Michael: 5
   Zogby, Kevin: 1
 skins:
   Langworthy, Brandon:
@@ -69,6 +69,6 @@ teams:
     score: 75
   - name: Matthews, Brian
     score: 81
-total_points: 26
+total_points: 50
 valid: true
 ---

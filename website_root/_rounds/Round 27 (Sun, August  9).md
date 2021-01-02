@@ -10,18 +10,18 @@ flight_winners:
 gg_url: null
 name: Round 27 (Sun, August  9)
 points:
-  Baranowski, Ryan: 1
-  Corcoran, Scott: 1
-  Long, Glen: 3
-  Matthews, Brian: 1
-  Moore, Josh: 3
-  Paul, Jeff: 3
-  Perry, Robbie: 2
-  Samuel, Matthew: 5
-  Smith, Brian: 3
-  Stefanacci, Michael: 2
-  Welton, Craig: 1
-  Zogby, Kevin: 1
+  Baranowski, Ryan: 2
+  Corcoran, Scott: 2
+  Long, Glen: 4
+  Matthews, Brian: 3
+  Moore, Josh: 6
+  Paul, Jeff: 6
+  Perry, Robbie: 3
+  Samuel, Matthew: 8
+  Smith, Brian: 5
+  Stefanacci, Michael: 5
+  Welton, Craig: 3
+  Zogby, Kevin: 3
 skins:
   Long, Glen:
   - 1
@@ -69,6 +69,6 @@ teams:
     score: 75
   - name: Baranowski, Ryan
     score: 89
-total_points: 26
+total_points: 50
 valid: true
 ---

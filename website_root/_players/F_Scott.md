@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: F, Scott
 overall_wins: 1
-points: 3
+points: 6
 rounds: 1
 rounds_by_month:
   3:
@@ -145,7 +145,7 @@ rounds_by_month:
   - name: Round 57 (Sun, December 13)
     points: 0
   - name: Round 58 (Tue, December 22)
-    points: 3
+    points: 6
   - name: Round 56 (Fri, December 11)
     points: 0
 skins: 0

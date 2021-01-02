@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Stanaland, Marcus
 overall_wins: 0
-points: 1
+points: 2
 rounds: 1
 rounds_by_month:
   3:
@@ -139,7 +139,7 @@ rounds_by_month:
   - name: Round 55 (Fri, December  4)
     points: 0
   - name: Round 59 (Wed, December 23)
-    points: 1
+    points: 2
   - name: Round 60 (Thu, December 31)
     points: 0
   - name: Round 57 (Sun, December 13)

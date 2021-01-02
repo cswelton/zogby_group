@@ -11,16 +11,16 @@ name: Round 45 (Fri, October 30)
 points:
   Alford, Sumner: 0
   Beaird, Ray: 0
-  Capwell, Robert: 2
+  Capwell, Robert: 3
   Chan, Edward: 2
-  Fish, Tony: 4
-  Hilliard, Tj: 2
-  Matthews, Brian: 3
-  McDougald, Kevin: 2
+  Fish, Tony: 8
+  Hilliard, Tj: 3
+  Matthews, Brian: 7
+  McDougald, Kevin: 3
   Perry, Robbie: 0
-  Rogers, Ken: 2
-  Smith, Brian: 5
-  Zogby, Kevin: 4
+  Rogers, Ken: 3
+  Smith, Brian: 9
+  Zogby, Kevin: 8
 skins:
   Chan, Edward:
   - 9
@@ -70,6 +70,6 @@ teams:
     score: 79
   - name: Beaird, Ray
     score: 83
-total_points: 26
+total_points: 46
 valid: true
 ---

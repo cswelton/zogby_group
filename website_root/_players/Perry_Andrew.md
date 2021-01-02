@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Perry, Andrew
 overall_wins: 4
-points: 15
+points: 28
 rounds: 6
 rounds_by_month:
   3:
@@ -48,7 +48,7 @@ rounds_by_month:
   - name: Round 10 (Fri, May  8)
     points: 0
   - name: Round 15 (Sun, May 31)
-    points: 1
+    points: 3
   - name: Round 12 (Fri, May 22)
     points: 0
   - name: Round 8 (Fri, May  1)
@@ -107,7 +107,7 @@ rounds_by_month:
   - name: Round 44 (Wed, October 28)
     points: 0
   - name: Round 42 (Fri, October 23)
-    points: 3
+    points: 6
   - name: Round 38 (Fri, October  2)
     points: 0
   - name: Round 39 (Fri, October  9)
@@ -128,13 +128,13 @@ rounds_by_month:
   - name: Round 50 (Fri, November 20)
     points: 0
   - name: Round 49 (Sat, November 14)
-    points: 1
+    points: 2
   - name: Round 52 (Wed, November 25)
-    points: 3
+    points: 6
   - name: Round 48 (Tue, November 10)
     points: 0
   - name: Round 51 (Tue, November 24)
-    points: 6
+    points: 10
   12:
   - name: Round 55 (Fri, December  4)
     points: 0

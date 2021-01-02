@@ -12,16 +12,16 @@ name: Round 14 (Fri, May 29)
 points:
   Alford, Sumner: 0
   Bullock, Arnie: 1
-  Ellzey, Matt: 3
+  Ellzey, Matt: 7
   Fish, Tony: 1
   Long, Glen: 0
   McDougald, Kevin: 0
-  Moore, Josh: 5
+  Moore, Josh: 9
   Paul, Jeff: 0
   Perry, Robbie: 1
   Shoffner, Chris: 2
-  Smith, Brian: 5
-  Stefanacci, Michael: 5
+  Smith, Brian: 9
+  Stefanacci, Michael: 9
 skins:
   Bullock, Arnie:
   - 7
@@ -72,6 +72,6 @@ teams:
     score: 77
   - name: Bullock, Arnie
     score: 76
-total_points: 23
+total_points: 39
 valid: true
 ---
