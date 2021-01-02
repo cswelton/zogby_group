@@ -47,7 +47,7 @@ layout: default
             {% else %}
         <tr class="table-secondary">
             {% endif %}
-            <td data-order="{{ round.date_timestamp }}"><a href="{{ round_data.url }}">{{ round.name }}</a></td>
+            <td data-order="{{ round.date_timestamp }}"><a href="{{ site.baseurl }}{{ round_data.url }}">{{ round.name }}</a></td>
 
             {% if round_data.points %}
             <td data-order="{{ round_data.points[page.name] }}">
