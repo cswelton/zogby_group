@@ -10,17 +10,17 @@ gg_url: null
 name: Round 7 (Sun, April 26)
 points:
   Alford, Sumner: 0
-  Ellzey, Matt: 2
-  Fish, Tony: 2
+  Ellzey, Matt: 1
+  Fish, Tony: 1
   Long, Glen: 1
   McDougald, Kevin: 2
-  Moore, Josh: 9
-  Paul, Jeff: 5
-  Perry, Robbie: 3
-  Shoffner, Chris: 6
-  Smith, Brian: 5
+  Moore, Josh: 6
+  Paul, Jeff: 2
+  Perry, Robbie: 2
+  Shoffner, Chris: 3
+  Smith, Brian: 2
   Welton, Craig: 0
-  Zogby, Kevin: 2
+  Zogby, Kevin: 1
 skins:
   Long, Glen:
   - 5
@@ -67,4 +67,6 @@ teams:
     score: 76
   - name: Welton, Craig
     score: 80
+total_points: 21
+valid: true
 ---

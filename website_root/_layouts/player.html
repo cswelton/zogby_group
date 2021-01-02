@@ -16,113 +16,176 @@ layout: default
     <p class="lead">{{ page.content }}</p>
 </div>
 
-<div class="alert alert-danger">This page is currently under development.</div>
-
 <div class="container-fluid">
     <div id="chart_player_rounds" style="width:100%; height:400px;"></div>
 </div>
 
 <div class="container-fluid">
     <h2>Scoring Average: {{ player_data.scoring_average }}</h2>
-    <h2>Rounds <small><span class="badge badge-pill badge-dark">{{ player_data.rounds | size }}</span></small></h2>
 </div>
+
 {% if player_data.rounds %}
-    {% assign sorted = player_data.rounds | sort: 'date_timestamp' | reverse %}
-    {% for round in sorted %}
-    {% assign round_data = site.rounds | where: 'name', round.name | first %}
-    <div class="row">
-        <div class="col-10">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">{{ round.name }}
-                    </h4>
-                </div>
-                <div class="card-body">
+{% assign sorted = player_data.rounds | sort: 'date_timestamp' | reverse %}
+<h4 class="display-4">Rounds <small><span class="badge badge-pill badge-dark">{{ player_data.rounds | size }}</span></small></h4>
+<div class="table-responsive">
+    <table id="player_rounds_table" class="table table-hover">
+        <thead class="thead-dark">
+        <tr>
+            <th>Round</th>
+            <th>Points</th>
+            <th>Team Wins</th>
+            <th>Flight Win</th>
+            <th>Skins</th>
+            <th>Score</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for round in sorted %}
+        {% assign round_data = site.rounds | where: 'name', round.name | first %}
+        {% if round_data.points %}
+        <tr>
+            {% else %}
+        <tr class="table-secondary">
+            {% endif %}
+            <td data-order="{{ round.date_timestamp }}"><a href="{{ round_data.url }}">{{ round.name }}</a></td>
+
+            {% if round_data.points %}
+            <td data-order="{{ round_data.points[page.name] }}">
                     <span class="badge badge-dark">
                         <span class="fas fa-coins"></span>
                         {{ round_data["points"][page.name] }}
                         Points
                     </span>
+                {% else %}
+            <td>
+                    <span class="badge badge-warning">
+                        <span class="fas fa-ban"></span>
+                        {{ round_data.reason }}
+                    </span>
+                {% endif %}
+            </td>
+            <td>
+                {% if round_data.points %}
+                {% for team in round_data.teams %}
+                {% for item in team.players %}
+                {% if item.name == page.name %}
+                {% if team.front %}<span class="badge badge-primary">Front <span class="fas fa-medal"></span></span>{% endif %}
+                {% if team.back %}<span class="badge badge-primary">Back <span class="fas fa-medal"></span></span>{% endif %}
+                {% if team.overall %}<span class="badge badge-primary">Overall <span class="fas fa-medal"></span></span>{% endif %}
 
-                    {% for team in round_data.teams %}
-                        {% for item in team.players %}
-                            {% if item.name == page.name %}
-                    {% if team.front %}<span class="badge badge-primary">Front <span class="fas fa-medal"></span></span>{% endif %}
-                    {% if team.back %}<span class="badge badge-primary">Back <span class="fas fa-medal"></span></span>{% endif %}
-                    {% if team.overall %}<span class="badge badge-primary">Overall <span class="fas fa-medal"></span></span>{% endif %}
-
-                    {% endif %}
-                        {% endfor %}
-                    {% endfor %}
-
-                    {% if round_data.flight_winners contains page.name %}
-                    <span class="badge badge-info">Flight <span class="fas fa-medal"></span></span>
-                    {% endif %}
-
-                    {% if round_data.skins contains page.name %}
-                    {% for skin in round_data.skins[page.name] %}
-                            <span class="badge badge-success">
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endif %}
+            </td>
+            <td>
+                {% if round_data.points %}
+                {% if round_data.flight_winners contains page.name %}
+                <span class="badge badge-info">Flight Winner <span class="fas fa-medal"></span></span>
+                {% endif %}
+                {% endif %}
+            </td>
+            <td>
+                {% if round_data.points %}
+                {% if round_data.skins contains page.name %}
+                {% for skin in round_data.skins[page.name] %}
+                <span class="badge badge-success">
                                 <span class="fas fa-flag"></span>
                                 {{ skin }}
-                                Skin
                             </span>
-                    {% endfor %}
-                    {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% endif %}
+            </td>
 
-                </div>
-                <div class="card-body">
-                    <h5>Scorecard</h5>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-sm">
-                            <thead>
-                            <tr class="text-center">
-                                <th>1</th>
-                                <th>2</th>
-                                <th>3</th>
-                                <th>4</th>
-                                <th>5</th>
-                                        <th>6</th>
-                                        <th>7</th>
-                                        <th>8</th>
-                                        <th>9</th>
-                                        <th>Out</th>
-                                        <th>10</th>
-                                        <th>11</th>
-                                        <th>12</th>
-                                        <th>13</th>
-                                        <th>14</th>
-                                        <th>15</th>
-                                        <th>16</th>
-                                        <th>17</th>
-                                        <th>18</th>
-                                        <th>In</th>
-                                        <th>Total</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="text-center">
-                                        {% for hole_data in round.front %}
-                                        <td class='table-{% if hole_data.type contains "eagle" %}primary{% elsif hole_data.type contains "birdie" %}success{% elsif hole_data.type == "plus1" %}warning{% elsif hole_data.type contains "plus" %}danger{% else %}light{% endif %}'>
-                                            {{ hole_data.score }}
-                                        </td>
-                                        {% endfor %}
-                                        <td class="table-light">{{ round.out }}</td>
-                                        {% for hole_data in round.back %}
-                                        <td class='table-{% if hole_data.type contains "eagle" %}primary{% elsif hole_data.type contains "birdie" %}success{% elsif hole_data.type == "plus1" %}warning{% elsif hole_data.type contains "plus" %}danger{% else %}light{% endif %}'>
-                                            {{ hole_data.score }}
-                                        </td>
-                                        {% endfor %}
-                                        <td class="table-light">{{ round.in }}</td>
-                                        <td class="table-light">{{ round.score }}</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+            {% if round_data.points %}
+            <td data-order="{{ round.total }}">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#round_modal_{{forloop.index}}">
+                    <span class="fas fa-table"></span>
+                    {{ round.total }}
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="round_modal_{{forloop.index}}" tabindex="-1" role="dialog" aria-labelledby="#round_modal_label_{{forloop.index}}" aria-hidden="true">
+                    <div class="modal-dialog modal-xl" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="round_modal_label_{{forloop.index}}">
+                                    {{ page.name }} {{ round.name }}
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-sm">
+                                        <thead>
+                                        <tr class="text-center">
+                                            <th>1</th>
+                                            <th>2</th>
+                                            <th>3</th>
+                                            <th>4</th>
+                                            <th>5</th>
+                                            <th>6</th>
+                                            <th>7</th>
+                                            <th>8</th>
+                                            <th>9</th>
+                                            <th>Out</th>
+                                            <th>10</th>
+                                            <th>11</th>
+                                            <th>12</th>
+                                            <th>13</th>
+                                            <th>14</th>
+                                            <th>15</th>
+                                            <th>16</th>
+                                            <th>17</th>
+                                            <th>18</th>
+                                            <th>In</th>
+                                            <th>Total</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr class="text-center">
+                                            {% for hole_data in round.front %}
+                                            <td class='table-{% if hole_data.type contains "eagle" %}primary{% elsif hole_data.type contains "birdie" %}success{% elsif hole_data.type == "plus1" %}warning{% elsif hole_data.type contains "plus" %}danger{% else %}light{% endif %}'>
+                                                {{ hole_data.score }}
+                                            </td>
+                                            {% endfor %}
+                                            <td class="table-light">{{ round.out }}</td>
+                                            {% for hole_data in round.back %}
+                                            <td class='table-{% if hole_data.type contains "eagle" %}primary{% elsif hole_data.type contains "birdie" %}success{% elsif hole_data.type == "plus1" %}warning{% elsif hole_data.type contains "plus" %}danger{% else %}light{% endif %}'>
+                                                {{ hole_data.score }}
+                                            </td>
+                                            {% endfor %}
+                                            <td class="table-light">{{ round.in }}</td>
+                                            <td class="table-light">{{ round.score }}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
+
+                {% else %}
+            <td>
+                {% endif %}
+            </td>
+
+        </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<hr>
+
 {% endif %}
 
 <script>
@@ -132,8 +195,8 @@ layout: default
     var back_data = [];
     {% assign last_ten = sorted | slice: 0, 19 | reverse %}
     {% for round in last_ten %}
-        total_data.push({{ round.total }});
-        categories.push("{{ round.name }}");
+    total_data.push({{ round.total }});
+    categories.push("{{ round.name }}");
     {% endfor %}
     var series = [
         {
@@ -141,7 +204,7 @@ layout: default
             data: total_data
         }
     ];
-document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
         const chart = Highcharts.chart('chart_player_rounds', {
 
             title: {
@@ -157,5 +220,5 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             series: series
         });
-      });
+    });
 </script>

@@ -25,9 +25,9 @@
       $(document).ready(function() {
         $('#all-rounds-table').DataTable({
           "order": [[0, "desc"]],
-          columns: [
-            {orderable: true},
-            {orderable: false}
+          "columns": [
+                  null,
+            { "type": "html-num"}
           ]
         });
         $('#all-players-table').DataTable({
@@ -35,6 +35,9 @@
         });
         $('#round_points_table').DataTable({
            "order": [[1, "desc"]]
+        });
+        $('#player_rounds_table').DataTable({
+           "order": [[0, "desc"]]
         });
       });
 

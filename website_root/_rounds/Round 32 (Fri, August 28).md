@@ -9,21 +9,21 @@ flight_winners:
 gg_url: null
 name: Round 32 (Fri, August 28)
 points:
-  Akins, Kyle: 2
-  Alford, Sumner: 3
-  Beaird, Ray: 3
-  Fish, Tony: 3
+  Akins, Kyle: 1
+  Alford, Sumner: 1
+  Beaird, Ray: 1
+  Fish, Tony: 1
   Hilliard, Tj: 1
-  Matthews, Brian: 2
+  Matthews, Brian: 1
   McDougald, Kevin: 1
   Perry, Robbie: 1
-  Samuel, Matthew: 2
-  Shoffner, Chris: 3
-  Smith, Brian: 3
-  Smith, Phil: 2
-  Stefanacci, Michael: 4
-  Teague, Reid: 2
-  Welton, Craig: 2
+  Samuel, Matthew: 1
+  Shoffner, Chris: 1
+  Smith, Brian: 2
+  Smith, Phil: 1
+  Stefanacci, Michael: 3
+  Teague, Reid: 1
+  Welton, Craig: 1
   Zogby, Kevin: 0
 skins:
   Perry, Robbie:
@@ -79,4 +79,6 @@ teams:
     score: 83
   - name: Stefanacci, Michael
     score: 72
+total_points: 18
+valid: true
 ---

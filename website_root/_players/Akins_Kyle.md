@@ -3,17 +3,21 @@ back_wins: 2
 flight_wins: 3
 front_wins: 2
 ignored_rounds:
+- Round 58 (Tue, December 22)
 - Round 56 (Fri, December 11)
 - Round 28 (Tue, August 11)
 - Round 33 (Sun, August 30)
 - Round 30 (Sun, August 16)
+- Round 31 (Fri, August 21)
 - Round 39 (Fri, October  9)
 - Round 40 (Sun, October 18)
 - Round 41 (Wed, October 21)
 - Round 45 (Fri, October 30)
 - Round 9 (Sun, May  3)
+- Round 11 (Fri, May 15)
 - Round 14 (Fri, May 29)
 - Round 7 (Sun, April 26)
+- Round 3 (Fri, April 10)
 - Round 49 (Sat, November 14)
 - Round 52 (Wed, November 25)
 - Round 48 (Tue, November 10)
@@ -21,9 +25,12 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Akins, Kyle
 overall_wins: 1
-points: 17
+points: 11
 rounds: 6
 rounds_by_month:
+  3:
+  - name: Round 1 (Fri, March 20)
+    points: 0
   4:
   - name: Round 4 (Fri, April 17)
     points: 0
@@ -33,8 +40,10 @@ rounds_by_month:
     points: 0
   - name: Round 7 (Sun, April 26)
     points: 0
+  - name: Round 3 (Fri, April 10)
+    points: 0
   - name: Round 5 (Sun, April 19)
-    points: 7
+    points: 3
   5:
   - name: Round 10 (Fri, May  8)
     points: 0
@@ -45,6 +54,8 @@ rounds_by_month:
   - name: Round 8 (Fri, May  1)
     points: 0
   - name: Round 9 (Sun, May  3)
+    points: 0
+  - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
     points: 0
@@ -59,7 +70,7 @@ rounds_by_month:
     points: 0
   7:
   - name: Round 21 (Fri, July  3)
-    points: 5
+    points: 4
   - name: Round 23 (Fri, July 17)
     points: 0
   - name: Round 25 (Fri, July 31)
@@ -80,7 +91,9 @@ rounds_by_month:
   - name: Round 30 (Sun, August 16)
     points: 0
   - name: Round 32 (Fri, August 28)
-    points: 2
+    points: 1
+  - name: Round 31 (Fri, August 21)
+    points: 0
   9:
   - name: Round 35 (Mon, September  7)
     points: 0
@@ -126,6 +139,8 @@ rounds_by_month:
   - name: Round 55 (Fri, December  4)
     points: 0
   - name: Round 59 (Wed, December 23)
+    points: 0
+  - name: Round 60 (Thu, December 31)
     points: 0
   - name: Round 57 (Sun, December 13)
     points: 0

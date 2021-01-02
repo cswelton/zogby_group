@@ -5,24 +5,51 @@ title: Rounds
 <h1 class="display-3">Rounds</h1>
     {% assign sorted = site.rounds | sort: 'date_timestamp' | reverse %}
     <div class="table-responsive">
-        <table id="all-rounds-table" class="table table-striped table-hover table-sm">
+        <table id="all-rounds-table" class="table table-hover table-sm">
             <thead class="thead-dark">
-            <tr class="text-center">
-                <th>id</th>
-                <th>Round</th>
+            <tr>
+                <th>
+                    <span class="fas fa-golf-ball"></span>
+                    Round
+                </th>
+                <th>
+                    <span class="fas fa-coins"></span>
+                    Total Points
+                </th>
             </tr>
             </thead>
             <tbody>
             {% for round in sorted %}
-            <tr class="text-center">
-                <td>{{ round.date_timestamp }}</td>
-                <td>
-                    <a class="btn btn-outline-dark btn-block" href="{{ site.baseurl }}{{ round.url }}">
-                        <span class="fas fa-golf-ball"></span>
+            {% if round.valid %}
+            <tr>
+                <td data-order="{{ round.date_timestamp }}">
+                    <a class="btn btn-link" href="{{ site.baseurl }}{{ round.url }}">
                         {{ round.name }}
                     </a>
                 </td>
+                <td data-order="{{ round.total_points }}">
+                    <span class="badge badge-dark">
+                        <span class="fas fa-coins"></span>
+                        {{ round.total_points }}
+                    </span>
+
+                </td>
             </tr>
+            {% else %}
+            <tr class="table-secondary">
+                <td data-order="{{ round.date_timestamp }}">
+                    <a class="btn btn-link" href="{{ site.baseurl }}{{ round.url }}">
+                        {{ round.name }}
+                    </a>
+                </td>
+                <td data-order="0">
+                    <span class="badge badge-warning">
+                        <span class="fas fa-ban"></span>
+                        {{ round.reason }}
+                    </span>
+                </td>
+            </tr>
+            {% endif %}
             {% endfor %}
             </tbody>
         </table>

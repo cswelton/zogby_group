@@ -10,16 +10,16 @@ flight_winners:
 gg_url: null
 name: Round 57 (Sun, December 13)
 points:
-  Alford, Sumner: 2
-  Capwell, Robert: 7
-  Corcoran, Scott: 6
+  Alford, Sumner: 1
+  Capwell, Robert: 4
+  Corcoran, Scott: 3
   Fish, Tony: 0
-  Hilliard, Tj: 8
-  James, Brian: 2
+  Hilliard, Tj: 5
+  James, Brian: 1
   McDougald, Kevin: 0
-  Perry, Robbie: 5
-  Rogers, Ken: 3
-  Samuel, Matthew: 6
+  Perry, Robbie: 4
+  Rogers, Ken: 2
+  Samuel, Matthew: 3
   Smith, Brian: 0
   Zogby, Kevin: 0
 skins:
@@ -70,4 +70,6 @@ teams:
     score: 84
   - name: Zogby, Kevin
     score: 79
+total_points: 23
+valid: true
 ---

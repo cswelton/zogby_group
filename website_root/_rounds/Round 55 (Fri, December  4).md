@@ -11,19 +11,19 @@ gg_url: null
 name: Round 55 (Fri, December  4)
 points:
   Alford, Sumner: 0
-  Capwell, Robert: 5
-  Card, D: 5
+  Capwell, Robert: 2
+  Card, D: 2
   Ellzey, Matt: 2
-  Faircloth, Courtney: 2
+  Faircloth, Courtney: 1
   Fish, Tony: 0
-  Hilliard, Tj: 7
+  Hilliard, Tj: 4
   James, Brian: 0
-  Long, Glen: 2
+  Long, Glen: 1
   Matthews, Brian: 0
-  McDougald, Kevin: 2
+  McDougald, Kevin: 1
   Perry, Robbie: 0
-  Rogers, Ken: 7
-  Shoffner, Chris: 4
+  Rogers, Ken: 4
+  Shoffner, Chris: 3
   Smith, Brian: 0
   Zogby, Kevin: 1
 skins:
@@ -84,4 +84,6 @@ teams:
     score: 74
   - name: James, Brian
     score: 83
+total_points: 21
+valid: true
 ---

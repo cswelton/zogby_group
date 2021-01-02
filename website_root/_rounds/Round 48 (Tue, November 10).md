@@ -9,18 +9,18 @@ flight_winners:
 gg_url: null
 name: Round 48 (Tue, November 10)
 points:
-  Capwell, Robert: 4
+  Capwell, Robert: 3
   D, CARD: 0
-  Ellzey, Matt: 3
-  Fish, Tony: 6
-  Hardison, Bart: 5
-  Hilliard, Tj: 8
-  Matthews, Brian: 3
+  Ellzey, Matt: 2
+  Fish, Tony: 3
+  Hardison, Bart: 2
+  Hilliard, Tj: 5
+  Matthews, Brian: 2
   McDougald, Brad: 0
   McDougald, Kevin: 0
   Perry, Robbie: 2
-  Smith, Brian: 3
-  Zogby, Kevin: 6
+  Smith, Brian: 2
+  Zogby, Kevin: 3
 skins:
   Capwell, Robert:
   - 3
@@ -73,4 +73,6 @@ teams:
     score: 79
   - name: D, CARD
     score: 81
+total_points: 24
+valid: true
 ---

@@ -11,19 +11,19 @@ name: Round 58 (Tue, December 22)
 points:
   Alford, Sumner: 1
   C, Matt: 0
-  Capwell, Robert: 6
+  Capwell, Robert: 3
   Chan, Edward: 0
-  Corcoran, Scott: 5
-  F, Scott: 6
-  Fish, Tony: 5
+  Corcoran, Scott: 2
+  F, Scott: 3
+  Fish, Tony: 2
   Hilliard, Tj: 1
   McDougald, Kevin: 0
-  Parker, Shane: 6
+  Parker, Shane: 3
   Perry, Robbie: 1
-  Samuel, Matthew: 5
+  Samuel, Matthew: 2
   Shoffner, Chris: 2
-  Smith, Brian: 7
-  Stefanacci, Michael: 6
+  Smith, Brian: 4
+  Stefanacci, Michael: 3
   Welton, Craig: 0
 skins:
   Alford, Sumner:
@@ -89,4 +89,6 @@ teams:
     score: 83
   - name: Welton, Craig
     score: 80
+total_points: 27
+valid: true
 ---

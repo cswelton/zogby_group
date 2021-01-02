@@ -8,6 +8,8 @@ layout: default
     <p class="lead">{{ page.content }}</p>
 </div>
 
+{% if page.valid %}
+
 <h4 class="display-4">Points</h4>
 <div class="table-responsive">
     <table id="round_points_table" class="table table-sm table-striped table-hover">
@@ -125,3 +127,14 @@ layout: default
         </table>
     </div>
 
+{% else %}
+<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading">
+      <span class="fas fa-ban"></span>
+      Round Invalid
+  </h4>
+  <p>
+  {{ page.reason }}
+  </p>
+</div>
+{% endif %}

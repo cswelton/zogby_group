@@ -9,22 +9,22 @@ flight_winners:
 gg_url: null
 name: Round 59 (Wed, December 23)
 points:
-  Capwell, Robert: 9
-  Chan, Edward: 2
-  Corcoran, Scott: 2
-  Ellzey, Matt: 3
-  Fish, Tony: 4
-  Hardison, Bart: 7
-  Hilliard, Tj: 2
-  James, Brian: 2
-  McDougald, Kevin: 2
-  Middlebrook, Ken: 3
-  Parker, Shane: 5
-  Perry, Robbie: 7
-  Samuel, Matthew: 2
-  Shoffner, Chris: 8
-  Smith, Brian: 3
-  Stanaland, Marcus: 2
+  Capwell, Robert: 5
+  Chan, Edward: 1
+  Corcoran, Scott: 1
+  Ellzey, Matt: 2
+  Fish, Tony: 3
+  Hardison, Bart: 3
+  Hilliard, Tj: 1
+  James, Brian: 1
+  McDougald, Kevin: 1
+  Middlebrook, Ken: 2
+  Parker, Shane: 4
+  Perry, Robbie: 3
+  Samuel, Matthew: 1
+  Shoffner, Chris: 4
+  Smith, Brian: 2
+  Stanaland, Marcus: 1
 skins:
   Capwell, Robert:
   - 13
@@ -87,4 +87,6 @@ teams:
     score: 77
   - name: Stanaland, Marcus
     score: 86
+total_points: 35
+valid: true
 ---

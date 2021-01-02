@@ -13,11 +13,11 @@ points:
   Alford, Sumner: 2
   Beaird, Ray: 0
   Capwell, Robert: 0
-  Card, D: 7
-  Chan, Edward: 8
+  Card, D: 3
+  Chan, Edward: 4
   Corcoran, Scott: 0
-  Earp, Lee: 8
-  Ellzey, Matt: 7
+  Earp, Lee: 4
+  Ellzey, Matt: 3
   Fish, Tony: 0
   Hardison, Bart: 0
   Hilliard, Tj: 0
@@ -117,4 +117,6 @@ teams:
     score: 78
   - name: Hardison, Bart
     score: 79
+total_points: 22
+valid: true
 ---

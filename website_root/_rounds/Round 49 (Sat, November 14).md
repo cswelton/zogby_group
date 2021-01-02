@@ -11,16 +11,16 @@ name: Round 49 (Sat, November 14)
 points:
   Capwell, Robert: 2
   Card, D: 0
-  Fish, Tony: 6
-  Hilliard, Tj: 2
-  James, Brian: 3
+  Fish, Tony: 3
+  Hilliard, Tj: 1
+  James, Brian: 2
   Long, Glen: 0
-  Perry, Andrew: 2
+  Perry, Andrew: 1
   Perry, Robbie: 0
-  Samuel, Matthew: 2
-  Shoffner, Chris: 5
-  Smith, Brian: 6
-  Welton, Craig: 6
+  Samuel, Matthew: 1
+  Shoffner, Chris: 2
+  Smith, Brian: 3
+  Welton, Craig: 3
 skins:
   Capwell, Robert:
   - 15
@@ -63,4 +63,6 @@ teams:
     score: 78
   - name: James, Brian
     score: 78
+total_points: 18
+valid: true
 ---

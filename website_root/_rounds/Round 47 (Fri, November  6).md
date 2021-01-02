@@ -12,14 +12,14 @@ gg_url: null
 name: Round 47 (Fri, November  6)
 points:
   Capwell, Robert: 1
-  Corcoran, Scott: 9
+  Corcoran, Scott: 5
   Ellzey, Matt: 1
   Hardison, Bart: 0
-  Hilliard, Tj: 9
-  James, Brian: 7
+  Hilliard, Tj: 5
+  James, Brian: 3
   Parker, Shane: 2
   Rogers, Ken: 0
-  Samuel, Matthew: 10
+  Samuel, Matthew: 6
   Smith, Brian: 1
   Stefanacci, Michael: 1
   Zogby, Kevin: 0
@@ -74,4 +74,6 @@ teams:
     score: 80
   - name: Stefanacci, Michael
     score: 78
+total_points: 25
+valid: true
 ---

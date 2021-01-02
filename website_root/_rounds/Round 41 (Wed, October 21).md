@@ -11,16 +11,16 @@ name: Round 41 (Wed, October 21)
 points:
   Capwell, Robert: 0
   Ellzey, Matt: 0
-  Fish, Tony: 5
+  Fish, Tony: 4
   Hardison, Bart: 1
-  Hilliard, Tj: 2
-  Long, Glen: 8
-  Matthews, Brian: 2
-  McDougald, Kevin: 7
-  Perry, Robbie: 8
-  Shoffner, Chris: 3
+  Hilliard, Tj: 1
+  Long, Glen: 4
+  Matthews, Brian: 1
+  McDougald, Kevin: 3
+  Perry, Robbie: 4
+  Shoffner, Chris: 2
   Smith, Brian: 2
-  Zogby, Kevin: 8
+  Zogby, Kevin: 4
 skins:
   Fish, Tony:
   - 1
@@ -70,4 +70,6 @@ teams:
     score: 82
   - name: Hardison, Bart
     score: 82
+total_points: 26
+valid: true
 ---

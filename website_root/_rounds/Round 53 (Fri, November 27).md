@@ -10,22 +10,22 @@ flight_winners:
 gg_url: null
 name: Round 53 (Fri, November 27)
 points:
-  Capwell, Robert: 7
+  Capwell, Robert: 3
   Chan, Edward: 0
-  Corcoran, Scott: 4
+  Corcoran, Scott: 3
   Fish, Tony: 2
   Hardison, Bart: 0
   Hardison, Eli: 0
-  Hilliard, Tj: 5
-  McDougald, Kevin: 2
+  Hilliard, Tj: 4
+  McDougald, Kevin: 1
   Parker, Shane: 0
   Perry, Andrew: 1
   Perry, Robbie: 0
   Rogers, Ken: 0
-  Samuel, Matthew: 11
-  Smith, Brian: 7
-  Stefanacci, Michael: 2
-  Zogby, Kevin: 8
+  Samuel, Matthew: 7
+  Smith, Brian: 3
+  Stefanacci, Michael: 1
+  Zogby, Kevin: 4
 skins:
   Corcoran, Scott:
   - 9
@@ -88,4 +88,6 @@ teams:
     score: 78
   - name: Hardison, Bart
     score: 81
+total_points: 29
+valid: true
 ---

@@ -11,29 +11,29 @@ flight_winners:
 gg_url: null
 name: Round 21 (Fri, July  3)
 points:
-  Akins, Kyle: 5
+  Akins, Kyle: 4
   Alford, Sumner: 0
-  Beaird, Ray: 3
+  Beaird, Ray: 2
   Capwell, Robert: 0
   Chan, Edward: 0
-  Corcoran, Scott: 2
-  Ellzey, Matt: 9
+  Corcoran, Scott: 1
+  Ellzey, Matt: 5
   Faircloth, Courtney: 0
-  Fish, Tony: 2
-  Hardison, Bart: 8
-  Hilliard, Tj: 3
+  Fish, Tony: 1
+  Hardison, Bart: 4
+  Hilliard, Tj: 2
   Long, Glen: 0
-  Mangum, Caleb: 2
+  Mangum, Caleb: 1
   Matthews, Brian: 0
   McDougald, Kevin: 1
   Michalek, Geoff: 1
-  Perry, Robbie: 8
-  Shoffner, Chris: 2
+  Perry, Robbie: 4
+  Shoffner, Chris: 1
   Smith, Brian: 0
   Stefanacci, Michael: 0
   Szvetitz, Patrick: 0
-  Wagner, Scott: 2
-  Welton, Craig: 7
+  Wagner, Scott: 1
+  Welton, Craig: 3
   Zogby, Kevin: 0
 skins:
   Akins, Kyle:
@@ -118,4 +118,6 @@ teams:
     score: 75
   - name: Stefanacci, Michael
     score: 82
+total_points: 31
+valid: true
 ---

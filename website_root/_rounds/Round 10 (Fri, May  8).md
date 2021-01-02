@@ -10,24 +10,24 @@ gg_url: null
 name: Round 10 (Fri, May  8)
 points:
   Alford, Sumner: 0
-  Beaird, Ray: 8
+  Beaird, Ray: 4
   Coelho, Adam: 0
   Corcoran, Scott: 1
   Ellzey, Matt: 1
   Fish, Tony: 0
   Hardison, Bart: 0
-  Long, Glen: 8
+  Long, Glen: 4
   Mangum, Caleb: 0
   Matthews, Brian: 0
   McDougald, Kevin: 0
-  Moore, Josh: 7
+  Moore, Josh: 3
   Perry, Robbie: 0
   Shoffner, Chris: 0
   Smith, Brian: 3
   Stefanacci, Michael: 0
   Wagner, Scott: 0
   Welton, Craig: 0
-  Williford, Luke: 8
+  Williford, Luke: 4
   Zogby, Kevin: 0
 skins:
   Beaird, Ray:
@@ -98,4 +98,6 @@ teams:
     score: 80
   - name: Wagner, Scott
     score: 116
+total_points: 20
+valid: true
 ---

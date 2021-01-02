@@ -9,17 +9,17 @@ flight_winners:
 gg_url: null
 name: Round 9 (Sun, May  3)
 points:
-  Alford, Sumner: 3
-  Corcoran, Scott: 9
-  Ellzey, Matt: 7
-  Fish, Tony: 7
+  Alford, Sumner: 2
+  Corcoran, Scott: 5
+  Ellzey, Matt: 3
+  Fish, Tony: 3
   Howell, Currie: 2
-  Moore, Josh: 2
-  Paul, Jeff: 2
+  Moore, Josh: 1
+  Paul, Jeff: 1
   Smith, Brian: 2
   Stefanacci, Michael: 1
-  Wagner, Scott: 2
-  Welton, Craig: 7
+  Wagner, Scott: 1
+  Welton, Craig: 3
   Zogby, Kevin: 1
 skins:
   Corcoran, Scott:
@@ -67,4 +67,6 @@ teams:
     score: 77
   - name: Stefanacci, Michael
     score: 79
+total_points: 25
+valid: true
 ---

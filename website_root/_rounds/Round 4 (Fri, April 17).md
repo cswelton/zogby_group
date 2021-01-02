@@ -10,19 +10,19 @@ flight_winners:
 gg_url: null
 name: Round 4 (Fri, April 17)
 points:
-  Alford, Sumner: 9
+  Alford, Sumner: 5
   Card, D: 0
   Corcoran, Scott: 0
-  Ellzey, Matt: 9
+  Ellzey, Matt: 5
   Fish, Tony: 1
   Hardison, Bart: 1
-  Howard, Matt: 8
+  Howard, Matt: 4
   Long, Glen: 0
   Matthews, Brian: 0
   McDougald, Kevin: 0
   Moore, Josh: 1
   Parker, Shane: 1
-  Paul, Jeff: 9
+  Paul, Jeff: 5
   Perry, Robbie: 1
   Smith, Brian: 1
   Stefanacci, Michael: 0
@@ -108,4 +108,6 @@ teams:
     score: 81
   - name: Wagner, Scott
     score: 103
+total_points: 25
+valid: true
 ---

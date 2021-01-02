@@ -11,7 +11,6 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/zogby_group/index.html">Zogby Group</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,6 +37,8 @@
     <p class="lead">
 </p>
 </div>
+
+
 
 <h4 class="display-4">Points</h4>
 <div class="table-responsive">
@@ -105,7 +106,7 @@
             <td>
                 <span class="badge badge-dark">
                     <span class="fas fa-2xl fa-coins"></span>
-                    7
+                    3
                 </span>
             </td>
         </tr>
@@ -120,7 +121,7 @@
             <td>
                 <span class="badge badge-dark">
                     <span class="fas fa-2xl fa-coins"></span>
-                    8
+                    4
                 </span>
             </td>
         </tr>
@@ -150,7 +151,7 @@
             <td>
                 <span class="badge badge-dark">
                     <span class="fas fa-2xl fa-coins"></span>
-                    8
+                    4
                 </span>
             </td>
         </tr>
@@ -165,7 +166,7 @@
             <td>
                 <span class="badge badge-dark">
                     <span class="fas fa-2xl fa-coins"></span>
-                    7
+                    3
                 </span>
             </td>
         </tr>
@@ -940,9 +941,9 @@
       $(document).ready(function() {
         $('#all-rounds-table').DataTable({
           "order": [[0, "desc"]],
-          columns: [
-            {orderable: true},
-            {orderable: false}
+          "columns": [
+                  null,
+            { "type": "html-num"}
           ]
         });
         $('#all-players-table').DataTable({
@@ -950,6 +951,9 @@
         });
         $('#round_points_table').DataTable({
            "order": [[1, "desc"]]
+        });
+        $('#player_rounds_table').DataTable({
+           "order": [[0, "desc"]]
         });
       });
 

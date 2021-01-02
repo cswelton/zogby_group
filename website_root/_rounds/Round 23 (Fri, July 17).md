@@ -13,18 +13,18 @@ points:
   Corcoran, Scott: 0
   Cutler, Jeff: 0
   Ellzey, Matt: 0
-  Fish, Tony: 2
+  Fish, Tony: 1
   Hilliard, Tj: 0
-  Long, Glen: 7
-  Michalek, Geoff: 3
-  Nash, Rudy: 3
-  Rogers, Ken: 7
+  Long, Glen: 4
+  Michalek, Geoff: 2
+  Nash, Rudy: 2
+  Rogers, Ken: 4
   Samuel, Matthew: 2
   Shoffner, Chris: 0
   Short, Jeff: 0
-  Smith, Brian: 7
-  Stefanacci, Michael: 2
-  Wagner, Scott: 5
+  Smith, Brian: 4
+  Stefanacci, Michael: 1
+  Wagner, Scott: 2
 skins:
   Long, Glen:
   - 3
@@ -85,4 +85,6 @@ teams:
     score: 76
   - name: Short, Jeff
     score: 90
+total_points: 22
+valid: true
 ---
