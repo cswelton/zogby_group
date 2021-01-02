@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
 overall_wins: 17
-points: 163
+points: 129
 rounds: 43
 rounds_by_month:
   3:
@@ -35,15 +35,15 @@ rounds_by_month:
   - name: Round 4 (Fri, April 17)
     points: 1
   - name: Round 6 (Fri, April 24)
-    points: 9
+    points: 7
   - name: Round 2 (Sun, April  5)
     points: 7
   - name: Round 7 (Sun, April 26)
-    points: 5
+    points: 3
   - name: Round 3 (Fri, April 10)
     points: 0
   - name: Round 5 (Sun, April 19)
-    points: 8
+    points: 6
   5:
   - name: Round 10 (Fri, May  8)
     points: 3
@@ -58,30 +58,30 @@ rounds_by_month:
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
-    points: 9
+    points: 7
   6:
   - name: Round 18 (Sun, June 14)
-    points: 12
+    points: 10
   - name: Round 17 (Fri, June 12)
-    points: 8
+    points: 6
   - name: Round 20 (Fri, June 26)
     points: 0
   - name: Round 19 (Fri, June 19)
-    points: 5
+    points: 3
   7:
   - name: Round 21 (Fri, July  3)
     points: 0
   - name: Round 23 (Fri, July 17)
-    points: 7
+    points: 5
   - name: Round 25 (Fri, July 31)
-    points: 6
+    points: 4
   - name: Round 22 (Fri, July 10)
     points: 0
   8:
   - name: Round 26 (Fri, August  7)
     points: 0
   - name: Round 27 (Sun, August  9)
-    points: 5
+    points: 3
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)
@@ -117,20 +117,20 @@ rounds_by_month:
   - name: Round 41 (Wed, October 21)
     points: 2
   - name: Round 45 (Fri, October 30)
-    points: 9
+    points: 7
   11:
   - name: Round 54 (Sun, November 29)
-    points: 7
+    points: 5
   - name: Round 47 (Fri, November  6)
     points: 1
   - name: Round 53 (Fri, November 27)
-    points: 7
+    points: 5
   - name: Round 50 (Fri, November 20)
     points: 1
   - name: Round 49 (Sat, November 14)
-    points: 6
+    points: 4
   - name: Round 52 (Wed, November 25)
-    points: 8
+    points: 6
   - name: Round 48 (Tue, November 10)
     points: 3
   - name: Round 51 (Tue, November 24)
@@ -145,8 +145,8 @@ rounds_by_month:
   - name: Round 57 (Sun, December 13)
     points: 0
   - name: Round 58 (Tue, December 22)
-    points: 7
+    points: 5
   - name: Round 56 (Fri, December 11)
-    points: 7
+    points: 5
 skins: 37
 ---

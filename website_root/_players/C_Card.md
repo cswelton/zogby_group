@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: C, Card
 overall_wins: 1
-points: 8
+points: 6
 rounds: 1
 rounds_by_month:
   3:
@@ -100,7 +100,7 @@ rounds_by_month:
   - name: Round 37 (Wed, September 23)
     points: 0
   - name: Round 34 (Fri, September  4)
-    points: 8
+    points: 6
   10:
   - name: Round 43 (Tue, October 27)
     points: 0

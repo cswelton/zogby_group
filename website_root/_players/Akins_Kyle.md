@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Akins, Kyle
 overall_wins: 1
-points: 17
+points: 15
 rounds: 6
 rounds_by_month:
   3:
@@ -43,7 +43,7 @@ rounds_by_month:
   - name: Round 3 (Fri, April 10)
     points: 0
   - name: Round 5 (Sun, April 19)
-    points: 7
+    points: 5
   5:
   - name: Round 10 (Fri, May  8)
     points: 0

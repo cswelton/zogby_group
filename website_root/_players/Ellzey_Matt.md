@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 6
-points: 75
+points: 63
 rounds: 28
 rounds_by_month:
   3:
@@ -33,9 +33,9 @@ rounds_by_month:
     points: 0
   4:
   - name: Round 4 (Fri, April 17)
-    points: 9
+    points: 7
   - name: Round 6 (Fri, April 24)
-    points: 8
+    points: 6
   - name: Round 2 (Sun, April  5)
     points: 0
   - name: Round 7 (Sun, April 26)
@@ -54,11 +54,11 @@ rounds_by_month:
   - name: Round 8 (Fri, May  1)
     points: 2
   - name: Round 9 (Sun, May  3)
-    points: 7
+    points: 5
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
-    points: 7
+    points: 5
   6:
   - name: Round 18 (Sun, June 14)
     points: 0
@@ -70,7 +70,7 @@ rounds_by_month:
     points: 0
   7:
   - name: Round 21 (Fri, July  3)
-    points: 9
+    points: 7
   - name: Round 23 (Fri, July 17)
     points: 0
   - name: Round 25 (Fri, July 31)
@@ -79,7 +79,7 @@ rounds_by_month:
     points: 0
   8:
   - name: Round 26 (Fri, August  7)
-    points: 7
+    points: 5
   - name: Round 27 (Sun, August  9)
     points: 0
   - name: Round 29 (Fri, August 14)

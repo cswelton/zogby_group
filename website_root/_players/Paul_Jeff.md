@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Paul, Jeff
 overall_wins: 5
-points: 41
+points: 31
 rounds: 13
 rounds_by_month:
   3:
@@ -33,13 +33,13 @@ rounds_by_month:
     points: 0
   4:
   - name: Round 4 (Fri, April 17)
-    points: 9
+    points: 7
   - name: Round 6 (Fri, April 24)
     points: 4
   - name: Round 2 (Sun, April  5)
     points: 0
   - name: Round 7 (Sun, April 26)
-    points: 5
+    points: 3
   - name: Round 3 (Fri, April 10)
     points: 0
   - name: Round 5 (Sun, April 19)
@@ -48,7 +48,7 @@ rounds_by_month:
   - name: Round 10 (Fri, May  8)
     points: 0
   - name: Round 15 (Sun, May 31)
-    points: 3
+    points: 1
   - name: Round 12 (Fri, May 22)
     points: 0
   - name: Round 8 (Fri, May  1)
@@ -61,7 +61,7 @@ rounds_by_month:
     points: 0
   6:
   - name: Round 18 (Sun, June 14)
-    points: 9
+    points: 7
   - name: Round 17 (Fri, June 12)
     points: 1
   - name: Round 20 (Fri, June 26)
@@ -81,7 +81,7 @@ rounds_by_month:
   - name: Round 26 (Fri, August  7)
     points: 1
   - name: Round 27 (Sun, August  9)
-    points: 6
+    points: 4
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)

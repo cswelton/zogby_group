@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Hardison_Bart.png
 name: Hardison, Bart
 overall_wins: 3
-points: 28
+points: 22
 rounds: 15
 rounds_by_month:
   3:
@@ -70,7 +70,7 @@ rounds_by_month:
     points: 0
   7:
   - name: Round 21 (Fri, July  3)
-    points: 8
+    points: 6
   - name: Round 23 (Fri, July 17)
     points: 0
   - name: Round 25 (Fri, July 31)
@@ -132,14 +132,14 @@ rounds_by_month:
   - name: Round 52 (Wed, November 25)
     points: 0
   - name: Round 48 (Tue, November 10)
-    points: 5
+    points: 3
   - name: Round 51 (Tue, November 24)
     points: 0
   12:
   - name: Round 55 (Fri, December  4)
     points: 0
   - name: Round 59 (Wed, December 23)
-    points: 7
+    points: 5
   - name: Round 60 (Thu, December 31)
     points: 0
   - name: Round 57 (Sun, December 13)

@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 6
-points: 69
+points: 57
 rounds: 18
 rounds_by_month:
   3:
@@ -37,7 +37,7 @@ rounds_by_month:
   - name: Round 6 (Fri, April 24)
     points: 0
   - name: Round 2 (Sun, April  5)
-    points: 5
+    points: 3
   - name: Round 7 (Sun, April 26)
     points: 0
   - name: Round 3 (Fri, April 10)
@@ -96,20 +96,20 @@ rounds_by_month:
     points: 0
   9:
   - name: Round 35 (Mon, September  7)
-    points: 11
+    points: 9
   - name: Round 37 (Wed, September 23)
     points: 1
   - name: Round 34 (Fri, September  4)
     points: 4
   10:
   - name: Round 43 (Tue, October 27)
-    points: 5
+    points: 3
   - name: Round 44 (Wed, October 28)
     points: 0
   - name: Round 42 (Fri, October 23)
     points: 0
   - name: Round 38 (Fri, October  2)
-    points: 7
+    points: 5
   - name: Round 39 (Fri, October  9)
     points: 0
   - name: Round 40 (Sun, October 18)
@@ -130,7 +130,7 @@ rounds_by_month:
   - name: Round 49 (Sat, November 14)
     points: 0
   - name: Round 52 (Wed, November 25)
-    points: 7
+    points: 5
   - name: Round 48 (Tue, November 10)
     points: 0
   - name: Round 51 (Tue, November 24)
@@ -145,7 +145,7 @@ rounds_by_month:
   - name: Round 57 (Sun, December 13)
     points: 0
   - name: Round 58 (Tue, December 22)
-    points: 6
+    points: 4
   - name: Round 56 (Fri, December 11)
     points: 4
 skins: 19

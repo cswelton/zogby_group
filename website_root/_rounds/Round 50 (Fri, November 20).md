@@ -10,9 +10,9 @@ flight_winners:
 gg_url: null
 name: Round 50 (Fri, November 20)
 points:
-  Alford, Sumner: 6
+  Alford, Sumner: 4
   Beaird, Ray: 2
-  Capwell, Robert: 5
+  Capwell, Robert: 3
   Corcoran, Scott: 3
   Ellzey, Matt: 0
   Fish, Tony: 1
@@ -22,9 +22,9 @@ points:
   Perry, Robbie: 0
   Shoffner, Chris: 3
   Smith, Brian: 1
-  Stefanacci, Michael: 5
+  Stefanacci, Michael: 3
   Wagner, Scott: 0
-  Welton, Craig: 6
+  Welton, Craig: 4
   Zogby, Kevin: 2
 skins:
   Parker, Shane:
@@ -84,6 +84,6 @@ teams:
     score: 73
   - name: Wagner, Scott
     score: 104
-total_points: 37
+total_points: 29
 valid: true
 ---

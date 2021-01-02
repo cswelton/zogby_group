@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Faircloth_Courtney.png
 name: Faircloth, Courtney
 overall_wins: 2
-points: 26
+points: 22
 rounds: 6
 rounds_by_month:
   3:
@@ -65,7 +65,7 @@ rounds_by_month:
   - name: Round 17 (Fri, June 12)
     points: 0
   - name: Round 20 (Fri, June 26)
-    points: 10
+    points: 8
   - name: Round 19 (Fri, June 19)
     points: 0
   7:
@@ -100,7 +100,7 @@ rounds_by_month:
   - name: Round 37 (Wed, September 23)
     points: 0
   - name: Round 34 (Fri, September  4)
-    points: 11
+    points: 9
   10:
   - name: Round 43 (Tue, October 27)
     points: 0

@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Williford_Luke.png
 name: Williford, Luke
 overall_wins: 2
-points: 13
+points: 9
 rounds: 4
 rounds_by_month:
   3:
@@ -46,7 +46,7 @@ rounds_by_month:
     points: 0
   5:
   - name: Round 10 (Fri, May  8)
-    points: 8
+    points: 6
   - name: Round 15 (Sun, May 31)
     points: 0
   - name: Round 12 (Fri, May 22)
@@ -113,7 +113,7 @@ rounds_by_month:
   - name: Round 39 (Fri, October  9)
     points: 0
   - name: Round 40 (Sun, October 18)
-    points: 5
+    points: 3
   - name: Round 41 (Wed, October 21)
     points: 0
   - name: Round 45 (Fri, October 30)

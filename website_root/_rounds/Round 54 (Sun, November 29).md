@@ -9,7 +9,7 @@ flight_winners:
 gg_url: null
 name: Round 54 (Sun, November 29)
 points:
-  Alford, Sumner: 7
+  Alford, Sumner: 5
   Capwell, Robert: 2
   Ellzey, Matt: 1
   Fish, Tony: 3
@@ -17,10 +17,10 @@ points:
   Long, Glen: 3
   McDougald, Kevin: 0
   Perry, Robbie: 0
-  Smith, Brian: 7
-  Stefanacci, Michael: 5
+  Smith, Brian: 5
+  Stefanacci, Michael: 3
   Welton, Craig: 2
-  Zogby, Kevin: 7
+  Zogby, Kevin: 5
 skins:
   Alford, Sumner:
   - 9
@@ -68,6 +68,6 @@ teams:
     score: 76
   - name: Guest, LZ
     score: 81
-total_points: 37
+total_points: 29
 valid: true
 ---

@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 11
-points: 91
+points: 69
 rounds: 27
 rounds_by_month:
   3:
@@ -43,18 +43,18 @@ rounds_by_month:
   - name: Round 3 (Fri, April 10)
     points: 0
   - name: Round 5 (Sun, April 19)
-    points: 8
+    points: 6
   5:
   - name: Round 10 (Fri, May  8)
     points: 1
   - name: Round 15 (Sun, May 31)
     points: 0
   - name: Round 12 (Fri, May 22)
-    points: 7
+    points: 5
   - name: Round 8 (Fri, May  1)
     points: 0
   - name: Round 9 (Sun, May  3)
-    points: 9
+    points: 7
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
@@ -63,18 +63,18 @@ rounds_by_month:
   - name: Round 18 (Sun, June 14)
     points: 0
   - name: Round 17 (Fri, June 12)
-    points: 7
+    points: 5
   - name: Round 20 (Fri, June 26)
     points: 0
   - name: Round 19 (Fri, June 19)
-    points: 6
+    points: 4
   7:
   - name: Round 21 (Fri, July  3)
     points: 2
   - name: Round 23 (Fri, July 17)
     points: 0
   - name: Round 25 (Fri, July 31)
-    points: 6
+    points: 4
   - name: Round 22 (Fri, July 10)
     points: 0
   8:
@@ -103,7 +103,7 @@ rounds_by_month:
     points: 0
   10:
   - name: Round 43 (Tue, October 27)
-    points: 7
+    points: 5
   - name: Round 44 (Wed, October 28)
     points: 0
   - name: Round 42 (Fri, October 23)
@@ -122,7 +122,7 @@ rounds_by_month:
   - name: Round 54 (Sun, November 29)
     points: 0
   - name: Round 47 (Fri, November  6)
-    points: 9
+    points: 7
   - name: Round 53 (Fri, November 27)
     points: 4
   - name: Round 50 (Fri, November 20)
@@ -130,7 +130,7 @@ rounds_by_month:
   - name: Round 49 (Sat, November 14)
     points: 0
   - name: Round 52 (Wed, November 25)
-    points: 5
+    points: 3
   - name: Round 48 (Tue, November 10)
     points: 0
   - name: Round 51 (Tue, November 24)
@@ -143,9 +143,9 @@ rounds_by_month:
   - name: Round 60 (Thu, December 31)
     points: 0
   - name: Round 57 (Sun, December 13)
-    points: 6
+    points: 4
   - name: Round 58 (Tue, December 22)
-    points: 5
+    points: 3
   - name: Round 56 (Fri, December 11)
     points: 0
 skins: 8

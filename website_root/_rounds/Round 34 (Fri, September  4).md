@@ -11,21 +11,21 @@ flight_winners:
 gg_url: null
 name: Round 34 (Fri, September  4)
 points:
-  C, Card: 8
+  C, Card: 6
   Capwell, Robert: 1
   Card, C: 1
-  Faircloth, Courtney: 11
+  Faircloth, Courtney: 9
   Hilliard, Tj: 1
   Langworthy, Brandon: 0
   Mangum, Caleb: 2
   McDougald, Kevin: 1
   Michalek, Geoff: 1
   Parker, Shane: 4
-  Rogers, Ken: 7
+  Rogers, Ken: 5
   Samuel, Matthew: 1
   Shoffner, Chris: 2
   Stefanacci, Michael: 3
-  Szvetitz, Patrick: 7
+  Szvetitz, Patrick: 5
   Zogby, Kevin: 1
 skins:
   Faircloth, Courtney:
@@ -92,6 +92,6 @@ teams:
     score: 80
   - name: Mangum, Caleb
     score: 87
-total_points: 51
+total_points: 43
 valid: true
 ---

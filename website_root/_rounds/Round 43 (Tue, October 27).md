@@ -11,17 +11,17 @@ gg_url: null
 name: Round 43 (Tue, October 27)
 points:
   Akins, Kyle: 2
-  Capwell, Robert: 6
-  Corcoran, Scott: 7
-  Fish, Tony: 9
-  Hilliard, Tj: 6
-  Long, Glen: 6
+  Capwell, Robert: 4
+  Corcoran, Scott: 5
+  Fish, Tony: 7
+  Hilliard, Tj: 4
+  Long, Glen: 4
   McDougald, Kevin: 0
-  Parker, Shane: 5
-  Perry, Robbie: 6
+  Parker, Shane: 3
+  Perry, Robbie: 4
   Shoffner, Chris: 0
   Welton, Craig: 0
-  Zogby, Kevin: 5
+  Zogby, Kevin: 3
 skins:
   Akins, Kyle:
   - 6
@@ -72,6 +72,6 @@ teams:
     score: 75
   - name: McDougald, Kevin
     score: 76
-total_points: 52
+total_points: 36
 valid: true
 ---

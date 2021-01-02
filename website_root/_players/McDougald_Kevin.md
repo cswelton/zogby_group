@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 10
-points: 97
+points: 77
 rounds: 34
 rounds_by_month:
   3:
@@ -76,20 +76,20 @@ rounds_by_month:
   - name: Round 25 (Fri, July 31)
     points: 0
   - name: Round 22 (Fri, July 10)
-    points: 8
+    points: 6
   8:
   - name: Round 26 (Fri, August  7)
     points: 2
   - name: Round 27 (Sun, August  9)
     points: 0
   - name: Round 29 (Fri, August 14)
-    points: 7
+    points: 5
   - name: Round 28 (Tue, August 11)
     points: 0
   - name: Round 33 (Sun, August 30)
-    points: 9
+    points: 7
   - name: Round 30 (Sun, August 16)
-    points: 8
+    points: 6
   - name: Round 32 (Fri, August 28)
     points: 1
   - name: Round 31 (Fri, August 21)
@@ -111,11 +111,11 @@ rounds_by_month:
   - name: Round 38 (Fri, October  2)
     points: 0
   - name: Round 39 (Fri, October  9)
-    points: 8
+    points: 6
   - name: Round 40 (Sun, October 18)
-    points: 5
+    points: 3
   - name: Round 41 (Wed, October 21)
-    points: 7
+    points: 5
   - name: Round 45 (Fri, October 30)
     points: 3
   11:
@@ -130,11 +130,11 @@ rounds_by_month:
   - name: Round 49 (Sat, November 14)
     points: 0
   - name: Round 52 (Wed, November 25)
-    points: 5
+    points: 3
   - name: Round 48 (Tue, November 10)
     points: 0
   - name: Round 51 (Tue, November 24)
-    points: 10
+    points: 8
   12:
   - name: Round 55 (Fri, December  4)
     points: 2
@@ -147,6 +147,6 @@ rounds_by_month:
   - name: Round 58 (Tue, December 22)
     points: 0
   - name: Round 56 (Fri, December 11)
-    points: 6
+    points: 4
 skins: 12
 ---

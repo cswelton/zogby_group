@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Matthews_Brian.png
 name: Matthews, Brian
 overall_wins: 2
-points: 28
+points: 24
 rounds: 24
 rounds_by_month:
   3:
@@ -81,7 +81,7 @@ rounds_by_month:
   - name: Round 26 (Fri, August  7)
     points: 0
   - name: Round 27 (Sun, August  9)
-    points: 3
+    points: 1
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)
@@ -117,7 +117,7 @@ rounds_by_month:
   - name: Round 41 (Wed, October 21)
     points: 2
   - name: Round 45 (Fri, October 30)
-    points: 7
+    points: 5
   11:
   - name: Round 54 (Sun, November 29)
     points: 0

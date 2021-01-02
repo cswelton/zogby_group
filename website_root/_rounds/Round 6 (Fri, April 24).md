@@ -12,7 +12,7 @@ points:
   Alford, Sumner: 0
   Beaird, Ray: 0
   Corcoran, Scott: 0
-  Ellzey, Matt: 8
+  Ellzey, Matt: 6
   Faircloth, Courtney: 3
   Fish, Tony: 0
   Hardison, Bart: 0
@@ -23,12 +23,12 @@ points:
   Paul, Jeff: 4
   Perry, Robbie: 0
   Shoffner, Chris: 0
-  Smith, Brian: 9
+  Smith, Brian: 7
   Stefanacci, Michael: 0
   Wagner, Scott: 2
-  Welton, Craig: 7
+  Welton, Craig: 5
   Williford, Luke: 0
-  Zogby, Kevin: 8
+  Zogby, Kevin: 6
 skins:
   Ellzey, Matt:
   - 13
@@ -99,6 +99,6 @@ teams:
     score: 77
   - name: Hardison, Bart
     score: 85
-total_points: 44
+total_points: 36
 valid: true
 ---

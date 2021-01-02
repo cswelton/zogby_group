@@ -11,12 +11,12 @@ name: Round 51 (Tue, November 24)
 points:
   Capwell, Robert: 3
   Cline, Doug: 2
-  Hilliard, Tj: 10
+  Hilliard, Tj: 8
   Long, Glen: 3
-  McDougald, Kevin: 10
-  Perry, Andrew: 10
+  McDougald, Kevin: 8
+  Perry, Andrew: 8
   Perry, Robbie: 3
-  Shoffner, Chris: 8
+  Shoffner, Chris: 6
 skins:
   Capwell, Robert:
   - 14
@@ -58,6 +58,6 @@ teams:
     score: 74
   - name: Cline, Doug
     score: 88
-total_points: 49
+total_points: 41
 valid: true
 ---

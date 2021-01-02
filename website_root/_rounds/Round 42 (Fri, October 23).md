@@ -15,16 +15,16 @@ points:
   Corcoran, Scott: 0
   Ellzey, Matt: 0
   Fish, Tony: 1
-  Hilliard, Tj: 5
+  Hilliard, Tj: 3
   Langworthy, Brandon: 0
   Matthews, Brian: 2
-  Perry, Andrew: 6
-  Perry, Robbie: 6
+  Perry, Andrew: 4
+  Perry, Robbie: 4
   Rogers, Ken: 4
   Rollins, Brad: 0
   Shoffner, Chris: 0
   Smith, Brian: 4
-  Stefanacci, Michael: 5
+  Stefanacci, Michael: 3
   Zogby, Kevin: 3
 skins:
   Alford, Sumner:
@@ -86,6 +86,6 @@ teams:
     score: 81
   - name: Rollins, Brad
     score: 82
-total_points: 38
+total_points: 30
 valid: true
 ---

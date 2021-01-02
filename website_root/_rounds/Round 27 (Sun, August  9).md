@@ -13,15 +13,15 @@ points:
   Baranowski, Ryan: 2
   Corcoran, Scott: 2
   Long, Glen: 4
-  Matthews, Brian: 3
-  Moore, Josh: 6
-  Paul, Jeff: 6
+  Matthews, Brian: 1
+  Moore, Josh: 4
+  Paul, Jeff: 4
   Perry, Robbie: 3
-  Samuel, Matthew: 8
-  Smith, Brian: 5
-  Stefanacci, Michael: 5
-  Welton, Craig: 3
-  Zogby, Kevin: 3
+  Samuel, Matthew: 6
+  Smith, Brian: 3
+  Stefanacci, Michael: 3
+  Welton, Craig: 1
+  Zogby, Kevin: 1
 skins:
   Long, Glen:
   - 1
@@ -69,6 +69,6 @@ teams:
     score: 75
   - name: Baranowski, Ryan
     score: 89
-total_points: 50
+total_points: 34
 valid: true
 ---

@@ -12,15 +12,15 @@ points:
   Capwell, Robert: 4
   D, CARD: 0
   Ellzey, Matt: 3
-  Fish, Tony: 6
-  Hardison, Bart: 5
-  Hilliard, Tj: 8
+  Fish, Tony: 4
+  Hardison, Bart: 3
+  Hilliard, Tj: 6
   Matthews, Brian: 3
   McDougald, Brad: 0
   McDougald, Kevin: 0
   Perry, Robbie: 2
   Smith, Brian: 3
-  Zogby, Kevin: 6
+  Zogby, Kevin: 4
 skins:
   Capwell, Robert:
   - 3
@@ -73,6 +73,6 @@ teams:
     score: 79
   - name: D, CARD
     score: 81
-total_points: 40
+total_points: 32
 valid: true
 ---

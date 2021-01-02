@@ -10,11 +10,11 @@ flight_winners:
 gg_url: null
 name: Round 29 (Fri, August 14)
 points:
-  Capwell, Robert: 8
+  Capwell, Robert: 6
   Fish, Tony: 5
-  Hilliard, Tj: 6
-  Long, Glen: 7
-  McDougald, Kevin: 7
+  Hilliard, Tj: 4
+  Long, Glen: 5
+  McDougald, Kevin: 5
   Perry, Robbie: 5
   Wagner, Scott: 2
   Zogby, Kevin: 3
@@ -60,6 +60,6 @@ teams:
     score: 74
   - name: Capwell, Robert
     score: 73
-total_points: 43
+total_points: 35
 valid: true
 ---

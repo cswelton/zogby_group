@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Moore, Josh
 overall_wins: 6
-points: 58
+points: 46
 rounds: 15
 rounds_by_month:
   3:
@@ -39,14 +39,14 @@ rounds_by_month:
   - name: Round 2 (Sun, April  5)
     points: 0
   - name: Round 7 (Sun, April 26)
-    points: 9
+    points: 7
   - name: Round 3 (Fri, April 10)
     points: 0
   - name: Round 5 (Sun, April 19)
     points: 0
   5:
   - name: Round 10 (Fri, May  8)
-    points: 7
+    points: 5
   - name: Round 15 (Sun, May 31)
     points: 2
   - name: Round 12 (Fri, May 22)
@@ -58,12 +58,12 @@ rounds_by_month:
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
-    points: 9
+    points: 7
   6:
   - name: Round 18 (Sun, June 14)
     points: 1
   - name: Round 17 (Fri, June 12)
-    points: 8
+    points: 6
   - name: Round 20 (Fri, June 26)
     points: 0
   - name: Round 19 (Fri, June 19)
@@ -81,11 +81,11 @@ rounds_by_month:
   - name: Round 26 (Fri, August  7)
     points: 0
   - name: Round 27 (Sun, August  9)
-    points: 6
+    points: 4
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)
-    points: 8
+    points: 6
   - name: Round 33 (Sun, August 30)
     points: 0
   - name: Round 30 (Sun, August 16)

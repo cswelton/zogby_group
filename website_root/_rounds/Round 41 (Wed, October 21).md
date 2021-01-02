@@ -14,13 +14,13 @@ points:
   Fish, Tony: 5
   Hardison, Bart: 1
   Hilliard, Tj: 2
-  Long, Glen: 8
+  Long, Glen: 6
   Matthews, Brian: 2
-  McDougald, Kevin: 7
-  Perry, Robbie: 8
+  McDougald, Kevin: 5
+  Perry, Robbie: 6
   Shoffner, Chris: 3
   Smith, Brian: 2
-  Zogby, Kevin: 8
+  Zogby, Kevin: 6
 skins:
   Fish, Tony:
   - 1
@@ -70,6 +70,6 @@ teams:
     score: 82
   - name: Hardison, Bart
     score: 82
-total_points: 46
+total_points: 38
 valid: true
 ---

@@ -13,14 +13,14 @@ points:
   Beaird, Ray: 0
   Capwell, Robert: 3
   Chan, Edward: 2
-  Fish, Tony: 8
+  Fish, Tony: 6
   Hilliard, Tj: 3
-  Matthews, Brian: 7
+  Matthews, Brian: 5
   McDougald, Kevin: 3
   Perry, Robbie: 0
   Rogers, Ken: 3
-  Smith, Brian: 9
-  Zogby, Kevin: 8
+  Smith, Brian: 7
+  Zogby, Kevin: 6
 skins:
   Chan, Edward:
   - 9
@@ -70,6 +70,6 @@ teams:
     score: 79
   - name: Beaird, Ray
     score: 83
-total_points: 46
+total_points: 38
 valid: true
 ---

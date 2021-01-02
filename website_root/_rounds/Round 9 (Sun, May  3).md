@@ -10,16 +10,16 @@ gg_url: null
 name: Round 9 (Sun, May  3)
 points:
   Alford, Sumner: 3
-  Corcoran, Scott: 9
-  Ellzey, Matt: 7
-  Fish, Tony: 7
+  Corcoran, Scott: 7
+  Ellzey, Matt: 5
+  Fish, Tony: 5
   Howell, Currie: 2
   Moore, Josh: 2
   Paul, Jeff: 2
   Smith, Brian: 2
   Stefanacci, Michael: 1
   Wagner, Scott: 2
-  Welton, Craig: 7
+  Welton, Craig: 5
   Zogby, Kevin: 1
 skins:
   Corcoran, Scott:
@@ -67,6 +67,6 @@ teams:
     score: 77
   - name: Stefanacci, Michael
     score: 79
-total_points: 45
+total_points: 37
 valid: true
 ---

@@ -15,16 +15,16 @@ points:
   Ellzey, Matt: 0
   Fish, Tony: 2
   Hilliard, Tj: 0
-  Long, Glen: 7
+  Long, Glen: 5
   Michalek, Geoff: 3
   Nash, Rudy: 3
-  Rogers, Ken: 7
+  Rogers, Ken: 5
   Samuel, Matthew: 2
   Shoffner, Chris: 0
   Short, Jeff: 0
-  Smith, Brian: 7
+  Smith, Brian: 5
   Stefanacci, Michael: 2
-  Wagner, Scott: 5
+  Wagner, Scott: 3
 skins:
   Long, Glen:
   - 3
@@ -85,6 +85,6 @@ teams:
     score: 76
   - name: Short, Jeff
     score: 90
-total_points: 38
+total_points: 30
 valid: true
 ---

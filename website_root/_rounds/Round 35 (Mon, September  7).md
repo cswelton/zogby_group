@@ -9,14 +9,14 @@ flight_winners:
 gg_url: null
 name: Round 35 (Mon, September  7)
 points:
-  Capwell, Robert: 7
+  Capwell, Robert: 5
   Corcoran, Scott: 0
   Fish, Tony: 0
-  Long, Glen: 8
+  Long, Glen: 6
   Matthews, Brian: 0
   McDougald, Kevin: 0
-  Michalek, Geoff: 8
-  Parker, Shane: 11
+  Michalek, Geoff: 6
+  Parker, Shane: 9
   Samuel, Matthew: 1
   Shoffner, Chris: 1
   Smith, Brian: 1
@@ -69,6 +69,6 @@ teams:
     score: 81
   - name: Matthews, Brian
     score: 78
-total_points: 38
+total_points: 30
 valid: true
 ---

@@ -11,13 +11,13 @@ gg_url: null
 name: Round 33 (Sun, August 30)
 points:
   Alford, Sumner: 3
-  Capwell, Robert: 10
+  Capwell, Robert: 8
   Cutler, Jeff: 2
-  McDougald, Kevin: 9
+  McDougald, Kevin: 7
   Perry, Robbie: 3
-  Samuel, Matthew: 9
+  Samuel, Matthew: 7
   Shoffner, Chris: 2
-  Zogby, Kevin: 8
+  Zogby, Kevin: 6
 skins:
   Alford, Sumner:
   - 18
@@ -53,6 +53,6 @@ teams:
     score: 78
   - name: Shoffner, Chris
     score: 77
-total_points: 46
+total_points: 38
 valid: true
 ---

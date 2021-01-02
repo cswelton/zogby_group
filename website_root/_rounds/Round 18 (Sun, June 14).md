@@ -12,15 +12,15 @@ points:
   Alford, Sumner: 0
   Moore, Josh: 1
   Nordstrom, Bill: 0
-  Paul, Jeff: 9
+  Paul, Jeff: 7
   Perry, Robbie: 1
-  Samuel, Matthew: 8
+  Samuel, Matthew: 6
   Shoffner, Chris: 0
-  Smith, Brian: 12
+  Smith, Brian: 10
   Stefanacci, Michael: 0
   Wagner, Scott: 0
   Welton, Craig: 0
-  Zogby, Kevin: 10
+  Zogby, Kevin: 8
 skins:
   Paul, Jeff:
   - 15
@@ -73,6 +73,6 @@ teams:
     score: 85
   - name: Wagner, Scott
     score: 98
-total_points: 41
+total_points: 33
 valid: true
 ---

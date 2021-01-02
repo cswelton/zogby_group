@@ -10,12 +10,12 @@ flight_winners:
 gg_url: null
 name: Round 30 (Sun, August 16)
 points:
-  Capwell, Robert: 11
+  Capwell, Robert: 9
   Fish, Tony: 2
   Matthews, Brian: 0
-  McDougald, Kevin: 8
-  Perry, Robbie: 8
-  Samuel, Matthew: 12
+  McDougald, Kevin: 6
+  Perry, Robbie: 6
+  Samuel, Matthew: 10
   Smith, Brian: 1
   Zogby, Kevin: 0
 skins:
@@ -57,6 +57,6 @@ teams:
     score: 82
   - name: Matthews, Brian
     score: 80
-total_points: 42
+total_points: 34
 valid: true
 ---

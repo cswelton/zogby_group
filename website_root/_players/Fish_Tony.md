@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 11
-points: 106
+points: 84
 rounds: 38
 rounds_by_month:
   3:
@@ -50,11 +50,11 @@ rounds_by_month:
   - name: Round 15 (Sun, May 31)
     points: 0
   - name: Round 12 (Fri, May 22)
-    points: 5
+    points: 3
   - name: Round 8 (Fri, May  1)
-    points: 5
+    points: 3
   - name: Round 9 (Sun, May  3)
-    points: 7
+    points: 5
   - name: Round 11 (Fri, May 15)
     points: 0
   - name: Round 14 (Fri, May 29)
@@ -67,7 +67,7 @@ rounds_by_month:
   - name: Round 20 (Fri, June 26)
     points: 1
   - name: Round 19 (Fri, June 19)
-    points: 7
+    points: 5
   7:
   - name: Round 21 (Fri, July  3)
     points: 2
@@ -91,7 +91,7 @@ rounds_by_month:
   - name: Round 30 (Sun, August 16)
     points: 2
   - name: Round 32 (Fri, August 28)
-    points: 3
+    points: 1
   - name: Round 31 (Fri, August 21)
     points: 0
   9:
@@ -103,9 +103,9 @@ rounds_by_month:
     points: 0
   10:
   - name: Round 43 (Tue, October 27)
-    points: 9
+    points: 7
   - name: Round 44 (Wed, October 28)
-    points: 8
+    points: 6
   - name: Round 42 (Fri, October 23)
     points: 1
   - name: Round 38 (Fri, October  2)
@@ -117,7 +117,7 @@ rounds_by_month:
   - name: Round 41 (Wed, October 21)
     points: 5
   - name: Round 45 (Fri, October 30)
-    points: 8
+    points: 6
   11:
   - name: Round 54 (Sun, November 29)
     points: 3
@@ -128,11 +128,11 @@ rounds_by_month:
   - name: Round 50 (Fri, November 20)
     points: 1
   - name: Round 49 (Sat, November 14)
-    points: 6
+    points: 4
   - name: Round 52 (Wed, November 25)
     points: 0
   - name: Round 48 (Tue, November 10)
-    points: 6
+    points: 4
   - name: Round 51 (Tue, November 24)
     points: 0
   12:
@@ -145,7 +145,7 @@ rounds_by_month:
   - name: Round 57 (Sun, December 13)
     points: 0
   - name: Round 58 (Tue, December 22)
-    points: 5
+    points: 3
   - name: Round 56 (Fri, December 11)
     points: 0
 skins: 18

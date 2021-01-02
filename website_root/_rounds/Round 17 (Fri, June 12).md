@@ -10,16 +10,16 @@ gg_url: null
 name: Round 17 (Fri, June 12)
 points:
   Alford, Sumner: 1
-  Corcoran, Scott: 7
+  Corcoran, Scott: 5
   Long, Glen: 0
   Mangum, Caleb: 0
   Michalek, Geoff: 0
-  Moore, Josh: 8
+  Moore, Josh: 6
   Nash, Rudy: 0
   Paul, Jeff: 1
   Perry, Robbie: 1
-  Smith, Brian: 8
-  Stefanacci, Michael: 8
+  Smith, Brian: 6
+  Stefanacci, Michael: 6
   Welton, Craig: 0
 skins:
   Perry, Robbie:
@@ -63,6 +63,6 @@ teams:
     score: 87
   - name: Mangum, Caleb
     score: 88
-total_points: 34
+total_points: 26
 valid: true
 ---

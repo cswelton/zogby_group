@@ -9,12 +9,12 @@ flight_winners:
 gg_url: null
 name: Round 39 (Fri, October  9)
 points:
-  Beaird, Ray: 7
+  Beaird, Ray: 5
   Capwell, Robert: 0
   Fish, Tony: 1
-  McDougald, Kevin: 8
-  Perry, Robbie: 10
-  Rogers, Ken: 9
+  McDougald, Kevin: 6
+  Perry, Robbie: 8
+  Rogers, Ken: 7
   Welton, Craig: 4
   Zogby, Kevin: 1
 skins:
@@ -56,6 +56,6 @@ teams:
     score: 70
   - name: Beaird, Ray
     score: 78
-total_points: 40
+total_points: 32
 valid: true
 ---

@@ -8,13 +8,13 @@ flight_winners:
 gg_url: null
 name: Round 28 (Tue, August 11)
 points:
-  Capwell, Robert: 7
+  Capwell, Robert: 5
   Long, Glen: 2
   Matthews, Brian: 2
-  Moore, Josh: 8
+  Moore, Josh: 6
   Perry, Robbie: 4
   Shoffner, Chris: 3
-  Shope, Robert: 10
+  Shope, Robert: 8
   Smith, Brian: 4
   Smith, Phil: 3
 skins:
@@ -61,6 +61,6 @@ teams:
     score: 71
   - name: Matthews, Brian
     score: 82
-total_points: 43
+total_points: 37
 valid: true
 ---

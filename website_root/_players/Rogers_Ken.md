@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
 overall_wins: 4
-points: 40
+points: 32
 rounds: 12
 rounds_by_month:
   3:
@@ -72,7 +72,7 @@ rounds_by_month:
   - name: Round 21 (Fri, July  3)
     points: 0
   - name: Round 23 (Fri, July 17)
-    points: 7
+    points: 5
   - name: Round 25 (Fri, July 31)
     points: 0
   - name: Round 22 (Fri, July 10)
@@ -100,7 +100,7 @@ rounds_by_month:
   - name: Round 37 (Wed, September 23)
     points: 0
   - name: Round 34 (Fri, September  4)
-    points: 7
+    points: 5
   10:
   - name: Round 43 (Tue, October 27)
     points: 0
@@ -111,7 +111,7 @@ rounds_by_month:
   - name: Round 38 (Fri, October  2)
     points: 0
   - name: Round 39 (Fri, October  9)
-    points: 9
+    points: 7
   - name: Round 40 (Sun, October 18)
     points: 0
   - name: Round 41 (Wed, October 21)
@@ -137,7 +137,7 @@ rounds_by_month:
     points: 0
   12:
   - name: Round 55 (Fri, December  4)
-    points: 7
+    points: 5
   - name: Round 59 (Wed, December 23)
     points: 0
   - name: Round 60 (Thu, December 31)

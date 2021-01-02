@@ -12,18 +12,18 @@ name: Round 25 (Fri, July 31)
 points:
   Beaird, Ray: 1
   Capwell, Robert: 0
-  Corcoran, Scott: 6
+  Corcoran, Scott: 4
   Ellzey, Matt: 3
   Fish, Tony: 1
   Hilliard, Tj: 3
-  Long, Glen: 7
+  Long, Glen: 5
   Matthews, Brian: 0
   Perry, Robbie: 0
   Rogers, Ken: 0
   Shoffner, Chris: 2
-  Smith, Brian: 6
+  Smith, Brian: 4
   Stefanacci, Michael: 2
-  Wagner, Scott: 5
+  Wagner, Scott: 3
   Welton, Craig: 3
   Zogby, Kevin: 0
 skins:
@@ -88,6 +88,6 @@ teams:
     score: 78
   - name: Stefanacci, Michael
     score: 79
-total_points: 39
+total_points: 31
 valid: true
 ---

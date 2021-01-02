@@ -25,7 +25,7 @@ ignored_rounds:
 image: /assets/images/default.png
 name: Card, D
 overall_wins: 2
-points: 12
+points: 8
 rounds: 4
 rounds_by_month:
   3:
@@ -79,7 +79,7 @@ rounds_by_month:
     points: 0
   8:
   - name: Round 26 (Fri, August  7)
-    points: 7
+    points: 5
   - name: Round 27 (Sun, August  9)
     points: 0
   - name: Round 29 (Fri, August 14)
@@ -137,7 +137,7 @@ rounds_by_month:
     points: 0
   12:
   - name: Round 55 (Fri, December  4)
-    points: 5
+    points: 3
   - name: Round 59 (Wed, December 23)
     points: 0
   - name: Round 60 (Thu, December 31)

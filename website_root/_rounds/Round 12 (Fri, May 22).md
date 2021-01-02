@@ -11,14 +11,14 @@ name: Round 12 (Fri, May 22)
 points:
   Akins, Kyle: 1
   Beaird, Ray: 3
-  Corcoran, Scott: 7
-  Fish, Tony: 5
+  Corcoran, Scott: 5
+  Fish, Tony: 3
   Hardison, Bart: 0
   Long, Glen: 2
   McGowan, Michael: 3
-  Perry, Robbie: 5
+  Perry, Robbie: 3
   Smith, Brian: 1
-  Stefanacci, Michael: 5
+  Stefanacci, Michael: 3
   Wagner, Scott: 0
   Welton, Craig: 2
 skins:
@@ -63,6 +63,6 @@ teams:
     score: 69
   - name: Stefanacci, Michael
     score: 79
-total_points: 34
+total_points: 26
 valid: true
 ---
