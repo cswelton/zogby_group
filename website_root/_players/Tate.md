@@ -1,7 +1,7 @@
 ---
-back_wins: 2
-flight_wins: 0
-front_wins: 1
+back_wins: 0
+flight_wins: 1
+front_wins: 0
 ignored_rounds:
 - Round 58 (Tue, December 22)
 - Round 56 (Fri, December 11)
@@ -9,8 +9,8 @@ ignored_rounds:
 - Round 30 (Sun, August 16)
 - Round 32 (Fri, August 28)
 - Round 31 (Fri, August 21)
-- Round 38 (Fri, October  2)
 - Round 39 (Fri, October  9)
+- Round 40 (Sun, October 18)
 - Round 41 (Wed, October 21)
 - Round 45 (Fri, October 30)
 - Round 9 (Sun, May  3)
@@ -23,14 +23,14 @@ ignored_rounds:
 - Round 48 (Tue, November 10)
 - Round 51 (Tue, November 24)
 image: /assets/images/default.png
-name: Shope, Robert
-overall_wins: 2
-points: 12
-rounds: 2
+name: Tate
+overall_wins: 0
+points: 2
+rounds: 1
 rounds_by_month:
   1:
   - name: Round 61 (Sat, January  2)
-    points: 0
+    points: 2
   3:
   - name: Round 1 (Fri, March 20)
     points: 0
@@ -88,7 +88,7 @@ rounds_by_month:
   - name: Round 29 (Fri, August 14)
     points: 0
   - name: Round 28 (Tue, August 11)
-    points: 8
+    points: 0
   - name: Round 33 (Sun, August 30)
     points: 0
   - name: Round 30 (Sun, August 16)
@@ -116,7 +116,7 @@ rounds_by_month:
   - name: Round 39 (Fri, October  9)
     points: 0
   - name: Round 40 (Sun, October 18)
-    points: 4
+    points: 0
   - name: Round 41 (Wed, October 21)
     points: 0
   - name: Round 45 (Fri, October 30)
@@ -151,5 +151,5 @@ rounds_by_month:
     points: 0
   - name: Round 56 (Fri, December 11)
     points: 0
-skins: 4
+skins: 1
 ---

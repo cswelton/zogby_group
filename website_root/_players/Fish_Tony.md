@@ -1,6 +1,6 @@
 ---
-back_wins: 11
-flight_wins: 14
+back_wins: 12
+flight_wins: 15
 front_wins: 11
 ignored_rounds:
 - Round 57 (Sun, December 13)
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 51 (Tue, November 24)
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
-overall_wins: 11
-points: 84
-rounds: 38
+overall_wins: 12
+points: 88
+rounds: 39
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 4
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

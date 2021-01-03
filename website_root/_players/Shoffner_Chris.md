@@ -1,7 +1,7 @@
 ---
 back_wins: 9
-flight_wins: 13
-front_wins: 11
+flight_wins: 14
+front_wins: 12
 ignored_rounds:
 - Round 60 (Thu, December 31)
 - Round 57 (Sun, December 13)
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 48 (Tue, November 10)
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 9
-points: 71
-rounds: 32
+overall_wins: 10
+points: 77
+rounds: 33
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 6
   3:
   - name: Round 1 (Fri, March 20)
     points: 0
@@ -148,5 +151,5 @@ rounds_by_month:
     points: 2
   - name: Round 56 (Fri, December 11)
     points: 3
-skins: 9
+skins: 11
 ---

@@ -1,6 +1,6 @@
 ---
 back_wins: 16
-flight_wins: 10
+flight_wins: 11
 front_wins: 13
 ignored_rounds:
 - Round 60 (Thu, December 31)
@@ -25,9 +25,12 @@ ignored_rounds:
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 15
-points: 95
-rounds: 31
+points: 96
+rounds: 32
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 1
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

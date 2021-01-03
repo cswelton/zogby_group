@@ -1,6 +1,6 @@
 ---
 back_wins: 2
-flight_wins: 2
+flight_wins: 3
 front_wins: 4
 ignored_rounds:
 - Round 58 (Tue, December 22)
@@ -25,9 +25,12 @@ ignored_rounds:
 image: /assets/images/Faircloth_Courtney.png
 name: Faircloth, Courtney
 overall_wins: 2
-points: 22
-rounds: 6
+points: 24
+rounds: 7
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 2
   3:
   - name: Round 1 (Fri, March 20)
     points: 0
@@ -148,5 +151,5 @@ rounds_by_month:
     points: 0
   - name: Round 56 (Fri, December 11)
     points: 0
-skins: 6
+skins: 7
 ---

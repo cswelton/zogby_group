@@ -1,7 +1,7 @@
 ---
 back_wins: 13
 flight_wins: 21
-front_wins: 17
+front_wins: 18
 ignored_rounds:
 - Round 60 (Thu, December 31)
 - Round 57 (Sun, December 13)
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 51 (Tue, November 24)
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 17
-points: 129
-rounds: 43
+overall_wins: 18
+points: 133
+rounds: 44
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 4
   3:
   - name: Round 1 (Fri, March 20)
     points: 0
@@ -148,5 +151,5 @@ rounds_by_month:
     points: 5
   - name: Round 56 (Fri, December 11)
     points: 5
-skins: 37
+skins: 38
 ---

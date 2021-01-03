@@ -1,7 +1,7 @@
 ---
 back_wins: 3
-flight_wins: 5
-front_wins: 6
+flight_wins: 6
+front_wins: 7
 ignored_rounds:
 - Round 58 (Tue, December 22)
 - Round 56 (Fri, December 11)
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 51 (Tue, November 24)
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
-overall_wins: 4
-points: 32
-rounds: 12
+overall_wins: 5
+points: 36
+rounds: 13
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 4
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

@@ -26,8 +26,11 @@ image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 11
 points: 69
-rounds: 27
+rounds: 28
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 0
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

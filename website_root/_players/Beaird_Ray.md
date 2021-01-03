@@ -1,5 +1,5 @@
 ---
-back_wins: 6
+back_wins: 7
 flight_wins: 3
 front_wins: 7
 ignored_rounds:
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 51 (Tue, November 24)
 image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
-overall_wins: 7
-points: 39
-rounds: 17
+overall_wins: 8
+points: 44
+rounds: 18
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 5
   3:
   - name: Round 1 (Fri, March 20)
     points: 0
@@ -148,5 +151,5 @@ rounds_by_month:
     points: 0
   - name: Round 56 (Fri, December 11)
     points: 3
-skins: 3
+skins: 5
 ---

@@ -1,5 +1,5 @@
 ---
-back_wins: 10
+back_wins: 11
 flight_wins: 11
 front_wins: 8
 ignored_rounds:
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 52 (Wed, November 25)
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 9
-points: 70
-rounds: 27
+overall_wins: 10
+points: 73
+rounds: 28
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 3
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

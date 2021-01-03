@@ -1,7 +1,7 @@
 ---
 back_wins: 9
 flight_wins: 7
-front_wins: 10
+front_wins: 11
 ignored_rounds:
 - Round 60 (Thu, December 31)
 - Round 56 (Fri, December 11)
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 51 (Tue, November 24)
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 9
-points: 73
-rounds: 20
+overall_wins: 10
+points: 76
+rounds: 21
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 3
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

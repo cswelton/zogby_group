@@ -1,5 +1,5 @@
 ---
-back_wins: 9
+back_wins: 10
 flight_wins: 4
 front_wins: 11
 ignored_rounds:
@@ -24,10 +24,13 @@ ignored_rounds:
 - Round 51 (Tue, November 24)
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 10
-points: 63
-rounds: 26
+overall_wins: 11
+points: 66
+rounds: 27
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 3
   3:
   - name: Round 1 (Fri, March 20)
     points: 0

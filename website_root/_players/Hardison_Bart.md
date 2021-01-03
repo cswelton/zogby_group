@@ -28,6 +28,9 @@ overall_wins: 3
 points: 22
 rounds: 15
 rounds_by_month:
+  1:
+  - name: Round 61 (Sat, January  2)
+    points: 0
   3:
   - name: Round 1 (Fri, March 20)
     points: 0
