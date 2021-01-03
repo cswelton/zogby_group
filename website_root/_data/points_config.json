@@ -3,5 +3,6 @@
   "s": 1,
   "fr": 2,
   "ba": 2,
-  "ov": 1
+  "ov": 1,
+  "max_rounds_per_month": 4
 }

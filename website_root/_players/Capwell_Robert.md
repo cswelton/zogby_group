@@ -3,153 +3,155 @@ back_wins: 16
 flight_wins: 11
 front_wins: 13
 ignored_rounds:
-- Round 60 (Thu, December 31)
-- Round 56 (Fri, December 11)
 - Round 26 (Fri, August  7)
-- Round 27 (Sun, August  9)
-- Round 32 (Fri, August 28)
-- Round 31 (Fri, August 21)
-- Round 42 (Fri, October 23)
-- Round 39 (Fri, October  9)
-- Round 40 (Sun, October 18)
 - Round 41 (Wed, October 21)
-- Round 9 (Sun, May  3)
-- Round 11 (Fri, May 15)
-- Round 14 (Fri, May 29)
-- Round 3 (Fri, April 10)
-- Round 5 (Sun, April 19)
-- Round 54 (Sun, November 29)
+- Round 39 (Fri, October  9)
+- Round 38 (Fri, October  2)
+- Round 50 (Fri, November 20)
 - Round 49 (Sat, November 14)
+- Round 48 (Tue, November 10)
 - Round 47 (Fri, November  6)
-- Round 52 (Wed, November 25)
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 15
-points: 96
+points: 85
 rounds: 32
 rounds_by_month:
   1:
-  - name: Round 61 (Sat, January  2)
+  - date: 2021-01-02
+    ignored: false
+    name: Round 61 (Sat, January  2)
     points: 1
-  3:
-  - name: Round 1 (Fri, March 20)
-    points: 0
-  4:
-  - name: Round 4 (Fri, April 17)
-    points: 0
-  - name: Round 6 (Fri, April 24)
-    points: 0
-  - name: Round 2 (Sun, April  5)
-    points: 0
-  - name: Round 7 (Sun, April 26)
-    points: 0
-  - name: Round 3 (Fri, April 10)
-    points: 0
-  - name: Round 5 (Sun, April 19)
-    points: 0
-  5:
-  - name: Round 10 (Fri, May  8)
-    points: 0
-  - name: Round 15 (Sun, May 31)
-    points: 0
-  - name: Round 12 (Fri, May 22)
-    points: 0
-  - name: Round 8 (Fri, May  1)
-    points: 0
-  - name: Round 9 (Sun, May  3)
-    points: 0
-  - name: Round 11 (Fri, May 15)
-    points: 0
-  - name: Round 14 (Fri, May 29)
-    points: 0
   6:
-  - name: Round 18 (Sun, June 14)
-    points: 0
-  - name: Round 17 (Fri, June 12)
-    points: 0
-  - name: Round 20 (Fri, June 26)
+  - date: 2020-06-26
+    ignored: false
+    name: Round 20 (Fri, June 26)
     points: 5
-  - name: Round 19 (Fri, June 19)
-    points: 0
   7:
-  - name: Round 21 (Fri, July  3)
+  - date: 2020-07-03
+    ignored: false
+    name: Round 21 (Fri, July  3)
     points: 0
-  - name: Round 23 (Fri, July 17)
+  - date: 2020-07-17
+    ignored: false
+    name: Round 23 (Fri, July 17)
     points: 0
-  - name: Round 25 (Fri, July 31)
-    points: 0
-  - name: Round 22 (Fri, July 10)
+  - date: 2020-07-31
+    ignored: false
+    name: Round 25 (Fri, July 31)
     points: 0
   8:
-  - name: Round 26 (Fri, August  7)
+  - date: 2020-08-07
+    ignored: true
+    name: Round 26 (Fri, August  7)
     points: 0
-  - name: Round 27 (Sun, August  9)
-    points: 0
-  - name: Round 29 (Fri, August 14)
+  - date: 2020-08-14
+    ignored: false
+    name: Round 29 (Fri, August 14)
     points: 6
-  - name: Round 28 (Tue, August 11)
+  - date: 2020-08-11
+    ignored: false
+    name: Round 28 (Tue, August 11)
     points: 5
-  - name: Round 33 (Sun, August 30)
+  - date: 2020-08-30
+    ignored: false
+    name: Round 33 (Sun, August 30)
     points: 8
-  - name: Round 30 (Sun, August 16)
+  - date: 2020-08-16
+    ignored: false
+    name: Round 30 (Sun, August 16)
     points: 9
-  - name: Round 32 (Fri, August 28)
-    points: 0
-  - name: Round 31 (Fri, August 21)
-    points: 0
   9:
-  - name: Round 35 (Mon, September  7)
+  - date: 2020-09-07
+    ignored: false
+    name: Round 35 (Mon, September  7)
     points: 5
-  - name: Round 37 (Wed, September 23)
+  - date: 2020-09-23
+    ignored: false
+    name: Round 37 (Wed, September 23)
     points: 2
-  - name: Round 34 (Fri, September  4)
+  - date: 2020-09-04
+    ignored: false
+    name: Round 34 (Fri, September  4)
     points: 1
   10:
-  - name: Round 43 (Tue, October 27)
+  - date: 2020-10-27
+    ignored: false
+    name: Round 43 (Tue, October 27)
     points: 4
-  - name: Round 44 (Wed, October 28)
+  - date: 2020-10-28
+    ignored: false
+    name: Round 44 (Wed, October 28)
     points: 6
-  - name: Round 42 (Fri, October 23)
+  - date: 2020-10-23
+    ignored: false
+    name: Round 42 (Fri, October 23)
     points: 1
-  - name: Round 38 (Fri, October  2)
+  - date: 2020-10-02
+    ignored: true
+    name: Round 38 (Fri, October  2)
     points: 7
-  - name: Round 39 (Fri, October  9)
+  - date: 2020-10-09
+    ignored: true
+    name: Round 39 (Fri, October  9)
     points: 0
-  - name: Round 40 (Sun, October 18)
+  - date: 2020-10-21
+    ignored: true
+    name: Round 41 (Wed, October 21)
     points: 0
-  - name: Round 41 (Wed, October 21)
-    points: 0
-  - name: Round 45 (Fri, October 30)
+  - date: 2020-10-30
+    ignored: false
+    name: Round 45 (Fri, October 30)
     points: 3
   11:
-  - name: Round 54 (Sun, November 29)
+  - date: 2020-11-29
+    ignored: false
+    name: Round 54 (Sun, November 29)
     points: 2
-  - name: Round 47 (Fri, November  6)
+  - date: 2020-11-06
+    ignored: true
+    name: Round 47 (Fri, November  6)
     points: 1
-  - name: Round 53 (Fri, November 27)
+  - date: 2020-11-27
+    ignored: false
+    name: Round 53 (Fri, November 27)
     points: 5
-  - name: Round 50 (Fri, November 20)
+  - date: 2020-11-20
+    ignored: true
+    name: Round 50 (Fri, November 20)
     points: 3
-  - name: Round 49 (Sat, November 14)
+  - date: 2020-11-14
+    ignored: true
+    name: Round 49 (Sat, November 14)
     points: 2
-  - name: Round 52 (Wed, November 25)
+  - date: 2020-11-25
+    ignored: false
+    name: Round 52 (Wed, November 25)
     points: 0
-  - name: Round 48 (Tue, November 10)
+  - date: 2020-11-10
+    ignored: true
+    name: Round 48 (Tue, November 10)
     points: 4
-  - name: Round 51 (Tue, November 24)
+  - date: 2020-11-24
+    ignored: false
+    name: Round 51 (Tue, November 24)
     points: 3
   12:
-  - name: Round 55 (Fri, December  4)
+  - date: 2020-12-04
+    ignored: false
+    name: Round 55 (Fri, December  4)
     points: 3
-  - name: Round 59 (Wed, December 23)
+  - date: 2020-12-23
+    ignored: false
+    name: Round 59 (Wed, December 23)
     points: 7
-  - name: Round 60 (Thu, December 31)
-    points: 0
-  - name: Round 57 (Sun, December 13)
+  - date: 2020-12-13
+    ignored: false
+    name: Round 57 (Sun, December 13)
     points: 5
-  - name: Round 58 (Tue, December 22)
+  - date: 2020-12-22
+    ignored: false
+    name: Round 58 (Tue, December 22)
     points: 4
-  - name: Round 56 (Fri, December 11)
-    points: 0
 skins: 18
 ---

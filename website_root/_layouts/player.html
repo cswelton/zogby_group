@@ -42,7 +42,9 @@ layout: default
         <tbody>
         {% for round in sorted %}
         {% assign round_data = site.rounds | where: 'name', round.name | first %}
-        {% if round_data.points %}
+        {% if page.ignored_rounds contains round.name %}
+        <tr class="table-secondary">
+        {% elsif round_data.points %}
         <tr>
             {% else %}
         <tr class="table-secondary">
@@ -56,6 +58,9 @@ layout: default
                         {{ round_data["points"][page.name] }}
                         Points
                     </span>
+                    {% if page.ignored_rounds contains round.name %}
+                    <span class="badge badge-warning">IGNORED (Over Limit)</span>
+                    {% endif %}
                 {% else %}
             <td>
                     <span class="badge badge-warning">
