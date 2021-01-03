@@ -58,3 +58,15 @@ The following are the entry fees race-for-8 championship:
 
 All funds will be kept in an account and be used for the pre-championship party and championship weekend festivities.
 Any excess funds will be allocated for booze during championship weekend.
+
+## When points are generated (Needs COO/CFO Review)
+This website is managed and maintained by the group CIO.
+
+Training will be provided to the COO/CFO such that following each round
+when the bets are settled the website can be updated with the latest data
+and point rankings before the next round. This ensures that the points and rankings tables are
+kept up to date with each round played. 
+
+Updating the points and website is 100% automated however it does 
+require someone to launch the process. An update takes around 2 minutes.
+
