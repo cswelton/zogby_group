@@ -2,7 +2,7 @@
 all_rounds:
 - date: &id001 2020-04-02
   name: Round 24 (Fri, April  2)
-  points: 6
+  points: 5.0
 back_wins: 1
 flight_wins: 0
 front_wins: 1
@@ -10,7 +10,7 @@ ignored_rounds: []
 image: /assets/images/Matthews_Brian.png
 name: Matthews, Brian
 overall_wins: 1
-points: 6
+points: 5.0
 rounds: 1
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
@@ -19,6 +19,6 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     4:
     - date: *id001
       name: Round 24 (Fri, April  2)
-      points: 6
+      points: 5.0
 skins: 0
 ---
