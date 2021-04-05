@@ -1,24 +1,16 @@
 {
-    "name": "Ellzey, Matt",
-    "scoring_average": 77.0,
+    "name": "Jones, Brandon",
+    "scoring_average": 92.0,
     "rounds": [
         {
             "date": "2020-04-02",
             "date_timestamp": 737517,
-            "score": 77,
-            "total": 77,
+            "score": 92,
+            "total": 92,
             "name": "Round 24 (Fri, April  2)",
             "front": [
                 {
-                    "score": 7,
-                    "type": "plus2"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 3,
+                    "score": 5,
                     "type": "par"
                 },
                 {
@@ -27,23 +19,31 @@
                 },
                 {
                     "score": 5,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
+                    "type": "plus2"
                 },
                 {
                     "score": 5,
                     "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
                 },
                 {
                     "score": 2,
                     "type": "birdie"
                 },
                 {
-                    "score": 5,
-                    "type": "plus1"
+                    "score": 6,
+                    "type": "plus2"
                 }
             ],
             "back": [
@@ -52,40 +52,40 @@
                     "type": "par"
                 },
                 {
-                    "score": 3,
-                    "type": "par"
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
                 },
                 {
                     "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 5,
                     "type": "plus1"
                 },
                 {
-                    "score": 5,
-                    "type": "par"
+                    "score": 7,
+                    "type": "plus2"
                 },
                 {
-                    "score": 3,
-                    "type": "par"
+                    "score": 7,
+                    "type": "plus2"
                 },
                 {
-                    "score": 3,
-                    "type": "birdie"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
+                    "score": 6,
+                    "type": "plus2"
                 }
             ],
-            "in": 39,
-            "out": 38
+            "in": 42,
+            "out": 50
         }
     ]
 }

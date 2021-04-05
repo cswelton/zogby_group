@@ -1,35 +1,24 @@
 ---
-back_wins: 2
-flight_wins: 0
-front_wins: 3
+all_rounds:
+- date: &id001 2020-04-02
+  name: Round 24 (Fri, April  2)
+  points: 9
+back_wins: 1
+flight_wins: 1
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: James, Brian
 overall_wins: 1
-points: 12
-rounds: 5
-rounds_by_month:
-  11:
-  - date: 2020-11-06
-    ignored: false
-    name: Round 47 (Fri, November  6)
-    points: 5
-  - date: 2020-11-14
-    ignored: false
-    name: Round 49 (Sat, November 14)
-    points: 3
-  12:
-  - date: 2020-12-04
-    ignored: false
-    name: Round 55 (Fri, December  4)
-    points: 0
-  - date: 2020-12-23
-    ignored: false
-    name: Round 59 (Wed, December 23)
-    points: 2
-  - date: 2020-12-13
-    ignored: false
-    name: Round 57 (Sun, December 13)
-    points: 2
+points: 9
+rounds: 1
+rounds_by_month: !!python/object/apply:collections.defaultdict
+  args:
+  - !!python/name:builtins.list ''
+  dictitems:
+    4:
+    - date: *id001
+      name: Round 24 (Fri, April  2)
+      points: 9
 skins: 1
 ---

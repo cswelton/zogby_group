@@ -2,15 +2,15 @@
 all_rounds:
 - date: &id001 2020-04-02
   name: Round 24 (Fri, April  2)
-  points: 10
+  points: 2
 back_wins: 1
-flight_wins: 1
-front_wins: 1
+flight_wins: 0
+front_wins: 0
 ignored_rounds: []
-image: /assets/images/Beaird_Ray.png
-name: Beaird, Ray
-overall_wins: 1
-points: 10
+image: /assets/images/default.png
+name: Jones, Brandon
+overall_wins: 0
+points: 2
 rounds: 1
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
@@ -19,6 +19,6 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     4:
     - date: *id001
       name: Round 24 (Fri, April  2)
-      points: 10
-skins: 2
+      points: 2
+skins: 0
 ---

@@ -1,8 +1,10 @@
 {
-  "fw": 1,
+  "fw": 2,
   "s": 1,
   "fr": 2,
   "ba": 2,
-  "ov": 1,
-  "max_rounds_per_month": 4
+  "ov": 2,
+  "max_rounds_per_month": 0,
+  "season_round_count": 16,
+  "replacement_scores": 5
 }
