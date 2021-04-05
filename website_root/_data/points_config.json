@@ -6,5 +6,8 @@
   "ov": 2,
   "max_rounds_per_month": 0,
   "season_round_count": 16,
-  "replacement_scores": 5
+  "replacement_scores": 5,
+  "min_players": 12,
+  "fedex_cup_start_date": "2021-04-01",
+  "fedex_cup_end_date": "2021-10-01"
 }

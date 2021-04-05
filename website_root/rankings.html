@@ -1,8 +1,8 @@
 ---
-title: The Race for 8
+title: FedEx Cup
 ---
 
-<h1 class="display-3">The Race for 8</h1>
+<h1 class="display-3">FedEx Cup</h1>
     <div class="table-responsive">
         <table class="table table-striped table-hover">
             <thead class="thead-dark">
@@ -37,14 +37,7 @@ title: The Race for 8
                 <td><h4>{{player.front_wins}}</h4></td>
                 <td><h4>{{player.back_wins}}</h4></td>
                 <td><h4>{{player.overall_wins}}</h4></td>
-                {% if forloop.index == 8 %}
                 </tr>
-                <tr>
-                    <td colspan="9" class="text-center bg-danger text-white"><h2>CUT LINE</h2></td>
-                </tr>
-                {% else %}
-                </tr>
-                {% endif %}
             {% endif %}
             {% endfor %}
             </tbody>

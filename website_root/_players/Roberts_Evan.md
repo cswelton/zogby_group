@@ -1,6 +1,6 @@
 ---
 all_rounds:
-- date: &id001 2020-04-02
+- date: &id001 2021-04-02
   name: Round 24 (Fri, April  2)
   points: 0
 back_wins: 0
