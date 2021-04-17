@@ -24,7 +24,8 @@ title: FedEx Cup
             {% if player.points > 0 %}
             <tr>
                 <td><h5>{{forloop.index}}.</h5></td>
-                <td><h3><span class="badge badge-dark"><span class="fas fa-coins"></span> {{player.points}}</span></h3></td>
+                {% assign points = player.points | round: 2 %}
+                <td><h3><span class="badge badge-dark"><span class="fas fa-coins"></span> {{points}}</span></h3></td>
                 <td>
                     <a class="btn btn-link" href="{{ site.baseurl }}{{ player.url }}">
                         <img class="img img-thumbnail rounded" width="50px" height="25px" src="{{site.baseurl}}{{ player.image }}" alt="{{player.name}}">

@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign player_data = site.data.player_data | where: 'name', page.name | first %}
+{% assign points = page.points | round: 2 %}
 <div class="jumbotron">
     <h1 class="display-4">
         <img class="img img-thumbnail" width="75px" height="50px" src="{{site.baseurl}}{{ page.image }}" alt="{{page.name}}">
@@ -9,7 +10,7 @@ layout: default
         <small>
             <span class="badge badge-dark">
                 <span class="fas fa-coins"></span>
-                {{page.points}}
+                {{points}}
             </span>
         </small>
     </h1>
@@ -52,10 +53,11 @@ layout: default
             <td data-order="{{ round.date_timestamp }}"><a href="{{ site.baseurl }}{{ round_data.url }}">{{ round.name }}</a></td>
 
             {% if round_data.points %}
+            {% assign points = round_data["points"][page.name] | round: 2 %}
             <td data-order="{{ round_data.points[page.name] }}">
                     <span class="badge badge-dark">
                         <span class="fas fa-coins"></span>
-                        {{ round_data["points"][page.name] }}
+                        {{ points }}
                         Points
                     </span>
                     {% if page.ignored_rounds contains round.name %}

@@ -16,6 +16,7 @@ title: Players
             <tbody>
             {% for player in site.players %}
             {% assign player_data = site.data.player_data | where: 'name', player.name | first %}
+            {% assign points = player.points | round: 2 %}
             <tr>
                 <td class="text-left">
                     <a class="btn btn-link" href="{{ site.baseurl }}{{ player.url }}">
@@ -24,7 +25,7 @@ title: Players
                     </a>
                 </td>
                 <td class="text-center">
-                    <span class="badge badge-dark"><span class="fas fa-coins"></span> {{ player.points }}</span>
+                    <span class="badge badge-dark"><span class="fas fa-coins"></span> {{ points }}</span>
                 </td>
                 <td class="text-center">
                     {{ player_data.scoring_average }}

@@ -80,7 +80,8 @@ layout: default
                         <img class="img img-thumbnail rounded" width="50px" height="25px" src="{{site.baseurl}}{{ player.image }}" alt="{{player.name}}">
 
                         <h6>
-                            {% if page.flight_winners contains player.name %}
+
+                            {% if page.flight_winners[player_hash["flight"]] contains player.name %}
                             <span class="badge badge-pill badge-success">{{ player.name }} <span class="badge badge-light">{{ player_hash['score'] }}</span> <span class="fas fa-medal"></span></span>
                             {% else %}
                             <span class="badge badge-pill badge-dark">{{ player.name }} <span class="badge badge-light">{{ player_hash['score'] }}</span></span>

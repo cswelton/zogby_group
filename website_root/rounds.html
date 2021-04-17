@@ -21,6 +21,7 @@ title: Rounds
             <tbody>
             {% for round in sorted %}
             {% if round.valid %}
+            {% assign total_points = round.total_points | round: 2 %}
             <tr>
                 <td data-order="{{ round.date_timestamp }}">
                     <a class="btn btn-link" href="{{ site.baseurl }}{{ round.url }}">
@@ -30,7 +31,7 @@ title: Rounds
                 <td data-order="{{ round.total_points }}">
                     <span class="badge badge-dark">
                         <span class="fas fa-coins"></span>
-                        {{ round.total_points }}
+                        {{ total_points }}
                     </span>
 
                 </td>
