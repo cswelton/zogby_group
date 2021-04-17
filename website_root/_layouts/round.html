@@ -22,6 +22,7 @@ layout: default
         <tbody>
         {% for item in page.points %}
         {% assign player = site.players | where: 'name', item[0] | first %}
+        {% assign points = item[1] | round: 2 %}
         <tr>
             <td>
                 <a class="btn btn-link" href="{{ site.baseurl }}{{ player.url }}">
@@ -31,7 +32,7 @@ layout: default
             <td>
                 <span class="badge badge-dark">
                     <span class="fas fa-2xl fa-coins"></span>
-                    {{ item[1] }}
+                    {{ points }}
                 </span>
             </td>
         </tr>
