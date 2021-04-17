@@ -138,3 +138,6 @@ git commit -m 'Updating Website'
 git push
 ```
 Once pushed, github will deploy the website usually in under 1 min.
+You can view the status of the deployments here:
+https://github.com/cswelton/zogby_group/deployments/activity_log?environment=github-pages
+Look for the most recent deployment, it may take a minute to show up.
