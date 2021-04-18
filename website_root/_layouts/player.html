@@ -87,9 +87,17 @@ layout: default
             </td>
             <td>
                 {% if round_data.points %}
-                {% if round_data.flight_winners contains page.name %}
+                {% for team in round_data.teams %}
+                {% for item in team.players %}
+                {% if item.name == page.name %}
+
+                 {% if round_data.flight_winners[item["flight"]] contains page.name %}
+
                 <span class="badge badge-info">Flight Winner <span class="fas fa-medal"></span></span>
                 {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
                 {% endif %}
             </td>
             <td>
