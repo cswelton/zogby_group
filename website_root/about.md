@@ -2,71 +2,101 @@
 title: About
 ---
 
-- Status: **Draft**
-- Date: **01-03-2021**
+- Status: **Live**
+- Date: **04-01-2021**
 
-## The Race for 8
+## The FedEx Cup
 
-The Race for 8 is a season long points based competition for Zogby Group playas.
-Points are awarded during each round, and at the end of the season the top 8 players
-will head off to the championship weekend to crown the overall champion.
+The FedEx Cup is a season long points based competition for Zogby Group playas.
+Points are awarded during each round, and at the end of the season the top 5 players are paid out.
 
-## The Race for 8 Championship Weekend (Needs COO Review)
-The top 8 players in the race-for-8 standings at seasons end will take part in an all expense 
-paid trip to Pinehurst North Carolina for championship weekend. The overall champion at the end
-of the weekend will receive an engraved timepiece valued at over $2,000 USD.  All participants will
-start the championship weekend from the same position and the format is 36 hole stroke play (with playoff if necessary).
+### Teams
+* 2x per month a draft will be held either in person or on GroupMe. 
+Team Captains will be A,B,C and D players with a monthly rotation. 
+Players will be flighted prior to the draft and Captains will pick one player from each flight. 
+The last person to pick in the 1st round will pick two players in a row and that will continue each round until teams are completed.														
 
-The tentative schedule is as follows:
-- Kickoff party at the breeze for all group members (TBD)
-- Open bar at Pinehurst Brewery (Friday)
-- Two nights at the Carolina Hotel (Friday/Saturday)
-- Championship round 1 at <TBD> (Saturday)
-- Dogfight at the Cradle for prizes (Saturday)
-- Championship round 2 at <TBD> (Sunday)
-- Awards dinner and prizes presentation (Sunday)
+* The remaining rounds will be teams created by a committee consisting of a Player from each Flight. 
+They will pick the teams collectively and send them out via GroupMe the night prior to play. 
+This will also be a rotation and tracked so everyone has an opportunity to be involved.														
 
-## Points  (Needs COO Review)
-Each round is an opportunity for all participants to earn points. 
-Points are awarded based on the following:
+* We will mix teams up a couple times per month by putting different flights together versus always playing with your team as this was a positive choice discussed by many in the group.
+						
+### Format
+We created a points system based on data from 2020’s weekly results and number of rounds played by each player. 
+This will be a running tally of each official BBC round defined below. 
+The season official start date is projected to be April 2nd  running through Oct 1st. 
+Final payouts will be based on total revenue collected and be based on the system below. 
 
-- Front side team bet win/ties: **{{ site.data.points_config.fr }}** *(for each team member)*
-- Back side team bet win/ties: **{{ site.data.points_config.ba }}** *(for each team member)*
-- Overall team bet win/ties: **{{ site.data.points_config.ov }}** *(for each team member)*
-- Skins: **{{ site.data.points_config.s }}** *(for each skin)*
-- Flight Wins (A/B/C/D low round/ties): **{{ site.data.points_config.fw }}**
+- You must have a minimum of 12 rounds to qualify for final payout.  
+- Your first 16 rounds through this date range will determine point totals. 
+- You will be able to replace up to 5 of the 16 round. The software will automatically replace your lowest round
+  with a higher one until you have exhausted your 5 replacement rounds.
+- Points are allocated for each round as follows:
+- **Front Side Team Bet** *2 points*
+- **Back Side Team Bet** *2 points*
+- **Overall Team Bet** *2 points*
+- **Flight  Winner (A,B,C,D)** *2 points*
+- **Skins** *1 point*
 
-The most recent **{{ site.data.points_config.max_rounds_per_month }}** rounds per month will count towards official points.
-This is to keep the playing field level for players that are not able to play every round.
+### Funding
+There will be a $100 entry fee due prior to the first official day of the season paid to the CFO via Venmo.
+Each official round there will be $5 per person signup charge.
 
-## Official Rounds (Needs COO Review)
-In order for a round to generate official race-for-8 points the following criteria must be met:
+| Finish | Payout |
+| ------ | ------ |
+| 1st | 38% |
+| 2nd | 25% |
+| 3rd | 18% |
+| 4th | 13% |
+| 5th | 6% |
 
-- Minimum of 12 players
-- All teams must have an equal number of players
-- All players must post scores for all 18 holes
-- Must be setup through the pro-shop with golf genius under the Zogby Group
+### Rules
+USGA rules apply to all play.
+If you are called out for any rules infraction by a fellow player 
+this will not be handled anonymously after the fact the discussion needs to be had a the point of the infraction.  
+Penalties include fines, suspension and possible expulsion.
 
-The Zogby Group will be hosting more Sunday rounds in 2021 to accomodate work schedules for those who cannot
-participate in all friday rounds.
+We will be playing **1 ball** off the first tee. Unless noted, we will be playing the ball as it lies every round.
+**No Gimmies**, play like you would in an official tournament.
 
-## Entry Fees  (Needs CFO Review)
-The following are the entry fees race-for-8 championship:
-- $50 one time entry fee (to be paid before season officially starts)
-- $3 per round played (automatically withheld)
-- 5% of round winnings (automatically witheld)
+**It is the responsibility of everyone to ensure the correct score is noted for each player.** If your not sure, ask.
+When your finished with your round, check your scores to make sure whats entered is correct.
+Pay attention to your playing partners scores and if you see an incorrect score then sort it out. This thing
+only works if everyone maintains score integrity.
 
-All funds will be kept in an account and be used for the pre-championship party and championship weekend festivities.
-Any excess funds will be allocated for booze during championship weekend.
 
-## When points are generated (Needs COO/CFO Review)
-This website is managed and maintained by the group CIO.
+### Roster
 
-Training will be provided to the COO/CFO such that following each round
-when the bets are settled the website can be updated with the latest data
-and point rankings before the next round. This ensures that the points and rankings tables are
-kept up to date with each round played. 
+The official roster of paid FedEx Cup players:
 
-Updating the points and website is 100% automated however it does 
-require someone to launch the process. An update takes around 2 minutes.
+- Prez
+- Squirrel
+- Whale
+- TJ
+- Matt Howard
+- Welton
+- Cap
+- RP
+- Zog
+- Fish
+- Ray
+- Stef
+- Caleb
+- BM
+- LZ
+- Jeff Paul
+- KM
+- Scotty C
+- Shoff
+- Gambler
+- Pro
+- Special Ed
+- Josh Moore
+- Snacks
+- Court
+- Sumner
+- Evan
+- Brandon
+- Bob
 
