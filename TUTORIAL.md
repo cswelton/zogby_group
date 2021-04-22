@@ -128,3 +128,20 @@ Once pushed, github will deploy the website usually in under 1 min.
 You can view the status of the deployments here:
 https://github.com/cswelton/zogby_group/deployments/activity_log?environment=github-pages
 Look for the most recent deployment, it may take a minute to show up.
+
+#### If there was a problem
+If the website was already deployed (using the git push command above), then you first need to
+revert that commit.
+
+First run the `git log` command to get the list of commits. The most recent commit will be at the
+top.  
+
+Find the commit id (long string) and copy that to your clipboard. Exit out of the log using `q`.
+
+Then run the command `git revert <id>` but substitute `<id>` with the commit id you copied.
+
+After the revert is finished run
+```
+git push
+```
+and the website will be reverted to the state before that commit was made.
