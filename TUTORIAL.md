@@ -27,13 +27,13 @@ and stores the results in a directory named *results*:
 
 **`bbc-sync --results-directory='./results'  <ggid>`**
 
-If you already have most of the round data and just wanted to sync the month of December you could run:
-
-**`bbc-sync --results-directory='./results' --filter='.*December.*' <ggid>`**
-
 **NOTE:** Be sure to substitue `<ggid>` in the command you run with a valid bbc ggid!
 
-**When syncing all the round data it will take a while**, so go get some coffee.
+By default, this will sync over all rounds that have not been collected yet.
+If you want to resync all round data (even those previously collected) add the `--sync-all` option.
+
+If you want to filter out round names you can pass in a regular expression with the `--filter` option, 
+for example if you just wanted to sync the month of December you could add: `--filter='.*December.*'`.
 
 You should see output similar to this:
 ```
@@ -48,19 +48,6 @@ Once all rounds have synced a final message is printed:
 ```
 Fri Dec 18 19:16:45 <root:sync_golfgenius[79]> INFO: Finished refreshing GGID *****. Results have been stored in ./results
 ```
-
-**NOTE:** If you see error messages such as:
-```
-Thu Dec 31 14:37:58 <golfgenius.parser:parser[214]> CRITICAL: Error parsing round Round 36 (Fri, September 11)
-Traceback (most recent call last):
-  File "/Users/crwelton/virtualenv/bbc-stats/lib/python3.9/site-packages/golfgenius/parser.py", line 208, in iter_rounds
-    round_results = self._parse_tournaments()
-  File "/Users/crwelton/virtualenv/bbc-stats/lib/python3.9/site-packages/golfgenius/parser.py", line 90, in _parse_tournaments
-    assert teams is not None, "Unable to parse teams"
-AssertionError: Unable to parse teams
-```
-This indicates this particular round could not be synced, usually due to incomplete data because golf genius scores were not posted for all 18 holes.
-The tool will skip these rounds.
 
 We now have our score data in the *results/* folder:
 
