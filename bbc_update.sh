@@ -18,7 +18,7 @@ if [ $retVal -eq 0 ]; then
         retVal=$?;
         if [ $retVal -eq 0 ]; then
             echo "Deploying website...";
-            git add --all && git commit -m 'Updating Website using bbc_update.sh' && git push origin master;
+            ssh-agent bash -c 'ssh-add /Users/crwelton/.ssh/id_rsa; git add --all && git commit -m "Updating Website using bbc_update.sh" && git push origin master';
         fi
     fi
 else
