@@ -14,7 +14,7 @@ if [ $retVal -eq 0 ]; then
     retVal=$?;
     if [ $retVal -eq 0 ]; then
         echo "Building website...";
-        /Users/crwelton/virtualenv/golfgenius/bin/jekyll build --source='./website_root' --destination='./docs'
+        /Users/crwelton/.gem/ruby/2.7.0/bin/jekyll build --source='./website_root' --destination='./docs'
         retVal=$?;
         if [ $retVal -eq 0 ]; then
             echo "Deploying website...";
