@@ -1,6 +1,6 @@
 {
     "name": "Capwell, Robert",
-    "scoring_average": 80.053,
+    "scoring_average": 80.056,
     "rounds": [
         {
             "date": "2020-01-13",
@@ -1531,91 +1531,6 @@
             ],
             "in": 40,
             "out": 40
-        },
-        {
-            "date": "2020-04-20",
-            "date_timestamp": 737535,
-            "score": 80,
-            "total": 80,
-            "name": "Round 28 (Tue, April 20)",
-            "front": [
-                {
-                    "score": 6,
-                    "type": "plus1"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 3,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 6,
-                    "type": "plus1"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                },
-                {
-                    "score": 3,
-                    "type": "birdie"
-                },
-                {
-                    "score": 3,
-                    "type": "par"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                }
-            ],
-            "back": [
-                {
-                    "score": 5,
-                    "type": "par"
-                },
-                {
-                    "score": 3,
-                    "type": "par"
-                },
-                {
-                    "score": 6,
-                    "type": "plus2"
-                },
-                {
-                    "score": 6,
-                    "type": "plus2"
-                },
-                {
-                    "score": 4,
-                    "type": "birdie"
-                },
-                {
-                    "score": 3,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 6,
-                    "type": "plus2"
-                }
-            ],
-            "in": 41,
-            "out": 39
         }
     ]
 }
