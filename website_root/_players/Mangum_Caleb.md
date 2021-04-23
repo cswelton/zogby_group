@@ -1,7 +1,10 @@
 ---
 all_rounds:
-- date: &id001 2021-04-02
+- date: &id002 2021-04-02
   name: Round 24 (Fri, April  2)
+  points: 0
+- date: &id001 2021-04-23
+  name: Round 29 (Fri, April 23)
   points: 0
 back_wins: 0
 flight_wins: 0
@@ -11,13 +14,16 @@ image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 0
 points: 0
-rounds: 1
+rounds: 2
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
   dictitems:
     4:
     - date: *id001
+      name: Round 29 (Fri, April 23)
+      points: 0
+    - date: *id002
       name: Round 24 (Fri, April  2)
       points: 0
 skins: 0
