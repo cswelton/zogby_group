@@ -12,15 +12,18 @@ all_rounds:
 - date: &id003 2021-04-30
   name: Round 30 (Fri, April 30)
   points: 3.0
-back_wins: 2
-flight_wins: 1
-front_wins: 1
+- date: &id005 2021-05-02
+  name: Round 31 (Sun, May  2)
+  points: 8.0
+back_wins: 3
+flight_wins: 2
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 3
-points: 18.0
-rounds: 4
+overall_wins: 4
+points: 26.0
+rounds: 5
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -38,5 +41,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id004
       name: Round 27 (Fri, April 16)
       points: 8.0
-skins: 5
+    5:
+    - date: *id005
+      name: Round 31 (Sun, May  2)
+      points: 8.0
+skins: 6
 ---

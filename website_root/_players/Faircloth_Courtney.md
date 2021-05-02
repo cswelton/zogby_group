@@ -1,5 +1,8 @@
 ---
-all_rounds: []
+all_rounds:
+- date: &id001 2021-05-02
+  name: Round 31 (Sun, May  2)
+  points: 1.0
 back_wins: 0
 flight_wins: 0
 front_wins: 0
@@ -7,9 +10,15 @@ ignored_rounds: []
 image: /assets/images/Faircloth_Courtney.png
 name: Faircloth, Courtney
 overall_wins: 0
-points: 0
-rounds: 0
+points: 1.0
+rounds: 1
 rounds_by_month: !!python/object/apply:collections.defaultdict
-- !!python/name:builtins.list ''
-skins: 0
+  args:
+  - !!python/name:builtins.list ''
+  dictitems:
+    5:
+    - date: *id001
+      name: Round 31 (Sun, May  2)
+      points: 1.0
+skins: 1
 ---

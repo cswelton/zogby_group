@@ -6,6 +6,9 @@ all_rounds:
 - date: &id001 2021-04-23
   name: Round 29 (Fri, April 23)
   points: 4.0
+- date: &id003 2021-05-02
+  name: Round 31 (Sun, May  2)
+  points: 1.0
 back_wins: 0
 flight_wins: 0
 front_wins: 1
@@ -13,8 +16,8 @@ ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 1
-points: 4.0
-rounds: 2
+points: 5.0
+rounds: 3
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -26,5 +29,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id002
       name: Round 27 (Fri, April 16)
       points: 0
-skins: 1
+    5:
+    - date: *id003
+      name: Round 31 (Sun, May  2)
+      points: 1.0
+skins: 2
 ---

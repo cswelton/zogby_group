@@ -12,15 +12,18 @@ all_rounds:
 - date: &id004 2021-04-30
   name: Round 30 (Fri, April 30)
   points: 3.0
+- date: &id005 2021-05-02
+  name: Round 31 (Sun, May  2)
+  points: 2.0
 back_wins: 2
-flight_wins: 2
-front_wins: 3
+flight_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 2
-points: 14.666666666666666
-rounds: 4
+points: 16.666666666666664
+rounds: 5
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -38,5 +41,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id004
       name: Round 30 (Fri, April 30)
       points: 3.0
+    5:
+    - date: *id005
+      name: Round 31 (Sun, May  2)
+      points: 2.0
 skins: 0
 ---
