@@ -18,6 +18,9 @@ all_rounds:
 - date: &id006 2021-05-02
   name: Round 31 (Sun, May  2)
   points: 3.0
+- date: &id007 2021-05-14
+  name: Round 32 (Fri, May 14)
+  points: 0
 back_wins: 1
 flight_wins: 0
 front_wins: 3
@@ -26,7 +29,7 @@ image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
 overall_wins: 0
 points: 8.666666666666666
-rounds: 6
+rounds: 7
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -51,5 +54,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id006
       name: Round 31 (Sun, May  2)
       points: 3.0
+    - date: *id007
+      name: Round 32 (Fri, May 14)
+      points: 0
 skins: 3
 ---

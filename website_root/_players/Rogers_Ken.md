@@ -3,15 +3,18 @@ all_rounds:
 - date: &id001 2021-04-09
   name: Round 25 (Fri, April  9)
   points: 4.666666666666666
+- date: &id002 2021-05-14
+  name: Round 32 (Fri, May 14)
+  points: 2.0
 back_wins: 1
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
 overall_wins: 1
-points: 4.666666666666666
-rounds: 1
+points: 6.666666666666666
+rounds: 2
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -20,5 +23,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id001
       name: Round 25 (Fri, April  9)
       points: 4.666666666666666
-skins: 0
+    5:
+    - date: *id002
+      name: Round 32 (Fri, May 14)
+      points: 2.0
+skins: 1
 ---

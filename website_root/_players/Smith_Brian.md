@@ -15,15 +15,18 @@ all_rounds:
 - date: &id005 2021-05-02
   name: Round 31 (Sun, May  2)
   points: 7.0
-back_wins: 3
-flight_wins: 4
-front_wins: 3
+- date: &id006 2021-05-14
+  name: Round 32 (Fri, May 14)
+  points: 9.0
+back_wins: 4
+flight_wins: 5
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 3
-points: 24.666666666666668
-rounds: 5
+overall_wins: 4
+points: 33.66666666666667
+rounds: 6
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -45,5 +48,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id005
       name: Round 31 (Sun, May  2)
       points: 7.0
-skins: 2
+    - date: *id006
+      name: Round 32 (Fri, May 14)
+      points: 9.0
+skins: 4
 ---

@@ -15,15 +15,18 @@ all_rounds:
 - date: &id005 2021-05-02
   name: Round 31 (Sun, May  2)
   points: 9.0
-back_wins: 2
+- date: &id006 2021-05-14
+  name: Round 32 (Fri, May 14)
+  points: 5.0
+back_wins: 3
 flight_wins: 3
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 3
-points: 21.0
-rounds: 5
+overall_wins: 4
+points: 26.0
+rounds: 6
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -45,5 +48,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id005
       name: Round 31 (Sun, May  2)
       points: 9.0
+    - date: *id006
+      name: Round 32 (Fri, May 14)
+      points: 5.0
 skins: 4
 ---

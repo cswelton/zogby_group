@@ -15,6 +15,9 @@ all_rounds:
 - date: &id003 2021-04-30
   name: Round 30 (Fri, April 30)
   points: 4.0
+- date: &id006 2021-05-14
+  name: Round 32 (Fri, May 14)
+  points: 0
 back_wins: 2
 flight_wins: 1
 front_wins: 3
@@ -23,7 +26,7 @@ image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 2
 points: 14.666666666666666
-rounds: 5
+rounds: 6
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -44,5 +47,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id005
       name: Round 27 (Fri, April 16)
       points: 7.0
+    5:
+    - date: *id006
+      name: Round 32 (Fri, May 14)
+      points: 0
 skins: 1
 ---

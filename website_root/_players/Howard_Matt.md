@@ -6,15 +6,18 @@ all_rounds:
 - date: &id001 2021-04-23
   name: Round 29 (Fri, April 23)
   points: 0
+- date: &id003 2021-05-14
+  name: Round 32 (Fri, May 14)
+  points: 1.0
 back_wins: 0
 flight_wins: 0
-front_wins: 0
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 0
-points: 0
-rounds: 2
+points: 1.0
+rounds: 3
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -26,5 +29,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id002
       name: Round 27 (Fri, April 16)
       points: 0
+    5:
+    - date: *id003
+      name: Round 32 (Fri, May 14)
+      points: 1.0
 skins: 0
 ---
