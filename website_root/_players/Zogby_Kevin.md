@@ -21,15 +21,18 @@ all_rounds:
 - date: &id007 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 5.0
+- date: &id008 2021-05-21
+  name: Round 33 (Fri, May 21)
+  points: 2.0
 back_wins: 3
 flight_wins: 3
-front_wins: 4
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 4
-points: 25.0
-rounds: 7
+points: 27.0
+rounds: 8
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -57,5 +60,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id007
       name: Round 32 (Fri, May 14)
       points: 5.0
+    - date: *id008
+      name: Round 33 (Fri, May 21)
+      points: 2.0
 skins: 1
 ---

@@ -21,6 +21,9 @@ all_rounds:
 - date: &id007 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 0
+- date: &id008 2021-05-21
+  name: Round 33 (Fri, May 21)
+  points: 0
 back_wins: 2
 flight_wins: 3
 front_wins: 1
@@ -29,7 +32,7 @@ image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 1
 points: 10.0
-rounds: 7
+rounds: 8
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -56,6 +59,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
       points: 1.0
     - date: *id007
       name: Round 32 (Fri, May 14)
+      points: 0
+    - date: *id008
+      name: Round 33 (Fri, May 21)
       points: 0
 skins: 0
 ---
