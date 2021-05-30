@@ -1,0 +1,45 @@
+{
+    "name": "Round 34 (Sun, May 23)",
+    "results": {
+        "teams": [
+            [
+                "Perry, Robbie",
+                "McDougald, Kevin",
+                "Corcoran, Scott",
+                "Shoffner, Chris"
+            ],
+            [
+                "Akins, Kyle",
+                "Welton, Craig",
+                "Capwell, Robert",
+                "Zogby, Kevin"
+            ]
+        ],
+        "scores": {
+            "Perry, Robbie": {
+                "scores": {}
+            },
+            "McDougald, Kevin": {
+                "scores": {}
+            },
+            "Corcoran, Scott": {
+                "scores": {}
+            },
+            "Shoffner, Chris": {
+                "scores": {}
+            },
+            "Akins, Kyle": {
+                "scores": {}
+            },
+            "Welton, Craig": {
+                "scores": {}
+            },
+            "Capwell, Robert": {
+                "scores": {}
+            },
+            "Zogby, Kevin": {
+                "scores": {}
+            }
+        }
+    }
+}

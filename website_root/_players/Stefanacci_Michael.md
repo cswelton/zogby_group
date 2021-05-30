@@ -18,9 +18,12 @@ all_rounds:
 - date: &id006 2021-05-02
   name: Round 31 (Sun, May  2)
   points: 0
-- date: &id007 2021-05-14
+- date: &id008 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 0
+- date: &id007 2021-05-28
+  name: Round 35 (Fri, May 28)
+  points: 1.0
 back_wins: 1
 flight_wins: 0
 front_wins: 1
@@ -28,8 +31,8 @@ ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 0
-points: 2.6666666666666665
-rounds: 7
+points: 3.6666666666666665
+rounds: 8
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -55,7 +58,10 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
       name: Round 31 (Sun, May  2)
       points: 0
     - date: *id007
+      name: Round 35 (Fri, May 28)
+      points: 1.0
+    - date: *id008
       name: Round 32 (Fri, May 14)
       points: 0
-skins: 0
+skins: 1
 ---
