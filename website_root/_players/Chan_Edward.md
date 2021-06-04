@@ -9,9 +9,12 @@ all_rounds:
 - date: &id002 2021-04-30
   name: Round 30 (Fri, April 30)
   points: 2.0
-- date: &id004 2021-05-14
+- date: &id005 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 3.0
+- date: &id004 2021-05-31
+  name: Round 37 (Mon, May 31)
+  points: 1.0
 back_wins: 0
 flight_wins: 1
 front_wins: 2
@@ -19,8 +22,8 @@ ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 0
-points: 7.0
-rounds: 4
+points: 8.0
+rounds: 5
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -37,7 +40,10 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
       points: 1.0
     5:
     - date: *id004
+      name: Round 37 (Mon, May 31)
+      points: 1.0
+    - date: *id005
       name: Round 32 (Fri, May 14)
       points: 3.0
-skins: 2
+skins: 3
 ---

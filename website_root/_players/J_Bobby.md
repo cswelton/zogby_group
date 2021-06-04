@@ -2,15 +2,15 @@
 all_rounds:
 - date: &id001 2021-05-31
   name: Round 37 (Mon, May 31)
-  points: 4.0
-back_wins: 0
+  points: 2.0
+back_wins: 1
 flight_wins: 0
-front_wins: 1
+front_wins: 0
 ignored_rounds: []
-image: /assets/images/Hardison_Bart.png
-name: Hardison, Bart
-overall_wins: 1
-points: 4.0
+image: /assets/images/default.png
+name: J, Bobby
+overall_wins: 0
+points: 2.0
 rounds: 1
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
@@ -19,6 +19,6 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     5:
     - date: *id001
       name: Round 37 (Mon, May 31)
-      points: 4.0
+      points: 2.0
 skins: 0
 ---
