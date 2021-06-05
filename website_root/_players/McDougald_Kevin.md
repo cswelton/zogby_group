@@ -15,24 +15,21 @@ all_rounds:
 - date: &id003 2021-04-30
   name: Round 30 (Fri, April 30)
   points: 4.0
-- date: &id007 2021-05-14
+- date: &id006 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 2.0
-- date: &id008 2021-05-21
+- date: &id007 2021-05-21
   name: Round 33 (Fri, May 21)
   points: 2.0
-- date: &id006 2021-05-31
-  name: Round 37 (Mon, May 31)
-  points: 6.0
 back_wins: 4
-flight_wins: 6
-front_wins: 3
+flight_wins: 5
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
-overall_wins: 4
-points: 33.0
-rounds: 8
+overall_wins: 3
+points: 27.0
+rounds: 7
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -55,12 +52,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
       points: 7.0
     5:
     - date: *id006
-      name: Round 37 (Mon, May 31)
-      points: 6.0
-    - date: *id007
       name: Round 32 (Fri, May 14)
       points: 2.0
-    - date: *id008
+    - date: *id007
       name: Round 33 (Fri, May 21)
       points: 2.0
 skins: 1

@@ -10,7 +10,7 @@ retVal=$?;
 
 if [ $retVal -eq 0 ]; then
     echo "round data synced, regenerating website data...";
-    /Users/crwelton/virtualenv/golfgenius/bin/bbc-stats --results-directory='./results' --github-site='./website_root' --points-config-file='./website_root/_data/points_config.json'
+    /Users/crwelton/virtualenv/golfgenius/bin/bbc-stats --results-directory='./results' --github-site='./website_root' --points-config-file='./website_root/_data/points_config.json' --blacklist-rounds-file='./website_root/_data/BLACKLISTED_ROUNDS'
     retVal=$?;
     if [ $retVal -eq 0 ]; then
         echo "Building website...";

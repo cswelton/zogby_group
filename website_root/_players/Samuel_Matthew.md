@@ -12,15 +12,12 @@ all_rounds:
 - date: &id004 2021-05-02
   name: Round 31 (Sun, May  2)
   points: 1.0
-- date: &id007 2021-05-14
+- date: &id006 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 0
 - date: &id005 2021-05-28
   name: Round 35 (Fri, May 28)
   points: 1.0
-- date: &id006 2021-05-31
-  name: Round 37 (Mon, May 31)
-  points: 0
 back_wins: 0
 flight_wins: 1
 front_wins: 1
@@ -29,7 +26,7 @@ image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 0
 points: 7.666666666666666
-rounds: 7
+rounds: 6
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -52,9 +49,6 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
       name: Round 35 (Fri, May 28)
       points: 1.0
     - date: *id006
-      name: Round 37 (Mon, May 31)
-      points: 0
-    - date: *id007
       name: Round 32 (Fri, May 14)
       points: 0
 skins: 5

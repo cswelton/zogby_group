@@ -12,16 +12,13 @@ all_rounds:
 - date: &id004 2021-04-16
   name: Round 27 (Fri, April 16)
   points: 2.0
-- date: &id006 2021-05-14
+- date: &id005 2021-05-14
   name: Round 32 (Fri, May 14)
   points: 0
-- date: &id007 2021-05-21
+- date: &id006 2021-05-21
   name: Round 33 (Fri, May 21)
   points: 4.0
-- date: &id005 2021-05-31
-  name: Round 37 (Mon, May 31)
-  points: 0
-- date: &id008 2021-06-04
+- date: &id007 2021-06-04
   name: Round 38 (Fri, June  4)
   points: 2.0
 back_wins: 3
@@ -32,7 +29,7 @@ image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 3
 points: 25.666666666666664
-rounds: 8
+rounds: 7
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -52,16 +49,13 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
       points: 2.0
     5:
     - date: *id005
-      name: Round 37 (Mon, May 31)
-      points: 0
-    - date: *id006
       name: Round 32 (Fri, May 14)
       points: 0
-    - date: *id007
+    - date: *id006
       name: Round 33 (Fri, May 21)
       points: 4.0
     6:
-    - date: *id008
+    - date: *id007
       name: Round 38 (Fri, June  4)
       points: 2.0
 skins: 5

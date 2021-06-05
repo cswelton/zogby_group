@@ -66,7 +66,7 @@ The website is driven by data stored in various files located in this repository
 This step will build those data files using the *results/* files we collected in step #1.
 
 ```
-bbc-stats --results-directory='./results' --github-site='./website_root' --points-config-file='./website_root/_data/points_config.json'
+bbc-stats --results-directory='./results' --github-site='./website_root' --points-config-file='./website_root/_data/points_config.json' --blacklist-rounds-file='./website_root/_data/BLACKLISTED_ROUNDS'
 ```
 
 This will printout 2 tables, a power-rankings summary and a points summary.

@@ -1,8 +1,5 @@
 ---
-all_rounds:
-- date: &id001 2021-05-31
-  name: Round 37 (Mon, May 31)
-  points: 0
+all_rounds: []
 back_wins: 0
 flight_wins: 0
 front_wins: 0
@@ -11,14 +8,8 @@ image: /assets/images/default.png
 name: Hotsauce
 overall_wins: 0
 points: 0
-rounds: 1
+rounds: 0
 rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    5:
-    - date: *id001
-      name: Round 37 (Mon, May 31)
-      points: 0
+- !!python/name:builtins.list ''
 skins: 0
 ---
