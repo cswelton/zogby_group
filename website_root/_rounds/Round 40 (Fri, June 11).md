@@ -1,8 +1,8 @@
 ---
-date: '2021-05-31'
-date_timestamp: 737941
+date: '2021-06-11'
+date_timestamp: 737952
 gg_url: null
-name: Round 37 (Mon, May 31)
+name: Round 40 (Fri, June 11)
 points: {}
 reason: Round deemed unofficial
 total_points: 0
