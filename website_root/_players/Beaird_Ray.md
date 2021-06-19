@@ -21,6 +21,9 @@ all_rounds:
 - date: &id007 2021-06-04
   name: Round 38 (Fri, June  4)
   points: 2.0
+- date: &id008 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 0
 back_wins: 3
 flight_wins: 4
 front_wins: 2
@@ -29,7 +32,7 @@ image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 3
 points: 25.666666666666664
-rounds: 7
+rounds: 8
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -58,5 +61,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id007
       name: Round 38 (Fri, June  4)
       points: 2.0
+    - date: *id008
+      name: Round 41 (Fri, June 18)
+      points: 0
 skins: 5
 ---

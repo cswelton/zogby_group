@@ -15,15 +15,18 @@ all_rounds:
 - date: &id004 2021-05-28
   name: Round 35 (Fri, May 28)
   points: 0
-back_wins: 1
-flight_wins: 1
+- date: &id006 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 4.0
+back_wins: 2
+flight_wins: 2
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 1
-points: 10.0
-rounds: 5
+points: 14.0
+rounds: 6
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -45,5 +48,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id005
       name: Round 33 (Fri, May 21)
       points: 2.0
+    6:
+    - date: *id006
+      name: Round 41 (Fri, June 18)
+      points: 4.0
 skins: 0
 ---

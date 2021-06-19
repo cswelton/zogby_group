@@ -27,6 +27,9 @@ all_rounds:
 - date: &id009 2021-06-04
   name: Round 38 (Fri, June  4)
   points: 5.0
+- date: &id010 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 0
 back_wins: 4
 flight_wins: 2
 front_wins: 3
@@ -35,7 +38,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 5
 points: 37.0
-rounds: 9
+rounds: 10
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -70,5 +73,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id009
       name: Round 38 (Fri, June  4)
       points: 5.0
+    - date: *id010
+      name: Round 41 (Fri, June 18)
+      points: 0
 skins: 11
 ---

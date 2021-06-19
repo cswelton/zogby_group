@@ -12,15 +12,18 @@ all_rounds:
 - date: &id003 2021-05-28
   name: Round 35 (Fri, May 28)
   points: 1.0
+- date: &id005 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 3.0
 back_wins: 1
-flight_wins: 1
+flight_wins: 2
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 0
-points: 5.0
-rounds: 4
+points: 8.0
+rounds: 5
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -39,5 +42,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id004
       name: Round 32 (Fri, May 14)
       points: 0
-skins: 2
+    6:
+    - date: *id005
+      name: Round 41 (Fri, June 18)
+      points: 3.0
+skins: 3
 ---

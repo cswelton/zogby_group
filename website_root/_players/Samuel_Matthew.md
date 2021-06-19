@@ -18,15 +18,18 @@ all_rounds:
 - date: &id005 2021-05-28
   name: Round 35 (Fri, May 28)
   points: 1.0
-back_wins: 0
+- date: &id007 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 2.0
+back_wins: 1
 flight_wins: 1
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 0
-points: 7.666666666666666
-rounds: 6
+points: 9.666666666666666
+rounds: 7
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -51,5 +54,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id006
       name: Round 32 (Fri, May 14)
       points: 0
+    6:
+    - date: *id007
+      name: Round 41 (Fri, June 18)
+      points: 2.0
 skins: 5
 ---

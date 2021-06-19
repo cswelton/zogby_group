@@ -9,6 +9,9 @@ all_rounds:
 - date: &id003 2021-05-28
   name: Round 35 (Fri, May 28)
   points: 7.0
+- date: &id004 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 0
 back_wins: 1
 flight_wins: 0
 front_wins: 1
@@ -17,7 +20,7 @@ image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 1
 points: 7.0
-rounds: 3
+rounds: 4
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -33,5 +36,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id003
       name: Round 35 (Fri, May 28)
       points: 7.0
+    6:
+    - date: *id004
+      name: Round 41 (Fri, June 18)
+      points: 0
 skins: 1
 ---

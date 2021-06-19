@@ -30,6 +30,9 @@ all_rounds:
 - date: &id010 2021-06-04
   name: Round 38 (Fri, June  4)
   points: 3.0
+- date: &id011 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 0
 back_wins: 2
 flight_wins: 3
 front_wins: 2
@@ -38,7 +41,7 @@ image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 1
 points: 13.0
-rounds: 10
+rounds: 11
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -76,5 +79,8 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id010
       name: Round 38 (Fri, June  4)
       points: 3.0
+    - date: *id011
+      name: Round 41 (Fri, June 18)
+      points: 0
 skins: 1
 ---

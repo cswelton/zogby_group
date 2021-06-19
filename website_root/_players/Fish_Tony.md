@@ -18,6 +18,9 @@ all_rounds:
 - date: &id005 2021-05-28
   name: Round 35 (Fri, May 28)
   points: 6.0
+- date: &id007 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 1.0
 back_wins: 1
 flight_wins: 1
 front_wins: 3
@@ -25,8 +28,8 @@ ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 2
-points: 15.666666666666668
-rounds: 6
+points: 16.666666666666664
+rounds: 7
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -51,5 +54,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id006
       name: Round 32 (Fri, May 14)
       points: 0
-skins: 3
+    6:
+    - date: *id007
+      name: Round 41 (Fri, June 18)
+      points: 1.0
+skins: 4
 ---

@@ -12,6 +12,9 @@ all_rounds:
 - date: &id004 2021-05-02
   name: Round 31 (Sun, May  2)
   points: 2.0
+- date: &id005 2021-06-18
+  name: Round 41 (Fri, June 18)
+  points: 0
 back_wins: 0
 flight_wins: 0
 front_wins: 3
@@ -20,7 +23,7 @@ image: /assets/images/Alford_Sumner.png
 name: Alford, Sumner
 overall_wins: 1
 points: 8.666666666666666
-rounds: 4
+rounds: 5
 rounds_by_month: !!python/object/apply:collections.defaultdict
   args:
   - !!python/name:builtins.list ''
@@ -39,5 +42,9 @@ rounds_by_month: !!python/object/apply:collections.defaultdict
     - date: *id004
       name: Round 31 (Sun, May  2)
       points: 2.0
+    6:
+    - date: *id005
+      name: Round 41 (Fri, June 18)
+      points: 0
 skins: 3
 ---
