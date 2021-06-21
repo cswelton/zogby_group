@@ -21,23 +21,20 @@ name: Paul, Jeff
 overall_wins: 2
 points: 8.0
 rounds: 4
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    5:
-    - date: *id001
-      name: Round 32 (Fri, May 14)
-      points: 0
-    - date: *id002
-      name: Round 33 (Fri, May 21)
-      points: 4.0
-    6:
-    - date: *id003
-      name: Round 38 (Fri, June  4)
-      points: 4.0
-    - date: *id004
-      name: Round 41 (Fri, June 18)
-      points: 0
+rounds_by_month:
+  5:
+  - date: *id001
+    name: Round 32 (Fri, May 14)
+    points: 0
+  - date: *id002
+    name: Round 33 (Fri, May 21)
+    points: 4.0
+  6:
+  - date: *id003
+    name: Round 38 (Fri, June  4)
+    points: 4.0
+  - date: *id004
+    name: Round 41 (Fri, June 18)
+    points: 0
 skins: 0
 ---

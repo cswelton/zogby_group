@@ -8,6 +8,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 15 (Fri, March  5)",
+            "valid": false,
+            "reason": "Round date 2021-03-05, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 4,
@@ -93,6 +95,8 @@
             "score": 70,
             "total": 70,
             "name": "Round 23 (Tue, March 30)",
+            "valid": false,
+            "reason": "Round date 2021-03-30, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 4,

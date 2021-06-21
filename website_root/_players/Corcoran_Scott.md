@@ -27,30 +27,27 @@ name: Corcoran, Scott
 overall_wins: 1
 points: 14.0
 rounds: 6
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    4:
-    - date: *id001
-      name: Round 25 (Fri, April  9)
-      points: 0
-    - date: *id002
-      name: Round 29 (Fri, April 23)
-      points: 0
-    - date: *id003
-      name: Round 27 (Fri, April 16)
-      points: 8.0
-    5:
-    - date: *id004
-      name: Round 35 (Fri, May 28)
-      points: 0
-    - date: *id005
-      name: Round 33 (Fri, May 21)
-      points: 2.0
-    6:
-    - date: *id006
-      name: Round 41 (Fri, June 18)
-      points: 4.0
+rounds_by_month:
+  4:
+  - date: *id001
+    name: Round 25 (Fri, April  9)
+    points: 0
+  - date: *id002
+    name: Round 29 (Fri, April 23)
+    points: 0
+  - date: *id003
+    name: Round 27 (Fri, April 16)
+    points: 8.0
+  5:
+  - date: *id004
+    name: Round 35 (Fri, May 28)
+    points: 0
+  - date: *id005
+    name: Round 33 (Fri, May 21)
+    points: 2.0
+  6:
+  - date: *id006
+    name: Round 41 (Fri, June 18)
+    points: 4.0
 skins: 0
 ---

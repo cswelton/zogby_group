@@ -36,39 +36,36 @@ name: Stefanacci, Michael
 overall_wins: 0
 points: 5.666666666666666
 rounds: 9
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    4:
-    - date: *id001
-      name: Round 25 (Fri, April  9)
-      points: 0.6666666666666666
-    - date: *id002
-      name: Round 29 (Fri, April 23)
-      points: 0
-    - date: *id003
-      name: Round 26 (Sun, April 11)
-      points: 0
-    - date: *id004
-      name: Round 30 (Fri, April 30)
-      points: 2.0
-    - date: *id005
-      name: Round 24 (Fri, April  2)
-      points: 0
-    5:
-    - date: *id006
-      name: Round 31 (Sun, May  2)
-      points: 0
-    - date: *id007
-      name: Round 35 (Fri, May 28)
-      points: 1.0
-    - date: *id008
-      name: Round 32 (Fri, May 14)
-      points: 0
-    6:
-    - date: *id009
-      name: Round 41 (Fri, June 18)
-      points: 2.0
+rounds_by_month:
+  4:
+  - date: *id001
+    name: Round 25 (Fri, April  9)
+    points: 0.6666666666666666
+  - date: *id002
+    name: Round 29 (Fri, April 23)
+    points: 0
+  - date: *id003
+    name: Round 26 (Sun, April 11)
+    points: 0
+  - date: *id004
+    name: Round 30 (Fri, April 30)
+    points: 2.0
+  - date: *id005
+    name: Round 24 (Fri, April  2)
+    points: 0
+  5:
+  - date: *id006
+    name: Round 31 (Sun, May  2)
+    points: 0
+  - date: *id007
+    name: Round 35 (Fri, May 28)
+    points: 1.0
+  - date: *id008
+    name: Round 32 (Fri, May 14)
+    points: 0
+  6:
+  - date: *id009
+    name: Round 41 (Fri, June 18)
+    points: 2.0
 skins: 1
 ---

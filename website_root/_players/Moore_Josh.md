@@ -15,17 +15,14 @@ name: Moore, Josh
 overall_wins: 0
 points: 3.0
 rounds: 2
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    4:
-    - date: *id001
-      name: Round 29 (Fri, April 23)
-      points: 1.0
-    5:
-    - date: *id002
-      name: Round 32 (Fri, May 14)
-      points: 2.0
+rounds_by_month:
+  4:
+  - date: *id001
+    name: Round 29 (Fri, April 23)
+    points: 1.0
+  5:
+  - date: *id002
+    name: Round 32 (Fri, May 14)
+    points: 2.0
 skins: 2
 ---

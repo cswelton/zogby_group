@@ -389,7 +389,7 @@
         const chart = Highcharts.chart('chart_player_rounds', {
 
             title: {
-                text: 'Last 20 Rounds'
+                text: 'FedEx Cup Rounds'
             },
             xAxis: {
                 categories: categories
@@ -409,7 +409,7 @@
             return axis.categories[point[isY ? 'y' : 'x']];
         }
 
-        var round_data = [{"date":"2020-06-18","date_timestamp":737594,"score":79,"total":79,"name":"Round 41 (Fri, June 18)","front":[{"score":6,"type":"plus1"},{"score":4,"type":"par"},{"score":4,"type":"plus1"},{"score":5,"type":"plus1"},{"score":5,"type":"par"},{"score":6,"type":"plus2"},{"score":4,"type":"par"},{"score":3,"type":"par"},{"score":5,"type":"plus1"}],"back":[{"score":5,"type":"par"},{"score":3,"type":"par"},{"score":5,"type":"plus1"},{"score":4,"type":"par"},{"score":5,"type":"par"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"par"}],"in":37,"out":42}];
+        var round_data = [{"date":"2020-06-18","date_timestamp":737594,"score":79,"total":79,"name":"Round 41 (Fri, June 18)","valid":true,"reason":null,"front":[{"score":6,"type":"plus1"},{"score":4,"type":"par"},{"score":4,"type":"plus1"},{"score":5,"type":"plus1"},{"score":5,"type":"par"},{"score":6,"type":"plus2"},{"score":4,"type":"par"},{"score":3,"type":"par"},{"score":5,"type":"plus1"}],"back":[{"score":5,"type":"par"},{"score":3,"type":"par"},{"score":5,"type":"plus1"},{"score":4,"type":"par"},{"score":5,"type":"par"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"par"}],"in":37,"out":42}];
         console.log(round_data);
         var hole_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
         round_names = [];

@@ -24,27 +24,24 @@ name: Ellzey, Matt
 overall_wins: 0
 points: 8.0
 rounds: 5
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    4:
-    - date: *id001
-      name: Round 29 (Fri, April 23)
-      points: 2.0
-    - date: *id002
-      name: Round 24 (Fri, April  2)
-      points: 2.0
-    5:
-    - date: *id003
-      name: Round 35 (Fri, May 28)
-      points: 1.0
-    - date: *id004
-      name: Round 32 (Fri, May 14)
-      points: 0
-    6:
-    - date: *id005
-      name: Round 41 (Fri, June 18)
-      points: 3.0
+rounds_by_month:
+  4:
+  - date: *id001
+    name: Round 29 (Fri, April 23)
+    points: 2.0
+  - date: *id002
+    name: Round 24 (Fri, April  2)
+    points: 2.0
+  5:
+  - date: *id003
+    name: Round 35 (Fri, May 28)
+    points: 1.0
+  - date: *id004
+    name: Round 32 (Fri, May 14)
+    points: 0
+  6:
+  - date: *id005
+    name: Round 41 (Fri, June 18)
+    points: 3.0
 skins: 3
 ---

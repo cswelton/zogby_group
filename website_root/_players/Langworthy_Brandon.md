@@ -15,17 +15,14 @@ name: Langworthy, Brandon
 overall_wins: 1
 points: 2.0
 rounds: 2
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    4:
-    - date: *id001
-      name: Round 30 (Fri, April 30)
-      points: 2.0
-    6:
-    - date: *id002
-      name: Round 38 (Fri, June  4)
-      points: 0
+rounds_by_month:
+  4:
+  - date: *id001
+    name: Round 30 (Fri, April 30)
+    points: 2.0
+  6:
+  - date: *id002
+    name: Round 38 (Fri, June  4)
+    points: 0
 skins: 0
 ---

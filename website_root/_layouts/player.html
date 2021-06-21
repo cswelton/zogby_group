@@ -30,8 +30,8 @@ layout: default
 </div>
 
 {% if player_data.rounds %}
-{% assign sorted = player_data.rounds | sort: 'date_timestamp' | reverse %}
-<h4 class="display-4">Rounds <small><span class="badge badge-pill badge-dark">{{ player_data.rounds | size }}</span></small></h4>
+{% assign sorted = player_data.rounds | where: 'valid', true | sort: 'date_timestamp' | reverse %}
+<h4 class="display-4">Rounds <small><span class="badge badge-pill badge-dark">{{ sorted | size }}</span></small></h4>
 <div class="table-responsive">
     <table id="player_rounds_table" class="table table-hover">
         <thead class="thead-dark">
@@ -212,7 +212,7 @@ layout: default
     var total_data = [];
     var front_data = [];
     var back_data = [];
-    {% assign last_ten = sorted | slice: 0, 19 | reverse %}
+    {% assign last_ten = sorted | reverse %}
     {% for round in last_ten %}
     total_data.push({{ round.total }});
     categories.push("{{ round.name }}");
@@ -227,7 +227,7 @@ layout: default
         const chart = Highcharts.chart('chart_player_rounds', {
 
             title: {
-                text: 'Last 20 Rounds'
+                text: 'FedEx Cup Rounds'
             },
             xAxis: {
                 categories: categories

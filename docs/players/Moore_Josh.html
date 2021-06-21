@@ -691,7 +691,7 @@
         const chart = Highcharts.chart('chart_player_rounds', {
 
             title: {
-                text: 'Last 20 Rounds'
+                text: 'FedEx Cup Rounds'
             },
             xAxis: {
                 categories: categories
@@ -711,7 +711,7 @@
             return axis.categories[point[isY ? 'y' : 'x']];
         }
 
-        var round_data = [{"date":"2020-05-14","date_timestamp":737559,"score":73,"total":73,"name":"Round 32 (Fri, May 14)","front":[{"score":5,"type":"par"},{"score":4,"type":"par"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":5,"type":"par"},{"score":3,"type":"birdie"},{"score":4,"type":"par"},{"score":4,"type":"plus1"},{"score":4,"type":"par"}],"back":[{"score":4,"type":"birdie"},{"score":5,"type":"plus2"},{"score":4,"type":"par"},{"score":4,"type":"par"},{"score":7,"type":"plus2"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":3,"type":"birdie"},{"score":3,"type":"birdie"}],"in":37,"out":36},{"date":"2020-04-23","date_timestamp":737538,"score":72,"total":72,"name":"Round 29 (Fri, April 23)","front":[{"score":6,"type":"plus1"},{"score":5,"type":"plus1"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"birdie"},{"score":5,"type":"plus1"},{"score":4,"type":"par"},{"score":3,"type":"par"},{"score":4,"type":"par"}],"back":[{"score":5,"type":"par"},{"score":2,"type":"birdie"},{"score":4,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"birdie"},{"score":3,"type":"par"},{"score":3,"type":"birdie"},{"score":4,"type":"par"},{"score":5,"type":"plus1"}],"in":34,"out":38}];
+        var round_data = [{"date":"2020-05-14","date_timestamp":737559,"score":73,"total":73,"name":"Round 32 (Fri, May 14)","valid":true,"reason":null,"front":[{"score":5,"type":"par"},{"score":4,"type":"par"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":5,"type":"par"},{"score":3,"type":"birdie"},{"score":4,"type":"par"},{"score":4,"type":"plus1"},{"score":4,"type":"par"}],"back":[{"score":4,"type":"birdie"},{"score":5,"type":"plus2"},{"score":4,"type":"par"},{"score":4,"type":"par"},{"score":7,"type":"plus2"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":3,"type":"birdie"},{"score":3,"type":"birdie"}],"in":37,"out":36},{"date":"2020-04-23","date_timestamp":737538,"score":72,"total":72,"name":"Round 29 (Fri, April 23)","valid":true,"reason":null,"front":[{"score":6,"type":"plus1"},{"score":5,"type":"plus1"},{"score":3,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"birdie"},{"score":5,"type":"plus1"},{"score":4,"type":"par"},{"score":3,"type":"par"},{"score":4,"type":"par"}],"back":[{"score":5,"type":"par"},{"score":2,"type":"birdie"},{"score":4,"type":"par"},{"score":4,"type":"par"},{"score":4,"type":"birdie"},{"score":3,"type":"par"},{"score":3,"type":"birdie"},{"score":4,"type":"par"},{"score":5,"type":"plus1"}],"in":34,"out":38}];
         console.log(round_data);
         var hole_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
         round_names = [];

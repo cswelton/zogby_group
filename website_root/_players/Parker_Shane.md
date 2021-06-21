@@ -15,16 +15,13 @@ name: Parker, Shane
 overall_wins: 2
 points: 13.0
 rounds: 2
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    6:
-    - date: *id001
-      name: Round 38 (Fri, June  4)
-      points: 6.0
-    - date: *id002
-      name: Round 41 (Fri, June 18)
-      points: 7.0
+rounds_by_month:
+  6:
+  - date: *id001
+    name: Round 38 (Fri, June  4)
+    points: 6.0
+  - date: *id002
+    name: Round 41 (Fri, June 18)
+    points: 7.0
 skins: 1
 ---

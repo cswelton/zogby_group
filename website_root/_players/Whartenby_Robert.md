@@ -12,13 +12,10 @@ name: Whartenby, Robert
 overall_wins: 0
 points: 4.0
 rounds: 1
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    4:
-    - date: *id001
-      name: Round 26 (Sun, April 11)
-      points: 4.0
+rounds_by_month:
+  4:
+  - date: *id001
+    name: Round 26 (Sun, April 11)
+    points: 4.0
 skins: 0
 ---

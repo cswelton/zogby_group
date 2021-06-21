@@ -8,6 +8,8 @@
             "score": 89,
             "total": 89,
             "name": "Round 30 (Fri, April 30)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -93,6 +95,8 @@
             "score": 92,
             "total": 92,
             "name": "Round 38 (Fri, June  4)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,

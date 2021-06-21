@@ -12,13 +12,10 @@ name: Ring, Michael
 overall_wins: 0
 points: 0
 rounds: 1
-rounds_by_month: !!python/object/apply:collections.defaultdict
-  args:
-  - !!python/name:builtins.list ''
-  dictitems:
-    6:
-    - date: *id001
-      name: Round 41 (Fri, June 18)
-      points: 0
+rounds_by_month:
+  6:
+  - date: *id001
+    name: Round 41 (Fri, June 18)
+    points: 0
 skins: 0
 ---

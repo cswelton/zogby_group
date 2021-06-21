@@ -8,6 +8,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 6 (Fri, January 22)",
+            "valid": false,
+            "reason": "Round date 2021-01-22, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 5,
@@ -93,6 +95,8 @@
             "score": 80,
             "total": 80,
             "name": "Round 15 (Fri, March  5)",
+            "valid": false,
+            "reason": "Round date 2021-03-05, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 5,
@@ -178,6 +182,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 23 (Tue, March 30)",
+            "valid": false,
+            "reason": "Round date 2021-03-30, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 5,
@@ -263,6 +269,8 @@
             "score": 89,
             "total": 89,
             "name": "Round 24 (Fri, April  2)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 7,
@@ -348,6 +356,8 @@
             "score": 91,
             "total": 91,
             "name": "Round 25 (Fri, April  9)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -433,6 +443,8 @@
             "score": 83,
             "total": 83,
             "name": "Round 26 (Sun, April 11)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -518,6 +530,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 29 (Fri, April 23)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -603,6 +617,8 @@
             "score": 87,
             "total": 87,
             "name": "Round 30 (Fri, April 30)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -688,6 +704,8 @@
             "score": 86,
             "total": 86,
             "name": "Round 31 (Sun, May  2)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -773,6 +791,8 @@
             "score": 84,
             "total": 84,
             "name": "Round 32 (Fri, May 14)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 6,
@@ -858,6 +878,8 @@
             "score": 85,
             "total": 85,
             "name": "Round 35 (Fri, May 28)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 7,
@@ -943,6 +965,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 41 (Fri, June 18)",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 5,

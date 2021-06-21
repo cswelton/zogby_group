@@ -9,7 +9,6 @@ name: Nash, Rudy
 overall_wins: 0
 points: 0
 rounds: 0
-rounds_by_month: !!python/object/apply:collections.defaultdict
-- !!python/name:builtins.list ''
+rounds_by_month: {}
 skins: 0
 ---
