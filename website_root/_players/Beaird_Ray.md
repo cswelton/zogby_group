@@ -1,29 +1,69 @@
 ---
 all_rounds:
-- date: &id003 2021-04-02
+- &id003
+  date: 2021-04-02
   name: Round 24 (Fri, April  2)
+  official: true
+  over_limit: false
   points: 9.0
-- date: &id001 2021-04-09
+  replaced_by: null
+  replaces: null
+- &id001
+  date: 2021-04-09
   name: Round 25 (Fri, April  9)
+  official: true
+  over_limit: false
   points: 7.666666666666666
-- date: &id002 2021-04-11
+  replaced_by: null
+  replaces: null
+- &id002
+  date: 2021-04-11
   name: Round 26 (Sun, April 11)
+  official: true
+  over_limit: false
   points: 1.0
-- date: &id004 2021-04-16
+  replaced_by: null
+  replaces: null
+- &id004
+  date: 2021-04-16
   name: Round 27 (Fri, April 16)
+  official: true
+  over_limit: false
   points: 2.0
-- date: &id005 2021-05-14
+  replaced_by: null
+  replaces: null
+- &id005
+  date: 2021-05-14
   name: Round 32 (Fri, May 14)
+  official: true
+  over_limit: false
   points: 0
-- date: &id006 2021-05-21
+  replaced_by: null
+  replaces: null
+- &id006
+  date: 2021-05-21
   name: Round 33 (Fri, May 21)
+  official: true
+  over_limit: false
   points: 4.0
-- date: &id007 2021-06-04
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2021-06-04
   name: Round 38 (Fri, June  4)
+  official: true
+  over_limit: false
   points: 2.0
-- date: &id008 2021-06-18
+  replaced_by: null
+  replaces: null
+- &id008
+  date: 2021-06-18
   name: Round 41 (Fri, June 18)
+  official: true
+  over_limit: false
   points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 4
 front_wins: 2
@@ -35,31 +75,15 @@ points: 25.666666666666664
 rounds: 8
 rounds_by_month:
   4:
-  - date: *id001
-    name: Round 25 (Fri, April  9)
-    points: 7.666666666666666
-  - date: *id002
-    name: Round 26 (Sun, April 11)
-    points: 1.0
-  - date: *id003
-    name: Round 24 (Fri, April  2)
-    points: 9.0
-  - date: *id004
-    name: Round 27 (Fri, April 16)
-    points: 2.0
+  - *id001
+  - *id002
+  - *id003
+  - *id004
   5:
-  - date: *id005
-    name: Round 32 (Fri, May 14)
-    points: 0
-  - date: *id006
-    name: Round 33 (Fri, May 21)
-    points: 4.0
+  - *id005
+  - *id006
   6:
-  - date: *id007
-    name: Round 38 (Fri, June  4)
-    points: 2.0
-  - date: *id008
-    name: Round 41 (Fri, June 18)
-    points: 0
+  - *id007
+  - *id008
 skins: 5
 ---

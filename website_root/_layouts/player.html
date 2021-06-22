@@ -47,19 +47,41 @@ layout: default
         <tbody>
         {% for round in sorted %}
         {% assign round_data = site.rounds | where: 'name', round.name | first %}
+        {% assign fedex_round_data = page.all_rounds | where: 'name', round.name | first %}
         {% if page.ignored_rounds contains round.name %}
         <tr class="table-secondary">
-        {% elsif round_data.points %}
+            {% elsif fedex_round_data.official %}
+                {% if round_data.points %}
+                <tr>
+                {% else %}
+                <tr class="table-secondary">
+                {% endif %}
         <tr>
             {% else %}
         <tr class="table-secondary">
             {% endif %}
+            {% if fedex_round_data.replaced_by %}
+            <td data-order="{{ round.date_timestamp }}"><a href="{{ site.baseurl }}{{ round_data.url }}">{{ round.name }}</a>
+                <span class="badge badge-danger">Replaced by {{fedex_round_data.replaced_by}}</span>
+            </td>
+            {% elsif fedex_round_data.over_limit %}
+                {% if fedex_round_data.replaces %}
+                <td data-order="{{ round.date_timestamp }}"><a href="{{ site.baseurl }}{{ round_data.url }}">{{ round.name }}</a>
+                    <span class="badge badge-info">Replaces {{fedex_round_data.replaces}}</span>
+                </td>
+                {% else %}
+                <td data-order="{{ round.date_timestamp }}"><a href="{{ site.baseurl }}{{ round_data.url }}">{{ round.name }}</a>
+                    <span class="badge badge-warning">Over Round Limit</span>
+                </td>
+                {% endif %}
+            {% else %}
             <td data-order="{{ round.date_timestamp }}"><a href="{{ site.baseurl }}{{ round_data.url }}">{{ round.name }}</a></td>
+            {% endif %}
 
             {% if round_data.points %}
             {% assign points = round_data["points"][page.name] | round: 2 %}
             <td data-order="{{ round_data.points[page.name] }}">
-                    <span class="badge badge-dark">
+                    <span class="badge {% if fedex_round_data.official %}badge-dark{% else %}badge-secondary{% endif %}">
                         <span class="fas fa-coins"></span>
                         {{ points }}
                         Points

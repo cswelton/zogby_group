@@ -1,17 +1,37 @@
 ---
 all_rounds:
-- date: &id003 2021-04-02
+- &id003
+  date: 2021-04-02
   name: Round 24 (Fri, April  2)
+  official: true
+  over_limit: false
   points: 1.0
-- date: &id001 2021-04-23
+  replaced_by: null
+  replaces: null
+- &id001
+  date: 2021-04-23
   name: Round 29 (Fri, April 23)
+  official: true
+  over_limit: false
   points: 1.0
-- date: &id002 2021-04-30
+  replaced_by: null
+  replaces: null
+- &id002
+  date: 2021-04-30
   name: Round 30 (Fri, April 30)
+  official: true
+  over_limit: false
   points: 2.0
-- date: &id004 2021-05-14
+  replaced_by: null
+  replaces: null
+- &id004
+  date: 2021-05-14
   name: Round 32 (Fri, May 14)
+  official: true
+  over_limit: false
   points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 1
 front_wins: 2
@@ -23,18 +43,10 @@ points: 7.0
 rounds: 4
 rounds_by_month:
   4:
-  - date: *id001
-    name: Round 29 (Fri, April 23)
-    points: 1.0
-  - date: *id002
-    name: Round 30 (Fri, April 30)
-    points: 2.0
-  - date: *id003
-    name: Round 24 (Fri, April  2)
-    points: 1.0
+  - *id001
+  - *id002
+  - *id003
   5:
-  - date: *id004
-    name: Round 32 (Fri, May 14)
-    points: 3.0
+  - *id004
 skins: 2
 ---
