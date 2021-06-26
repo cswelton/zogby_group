@@ -32,12 +32,20 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id005
+- &id006
   date: 2021-06-18
   name: Round 41 (Fri, June 18)
   official: true
   over_limit: false
   points: 3.0
+  replaced_by: null
+  replaces: null
+- &id005
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 1
@@ -48,7 +56,7 @@ image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 0
 points: 8.0
-rounds: 5
+rounds: 6
 rounds_by_month:
   4:
   - *id001
@@ -58,5 +66,6 @@ rounds_by_month:
   - *id004
   6:
   - *id005
+  - *id006
 skins: 3
 ---

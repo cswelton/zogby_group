@@ -32,6 +32,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 1
 front_wins: 2
@@ -40,7 +48,7 @@ image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 0
 points: 7.0
-rounds: 4
+rounds: 5
 rounds_by_month:
   4:
   - *id001
@@ -48,5 +56,7 @@ rounds_by_month:
   - *id003
   5:
   - *id004
+  6:
+  - *id005
 skins: 2
 ---

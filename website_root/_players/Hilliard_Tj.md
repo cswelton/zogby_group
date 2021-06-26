@@ -72,7 +72,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2021-06-18
   name: Round 41 (Fri, June 18)
   official: true
@@ -80,15 +80,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 2
+- &id010
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 3
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 5
-points: 37.0
-rounds: 10
+overall_wins: 6
+points: 44.0
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -103,5 +111,6 @@ rounds_by_month:
   6:
   - *id009
   - *id010
-skins: 11
+  - *id011
+skins: 13
 ---

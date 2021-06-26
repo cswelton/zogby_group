@@ -32,15 +32,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 0
+- &id005
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 1
 flight_wins: 1
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
-overall_wins: 0
-points: 5.0
-rounds: 4
+overall_wins: 1
+points: 9.0
+rounds: 5
 rounds_by_month:
   4:
   - *id001
@@ -49,5 +57,6 @@ rounds_by_month:
   - *id003
   6:
   - *id004
-skins: 0
+  - *id005
+skins: 1
 ---

@@ -56,7 +56,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id008
+- &id009
   date: 2021-06-18
   name: Round 41 (Fri, June 18)
   official: true
@@ -64,15 +64,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 4
+- &id008
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
 flight_wins: 5
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
-overall_wins: 3
-points: 27.0
-rounds: 8
+overall_wins: 4
+points: 30.0
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -85,5 +93,6 @@ rounds_by_month:
   - *id007
   6:
   - *id008
+  - *id009
 skins: 1
 ---

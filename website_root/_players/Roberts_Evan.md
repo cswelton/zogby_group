@@ -72,15 +72,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
-flight_wins: 2
-front_wins: 5
+flight_wins: 3
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 2
-points: 20.666666666666668
-rounds: 9
+overall_wins: 3
+points: 27.666666666666668
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -94,5 +102,6 @@ rounds_by_month:
   - *id008
   6:
   - *id009
-skins: 1
+  - *id010
+skins: 3
 ---

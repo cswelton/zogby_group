@@ -80,7 +80,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2021-06-18
   name: Round 41 (Fri, June 18)
   official: true
@@ -88,15 +88,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id011
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
-flight_wins: 3
-front_wins: 2
+flight_wins: 4
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 1
-points: 13.0
-rounds: 11
+overall_wins: 2
+points: 17.0
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -112,5 +120,6 @@ rounds_by_month:
   6:
   - *id010
   - *id011
+  - *id012
 skins: 1
 ---

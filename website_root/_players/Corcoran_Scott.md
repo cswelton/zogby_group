@@ -40,7 +40,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id006
+- &id007
   date: 2021-06-18
   name: Round 41 (Fri, June 18)
   official: true
@@ -48,15 +48,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 2
+- &id006
+  date: 2021-06-25
+  name: Round 42 (Fri, June 25)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 3
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 1
-points: 14.0
-rounds: 6
+overall_wins: 2
+points: 18.0
+rounds: 7
 rounds_by_month:
   4:
   - *id001
@@ -67,5 +75,6 @@ rounds_by_month:
   - *id005
   6:
   - *id006
+  - *id007
 skins: 0
 ---
