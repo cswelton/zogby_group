@@ -1,6 +1,6 @@
 {
     "name": "Chan, Edward",
-    "scoring_average": 75.6,
+    "scoring_average": 74.909,
     "rounds": [
         {
             "date": "2020-01-22",
@@ -871,6 +871,93 @@
             ],
             "in": 38,
             "out": 36
+        },
+        {
+            "date": "2020-07-02",
+            "date_timestamp": 737608,
+            "score": 68,
+            "total": 68,
+            "name": "Round 44 (Fri, July  2)",
+            "valid": false,
+            "reason": "Not all players finished 18 holes",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                }
+            ],
+            "in": 34,
+            "out": 34
         }
     ]
 }
