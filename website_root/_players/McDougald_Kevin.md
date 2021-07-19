@@ -72,6 +72,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 5
 front_wins: 2
@@ -80,7 +88,7 @@ image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 4
 points: 30.0
-rounds: 9
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -94,5 +102,7 @@ rounds_by_month:
   6:
   - *id008
   - *id009
+  7:
+  - *id010
 skins: 1
 ---

@@ -56,15 +56,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 1
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 0
-points: 9.666666666666666
-rounds: 7
+points: 11.666666666666666
+rounds: 8
 rounds_by_month:
   4:
   - *id001
@@ -76,5 +84,7 @@ rounds_by_month:
   - *id006
   6:
   - *id007
+  7:
+  - *id008
 skins: 5
 ---

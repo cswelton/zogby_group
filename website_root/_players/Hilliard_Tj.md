@@ -88,15 +88,23 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-back_wins: 5
+- &id012
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
 flight_wins: 3
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 6
-points: 44.0
-rounds: 11
+points: 46.0
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -112,5 +120,7 @@ rounds_by_month:
   - *id009
   - *id010
   - *id011
-skins: 13
+  7:
+  - *id012
+skins: 14
 ---

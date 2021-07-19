@@ -72,15 +72,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 0
-points: 5.666666666666666
-rounds: 9
+points: 7.666666666666666
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -94,5 +102,7 @@ rounds_by_month:
   - *id008
   6:
   - *id009
+  7:
+  - *id010
 skins: 1
 ---

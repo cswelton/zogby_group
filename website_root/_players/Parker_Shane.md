@@ -16,18 +16,28 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-back_wins: 1
-flight_wins: 2
+- &id003
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
+flight_wins: 3
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 2
-points: 13.0
-rounds: 2
+overall_wins: 3
+points: 18.0
+rounds: 3
 rounds_by_month:
   6:
   - *id001
   - *id002
+  7:
+  - *id003
 skins: 1
 ---

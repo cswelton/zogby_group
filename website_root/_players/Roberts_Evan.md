@@ -80,15 +80,23 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id011
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 3
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 3
-points: 27.666666666666668
-rounds: 10
+overall_wins: 4
+points: 30.666666666666668
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -103,5 +111,7 @@ rounds_by_month:
   6:
   - *id009
   - *id010
+  7:
+  - *id011
 skins: 3
 ---

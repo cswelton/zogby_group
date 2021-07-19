@@ -56,15 +56,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 3
+- &id008
+  date: 2021-07-16
+  name: Round 47 (Fri, July 16)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
 flight_wins: 3
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 2
-points: 18.0
-rounds: 7
+overall_wins: 3
+points: 22.0
+rounds: 8
 rounds_by_month:
   4:
   - *id001
@@ -76,5 +84,7 @@ rounds_by_month:
   6:
   - *id006
   - *id007
-skins: 0
+  7:
+  - *id008
+skins: 1
 ---
