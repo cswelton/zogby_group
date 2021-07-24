@@ -80,15 +80,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id011
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 6
+flight_wins: 7
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 5
-points: 38.666666666666664
-rounds: 10
+points: 40.666666666666664
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -103,5 +111,7 @@ rounds_by_month:
   6:
   - *id009
   - *id010
-skins: 2
+  7:
+  - *id011
+skins: 3
 ---

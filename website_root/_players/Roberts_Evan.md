@@ -88,6 +88,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id012
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 3
 front_wins: 6
@@ -96,7 +104,7 @@ image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 4
 points: 30.666666666666668
-rounds: 11
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -113,5 +121,6 @@ rounds_by_month:
   - *id010
   7:
   - *id011
+  - *id012
 skins: 3
 ---

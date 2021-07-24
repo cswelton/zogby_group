@@ -104,6 +104,14 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 5
 front_wins: 3
@@ -111,8 +119,8 @@ ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 2
-points: 22.0
-rounds: 13
+points: 23.0
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -131,5 +139,6 @@ rounds_by_month:
   - *id012
   7:
   - *id013
-skins: 3
+  - *id014
+skins: 4
 ---

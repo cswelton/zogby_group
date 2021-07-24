@@ -32,15 +32,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id005
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/default.png
 name: Paul, Jeff
 overall_wins: 2
-points: 8.0
-rounds: 4
+points: 10.0
+rounds: 5
 rounds_by_month:
   5:
   - *id001
@@ -48,5 +56,7 @@ rounds_by_month:
   6:
   - *id003
   - *id004
+  7:
+  - *id005
 skins: 0
 ---

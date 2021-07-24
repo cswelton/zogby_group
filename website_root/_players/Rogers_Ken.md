@@ -48,6 +48,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id007
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 0
 front_wins: 2
@@ -56,7 +64,7 @@ image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
 overall_wins: 1
 points: 8.666666666666666
-rounds: 6
+rounds: 7
 rounds_by_month:
   4:
   - *id001
@@ -67,5 +75,7 @@ rounds_by_month:
   6:
   - *id005
   - *id006
+  7:
+  - *id007
 skins: 3
 ---

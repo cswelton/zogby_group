@@ -64,15 +64,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 3
+- &id009
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
 flight_wins: 4
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 3
-points: 25.666666666666664
-rounds: 8
+points: 28.666666666666664
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -85,5 +93,7 @@ rounds_by_month:
   6:
   - *id007
   - *id008
-skins: 5
+  7:
+  - *id009
+skins: 6
 ---

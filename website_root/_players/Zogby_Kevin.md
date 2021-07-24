@@ -96,15 +96,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 4
-front_wins: 6
+flight_wins: 5
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
-overall_wins: 5
-points: 37.0
-rounds: 12
+overall_wins: 6
+points: 42.0
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -122,5 +130,6 @@ rounds_by_month:
   - *id011
   7:
   - *id012
+  - *id013
 skins: 4
 ---

@@ -64,15 +64,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id009
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 3
-front_wins: 2
+flight_wins: 4
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 3
-points: 22.0
-rounds: 8
+overall_wins: 4
+points: 29.0
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -86,5 +94,6 @@ rounds_by_month:
   - *id007
   7:
   - *id008
-skins: 1
+  - *id009
+skins: 2
 ---

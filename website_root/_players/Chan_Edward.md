@@ -40,15 +40,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 0
-flight_wins: 1
+- &id006
+  date: 2021-07-23
+  name: Round 48 (Fri, July 23)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 1
+flight_wins: 2
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 0
-points: 7.0
-rounds: 5
+points: 11.0
+rounds: 6
 rounds_by_month:
   4:
   - *id001
@@ -58,5 +66,7 @@ rounds_by_month:
   - *id004
   6:
   - *id005
-skins: 2
+  7:
+  - *id006
+skins: 3
 ---
