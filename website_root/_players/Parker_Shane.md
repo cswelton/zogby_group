@@ -24,20 +24,30 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 3
-front_wins: 1
+- &id004
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 4
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 3
-points: 18.0
-rounds: 3
+overall_wins: 4
+points: 25.0
+rounds: 4
 rounds_by_month:
   6:
   - *id001
   - *id002
   7:
   - *id003
-skins: 1
+  8:
+  - *id004
+skins: 2
 ---

@@ -56,6 +56,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 1
 front_wins: 3
@@ -64,7 +72,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 2
 points: 16.666666666666668
-rounds: 7
+rounds: 8
 rounds_by_month:
   4:
   - *id001
@@ -76,5 +84,7 @@ rounds_by_month:
   - *id006
   6:
   - *id007
+  8:
+  - *id008
 skins: 4
 ---

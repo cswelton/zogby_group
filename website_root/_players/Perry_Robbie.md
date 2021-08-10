@@ -64,15 +64,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id009
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 1
-front_wins: 4
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
 overall_wins: 1
-points: 14.666666666666666
-rounds: 8
+points: 16.666666666666664
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -85,5 +93,7 @@ rounds_by_month:
   - *id007
   6:
   - *id008
-skins: 3
+  7:
+  - *id009
+skins: 4
 ---

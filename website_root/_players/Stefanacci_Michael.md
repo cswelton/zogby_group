@@ -80,15 +80,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id011
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 0
-points: 7.666666666666666
-rounds: 10
+overall_wins: 1
+points: 11.666666666666666
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -104,5 +112,6 @@ rounds_by_month:
   - *id009
   7:
   - *id010
+  - *id011
 skins: 1
 ---

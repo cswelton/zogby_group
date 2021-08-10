@@ -112,15 +112,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 5
-front_wins: 3
+- &id015
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 6
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 2
-points: 23.0
-rounds: 14
+overall_wins: 3
+points: 30.0
+rounds: 15
 rounds_by_month:
   4:
   - *id001
@@ -140,5 +148,7 @@ rounds_by_month:
   7:
   - *id013
   - *id014
+  8:
+  - *id015
 skins: 4
 ---

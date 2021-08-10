@@ -8,17 +8,27 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
+- &id002
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Williford_Luke.png
 name: Williford, Luke
 overall_wins: 0
-points: 0.6666666666666666
-rounds: 1
+points: 2.6666666666666665
+rounds: 2
 rounds_by_month:
   4:
   - *id001
-skins: 0
+  7:
+  - *id002
+skins: 1
 ---

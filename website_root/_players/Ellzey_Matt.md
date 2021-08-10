@@ -56,15 +56,31 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id008
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 2
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 0
-points: 10.0
-rounds: 7
+overall_wins: 1
+points: 16.0
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -77,5 +93,8 @@ rounds_by_month:
   - *id006
   7:
   - *id007
-skins: 3
+  - *id008
+  8:
+  - *id009
+skins: 5
 ---

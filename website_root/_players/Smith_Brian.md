@@ -88,7 +88,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id012
+- &id013
   date: 2021-07-23
   name: Round 48 (Fri, July 23)
   official: true
@@ -96,15 +96,31 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 7
-front_wins: 8
+- &id012
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 9
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 6
-points: 55.66666666666667
-rounds: 12
+overall_wins: 7
+points: 67.66666666666667
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -122,5 +138,8 @@ rounds_by_month:
   7:
   - *id011
   - *id012
-skins: 9
+  - *id013
+  8:
+  - *id014
+skins: 13
 ---

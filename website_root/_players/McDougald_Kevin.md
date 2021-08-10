@@ -80,15 +80,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id011
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 5
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 4
-points: 30.0
-rounds: 10
+points: 33.0
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -104,5 +112,6 @@ rounds_by_month:
   - *id009
   7:
   - *id010
-skins: 1
+  - *id011
+skins: 3
 ---

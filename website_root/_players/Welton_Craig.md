@@ -80,15 +80,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id011
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 5
-front_wins: 4
+flight_wins: 6
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 6
-points: 36.0
-rounds: 10
+points: 40.0
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -103,5 +111,7 @@ rounds_by_month:
   - *id008
   - *id009
   - *id010
-skins: 4
+  8:
+  - *id011
+skins: 5
 ---

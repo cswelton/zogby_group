@@ -48,7 +48,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id007
+- &id008
   date: 2021-07-23
   name: Round 48 (Fri, July 23)
   official: true
@@ -56,15 +56,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
-flight_wins: 0
-front_wins: 2
+- &id007
+  date: 2021-07-30
+  name: Round 50 (Fri, July 30)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2021-08-10
+  name: August 6 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 1
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
-overall_wins: 1
-points: 8.666666666666666
-rounds: 7
+overall_wins: 3
+points: 20.666666666666664
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -77,5 +93,8 @@ rounds_by_month:
   - *id006
   7:
   - *id007
-skins: 3
+  - *id008
+  8:
+  - *id009
+skins: 4
 ---
