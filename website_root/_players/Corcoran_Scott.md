@@ -81,7 +81,7 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id011
-  date: 2021-08-10
+  date: 2021-08-13
   name: August 6 (Fri, August  6)
   official: true
   over_limit: false

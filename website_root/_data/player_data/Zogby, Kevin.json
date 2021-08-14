@@ -1,6 +1,6 @@
 {
     "name": "Zogby, Kevin",
-    "scoring_average": 79.548,
+    "scoring_average": 79.438,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -2698,6 +2698,93 @@
             ],
             "in": 36,
             "out": 38
+        },
+        {
+            "date": "2020-08-13",
+            "date_timestamp": 737650,
+            "score": 76,
+            "total": 76,
+            "name": "Round 52 (Fri, August 13)",
+            "valid": false,
+            "reason": "Not all players finished 18 holes",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 36,
+            "out": 40
         }
     ]
 }
