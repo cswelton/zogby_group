@@ -16,6 +16,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id003
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 0
 front_wins: 2
@@ -24,11 +32,13 @@ image: /assets/images/Williford_Luke.png
 name: Williford, Luke
 overall_wins: 0
 points: 2.6666666666666665
-rounds: 2
+rounds: 3
 rounds_by_month:
   4:
   - *id001
   7:
   - *id002
+  9:
+  - *id003
 skins: 1
 ---

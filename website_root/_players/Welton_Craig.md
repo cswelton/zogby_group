@@ -81,22 +81,46 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id011
-  date: 2021-08-13
+  date: 2021-08-22
+  name: Round 54 (Sun, August 22)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2021-09-03
+  name: Round 56 (Fri, September  3)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2021-09-09
   name: August 6 (Fri, August  6)
   official: true
   over_limit: false
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 6
-front_wins: 5
+back_wins: 5
+flight_wins: 7
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 6
-points: 40.0
-rounds: 11
+overall_wins: 8
+points: 52.0
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -113,5 +137,9 @@ rounds_by_month:
   - *id010
   8:
   - *id011
+  9:
+  - *id012
+  - *id013
+  - *id014
 skins: 5
 ---

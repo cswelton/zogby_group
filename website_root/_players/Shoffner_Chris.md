@@ -89,7 +89,23 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id012
-  date: 2021-08-13
+  date: 2021-08-22
+  name: Round 54 (Sun, August 22)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2021-09-09
   name: August 6 (Fri, August  6)
   official: true
   over_limit: false
@@ -104,7 +120,7 @@ image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 5
 points: 41.666666666666664
-rounds: 12
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -123,5 +139,8 @@ rounds_by_month:
   - *id011
   8:
   - *id012
+  9:
+  - *id013
+  - *id014
 skins: 3
 ---

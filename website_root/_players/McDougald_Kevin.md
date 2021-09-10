@@ -88,15 +88,39 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 5
+- &id012
+  date: 2021-08-22
+  name: Round 54 (Sun, August 22)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2021-09-03
+  name: Round 56 (Fri, September  3)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 6
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
-overall_wins: 4
-points: 33.0
-rounds: 11
+overall_wins: 5
+points: 39.0
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -113,5 +137,10 @@ rounds_by_month:
   7:
   - *id010
   - *id011
+  8:
+  - *id012
+  9:
+  - *id013
+  - *id014
 skins: 3
 ---

@@ -57,7 +57,7 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id008
-  date: 2021-08-13
+  date: 2021-09-09
   name: August 6 (Fri, August  6)
   official: true
   over_limit: false
@@ -84,7 +84,7 @@ rounds_by_month:
   - *id006
   6:
   - *id007
-  8:
+  9:
   - *id008
 skins: 4
 ---

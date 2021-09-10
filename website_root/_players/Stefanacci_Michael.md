@@ -88,15 +88,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id012
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 0
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 1
-points: 11.666666666666666
-rounds: 11
+overall_wins: 2
+points: 15.666666666666666
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -113,5 +121,7 @@ rounds_by_month:
   7:
   - *id010
   - *id011
+  9:
+  - *id012
 skins: 1
 ---

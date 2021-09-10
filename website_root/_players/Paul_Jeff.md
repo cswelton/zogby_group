@@ -40,15 +40,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 0
+- &id006
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 1
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/default.png
 name: Paul, Jeff
 overall_wins: 2
-points: 10.0
-rounds: 5
+points: 13.0
+rounds: 6
 rounds_by_month:
   5:
   - *id001
@@ -58,5 +66,7 @@ rounds_by_month:
   - *id004
   7:
   - *id005
+  9:
+  - *id006
 skins: 0
 ---

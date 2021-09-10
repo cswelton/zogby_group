@@ -72,15 +72,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id010
+  date: 2021-08-22
+  name: Round 54 (Sun, August 22)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 1
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
-overall_wins: 1
-points: 16.666666666666664
-rounds: 9
+overall_wins: 2
+points: 22.666666666666664
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -95,5 +103,7 @@ rounds_by_month:
   - *id008
   7:
   - *id009
-skins: 4
+  8:
+  - *id010
+skins: 6
 ---

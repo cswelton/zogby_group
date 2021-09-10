@@ -65,22 +65,38 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id009
-  date: 2021-08-13
+  date: 2021-08-22
+  name: Round 54 (Sun, August 22)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2021-09-09
   name: August 6 (Fri, August  6)
   official: true
   over_limit: false
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 2
+back_wins: 3
 flight_wins: 1
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 1
-points: 16.666666666666664
-rounds: 9
+points: 17.666666666666664
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -96,5 +112,8 @@ rounds_by_month:
   - *id008
   8:
   - *id009
+  9:
+  - *id010
+  - *id011
 skins: 5
 ---

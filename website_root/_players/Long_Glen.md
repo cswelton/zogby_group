@@ -56,15 +56,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2021-08-22
+  name: Round 54 (Sun, August 22)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
 flight_wins: 2
-front_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 4
-points: 27.0
-rounds: 7
+points: 30.0
+rounds: 8
 rounds_by_month:
   4:
   - *id001
@@ -76,5 +84,7 @@ rounds_by_month:
   - *id006
   7:
   - *id007
-skins: 4
+  8:
+  - *id008
+skins: 5
 ---

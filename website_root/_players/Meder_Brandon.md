@@ -16,6 +16,22 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id003
+  date: 2021-09-03
+  name: Round 56 (Fri, September  3)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id004
+  date: 2021-09-06
+  name: Round 57 (Mon, September  6)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 1
 front_wins: 0
@@ -24,10 +40,13 @@ image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 1
 points: 5.0
-rounds: 2
+rounds: 4
 rounds_by_month:
   7:
   - *id001
   - *id002
+  9:
+  - *id003
+  - *id004
 skins: 0
 ---
