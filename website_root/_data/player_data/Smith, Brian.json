@@ -1,6 +1,6 @@
 {
     "name": "Smith, Brian",
-    "scoring_average": 71.719,
+    "scoring_average": 71.727,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -2700,8 +2700,95 @@
             "out": 32
         },
         {
-            "date": "2021-09-09",
-            "date_timestamp": 738042,
+            "date": "2020-09-10",
+            "date_timestamp": 737678,
+            "score": 72,
+            "total": 72,
+            "name": "Round 58 (Fri, September 10)",
+            "valid": false,
+            "reason": "Only 8 players, 12 are required",
+            "front": [
+                {
+                    "score": 3,
+                    "type": "eagle"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 38,
+            "out": 34
+        },
+        {
+            "date": "2021-09-12",
+            "date_timestamp": 738045,
             "score": 70,
             "total": 70,
             "name": "August 6 (Fri, August  6)",

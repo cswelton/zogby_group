@@ -1,6 +1,6 @@
 {
     "name": "Welton, Craig",
-    "scoring_average": 76.773,
+    "scoring_average": 76.696,
     "rounds": [
         {
             "date": "2020-01-22",
@@ -1830,8 +1830,95 @@
             "out": 38
         },
         {
-            "date": "2021-09-09",
-            "date_timestamp": 738042,
+            "date": "2020-09-10",
+            "date_timestamp": 737678,
+            "score": 75,
+            "total": 75,
+            "name": "Round 58 (Fri, September 10)",
+            "valid": false,
+            "reason": "Only 8 players, 12 are required",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 3,
+                    "type": "eagle"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 40
+        },
+        {
+            "date": "2021-09-12",
+            "date_timestamp": 738045,
             "score": 69,
             "total": 69,
             "name": "August 6 (Fri, August  6)",
