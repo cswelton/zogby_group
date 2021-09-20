@@ -1,6 +1,6 @@
 {
     "name": "Roberts, Evan",
-    "scoring_average": 78.45,
+    "scoring_average": 78.095,
     "rounds": [
         {
             "date": "2020-03-24",
@@ -1656,8 +1656,95 @@
             "out": 35
         },
         {
-            "date": "2021-09-12",
-            "date_timestamp": 738045,
+            "date": "2020-09-17",
+            "date_timestamp": 737685,
+            "score": 71,
+            "total": 71,
+            "name": "Round 59 (Fri, September 17)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 35,
+            "out": 36
+        },
+        {
+            "date": "2021-09-19",
+            "date_timestamp": 738052,
             "score": 78,
             "total": 78,
             "name": "August 6 (Fri, August  6)",

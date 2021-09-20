@@ -43,10 +43,10 @@ all_rounds:
 - &id007
   date: 2021-05-14
   name: Round 32 (Fri, May 14)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 59 (Fri, September 17)
   replaces: null
 - &id008
   date: 2021-05-21
@@ -128,15 +128,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id017
+  date: 2021-09-17
+  name: Round 59 (Fri, September 17)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 32 (Fri, May 14)
 back_wins: 7
 flight_wins: 5
-front_wins: 4
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 7
-points: 57.0
-rounds: 16
+points: 60.0
+rounds: 17
 rounds_by_month:
   4:
   - *id001
@@ -160,5 +168,6 @@ rounds_by_month:
   9:
   - *id015
   - *id016
-skins: 16
+  - *id017
+skins: 17
 ---

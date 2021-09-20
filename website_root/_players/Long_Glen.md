@@ -64,6 +64,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id009
+  date: 2021-09-17
+  name: Round 59 (Fri, September 17)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 4
 flight_wins: 2
 front_wins: 4
@@ -72,7 +80,7 @@ image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 4
 points: 30.0
-rounds: 8
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -86,5 +94,7 @@ rounds_by_month:
   - *id007
   8:
   - *id008
+  9:
+  - *id009
 skins: 5
 ---

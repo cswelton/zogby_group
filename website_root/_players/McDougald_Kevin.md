@@ -112,6 +112,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id015
+  date: 2021-09-17
+  name: Round 59 (Fri, September 17)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 6
 front_wins: 3
@@ -119,8 +127,8 @@ ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 5
-points: 39.0
-rounds: 14
+points: 40.0
+rounds: 15
 rounds_by_month:
   4:
   - *id001
@@ -142,5 +150,6 @@ rounds_by_month:
   9:
   - *id013
   - *id014
-skins: 3
+  - *id015
+skins: 4
 ---

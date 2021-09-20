@@ -80,15 +80,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 4
+- &id011
+  date: 2021-09-17
+  name: Round 59 (Fri, September 17)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
 flight_wins: 4
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
-overall_wins: 3
-points: 28.666666666666664
-rounds: 10
+overall_wins: 4
+points: 32.666666666666664
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -104,5 +112,7 @@ rounds_by_month:
   7:
   - *id009
   - *id010
+  9:
+  - *id011
 skins: 6
 ---

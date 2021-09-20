@@ -1,6 +1,6 @@
 {
     "name": "Fish, Tony",
-    "scoring_average": 75.385,
+    "scoring_average": 75.37,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -2178,8 +2178,95 @@
             "out": 34
         },
         {
-            "date": "2021-09-12",
-            "date_timestamp": 738045,
+            "date": "2020-09-17",
+            "date_timestamp": 737685,
+            "score": 75,
+            "total": 75,
+            "name": "Round 59 (Fri, September 17)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 40
+        },
+        {
+            "date": "2021-09-19",
+            "date_timestamp": 738052,
             "score": 77,
             "total": 77,
             "name": "August 6 (Fri, August  6)",

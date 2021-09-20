@@ -48,8 +48,16 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2021-09-17
+  name: Round 59 (Fri, September 17)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 - &id007
-  date: 2021-09-12
+  date: 2021-09-19
   name: August 6 (Fri, August  6)
   official: true
   over_limit: false
@@ -64,7 +72,7 @@ image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 4
 points: 32.0
-rounds: 7
+rounds: 8
 rounds_by_month:
   6:
   - *id001
@@ -77,5 +85,6 @@ rounds_by_month:
   - *id005
   - *id006
   - *id007
+  - *id008
 skins: 4
 ---

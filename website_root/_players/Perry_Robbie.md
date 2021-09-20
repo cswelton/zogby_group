@@ -80,15 +80,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id011
+  date: 2021-09-17
+  name: Round 59 (Fri, September 17)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 1
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
-overall_wins: 2
-points: 22.666666666666664
-rounds: 10
+overall_wins: 3
+points: 26.666666666666664
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -105,5 +113,7 @@ rounds_by_month:
   - *id009
   8:
   - *id010
+  9:
+  - *id011
 skins: 6
 ---
