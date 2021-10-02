@@ -72,14 +72,6 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id010
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 1.0
-  replaced_by: null
-  replaces: null
 back_wins: 2
 flight_wins: 4
 front_wins: 2
@@ -87,8 +79,8 @@ ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 1
-points: 21.0
-rounds: 10
+points: 20.0
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -105,6 +97,5 @@ rounds_by_month:
   9:
   - *id008
   - *id009
-  - *id010
-skins: 5
+skins: 4
 ---

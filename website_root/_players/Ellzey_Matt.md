@@ -80,14 +80,6 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id011
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 2.0
-  replaced_by: null
-  replaces: null
 back_wins: 3
 flight_wins: 2
 front_wins: 1
@@ -95,8 +87,8 @@ ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 1
-points: 17.0
-rounds: 11
+points: 15.0
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -113,6 +105,5 @@ rounds_by_month:
   9:
   - *id009
   - *id010
-  - *id011
-skins: 5
+skins: 3
 ---

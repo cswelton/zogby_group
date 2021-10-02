@@ -104,7 +104,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id015
+- &id014
   date: 2021-09-17
   name: Round 59 (Fri, September 17)
   official: true
@@ -112,23 +112,15 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id014
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 4.0
-  replaced_by: null
-  replaces: null
 back_wins: 5
-flight_wins: 8
-front_wins: 8
+flight_wins: 7
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 8
-points: 57.0
-rounds: 15
+points: 53.0
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -149,6 +141,5 @@ rounds_by_month:
   - *id012
   - *id013
   - *id014
-  - *id015
-skins: 6
+skins: 5
 ---

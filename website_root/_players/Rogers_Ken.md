@@ -72,23 +72,15 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id010
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 5.0
-  replaced_by: null
-  replaces: null
-back_wins: 4
+back_wins: 3
 flight_wins: 1
-front_wins: 4
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
-overall_wins: 4
-points: 26.666666666666664
-rounds: 10
+overall_wins: 3
+points: 21.666666666666664
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -104,6 +96,5 @@ rounds_by_month:
   - *id008
   9:
   - *id009
-  - *id010
 skins: 4
 ---

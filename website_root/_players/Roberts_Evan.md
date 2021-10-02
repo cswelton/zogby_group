@@ -120,20 +120,12 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id017
+- &id016
   date: 2021-09-17
   name: Round 59 (Fri, September 17)
   official: true
   over_limit: false
   points: 4.0
-  replaced_by: null
-  replaces: null
-- &id016
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: false
-  over_limit: true
-  points: 0
   replaced_by: null
   replaces: null
 back_wins: 4
@@ -144,7 +136,7 @@ image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 5
 points: 45.66666666666667
-rounds: 17
+rounds: 16
 rounds_by_month:
   4:
   - *id001
@@ -167,6 +159,5 @@ rounds_by_month:
   - *id014
   - *id015
   - *id016
-  - *id017
 skins: 3
 ---

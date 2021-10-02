@@ -96,23 +96,15 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id013
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 3.0
-  replaced_by: null
-  replaces: null
 back_wins: 5
-flight_wins: 6
-front_wins: 5
+flight_wins: 5
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 5
-points: 40.0
-rounds: 13
+points: 37.0
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -132,6 +124,5 @@ rounds_by_month:
   - *id011
   9:
   - *id012
-  - *id013
 skins: 3
 ---

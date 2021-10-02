@@ -1,6 +1,6 @@
 {
     "name": "Fish, Tony",
-    "scoring_average": 75.37,
+    "scoring_average": 75.214,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -2265,13 +2265,100 @@
             "out": 40
         },
         {
-            "date": "2021-09-19",
-            "date_timestamp": 738052,
+            "date": "2021-10-01",
+            "date_timestamp": 738064,
+            "score": 71,
+            "total": 71,
+            "name": "Round 61 (Fri, October  1)",
+            "valid": false,
+            "reason": "Round date 2021-10-01, does not fall within season (2021-04-01 to 2021-10-01)",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 36
+        },
+        {
+            "date": "2021-10-01",
+            "date_timestamp": 738064,
             "score": 77,
             "total": 77,
             "name": "August 6 (Fri, August  6)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2021-10-01, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 5,

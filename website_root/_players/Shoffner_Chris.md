@@ -104,23 +104,15 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id014
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 1.0
-  replaced_by: null
-  replaces: null
 back_wins: 4
 flight_wins: 7
-front_wins: 7
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 5
-points: 41.666666666666664
-rounds: 14
+points: 40.666666666666664
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -141,6 +133,5 @@ rounds_by_month:
   - *id012
   9:
   - *id013
-  - *id014
 skins: 3
 ---

@@ -1,6 +1,6 @@
 {
     "name": "Corcoran, Scott",
-    "scoring_average": 78.783,
+    "scoring_average": 78.917,
     "rounds": [
         {
             "date": "2020-01-14",
@@ -1917,13 +1917,100 @@
             "out": 43
         },
         {
-            "date": "2021-09-19",
-            "date_timestamp": 738052,
+            "date": "2021-10-01",
+            "date_timestamp": 738064,
+            "score": 82,
+            "total": 82,
+            "name": "Round 61 (Fri, October  1)",
+            "valid": false,
+            "reason": "Round date 2021-10-01, does not fall within season (2021-04-01 to 2021-10-01)",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 42,
+            "out": 40
+        },
+        {
+            "date": "2021-10-01",
+            "date_timestamp": 738064,
             "score": 71,
             "total": 71,
             "name": "August 6 (Fri, August  6)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2021-10-01, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 6,

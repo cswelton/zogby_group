@@ -56,20 +56,12 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id009
+- &id008
   date: 2021-09-17
   name: Round 59 (Fri, September 17)
   official: true
   over_limit: false
   points: 3.0
-  replaced_by: null
-  replaces: null
-- &id008
-  date: 2021-09-19
-  name: August 6 (Fri, August  6)
-  official: true
-  over_limit: false
-  points: 0
   replaced_by: null
   replaces: null
 back_wins: 1
@@ -80,7 +72,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 2
 points: 19.666666666666668
-rounds: 9
+rounds: 8
 rounds_by_month:
   4:
   - *id001
@@ -94,6 +86,5 @@ rounds_by_month:
   - *id007
   9:
   - *id008
-  - *id009
 skins: 5
 ---
