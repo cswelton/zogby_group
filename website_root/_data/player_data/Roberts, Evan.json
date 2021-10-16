@@ -1,6 +1,6 @@
 {
     "name": "Roberts, Evan",
-    "scoring_average": 78.095,
+    "scoring_average": 77.909,
     "rounds": [
         {
             "date": "2020-03-24",
@@ -1743,13 +1743,100 @@
             "out": 36
         },
         {
-            "date": "2021-10-01",
-            "date_timestamp": 738064,
+            "date": "2021-10-15",
+            "date_timestamp": 738078,
+            "score": 74,
+            "total": 74,
+            "name": "Round 62 (Fri, October 15)",
+            "valid": false,
+            "reason": "Round date 2021-10-15, does not fall within season (2021-04-01 to 2021-10-01)",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 37,
+            "out": 37
+        },
+        {
+            "date": "2021-10-15",
+            "date_timestamp": 738078,
             "score": 78,
             "total": 78,
             "name": "August 6 (Fri, August  6)",
             "valid": false,
-            "reason": "Round date 2021-10-01, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-10-15, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 5,

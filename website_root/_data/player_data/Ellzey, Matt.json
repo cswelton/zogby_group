@@ -1569,13 +1569,13 @@
             "out": 37
         },
         {
-            "date": "2021-10-01",
-            "date_timestamp": 738064,
+            "date": "2021-10-15",
+            "date_timestamp": 738078,
             "score": 71,
             "total": 71,
             "name": "August 6 (Fri, August  6)",
             "valid": false,
-            "reason": "Round date 2021-10-01, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-10-15, does not fall within season (2021-04-01 to 2021-10-01)",
             "front": [
                 {
                     "score": 5,
