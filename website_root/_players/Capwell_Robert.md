@@ -22,15 +22,15 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 57 (Mon, September  6)
+  replaced_by: Round 64 (Sun, October 31)
   replaces: null
 - &id001
   date: 2021-04-23
   name: Round 29 (Fri, April 23)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 57 (Mon, September  6)
   replaces: null
 - &id003
   date: 2021-04-30
@@ -51,10 +51,10 @@ all_rounds:
 - &id008
   date: 2021-05-14
   name: Round 32 (Fri, May 14)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 66 (Fri, November  5)
   replaces: null
 - &id009
   date: 2021-05-21
@@ -112,6 +112,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id016
+  date: 2021-08-06
+  name: Round 51 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
 - &id015
   date: 2021-08-22
   name: Round 54 (Sun, August 22)
@@ -120,31 +128,55 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id016
+- &id017
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
-  official: true
-  over_limit: false
+  official: false
+  over_limit: true
   points: 0
   replaced_by: null
   replaces: null
-- &id017
+- &id018
   date: 2021-09-06
   name: Round 57 (Mon, September  6)
   official: true
   over_limit: true
   points: 1.0
   replaced_by: null
+  replaces: Round 29 (Fri, April 23)
+- &id019
+  date: 2021-10-01
+  name: Round 61 (Fri, October  1)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id020
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
   replaces: Round 27 (Fri, April 16)
-back_wins: 4
-flight_wins: 5
-front_wins: 4
+- &id021
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: Round 32 (Fri, May 14)
+back_wins: 7
+flight_wins: 7
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 2
-points: 27.0
-rounds: 17
+overall_wins: 4
+points: 43.0
+rounds: 21
 rounds_by_month:
   4:
   - *id001
@@ -166,8 +198,14 @@ rounds_by_month:
   - *id014
   8:
   - *id015
-  9:
   - *id016
+  9:
   - *id017
+  - *id018
+  10:
+  - *id019
+  - *id020
+  11:
+  - *id021
 skins: 5
 ---

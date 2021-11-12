@@ -65,6 +65,14 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id009
+  date: 2021-08-06
+  name: Round 51 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id010
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
   official: true
@@ -72,15 +80,15 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-back_wins: 3
+back_wins: 4
 flight_wins: 1
-front_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
-overall_wins: 3
-points: 21.666666666666664
-rounds: 9
+overall_wins: 4
+points: 26.666666666666664
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -94,7 +102,9 @@ rounds_by_month:
   7:
   - *id007
   - *id008
-  9:
+  8:
   - *id009
+  9:
+  - *id010
 skins: 4
 ---

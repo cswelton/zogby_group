@@ -72,15 +72,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 4
+- &id010
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
 flight_wins: 2
 front_wins: 4
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
-overall_wins: 4
-points: 30.0
-rounds: 9
+overall_wins: 5
+points: 33.0
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -96,5 +104,7 @@ rounds_by_month:
   - *id008
   9:
   - *id009
+  11:
+  - *id010
 skins: 5
 ---

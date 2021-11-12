@@ -40,6 +40,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id006
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 1
 front_wins: 1
@@ -48,7 +56,7 @@ image: /assets/images/default.png
 name: James, Brian
 overall_wins: 2
 points: 12.0
-rounds: 5
+rounds: 6
 rounds_by_month:
   4:
   - *id001
@@ -58,5 +66,7 @@ rounds_by_month:
   9:
   - *id004
   - *id005
+  10:
+  - *id006
 skins: 1
 ---

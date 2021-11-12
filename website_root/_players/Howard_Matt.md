@@ -40,15 +40,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id006
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 1
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 1
-points: 9.0
-rounds: 5
+points: 11.0
+rounds: 6
 rounds_by_month:
   4:
   - *id001
@@ -58,5 +66,7 @@ rounds_by_month:
   6:
   - *id004
   - *id005
+  11:
+  - *id006
 skins: 1
 ---

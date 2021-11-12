@@ -3,10 +3,10 @@ all_rounds:
 - &id004
   date: 2021-04-02
   name: Round 24 (Fri, April  2)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 66 (Fri, November  5)
   replaces: null
 - &id001
   date: 2021-04-09
@@ -43,10 +43,10 @@ all_rounds:
 - &id007
   date: 2021-05-14
   name: Round 32 (Fri, May 14)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 59 (Fri, September 17)
   replaces: null
 - &id008
   date: 2021-05-21
@@ -105,6 +105,14 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id014
+  date: 2021-08-06
+  name: Round 51 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id015
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
   official: true
@@ -112,7 +120,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-- &id015
+- &id016
   date: 2021-09-06
   name: Round 57 (Mon, September  6)
   official: true
@@ -120,23 +128,39 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id016
+- &id017
   date: 2021-09-17
   name: Round 59 (Fri, September 17)
   official: true
-  over_limit: false
+  over_limit: true
   points: 4.0
   replaced_by: null
+  replaces: Round 32 (Fri, May 14)
+- &id018
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
   replaces: null
+- &id019
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 24 (Fri, April  2)
 back_wins: 4
-flight_wins: 6
-front_wins: 9
+flight_wins: 7
+front_wins: 10
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 5
-points: 45.66666666666667
-rounds: 16
+points: 51.66666666666667
+rounds: 19
 rounds_by_month:
   4:
   - *id001
@@ -155,9 +179,15 @@ rounds_by_month:
   - *id011
   - *id012
   - *id013
-  9:
+  8:
   - *id014
+  9:
   - *id015
   - *id016
-skins: 3
+  - *id017
+  10:
+  - *id018
+  11:
+  - *id019
+skins: 5
 ---

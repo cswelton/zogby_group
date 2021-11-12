@@ -16,6 +16,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id003
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 0
 front_wins: 0
@@ -24,11 +32,13 @@ image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 1
 points: 2.0
-rounds: 2
+rounds: 3
 rounds_by_month:
   4:
   - *id001
   6:
   - *id002
+  10:
+  - *id003
 skins: 0
 ---

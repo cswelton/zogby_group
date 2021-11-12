@@ -22,7 +22,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 57 (Mon, September  6)
+  replaced_by: Round 64 (Sun, October 31)
   replaces: null
 - &id002
   date: 2021-04-23
@@ -75,10 +75,10 @@ all_rounds:
 - &id010
   date: 2021-06-04
   name: Round 38 (Fri, June  4)
-  official: true
+  official: false
   over_limit: false
   points: 1.0
-  replaced_by: null
+  replaced_by: Round 61 (Fri, October  1)
   replaces: null
 - &id011
   date: 2021-06-18
@@ -123,10 +123,10 @@ all_rounds:
 - &id016
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 57 (Mon, September  6)
   replaces: null
 - &id017
   date: 2021-09-06
@@ -135,16 +135,40 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
+  replaces: Round 56 (Fri, September  3)
+- &id018
+  date: 2021-10-01
+  name: Round 61 (Fri, October  1)
+  official: true
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: Round 38 (Fri, June  4)
+- &id019
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: true
+  over_limit: true
+  points: 10.0
+  replaced_by: null
   replaces: Round 27 (Fri, April 16)
-back_wins: 4
-flight_wins: 6
-front_wins: 10
+- &id020
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 8
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
-overall_wins: 7
-points: 53.0
-rounds: 17
+overall_wins: 8
+points: 64.0
+rounds: 20
 rounds_by_month:
   4:
   - *id001
@@ -169,5 +193,10 @@ rounds_by_month:
   9:
   - *id016
   - *id017
-skins: 6
+  10:
+  - *id018
+  - *id019
+  11:
+  - *id020
+skins: 8
 ---

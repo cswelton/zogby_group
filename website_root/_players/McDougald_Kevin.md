@@ -11,10 +11,10 @@ all_rounds:
 - &id001
   date: 2021-04-09
   name: Round 25 (Fri, April  9)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 66 (Fri, November  5)
   replaces: null
 - &id005
   date: 2021-04-16
@@ -120,15 +120,31 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 6
+- &id016
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id017
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: Round 25 (Fri, April  9)
+back_wins: 7
 flight_wins: 6
-front_wins: 3
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
-overall_wins: 5
-points: 40.0
-rounds: 15
+overall_wins: 6
+points: 48.0
+rounds: 17
 rounds_by_month:
   4:
   - *id001
@@ -151,5 +167,9 @@ rounds_by_month:
   - *id013
   - *id014
   - *id015
+  10:
+  - *id016
+  11:
+  - *id017
 skins: 4
 ---

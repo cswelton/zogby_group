@@ -40,15 +40,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id006
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 0
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
-overall_wins: 1
-points: 7.0
-rounds: 5
+overall_wins: 2
+points: 10.0
+rounds: 6
 rounds_by_month:
   4:
   - *id001
@@ -58,5 +66,7 @@ rounds_by_month:
   6:
   - *id004
   - *id005
+  11:
+  - *id006
 skins: 1
 ---

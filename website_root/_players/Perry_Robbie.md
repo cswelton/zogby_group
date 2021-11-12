@@ -88,6 +88,14 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id012
+  date: 2021-10-01
+  name: Round 61 (Fri, October  1)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 1
 front_wins: 5
@@ -95,8 +103,8 @@ ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
 overall_wins: 3
-points: 26.666666666666664
-rounds: 11
+points: 27.666666666666664
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -115,5 +123,7 @@ rounds_by_month:
   - *id010
   9:
   - *id011
-skins: 6
+  10:
+  - *id012
+skins: 7
 ---

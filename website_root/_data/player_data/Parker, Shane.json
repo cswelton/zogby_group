@@ -1,6 +1,6 @@
 {
     "name": "Parker, Shane",
-    "scoring_average": 71.938,
+    "scoring_average": 72.0,
     "rounds": [
         {
             "date": "2020-01-22",
@@ -9,7 +9,7 @@
             "total": 70,
             "name": "Round 6 (Fri, January 22)",
             "valid": false,
-            "reason": "Round date 2021-01-22, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-01-22, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -96,7 +96,7 @@
             "total": 69,
             "name": "Round 10 (Sat, February  6)",
             "valid": false,
-            "reason": "Round date 2021-02-06, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-02-06, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -183,7 +183,7 @@
             "total": 70,
             "name": "Round 15 (Fri, March  5)",
             "valid": false,
-            "reason": "Round date 2021-03-05, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-05, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -270,7 +270,7 @@
             "total": 72,
             "name": "Round 20 (Fri, March 12)",
             "valid": false,
-            "reason": "Round date 2021-03-12, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-12, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -786,6 +786,93 @@
             "out": 33
         },
         {
+            "date": "2020-08-06",
+            "date_timestamp": 737643,
+            "score": 70,
+            "total": 70,
+            "name": "Round 51 (Fri, August  6)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                }
+            ],
+            "back": [
+                {
+                    "score": 3,
+                    "type": "eagle"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 33,
+            "out": 37
+        },
+        {
             "date": "2020-08-22",
             "date_timestamp": 737659,
             "score": 70,
@@ -1227,7 +1314,7 @@
             "total": 78,
             "name": "Round 62 (Fri, October 15)",
             "valid": false,
-            "reason": "Round date 2021-10-15, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Only 8 players, 12 are required",
             "front": [
                 {
                     "score": 4,
@@ -1308,13 +1395,100 @@
             "out": 42
         },
         {
-            "date": "2021-10-15",
-            "date_timestamp": 738078,
+            "date": "2021-11-05",
+            "date_timestamp": 738099,
+            "score": 75,
+            "total": 75,
+            "name": "Round 66 (Fri, November  5)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 39,
+            "out": 36
+        },
+        {
+            "date": "2021-11-12",
+            "date_timestamp": 738106,
             "score": 70,
             "total": 70,
             "name": "August 6 (Fri, August  6)",
             "valid": false,
-            "reason": "Round date 2021-10-15, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round deemed unofficial",
             "front": [
                 {
                     "score": 4,

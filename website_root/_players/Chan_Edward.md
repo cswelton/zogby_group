@@ -48,6 +48,14 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2021-08-06
+  name: Round 51 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 - &id007
   date: 2021-08-22
   name: Round 54 (Sun, August 22)
@@ -56,7 +64,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id008
+- &id009
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
   official: true
@@ -64,7 +72,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id009
+- &id010
   date: 2021-09-06
   name: Round 57 (Mon, September  6)
   official: true
@@ -79,8 +87,8 @@ ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 1
-points: 20.0
-rounds: 9
+points: 21.0
+rounds: 10
 rounds_by_month:
   4:
   - *id001
@@ -94,8 +102,9 @@ rounds_by_month:
   - *id006
   8:
   - *id007
-  9:
   - *id008
+  9:
   - *id009
-skins: 4
+  - *id010
+skins: 5
 ---

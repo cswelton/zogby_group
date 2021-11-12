@@ -1,6 +1,6 @@
 {
     "name": "James, Brian",
-    "scoring_average": 83.5,
+    "scoring_average": 83.545,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -9,7 +9,7 @@
             "total": 81,
             "name": "Round 2 (Sun, January 10)",
             "valid": false,
-            "reason": "Round date 2021-01-10, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-01-10, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -96,7 +96,7 @@
             "total": 84,
             "name": "Round 11 (Wed, February 24)",
             "valid": false,
-            "reason": "Round date 2021-02-24, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-02-24, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -183,7 +183,7 @@
             "total": 86,
             "name": "Round 12 (Thu, February 25)",
             "valid": false,
-            "reason": "Round date 2021-02-25, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-02-25, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -270,7 +270,7 @@
             "total": 84,
             "name": "Round 20 (Fri, March 12)",
             "valid": false,
-            "reason": "Round date 2021-03-12, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-12, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -871,6 +871,93 @@
             ],
             "in": 39,
             "out": 40
+        },
+        {
+            "date": "2021-10-31",
+            "date_timestamp": 738094,
+            "score": 84,
+            "total": 84,
+            "name": "Round 64 (Sun, October 31)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 43,
+            "out": 41
         }
     ]
 }

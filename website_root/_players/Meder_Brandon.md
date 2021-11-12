@@ -32,6 +32,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2021-10-31
+  name: Round 64 (Sun, October 31)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 1
 front_wins: 0
@@ -40,7 +48,7 @@ image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 1
 points: 5.0
-rounds: 4
+rounds: 5
 rounds_by_month:
   7:
   - *id001
@@ -48,5 +56,7 @@ rounds_by_month:
   9:
   - *id003
   - *id004
+  10:
+  - *id005
 skins: 0
 ---

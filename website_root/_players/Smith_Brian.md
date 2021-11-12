@@ -11,10 +11,10 @@ all_rounds:
 - &id003
   date: 2021-04-11
   name: Round 26 (Sun, April 11)
-  official: true
+  official: false
   over_limit: false
   points: 2.0
-  replaced_by: null
+  replaced_by: Round 66 (Fri, November  5)
   replaces: null
 - &id002
   date: 2021-04-23
@@ -105,14 +105,22 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id014
-  date: 2021-09-03
-  name: Round 56 (Fri, September  3)
+  date: 2021-08-06
+  name: Round 51 (Fri, August  6)
   official: true
   over_limit: false
-  points: 0
+  points: 4.0
   replaced_by: null
   replaces: null
 - &id015
+  date: 2021-09-03
+  name: Round 56 (Fri, September  3)
+  official: false
+  over_limit: false
+  points: 0
+  replaced_by: Round 61 (Fri, October  1)
+  replaces: null
+- &id016
   date: 2021-09-06
   name: Round 57 (Mon, September  6)
   official: true
@@ -120,23 +128,39 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id016
+- &id017
   date: 2021-09-17
   name: Round 59 (Fri, September 17)
-  official: true
-  over_limit: false
+  official: false
+  over_limit: true
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 6
-flight_wins: 10
-front_wins: 9
+- &id018
+  date: 2021-10-01
+  name: Round 61 (Fri, October  1)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 56 (Fri, September  3)
+- &id019
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 26 (Sun, April 11)
+back_wins: 8
+flight_wins: 12
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 8
-points: 71.66666666666667
-rounds: 16
+overall_wins: 10
+points: 82.66666666666667
+rounds: 19
 rounds_by_month:
   4:
   - *id001
@@ -155,9 +179,15 @@ rounds_by_month:
   - *id011
   - *id012
   - *id013
-  9:
+  8:
   - *id014
+  9:
   - *id015
   - *id016
-skins: 11
+  - *id017
+  10:
+  - *id018
+  11:
+  - *id019
+skins: 13
 ---

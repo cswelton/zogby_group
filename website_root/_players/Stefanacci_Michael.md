@@ -96,15 +96,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 0
+- &id013
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 1
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 2
-points: 15.666666666666666
-rounds: 12
+points: 18.666666666666664
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -123,5 +131,7 @@ rounds_by_month:
   - *id011
   9:
   - *id012
+  11:
+  - *id013
 skins: 1
 ---

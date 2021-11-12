@@ -9,7 +9,7 @@
             "total": 79,
             "name": "Round 6 (Fri, January 22)",
             "valid": false,
-            "reason": "Round date 2021-01-22, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-01-22, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -96,7 +96,7 @@
             "total": 76,
             "name": "Round 9 (Fri, February  5)",
             "valid": false,
-            "reason": "Round date 2021-02-05, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-02-05, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -183,7 +183,7 @@
             "total": 78,
             "name": "Round 11 (Wed, February 24)",
             "valid": false,
-            "reason": "Round date 2021-02-24, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-02-24, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 7,
@@ -270,7 +270,7 @@
             "total": 73,
             "name": "Round 13 (Sun, February 28)",
             "valid": false,
-            "reason": "Round date 2021-02-28, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-02-28, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -357,7 +357,7 @@
             "total": 69,
             "name": "Round 16 (Sun, March  7)",
             "valid": false,
-            "reason": "Round date 2021-03-07, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-07, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -444,7 +444,7 @@
             "total": 78,
             "name": "Round 20 (Fri, March 12)",
             "valid": false,
-            "reason": "Round date 2021-03-12, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-12, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -531,7 +531,7 @@
             "total": 81,
             "name": "Round 22 (Fri, March 26)",
             "valid": false,
-            "reason": "Round date 2021-03-26, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-26, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -618,7 +618,7 @@
             "total": 68,
             "name": "Round 23 (Tue, March 30)",
             "valid": false,
-            "reason": "Round date 2021-03-30, does not fall within season (2021-04-01 to 2021-10-01)",
+            "reason": "Round date 2021-03-30, does not fall within season (2021-04-01 to 2021-12-30)",
             "front": [
                 {
                     "score": 6,

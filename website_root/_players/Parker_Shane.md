@@ -24,6 +24,14 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2021-08-06
+  name: Round 51 (Fri, August  6)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
 - &id004
   date: 2021-08-22
   name: Round 54 (Sun, August 22)
@@ -32,7 +40,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id005
+- &id006
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
   official: true
@@ -40,7 +48,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id006
+- &id007
   date: 2021-09-06
   name: Round 57 (Mon, September  6)
   official: true
@@ -48,7 +56,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id007
+- &id008
   date: 2021-09-17
   name: Round 59 (Fri, September 17)
   official: true
@@ -56,15 +64,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 4
-front_wins: 2
+- &id009
+  date: 2021-11-05
+  name: Round 66 (Fri, November  5)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 5
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 3
-points: 25.0
-rounds: 7
+overall_wins: 4
+points: 34.0
+rounds: 9
 rounds_by_month:
   6:
   - *id001
@@ -73,9 +89,12 @@ rounds_by_month:
   - *id003
   8:
   - *id004
-  9:
   - *id005
+  9:
   - *id006
   - *id007
-skins: 3
+  - *id008
+  11:
+  - *id009
+skins: 4
 ---

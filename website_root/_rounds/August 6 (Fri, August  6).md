@@ -1,10 +1,10 @@
 ---
-date: '2021-10-15'
-date_timestamp: 738078
+date: '2021-11-12'
+date_timestamp: 738106
 gg_url: null
 name: August 6 (Fri, August  6)
 points: {}
-reason: Round date 2021-10-15, does not fall within season (2021-04-01 to 2021-10-01)
+reason: Round deemed unofficial
 total_points: 0
 valid: false
 ---
