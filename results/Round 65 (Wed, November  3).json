@@ -1,0 +1,37 @@
+{
+    "name": "Round 65 (Wed, November  3)",
+    "results": {
+        "teams": [
+            [
+                "Fish, Tony",
+                "Perry, Robbie",
+                "Long, Glen"
+            ],
+            [
+                "Hilliard, Tj",
+                "Corcoran, Scott",
+                "Capwell, Robert"
+            ]
+        ],
+        "scores": {
+            "Fish, Tony": {
+                "scores": {}
+            },
+            "Perry, Robbie": {
+                "scores": {}
+            },
+            "Long, Glen": {
+                "scores": {}
+            },
+            "Hilliard, Tj": {
+                "scores": {}
+            },
+            "Corcoran, Scott": {
+                "scores": {}
+            },
+            "Capwell, Robert": {
+                "scores": {}
+            }
+        }
+    }
+}
