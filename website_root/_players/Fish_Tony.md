@@ -80,7 +80,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2021-11-05
   name: Round 66 (Fri, November  5)
   official: true
@@ -88,15 +88,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id011
+  date: 2021-11-18
+  name: Round 68 (Thu, November 18)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 2
-front_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 3
-points: 30.666666666666668
-rounds: 11
+points: 32.66666666666667
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -116,5 +124,6 @@ rounds_by_month:
   - *id010
   11:
   - *id011
+  - *id012
 skins: 7
 ---

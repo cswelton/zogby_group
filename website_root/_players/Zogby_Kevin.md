@@ -152,9 +152,17 @@ all_rounds:
   points: 10.0
   replaced_by: null
   replaces: Round 27 (Fri, April 16)
-- &id020
+- &id021
   date: 2021-11-05
   name: Round 66 (Fri, November  5)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id020
+  date: 2021-11-18
+  name: Round 68 (Thu, November 18)
   official: false
   over_limit: true
   points: 1.0
@@ -168,7 +176,7 @@ image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 8
 points: 64.0
-rounds: 20
+rounds: 21
 rounds_by_month:
   4:
   - *id001
@@ -198,5 +206,6 @@ rounds_by_month:
   - *id019
   11:
   - *id020
-skins: 8
+  - *id021
+skins: 9
 ---

@@ -88,15 +88,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id012
+  date: 2021-11-18
+  name: Round 68 (Thu, November 18)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 4
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 4
-points: 32.666666666666664
-rounds: 11
+points: 34.666666666666664
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -114,5 +122,7 @@ rounds_by_month:
   - *id010
   9:
   - *id011
+  11:
+  - *id012
 skins: 6
 ---

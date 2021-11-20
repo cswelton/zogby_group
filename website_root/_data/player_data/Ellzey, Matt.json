@@ -1,6 +1,6 @@
 {
     "name": "Ellzey, Matt",
-    "scoring_average": 77.429,
+    "scoring_average": 77.591,
     "rounds": [
         {
             "date": "2020-02-24",
@@ -1743,8 +1743,95 @@
             "out": 38
         },
         {
-            "date": "2021-11-12",
-            "date_timestamp": 738106,
+            "date": "2021-11-18",
+            "date_timestamp": 738112,
+            "score": 81,
+            "total": 81,
+            "name": "Round 68 (Thu, November 18)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 39,
+            "out": 42
+        },
+        {
+            "date": "2021-11-19",
+            "date_timestamp": 738113,
             "score": 71,
             "total": 71,
             "name": "August 6 (Fri, August  6)",

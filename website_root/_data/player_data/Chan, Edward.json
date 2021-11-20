@@ -1,6 +1,6 @@
 {
     "name": "Chan, Edward",
-    "scoring_average": 74.238,
+    "scoring_average": 74.091,
     "rounds": [
         {
             "date": "2020-01-22",
@@ -1743,8 +1743,95 @@
             "out": 39
         },
         {
-            "date": "2021-11-12",
-            "date_timestamp": 738106,
+            "date": "2021-11-18",
+            "date_timestamp": 738112,
+            "score": 71,
+            "total": 71,
+            "name": "Round 68 (Thu, November 18)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 36
+        },
+        {
+            "date": "2021-11-19",
+            "date_timestamp": 738113,
             "score": 72,
             "total": 72,
             "name": "August 6 (Fri, August  6)",

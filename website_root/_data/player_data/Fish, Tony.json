@@ -1,6 +1,6 @@
 {
     "name": "Fish, Tony",
-    "scoring_average": 75.156,
+    "scoring_average": 75.182,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -2700,8 +2700,95 @@
             "out": 40
         },
         {
-            "date": "2021-11-12",
-            "date_timestamp": 738106,
+            "date": "2021-11-18",
+            "date_timestamp": 738112,
+            "score": 76,
+            "total": 76,
+            "name": "Round 68 (Thu, November 18)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 38,
+            "out": 38
+        },
+        {
+            "date": "2021-11-19",
+            "date_timestamp": 738113,
             "score": 77,
             "total": 77,
             "name": "August 6 (Fri, August  6)",

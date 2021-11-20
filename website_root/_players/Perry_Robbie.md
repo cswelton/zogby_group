@@ -96,6 +96,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2021-11-18
+  name: Round 68 (Thu, November 18)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 1
 front_wins: 5
@@ -104,7 +112,7 @@ image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
 overall_wins: 3
 points: 27.666666666666664
-rounds: 12
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -125,5 +133,7 @@ rounds_by_month:
   - *id011
   10:
   - *id012
+  11:
+  - *id013
 skins: 7
 ---

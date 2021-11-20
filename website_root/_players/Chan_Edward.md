@@ -80,15 +80,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 4
+- &id011
+  date: 2021-11-18
+  name: Round 68 (Thu, November 18)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 5
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
-overall_wins: 1
-points: 21.0
-rounds: 10
+overall_wins: 2
+points: 29.0
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -106,5 +114,7 @@ rounds_by_month:
   9:
   - *id009
   - *id010
-skins: 5
+  11:
+  - *id011
+skins: 7
 ---

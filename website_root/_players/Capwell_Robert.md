@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 57 (Mon, September  6)
+  replaced_by: Round 68 (Thu, November 18)
   replaces: null
 - &id003
   date: 2021-04-30
@@ -54,15 +54,15 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 66 (Fri, November  5)
+  replaced_by: Round 57 (Mon, September  6)
   replaces: null
 - &id009
   date: 2021-05-21
   name: Round 33 (Fri, May 21)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 66 (Fri, November  5)
   replaces: null
 - &id007
   date: 2021-05-28
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 1.0
   replaced_by: null
-  replaces: Round 29 (Fri, April 23)
+  replaces: Round 32 (Fri, May 14)
 - &id019
   date: 2021-10-01
   name: Round 61 (Fri, October  1)
@@ -160,23 +160,31 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 27 (Fri, April 16)
-- &id021
+- &id022
   date: 2021-11-05
   name: Round 66 (Fri, November  5)
   official: true
   over_limit: true
   points: 1.0
   replaced_by: null
-  replaces: Round 32 (Fri, May 14)
-back_wins: 7
-flight_wins: 7
+  replaces: Round 33 (Fri, May 21)
+- &id021
+  date: 2021-11-18
+  name: Round 68 (Thu, November 18)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: Round 29 (Fri, April 23)
+back_wins: 8
+flight_wins: 8
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 4
-points: 43.0
-rounds: 21
+overall_wins: 5
+points: 51.0
+rounds: 22
 rounds_by_month:
   4:
   - *id001
@@ -207,5 +215,6 @@ rounds_by_month:
   - *id020
   11:
   - *id021
-skins: 5
+  - *id022
+skins: 7
 ---
