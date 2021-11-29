@@ -136,6 +136,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: Round 25 (Fri, April  9)
+- &id018
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 7
 flight_wins: 6
 front_wins: 5
@@ -144,7 +152,7 @@ image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 6
 points: 48.0
-rounds: 17
+rounds: 18
 rounds_by_month:
   4:
   - *id001
@@ -171,5 +179,6 @@ rounds_by_month:
   - *id016
   11:
   - *id017
+  - *id018
 skins: 4
 ---

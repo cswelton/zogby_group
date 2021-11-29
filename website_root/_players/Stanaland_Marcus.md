@@ -1,21 +1,21 @@
 ---
 all_rounds:
 - &id001
-  date: 2021-11-28
-  name: Round 71 (Sun, November 28)
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
   official: true
   over_limit: false
-  points: 4.0
+  points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
+back_wins: 0
 flight_wins: 0
 front_wins: 0
 ignored_rounds: []
-image: /assets/images/Hardison_Bart.png
-name: Hardison, Bart
-overall_wins: 1
-points: 4.0
+image: /assets/images/default.png
+name: Stanaland, Marcus
+overall_wins: 0
+points: 0
 rounds: 1
 rounds_by_month:
   11:

@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 68 (Thu, November 18)
+  replaced_by: Round 70 (Wed, November 24)
   replaces: null
 - &id009
   date: 2021-06-04
@@ -91,10 +91,10 @@ all_rounds:
 - &id013
   date: 2021-07-23
   name: Round 48 (Fri, July 23)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 68 (Thu, November 18)
   replaces: null
 - &id012
   date: 2021-07-30
@@ -159,16 +159,24 @@ all_rounds:
   over_limit: true
   points: 2.0
   replaced_by: null
+  replaces: Round 48 (Fri, July 23)
+- &id021
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
   replaces: Round 35 (Fri, May 28)
 back_wins: 4
 flight_wins: 8
-front_wins: 10
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 5
-points: 53.66666666666667
-rounds: 20
+overall_wins: 6
+points: 57.66666666666667
+rounds: 21
 rounds_by_month:
   4:
   - *id001
@@ -198,5 +206,6 @@ rounds_by_month:
   11:
   - *id019
   - *id020
-skins: 5
+  - *id021
+skins: 6
 ---

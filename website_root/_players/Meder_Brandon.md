@@ -40,15 +40,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id006
+  date: 2021-11-28
+  name: Round 71 (Sun, November 28)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 1
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
-overall_wins: 1
-points: 5.0
-rounds: 5
+overall_wins: 2
+points: 9.0
+rounds: 6
 rounds_by_month:
   7:
   - *id001
@@ -58,5 +66,7 @@ rounds_by_month:
   - *id004
   10:
   - *id005
+  11:
+  - *id006
 skins: 0
 ---

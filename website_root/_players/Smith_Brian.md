@@ -19,10 +19,10 @@ all_rounds:
 - &id002
   date: 2021-04-23
   name: Round 29 (Fri, April 23)
-  official: true
+  official: false
   over_limit: false
   points: 3.0
-  replaced_by: null
+  replaced_by: Round 71 (Sun, November 28)
   replaces: null
 - &id004
   date: 2021-04-30
@@ -144,7 +144,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 56 (Fri, September  3)
-- &id020
+- &id021
   date: 2021-11-05
   name: Round 66 (Fri, November  5)
   official: true
@@ -152,7 +152,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 26 (Sun, April 11)
-- &id019
+- &id020
   date: 2021-11-18
   name: Round 68 (Thu, November 18)
   official: true
@@ -160,15 +160,31 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 41 (Fri, June 18)
+- &id022
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id019
+  date: 2021-11-28
+  name: Round 71 (Sun, November 28)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 29 (Fri, April 23)
 back_wins: 9
-flight_wins: 12
-front_wins: 11
+flight_wins: 13
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
 overall_wins: 11
-points: 85.66666666666667
-rounds: 20
+points: 86.66666666666667
+rounds: 22
 rounds_by_month:
   4:
   - *id001
@@ -198,5 +214,7 @@ rounds_by_month:
   11:
   - *id019
   - *id020
-skins: 14
+  - *id021
+  - *id022
+skins: 15
 ---

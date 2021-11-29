@@ -72,15 +72,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 5
-front_wins: 4
+flight_wins: 6
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 4
-points: 34.0
-rounds: 9
+overall_wins: 5
+points: 40.0
+rounds: 10
 rounds_by_month:
   6:
   - *id001
@@ -96,5 +104,6 @@ rounds_by_month:
   - *id008
   11:
   - *id009
-skins: 4
+  - *id010
+skins: 5
 ---

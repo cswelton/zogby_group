@@ -3,10 +3,10 @@ all_rounds:
 - &id001
   date: 2021-04-09
   name: Round 25 (Fri, April  9)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 71 (Sun, November 28)
   replaces: null
 - &id003
   date: 2021-04-16
@@ -112,7 +112,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id015
+- &id016
   date: 2021-11-05
   name: Round 66 (Fri, November  5)
   official: true
@@ -120,15 +120,31 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id017
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id015
+  date: 2021-11-28
+  name: Round 71 (Sun, November 28)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 25 (Fri, April  9)
 back_wins: 7
-flight_wins: 7
-front_wins: 6
+flight_wins: 8
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 7
-points: 51.0
-rounds: 15
+points: 54.0
+rounds: 17
 rounds_by_month:
   4:
   - *id001
@@ -153,5 +169,7 @@ rounds_by_month:
   - *id014
   11:
   - *id015
+  - *id016
+  - *id017
 skins: 3
 ---

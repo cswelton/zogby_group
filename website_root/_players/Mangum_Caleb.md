@@ -48,6 +48,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id007
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 2
 flight_wins: 0
 front_wins: 1
@@ -56,7 +64,7 @@ image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 2
 points: 10.0
-rounds: 6
+rounds: 7
 rounds_by_month:
   4:
   - *id001
@@ -68,5 +76,6 @@ rounds_by_month:
   - *id005
   11:
   - *id006
+  - *id007
 skins: 1
 ---

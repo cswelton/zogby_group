@@ -88,15 +88,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-back_wins: 3
+- &id012
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
 flight_wins: 5
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
-overall_wins: 2
-points: 29.0
-rounds: 11
+overall_wins: 3
+points: 32.0
+rounds: 12
 rounds_by_month:
   4:
   - *id001
@@ -116,5 +124,6 @@ rounds_by_month:
   - *id010
   11:
   - *id011
+  - *id012
 skins: 7
 ---

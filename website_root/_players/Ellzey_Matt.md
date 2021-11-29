@@ -104,7 +104,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id014
+- &id015
   date: 2021-11-18
   name: Round 68 (Thu, November 18)
   official: true
@@ -112,15 +112,31 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 2
+- &id016
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2021-11-28
+  name: Round 71 (Sun, November 28)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 3
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 2
-points: 23.0
-rounds: 14
+overall_wins: 3
+points: 29.0
+rounds: 16
 rounds_by_month:
   4:
   - *id001
@@ -144,5 +160,7 @@ rounds_by_month:
   - *id013
   11:
   - *id014
-skins: 7
+  - *id015
+  - *id016
+skins: 8
 ---

@@ -120,15 +120,31 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 4
+- &id017
+  date: 2021-11-24
+  name: Round 70 (Wed, November 24)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+- &id016
+  date: 2021-11-28
+  name: Round 71 (Sun, November 28)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 5
 flight_wins: 7
 front_wins: 7
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 5
-points: 42.666666666666664
-rounds: 15
+overall_wins: 6
+points: 45.666666666666664
+rounds: 17
 rounds_by_month:
   4:
   - *id001
@@ -152,5 +168,8 @@ rounds_by_month:
   - *id014
   10:
   - *id015
+  11:
+  - *id016
+  - *id017
 skins: 4
 ---

@@ -96,15 +96,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2021-11-28
+  name: Round 71 (Sun, November 28)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
-flight_wins: 1
-front_wins: 3
+flight_wins: 2
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 1
-points: 17.666666666666664
-rounds: 12
+points: 21.666666666666664
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -125,5 +133,7 @@ rounds_by_month:
   - *id011
   10:
   - *id012
-skins: 5
+  11:
+  - *id013
+skins: 6
 ---
