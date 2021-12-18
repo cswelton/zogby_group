@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 71 (Sun, November 28)
+  replaced_by: Round 72 (Wed, December  1)
   replaces: null
 - &id009
   date: 2021-06-25
@@ -91,10 +91,10 @@ all_rounds:
 - &id011
   date: 2021-08-22
   name: Round 54 (Sun, August 22)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 73 (Fri, December  3)
   replaces: null
 - &id013
   date: 2021-09-03
@@ -147,20 +147,36 @@ all_rounds:
 - &id018
   date: 2021-11-28
   name: Round 71 (Sun, November 28)
-  official: true
+  official: false
   over_limit: true
   points: 1.0
   replaced_by: null
+  replaces: null
+- &id021
+  date: 2021-12-01
+  name: Round 72 (Wed, December  1)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
   replaces: Round 41 (Fri, June 18)
-back_wins: 7
-flight_wins: 11
-front_wins: 10
+- &id020
+  date: 2021-12-03
+  name: Round 73 (Fri, December  3)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 54 (Sun, August 22)
+back_wins: 8
+flight_wins: 13
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 10
-points: 79.0
-rounds: 19
+overall_wins: 11
+points: 86.0
+rounds: 21
 rounds_by_month:
   4:
   - *id001
@@ -188,5 +204,8 @@ rounds_by_month:
   11:
   - *id018
   - *id019
+  12:
+  - *id020
+  - *id021
 skins: 11
 ---

@@ -136,6 +136,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: Round 25 (Fri, April  9)
+- &id018
+  date: 2021-12-17
+  name: Round 78 (Fri, December 17)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 7
 flight_wins: 8
 front_wins: 7
@@ -144,7 +152,7 @@ image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 7
 points: 54.0
-rounds: 17
+rounds: 18
 rounds_by_month:
   4:
   - *id001
@@ -171,5 +179,7 @@ rounds_by_month:
   - *id015
   - *id016
   - *id017
+  12:
+  - *id018
 skins: 3
 ---

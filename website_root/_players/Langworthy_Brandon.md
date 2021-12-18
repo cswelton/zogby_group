@@ -24,15 +24,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 0
+- &id004
+  date: 2021-12-17
+  name: Round 78 (Fri, December 17)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 1
 flight_wins: 0
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 1
-points: 2.0
-rounds: 3
+points: 4.0
+rounds: 4
 rounds_by_month:
   4:
   - *id001
@@ -40,5 +48,7 @@ rounds_by_month:
   - *id002
   10:
   - *id003
+  12:
+  - *id004
 skins: 0
 ---

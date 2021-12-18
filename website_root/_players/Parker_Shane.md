@@ -80,15 +80,47 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 6
-front_wins: 5
+- &id014
+  date: 2021-12-01
+  name: Round 72 (Wed, December  1)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2021-12-03
+  name: Round 73 (Fri, December  3)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2021-12-10
+  name: Round 74 (Fri, December 10)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2021-12-17
+  name: Round 78 (Fri, December 17)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 8
+flight_wins: 10
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 5
-points: 40.0
-rounds: 10
+overall_wins: 8
+points: 64.0
+rounds: 14
 rounds_by_month:
   6:
   - *id001
@@ -105,5 +137,10 @@ rounds_by_month:
   11:
   - *id009
   - *id010
-skins: 5
+  12:
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+skins: 8
 ---

@@ -91,26 +91,26 @@ all_rounds:
 - &id013
   date: 2021-08-06
   name: Round 51 (Fri, August  6)
-  official: true
+  official: false
   over_limit: false
   points: 1.0
-  replaced_by: null
+  replaced_by: Round 78 (Fri, December 17)
   replaces: null
 - &id012
   date: 2021-08-22
   name: Round 54 (Sun, August 22)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 72 (Wed, December  1)
   replaces: null
 - &id014
   date: 2021-09-06
   name: Round 57 (Mon, September  6)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 73 (Fri, December  3)
   replaces: null
 - &id015
   date: 2021-10-31
@@ -136,15 +136,47 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 7
-front_wins: 7
+- &id021
+  date: 2021-12-01
+  name: Round 72 (Wed, December  1)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 54 (Sun, August 22)
+- &id018
+  date: 2021-12-03
+  name: Round 73 (Fri, December  3)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 57 (Mon, September  6)
+- &id019
+  date: 2021-12-10
+  name: Round 74 (Fri, December 10)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id020
+  date: 2021-12-17
+  name: Round 78 (Fri, December 17)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 51 (Fri, August  6)
+back_wins: 7
+flight_wins: 8
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 6
-points: 45.666666666666664
-rounds: 17
+overall_wins: 8
+points: 57.666666666666664
+rounds: 21
 rounds_by_month:
   4:
   - *id001
@@ -171,5 +203,10 @@ rounds_by_month:
   11:
   - *id016
   - *id017
-skins: 4
+  12:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+skins: 6
 ---

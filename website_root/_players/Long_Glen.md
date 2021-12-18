@@ -80,15 +80,39 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2021-12-01
+  name: Round 72 (Wed, December  1)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2021-12-03
+  name: Round 73 (Fri, December  3)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2021-12-10
+  name: Round 74 (Fri, December 10)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 5
-flight_wins: 2
-front_wins: 4
+flight_wins: 3
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 5
-points: 33.0
-rounds: 10
+points: 38.0
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -106,5 +130,9 @@ rounds_by_month:
   - *id009
   11:
   - *id010
+  12:
+  - *id011
+  - *id012
+  - *id013
 skins: 5
 ---

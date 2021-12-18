@@ -19,10 +19,10 @@ all_rounds:
 - &id004
   date: 2021-05-14
   name: Round 32 (Fri, May 14)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 72 (Wed, December  1)
   replaces: null
 - &id003
   date: 2021-05-28
@@ -43,10 +43,10 @@ all_rounds:
 - &id005
   date: 2021-06-25
   name: Round 42 (Fri, June 25)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 74 (Fri, December 10)
   replaces: null
 - &id007
   date: 2021-07-16
@@ -75,10 +75,10 @@ all_rounds:
 - &id010
   date: 2021-09-03
   name: Round 56 (Fri, September  3)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 78 (Fri, December 17)
   replaces: null
 - &id011
   date: 2021-09-06
@@ -99,10 +99,10 @@ all_rounds:
 - &id013
   date: 2021-10-31
   name: Round 64 (Sun, October 31)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 73 (Fri, December  3)
   replaces: null
 - &id015
   date: 2021-11-18
@@ -128,15 +128,47 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 3
-front_wins: 1
+- &id020
+  date: 2021-12-01
+  name: Round 72 (Wed, December  1)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 32 (Fri, May 14)
+- &id017
+  date: 2021-12-03
+  name: Round 73 (Fri, December  3)
+  official: true
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: Round 64 (Sun, October 31)
+- &id018
+  date: 2021-12-10
+  name: Round 74 (Fri, December 10)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 42 (Fri, June 25)
+- &id019
+  date: 2021-12-17
+  name: Round 78 (Fri, December 17)
+  official: true
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: Round 56 (Fri, September  3)
+back_wins: 6
+flight_wins: 5
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 3
-points: 29.0
-rounds: 16
+overall_wins: 4
+points: 39.0
+rounds: 20
 rounds_by_month:
   4:
   - *id001
@@ -162,5 +194,10 @@ rounds_by_month:
   - *id014
   - *id015
   - *id016
-skins: 8
+  12:
+  - *id017
+  - *id018
+  - *id019
+  - *id020
+skins: 9
 ---

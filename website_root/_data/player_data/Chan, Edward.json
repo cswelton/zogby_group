@@ -1,6 +1,6 @@
 {
     "name": "Chan, Edward",
-    "scoring_average": 74.043,
+    "scoring_average": 74.375,
     "rounds": [
         {
             "date": "2020-01-22",
@@ -1917,8 +1917,95 @@
             "out": 36
         },
         {
-            "date": "2021-11-28",
-            "date_timestamp": 738122,
+            "date": "2021-12-12",
+            "date_timestamp": 738136,
+            "score": 82,
+            "total": 82,
+            "name": "Round 75 (Sun, December 12)",
+            "valid": false,
+            "reason": "Only 8 players, 12 are required",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "in": 41,
+            "out": 41
+        },
+        {
+            "date": "2021-12-17",
+            "date_timestamp": 738141,
             "score": 72,
             "total": 72,
             "name": "August 6 (Fri, August  6)",

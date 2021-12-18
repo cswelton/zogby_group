@@ -56,15 +56,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id009
+  date: 2021-12-01
+  name: Round 72 (Wed, December  1)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id008
+  date: 2021-12-10
+  name: Round 74 (Fri, December 10)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 2
-points: 10.0
-rounds: 7
+points: 13.0
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -77,5 +93,8 @@ rounds_by_month:
   11:
   - *id006
   - *id007
+  12:
+  - *id008
+  - *id009
 skins: 1
 ---
