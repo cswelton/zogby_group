@@ -1,6 +1,6 @@
 {
     "name": "Langworthy, Brandon",
-    "scoring_average": 86.6,
+    "scoring_average": 85.5,
     "rounds": [
         {
             "date": "2020-04-30",
@@ -436,6 +436,93 @@
             ],
             "in": 36,
             "out": 44
+        },
+        {
+            "date": "2021-12-18",
+            "date_timestamp": 738142,
+            "score": 80,
+            "total": 80,
+            "name": "Round 79 (Sat, December 18)",
+            "valid": false,
+            "reason": "Only 6 players, 12 are required",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 41,
+            "out": 39
         }
     ]
 }

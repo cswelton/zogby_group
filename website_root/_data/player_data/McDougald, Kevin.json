@@ -1,6 +1,6 @@
 {
     "name": "McDougald, Kevin",
-    "scoring_average": 77.5,
+    "scoring_average": 77.457,
     "rounds": [
         {
             "date": "2020-02-05",
@@ -2959,6 +2959,93 @@
             ],
             "in": 42,
             "out": 39
+        },
+        {
+            "date": "2021-12-18",
+            "date_timestamp": 738142,
+            "score": 76,
+            "total": 76,
+            "name": "Round 79 (Sat, December 18)",
+            "valid": false,
+            "reason": "Only 6 players, 12 are required",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 41,
+            "out": 35
         }
     ]
 }

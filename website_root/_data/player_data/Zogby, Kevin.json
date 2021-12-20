@@ -1,6 +1,6 @@
 {
     "name": "Zogby, Kevin",
-    "scoring_average": 78.923,
+    "scoring_average": 78.868,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -4525,6 +4525,93 @@
             ],
             "in": 38,
             "out": 40
+        },
+        {
+            "date": "2021-12-18",
+            "date_timestamp": 738142,
+            "score": 76,
+            "total": 76,
+            "name": "Round 79 (Sat, December 18)",
+            "valid": false,
+            "reason": "Only 6 players, 12 are required",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 39,
+            "out": 37
         }
     ]
 }
