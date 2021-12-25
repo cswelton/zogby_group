@@ -1,6 +1,6 @@
 {
     "name": "Welton, Craig",
-    "scoring_average": 75.848,
+    "scoring_average": 75.912,
     "rounds": [
         {
             "date": "2020-01-22",
@@ -2787,8 +2787,95 @@
             "out": 39
         },
         {
-            "date": "2021-12-19",
-            "date_timestamp": 738143,
+            "date": "2021-12-22",
+            "date_timestamp": 738146,
+            "score": 78,
+            "total": 78,
+            "name": "Round 80 (Wed, December 22)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 39,
+            "out": 39
+        },
+        {
+            "date": "2021-12-24",
+            "date_timestamp": 738148,
             "score": 69,
             "total": 69,
             "name": "August 6 (Fri, August  6)",

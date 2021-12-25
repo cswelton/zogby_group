@@ -1,6 +1,6 @@
 {
     "name": "Smith, Brian",
-    "scoring_average": 72.574,
+    "scoring_average": 72.562,
     "rounds": [
         {
             "date": "2020-01-10",
@@ -4005,8 +4005,95 @@
             "out": 37
         },
         {
-            "date": "2021-12-19",
-            "date_timestamp": 738143,
+            "date": "2021-12-22",
+            "date_timestamp": 738146,
+            "score": 72,
+            "total": 72,
+            "name": "Round 80 (Wed, December 22)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 37
+        },
+        {
+            "date": "2021-12-24",
+            "date_timestamp": 738148,
             "score": 70,
             "total": 70,
             "name": "August 6 (Fri, August  6)",

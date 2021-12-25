@@ -176,7 +176,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id023
+- &id024
   date: 2021-12-17
   name: Round 78 (Fri, December 17)
   official: true
@@ -184,15 +184,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: Round 51 (Fri, August  6)
+- &id023
+  date: 2021-12-22
+  name: Round 80 (Wed, December 22)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 9
+flight_wins: 10
 front_wins: 11
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 6
 points: 59.66666666666667
-rounds: 23
+rounds: 24
 rounds_by_month:
   4:
   - *id001
@@ -226,5 +234,6 @@ rounds_by_month:
   12:
   - *id022
   - *id023
+  - *id024
 skins: 6
 ---

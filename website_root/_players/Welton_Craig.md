@@ -152,7 +152,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id021
+- &id022
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: true
@@ -168,6 +168,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: Round 54 (Sun, August 22)
+- &id021
+  date: 2021-12-22
+  name: Round 80 (Wed, December 22)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 8
 flight_wins: 13
 front_wins: 11
@@ -176,7 +184,7 @@ image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 11
 points: 86.0
-rounds: 21
+rounds: 22
 rounds_by_month:
   4:
   - *id001
@@ -207,5 +215,6 @@ rounds_by_month:
   12:
   - *id020
   - *id021
+  - *id022
 skins: 11
 ---

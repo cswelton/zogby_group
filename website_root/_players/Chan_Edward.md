@@ -96,15 +96,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 5
+- &id013
+  date: 2021-12-22
+  name: Round 80 (Wed, December 22)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 6
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
-overall_wins: 3
-points: 32.0
-rounds: 12
+overall_wins: 4
+points: 38.0
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -125,5 +133,7 @@ rounds_by_month:
   11:
   - *id011
   - *id012
-skins: 7
+  12:
+  - *id013
+skins: 8
 ---

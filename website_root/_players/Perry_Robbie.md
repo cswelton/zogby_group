@@ -104,7 +104,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id014
+- &id015
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: true
@@ -112,15 +112,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2021-12-22
+  name: Round 80 (Wed, December 22)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 2
-front_wins: 6
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
-overall_wins: 3
-points: 30.666666666666664
-rounds: 14
+overall_wins: 4
+points: 34.666666666666664
+rounds: 15
 rounds_by_month:
   4:
   - *id001
@@ -145,5 +153,6 @@ rounds_by_month:
   - *id013
   12:
   - *id014
-skins: 7
+  - *id015
+skins: 8
 ---

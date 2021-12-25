@@ -35,10 +35,10 @@ all_rounds:
 - &id006
   date: 2021-05-14
   name: Round 32 (Fri, May 14)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 80 (Wed, December 22)
   replaces: null
 - &id005
   date: 2021-05-28
@@ -112,7 +112,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id018
+- &id019
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: true
@@ -128,7 +128,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id016
+- &id017
   date: 2021-12-10
   name: Round 74 (Fri, December 10)
   official: true
@@ -136,7 +136,7 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: Round 29 (Fri, April 23)
-- &id017
+- &id018
   date: 2021-12-17
   name: Round 78 (Fri, December 17)
   official: false
@@ -144,15 +144,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id016
+  date: 2021-12-22
+  name: Round 80 (Wed, December 22)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 32 (Fri, May 14)
 back_wins: 7
 flight_wins: 5
-front_wins: 7
+front_wins: 8
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
-overall_wins: 7
-points: 54.66666666666667
-rounds: 18
+overall_wins: 8
+points: 57.66666666666667
+rounds: 19
 rounds_by_month:
   4:
   - *id001
@@ -180,5 +188,6 @@ rounds_by_month:
   - *id016
   - *id017
   - *id018
+  - *id019
 skins: 8
 ---

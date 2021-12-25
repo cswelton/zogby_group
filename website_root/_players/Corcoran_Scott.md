@@ -19,10 +19,10 @@ all_rounds:
 - &id002
   date: 2021-04-23
   name: Round 29 (Fri, April 23)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 80 (Wed, December 22)
   replaces: null
 - &id005
   date: 2021-05-21
@@ -136,7 +136,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: Round 25 (Fri, April  9)
-- &id018
+- &id019
   date: 2021-12-17
   name: Round 78 (Fri, December 17)
   official: false
@@ -144,15 +144,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 7
+- &id018
+  date: 2021-12-22
+  name: Round 80 (Wed, December 22)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 29 (Fri, April 23)
+back_wins: 8
 flight_wins: 8
 front_wins: 7
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 7
-points: 54.0
-rounds: 18
+overall_wins: 8
+points: 57.0
+rounds: 19
 rounds_by_month:
   4:
   - *id001
@@ -181,5 +189,6 @@ rounds_by_month:
   - *id017
   12:
   - *id018
+  - *id019
 skins: 3
 ---
