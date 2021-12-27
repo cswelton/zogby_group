@@ -2,9 +2,9 @@
 date: '2021-12-26'
 date_timestamp: 738150
 gg_url: null
-name: August 6 (Fri, August  6)
+name: Round 81 (Sun, December 26)
 points: {}
-reason: Round deemed unofficial
+reason: Teams do not contain equal number of players
 total_points: 0
 valid: false
 ---
