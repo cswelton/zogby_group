@@ -48,6 +48,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id007
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 1
 front_wins: 1
@@ -56,7 +64,7 @@ image: /assets/images/default.png
 name: James, Brian
 overall_wins: 2
 points: 12.0
-rounds: 6
+rounds: 7
 rounds_by_month:
   4:
   - *id001
@@ -68,5 +76,7 @@ rounds_by_month:
   - *id005
   10:
   - *id006
+  12:
+  - *id007
 skins: 1
 ---

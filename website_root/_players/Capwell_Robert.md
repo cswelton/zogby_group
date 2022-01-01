@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 78 (Fri, December 17)
+  replaced_by: Round 82 (Wed, December 29)
   replaces: null
 - &id010
   date: 2021-06-04
@@ -192,7 +192,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id028
+- &id029
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: false
@@ -219,20 +219,28 @@ all_rounds:
 - &id027
   date: 2021-12-17
   name: Round 78 (Fri, December 17)
-  official: true
+  official: false
   over_limit: true
   points: 2.0
   replaced_by: null
+  replaces: null
+- &id028
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
   replaces: Round 35 (Fri, May 28)
 back_wins: 11
-flight_wins: 9
+flight_wins: 10
 front_wins: 7
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 7
-points: 63.0
-rounds: 28
+points: 64.0
+rounds: 29
 rounds_by_month:
   4:
   - *id001
@@ -271,5 +279,6 @@ rounds_by_month:
   - *id026
   - *id027
   - *id028
-skins: 8
+  - *id029
+skins: 9
 ---

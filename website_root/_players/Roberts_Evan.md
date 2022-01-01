@@ -192,6 +192,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id025
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 4
 flight_wins: 10
 front_wins: 11
@@ -200,7 +208,7 @@ image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 6
 points: 59.66666666666667
-rounds: 24
+rounds: 25
 rounds_by_month:
   4:
   - *id001
@@ -235,5 +243,6 @@ rounds_by_month:
   - *id022
   - *id023
   - *id024
+  - *id025
 skins: 6
 ---

@@ -176,7 +176,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: Round 29 (Fri, April 23)
-- &id027
+- &id028
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: false
@@ -216,6 +216,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id027
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 9
 flight_wins: 14
 front_wins: 14
@@ -224,7 +232,7 @@ image: /assets/images/Smith_Brian.png
 name: Smith, Brian
 overall_wins: 12
 points: 87.66666666666667
-rounds: 27
+rounds: 28
 rounds_by_month:
   4:
   - *id001
@@ -262,5 +270,6 @@ rounds_by_month:
   - *id025
   - *id026
   - *id027
-skins: 16
+  - *id028
+skins: 17
 ---

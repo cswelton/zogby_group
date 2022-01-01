@@ -1,6 +1,6 @@
 ---
-date: '2021-12-26'
-date_timestamp: 738150
+date: '2021-12-31'
+date_timestamp: 738155
 gg_url: null
 name: August 6 (Fri, August  6)
 points: {}

@@ -120,6 +120,14 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id016
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 2
 front_wins: 6
@@ -128,7 +136,7 @@ image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 2
 points: 26.666666666666664
-rounds: 15
+rounds: 16
 rounds_by_month:
   4:
   - *id001
@@ -154,5 +162,6 @@ rounds_by_month:
   12:
   - *id014
   - *id015
+  - *id016
 skins: 6
 ---

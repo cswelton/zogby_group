@@ -104,6 +104,14 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 6
 front_wins: 2
@@ -111,8 +119,8 @@ ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 4
-points: 38.0
-rounds: 13
+points: 39.0
+rounds: 14
 rounds_by_month:
   4:
   - *id001
@@ -135,5 +143,6 @@ rounds_by_month:
   - *id012
   12:
   - *id013
-skins: 8
+  - *id014
+skins: 9
 ---

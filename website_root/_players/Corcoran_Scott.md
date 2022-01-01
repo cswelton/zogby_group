@@ -152,6 +152,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: Round 29 (Fri, April 23)
+- &id020
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 8
 flight_wins: 8
 front_wins: 7
@@ -160,7 +168,7 @@ image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 8
 points: 57.0
-rounds: 19
+rounds: 20
 rounds_by_month:
   4:
   - *id001
@@ -190,5 +198,6 @@ rounds_by_month:
   12:
   - *id018
   - *id019
+  - *id020
 skins: 3
 ---

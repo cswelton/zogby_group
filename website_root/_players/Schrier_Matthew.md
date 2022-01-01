@@ -24,20 +24,29 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id004
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 2
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Schrier, Matthew
-overall_wins: 2
-points: 13.0
-rounds: 3
+overall_wins: 3
+points: 19.0
+rounds: 4
 rounds_by_month:
   11:
   - *id001
   12:
   - *id002
   - *id003
+  - *id004
 skins: 1
 ---

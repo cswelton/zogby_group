@@ -19,10 +19,10 @@ all_rounds:
 - &id003
   date: 2021-04-11
   name: Round 26 (Sun, April 11)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 82 (Wed, December 29)
   replaces: null
 - &id002
   date: 2021-04-23
@@ -136,15 +136,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 24 (Fri, April  2)
+- &id018
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: Round 26 (Sun, April 11)
 back_wins: 4
-flight_wins: 3
+flight_wins: 4
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 4
-points: 31.666666666666664
-rounds: 17
+points: 33.666666666666664
+rounds: 18
 rounds_by_month:
   4:
   - *id001
@@ -170,5 +178,6 @@ rounds_by_month:
   12:
   - *id016
   - *id017
+  - *id018
 skins: 1
 ---

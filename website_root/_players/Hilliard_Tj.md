@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 72 (Wed, December  1)
+  replaced_by: Round 61 (Fri, October  1)
   replaces: null
 - &id004
   date: 2021-04-16
@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 68 (Thu, November 18)
+  replaced_by: Round 82 (Wed, December 29)
   replaces: null
 - &id008
   date: 2021-05-21
@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 80 (Wed, December 22)
+  replaced_by: Round 68 (Thu, November 18)
   replaces: null
 - &id009
   date: 2021-06-04
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 59 (Fri, September 17)
+  replaced_by: Round 80 (Wed, December 22)
   replaces: null
 - &id010
   date: 2021-06-25
@@ -126,7 +126,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 61 (Fri, October  1)
+  replaced_by: Round 59 (Fri, September 17)
   replaces: null
 - &id017
   date: 2021-09-17
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 41 (Fri, June 18)
+  replaces: Round 57 (Mon, September  6)
 - &id018
   date: 2021-10-01
   name: Round 61 (Fri, October  1)
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 57 (Mon, September  6)
+  replaces: Round 25 (Fri, April  9)
 - &id020
   date: 2021-11-18
   name: Round 68 (Thu, November 18)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 32 (Fri, May 14)
+  replaces: Round 35 (Fri, May 28)
 - &id021
   date: 2021-11-24
   name: Round 70 (Wed, November 24)
@@ -168,14 +168,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id026
+- &id027
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 25 (Fri, April  9)
+  replaces: null
 - &id022
   date: 2021-12-03
   name: Round 73 (Fri, December  3)
@@ -207,16 +207,24 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 35 (Fri, May 28)
-back_wins: 9
+  replaces: Round 41 (Fri, June 18)
+- &id026
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 32 (Fri, May 14)
+back_wins: 10
 flight_wins: 9
-front_wins: 8
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 8
-points: 74.0
-rounds: 26
+overall_wins: 9
+points: 77.0
+rounds: 27
 rounds_by_month:
   4:
   - *id001
@@ -253,5 +261,6 @@ rounds_by_month:
   - *id024
   - *id025
   - *id026
+  - *id027
 skins: 22
 ---

@@ -3,10 +3,10 @@ all_rounds:
 - &id003
   date: 2021-04-02
   name: Round 24 (Fri, April  2)
-  official: true
+  official: false
   over_limit: false
   points: 1.0
-  replaced_by: null
+  replaced_by: Round 73 (Fri, December  3)
   replaces: null
 - &id001
   date: 2021-04-11
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 72 (Wed, December  1)
+  replaced_by: Round 82 (Wed, December 29)
   replaces: null
 - &id009
   date: 2021-06-25
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 73 (Fri, December  3)
+  replaced_by: Round 72 (Wed, December  1)
   replaces: null
 - &id013
   date: 2021-09-03
@@ -152,14 +152,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id022
+- &id023
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: true
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 41 (Fri, June 18)
+  replaces: Round 54 (Sun, August 22)
 - &id020
   date: 2021-12-03
   name: Round 73 (Fri, December  3)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 54 (Sun, August 22)
+  replaces: Round 24 (Fri, April  2)
 - &id021
   date: 2021-12-22
   name: Round 80 (Wed, December 22)
@@ -176,15 +176,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 8
-flight_wins: 13
-front_wins: 11
+- &id022
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: true
+  points: 9.0
+  replaced_by: null
+  replaces: Round 41 (Fri, June 18)
+back_wins: 9
+flight_wins: 14
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 11
-points: 86.0
-rounds: 22
+overall_wins: 12
+points: 94.0
+rounds: 23
 rounds_by_month:
   4:
   - *id001
@@ -216,5 +224,6 @@ rounds_by_month:
   - *id020
   - *id021
   - *id022
-skins: 11
+  - *id023
+skins: 12
 ---

@@ -80,7 +80,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id014
+- &id015
   date: 2021-12-01
   name: Round 72 (Wed, December  1)
   official: true
@@ -112,15 +112,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2021-12-29
+  name: Round 82 (Wed, December 29)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 8
-flight_wins: 10
+flight_wins: 11
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 8
-points: 64.0
-rounds: 14
+points: 66.0
+rounds: 15
 rounds_by_month:
   6:
   - *id001
@@ -142,5 +150,6 @@ rounds_by_month:
   - *id012
   - *id013
   - *id014
+  - *id015
 skins: 8
 ---

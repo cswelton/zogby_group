@@ -1,6 +1,6 @@
 {
     "name": "Ellzey, Matt",
-    "scoring_average": 77.387,
+    "scoring_average": 77.344,
     "rounds": [
         {
             "date": "2020-02-24",
@@ -2613,8 +2613,95 @@
             "out": 38
         },
         {
-            "date": "2021-12-26",
-            "date_timestamp": 738150,
+            "date": "2021-12-29",
+            "date_timestamp": 738153,
+            "score": 76,
+            "total": 76,
+            "name": "Round 82 (Wed, December 29)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 36,
+            "out": 40
+        },
+        {
+            "date": "2021-12-31",
+            "date_timestamp": 738155,
             "score": 71,
             "total": 71,
             "name": "August 6 (Fri, August  6)",
