@@ -7,7 +7,7 @@
   "max_rounds_per_month": 0,
   "season_round_count": 16,
   "replacement_scores": 5,
-  "min_players": 12,
+  "min_players": 8,
   "fedex_cup_start_date": "2022-01-01",
   "fedex_cup_end_date": "2022-12-30"
 }

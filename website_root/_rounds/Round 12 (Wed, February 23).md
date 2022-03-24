@@ -4,7 +4,7 @@ date_timestamp: 738209
 gg_url: null
 name: Round 12 (Wed, February 23)
 points: {}
-reason: Only 6 players, 12 are required
+reason: Only 6 players, 8 are required
 total_points: 0
 valid: false
 ---

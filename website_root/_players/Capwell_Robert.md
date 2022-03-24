@@ -32,12 +32,28 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2022-02-09
+  name: Feb 9 (Wed, February  9)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 - &id006
   date: 2022-02-11
   name: Round 8 (Fri, February 11)
   official: true
   over_limit: false
   points: 0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2022-02-17
+  name: Round 10 (Thu, February 17)
+  official: true
+  over_limit: false
+  points: 4.0
   replaced_by: null
   replaces: null
 - &id005
@@ -50,13 +66,13 @@ all_rounds:
   replaces: null
 back_wins: 0
 flight_wins: 1
-front_wins: 1
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 0
-points: 5.0
-rounds: 6
+overall_wins: 1
+points: 11.0
+rounds: 8
 rounds_by_month:
   1:
   - *id001
@@ -66,5 +82,7 @@ rounds_by_month:
   - *id004
   - *id005
   - *id006
-skins: 2
+  - *id007
+  - *id008
+skins: 4
 ---

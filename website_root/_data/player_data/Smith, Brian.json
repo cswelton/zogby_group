@@ -183,7 +183,7 @@
             "total": 76,
             "name": "Jan 19th (Wed, January 19)",
             "valid": false,
-            "reason": "Only 6 players, 12 are required",
+            "reason": "Only 6 players, 8 are required",
             "front": [
                 {
                     "score": 5,
@@ -356,8 +356,8 @@
             "score": 79,
             "total": 79,
             "name": "Feb 9 (Wed, February  9)",
-            "valid": false,
-            "reason": "Only 8 players, 12 are required",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 5,
@@ -530,8 +530,8 @@
             "score": 69,
             "total": 69,
             "name": "Round 9 (Wed, February 16)",
-            "valid": false,
-            "reason": "Only 9 players, 12 are required",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 4,
@@ -618,7 +618,7 @@
             "total": 77,
             "name": "Round 12 (Wed, February 23)",
             "valid": false,
-            "reason": "Only 6 players, 12 are required",
+            "reason": "Only 6 players, 8 are required",
             "front": [
                 {
                     "score": 5,
@@ -791,8 +791,8 @@
             "score": 75,
             "total": 75,
             "name": "Round 14 (Wed, March  2)",
-            "valid": false,
-            "reason": "Only 8 players, 12 are required",
+            "valid": true,
+            "reason": null,
             "front": [
                 {
                     "score": 5,
