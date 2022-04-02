@@ -48,15 +48,23 @@ all_rounds:
   points: 3.6666666666666665
   replaced_by: null
   replaces: null
+- &id007
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
-flight_wins: 4
-front_wins: 2
+flight_wins: 5
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 1
-points: 19.666666666666668
-rounds: 6
+points: 24.666666666666668
+rounds: 7
 rounds_by_month:
   1:
   - *id001
@@ -67,5 +75,6 @@ rounds_by_month:
   - *id004
   - *id005
   - *id006
-skins: 5
+  - *id007
+skins: 6
 ---

@@ -64,15 +64,31 @@ all_rounds:
   points: 4.666666666666666
   replaced_by: null
   replaces: null
+- &id009
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2022-04-01
+  name: Round 19 (Fri, April  1)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
 flight_wins: 1
-front_wins: 4
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 5
-points: 24.666666666666664
-rounds: 8
+overall_wins: 6
+points: 30.666666666666664
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -85,5 +101,8 @@ rounds_by_month:
   - *id006
   - *id007
   - *id008
-skins: 2
+  - *id009
+  4:
+  - *id010
+skins: 5
 ---

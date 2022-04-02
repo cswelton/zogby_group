@@ -72,6 +72,22 @@ all_rounds:
   points: 1.6666666666666665
   replaced_by: null
   replaces: null
+- &id010
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2022-04-01
+  name: Round 19 (Fri, April  1)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 3
 front_wins: 2
@@ -80,7 +96,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 4
 points: 29.666666666666668
-rounds: 9
+rounds: 11
 rounds_by_month:
   1:
   - *id001
@@ -94,5 +110,8 @@ rounds_by_month:
   3:
   - *id008
   - *id009
+  - *id010
+  4:
+  - *id011
 skins: 6
 ---

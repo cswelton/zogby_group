@@ -64,15 +64,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 0
+- &id009
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 1
 flight_wins: 1
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 1
-points: 11.0
-rounds: 8
+overall_wins: 2
+points: 15.0
+rounds: 9
 rounds_by_month:
   1:
   - *id001
@@ -84,5 +92,7 @@ rounds_by_month:
   - *id006
   - *id007
   - *id008
+  3:
+  - *id009
 skins: 4
 ---

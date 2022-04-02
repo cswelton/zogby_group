@@ -56,7 +56,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2022-03-02
   name: Round 14 (Wed, March  2)
   official: true
@@ -88,15 +88,31 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
+- &id011
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2022-04-01
+  name: Round 19 (Fri, April  1)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 4
-front_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 4
-points: 36.666666666666664
-rounds: 11
+points: 43.666666666666664
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -112,5 +128,8 @@ rounds_by_month:
   - *id009
   - *id010
   - *id011
-skins: 8
+  - *id012
+  4:
+  - *id013
+skins: 13
 ---

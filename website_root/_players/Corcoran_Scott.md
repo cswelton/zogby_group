@@ -32,6 +32,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 0
 front_wins: 2
@@ -40,7 +48,7 @@ image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 1
 points: 8.0
-rounds: 4
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -48,5 +56,7 @@ rounds_by_month:
   - *id002
   - *id003
   - *id004
+  3:
+  - *id005
 skins: 2
 ---

@@ -40,15 +40,31 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
+- &id006
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2022-04-01
+  name: Round 19 (Fri, April  1)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
-flight_wins: 2
-front_wins: 1
+flight_wins: 4
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 2
-points: 15.666666666666666
-rounds: 5
+overall_wins: 3
+points: 22.666666666666664
+rounds: 7
 rounds_by_month:
   1:
   - *id001
@@ -58,5 +74,8 @@ rounds_by_month:
   - *id004
   3:
   - *id005
+  - *id006
+  4:
+  - *id007
 skins: 1
 ---

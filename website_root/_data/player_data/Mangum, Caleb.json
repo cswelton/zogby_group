@@ -1,6 +1,6 @@
 {
     "name": "Mangum, Caleb",
-    "scoring_average": 82.0,
+    "scoring_average": 82.75,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -262,6 +262,93 @@
             ],
             "in": 38,
             "out": 42
+        },
+        {
+            "date": "2022-03-25",
+            "date_timestamp": 738239,
+            "score": 85,
+            "total": 85,
+            "name": "March 25 (Fri, March 25)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 2,
+                    "type": "eagle"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 39,
+            "out": 46
         }
     ]
 }

@@ -16,6 +16,14 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
+- &id003
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 0
 front_wins: 1
@@ -24,11 +32,12 @@ image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
 overall_wins: 0
 points: 2.6666666666666665
-rounds: 2
+rounds: 3
 rounds_by_month:
   2:
   - *id001
   3:
   - *id002
+  - *id003
 skins: 0
 ---

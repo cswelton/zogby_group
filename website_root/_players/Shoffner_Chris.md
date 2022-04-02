@@ -48,7 +48,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2022-03-02
   name: Round 14 (Wed, March  2)
   official: true
@@ -80,15 +80,31 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
+- &id010
+  date: 2022-03-25
+  name: March 25 (Fri, March 25)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2022-04-01
+  name: Round 19 (Fri, April  1)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
-flight_wins: 4
-front_wins: 6
+flight_wins: 6
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 6
-points: 33.666666666666664
-rounds: 10
+points: 40.666666666666664
+rounds: 12
 rounds_by_month:
   1:
   - *id001
@@ -103,5 +119,8 @@ rounds_by_month:
   - *id008
   - *id009
   - *id010
-skins: 3
+  - *id011
+  4:
+  - *id012
+skins: 4
 ---

@@ -1,6 +1,6 @@
 {
     "name": "Beaird, Ray",
-    "scoring_average": 82.0,
+    "scoring_average": 82.333,
     "rounds": [
         {
             "date": "2022-01-14",
@@ -175,6 +175,93 @@
             ],
             "in": 37,
             "out": 44
+        },
+        {
+            "date": "2022-04-01",
+            "date_timestamp": 738246,
+            "score": 83,
+            "total": 83,
+            "name": "Round 19 (Fri, April  1)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 44,
+            "out": 39
         }
     ]
 }
