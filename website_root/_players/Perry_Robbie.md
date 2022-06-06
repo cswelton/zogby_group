@@ -24,6 +24,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id004
+  date: 2022-05-15
+  name: Round 29 (Sun, May 15)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 1
 front_wins: 1
@@ -31,13 +39,15 @@ ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
 overall_wins: 0
-points: 6.0
-rounds: 3
+points: 7.0
+rounds: 4
 rounds_by_month:
   2:
   - *id001
   - *id002
   3:
   - *id003
-skins: 3
+  5:
+  - *id004
+skins: 4
 ---

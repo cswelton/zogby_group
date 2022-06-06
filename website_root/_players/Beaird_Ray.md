@@ -16,7 +16,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id003
+- &id004
   date: 2022-04-01
   name: Round 19 (Fri, April  1)
   official: true
@@ -24,15 +24,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id003
+  date: 2022-04-08
+  name: Round 20 (Fri, April  8)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 2
-points: 8.0
-rounds: 3
+points: 9.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
@@ -40,5 +48,6 @@ rounds_by_month:
   - *id002
   4:
   - *id003
+  - *id004
 skins: 0
 ---

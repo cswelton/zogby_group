@@ -24,20 +24,58 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id005
+  date: 2022-04-08
+  name: Round 20 (Fri, April  8)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id006
+  date: 2022-04-15
+  name: Round 22 (Fri, April 15)
+  official: true
+  over_limit: false
+  points: 0.6666666666666666
+  replaced_by: null
+  replaces: null
+- &id004
+  date: 2022-04-22
+  name: Round 23 (Fri, April 22)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2022-05-06
+  name: Round 26 (Fri, May  6)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
-overall_wins: 0
-points: 2.6666666666666665
-rounds: 3
+overall_wins: 1
+points: 9.333333333333332
+rounds: 7
 rounds_by_month:
   2:
   - *id001
   3:
   - *id002
   - *id003
+  4:
+  - *id004
+  - *id005
+  - *id006
+  5:
+  - *id007
 skins: 0
 ---

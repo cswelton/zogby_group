@@ -1,0 +1,45 @@
+{
+    "name": "Round 27 (Wed, May 11)",
+    "results": {
+        "teams": [
+            [
+                "Parker, Shane",
+                "Smith, Brian",
+                "Ellzey, Matt",
+                "Shoffner, Chris"
+            ],
+            [
+                "Hilliard, Tj",
+                "Welton, Craig",
+                "Fish, Tony",
+                "Capwell, Robert"
+            ]
+        ],
+        "scores": {
+            "Parker, Shane": {
+                "scores": {}
+            },
+            "Smith, Brian": {
+                "scores": {}
+            },
+            "Ellzey, Matt": {
+                "scores": {}
+            },
+            "Shoffner, Chris": {
+                "scores": {}
+            },
+            "Hilliard, Tj": {
+                "scores": {}
+            },
+            "Welton, Craig": {
+                "scores": {}
+            },
+            "Fish, Tony": {
+                "scores": {}
+            },
+            "Capwell, Robert": {
+                "scores": {}
+            }
+        }
+    }
+}

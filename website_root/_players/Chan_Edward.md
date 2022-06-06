@@ -56,15 +56,63 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 5
-front_wins: 3
+- &id008
+  date: 2022-04-10
+  name: Round 21 (Sun, April 10)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2022-04-15
+  name: Round 22 (Fri, April 15)
+  official: true
+  over_limit: false
+  points: 2.6666666666666665
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2022-05-04
+  name: Round 25 (Wed, May  4)
+  official: true
+  over_limit: false
+  points: 10.0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2022-05-06
+  name: Round 26 (Fri, May  6)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2022-05-30
+  name: Round 32 (Mon, May 30)
+  official: true
+  over_limit: false
+  points: 4.666666666666667
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2022-06-03
+  name: Round 33 (Fri, June  3)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 10
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
-overall_wins: 1
-points: 24.666666666666668
-rounds: 7
+overall_wins: 2
+points: 49.0
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -76,5 +124,14 @@ rounds_by_month:
   - *id005
   - *id006
   - *id007
-skins: 6
+  4:
+  - *id008
+  - *id009
+  5:
+  - *id010
+  - *id011
+  - *id012
+  6:
+  - *id013
+skins: 11
 ---

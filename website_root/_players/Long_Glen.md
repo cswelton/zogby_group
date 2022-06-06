@@ -56,6 +56,22 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2022-04-08
+  name: Round 20 (Fri, April  8)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2022-05-04
+  name: Round 25 (Wed, May  4)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 7
 flight_wins: 3
 front_wins: 3
@@ -64,7 +80,7 @@ image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 6
 points: 37.0
-rounds: 7
+rounds: 9
 rounds_by_month:
   1:
   - *id001
@@ -76,5 +92,9 @@ rounds_by_month:
   - *id005
   - *id006
   - *id007
+  4:
+  - *id008
+  5:
+  - *id009
 skins: 4
 ---

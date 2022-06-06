@@ -1,0 +1,37 @@
+{
+    "name": "Round 30 (Wed, May 18)",
+    "results": {
+        "teams": [
+            [
+                "Fish, Tony",
+                "Ellzey, Matt",
+                "Capwell, Robert"
+            ],
+            [
+                "Meder, Brandon",
+                "Long, Glen",
+                "Corcoran, Scott"
+            ]
+        ],
+        "scores": {
+            "Fish, Tony": {
+                "scores": {}
+            },
+            "Ellzey, Matt": {
+                "scores": {}
+            },
+            "Capwell, Robert": {
+                "scores": {}
+            },
+            "Meder, Brandon": {
+                "scores": {}
+            },
+            "Long, Glen": {
+                "scores": {}
+            },
+            "Corcoran, Scott": {
+                "scores": {}
+            }
+        }
+    }
+}

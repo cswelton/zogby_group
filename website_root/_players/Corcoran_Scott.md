@@ -40,15 +40,79 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
-flight_wins: 0
-front_wins: 2
+- &id008
+  date: 2022-04-08
+  name: Round 20 (Fri, April  8)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2022-04-10
+  name: Round 21 (Sun, April 10)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2022-04-15
+  name: Round 22 (Fri, April 15)
+  official: true
+  over_limit: false
+  points: 0.6666666666666666
+  replaced_by: null
+  replaces: null
+- &id006
+  date: 2022-04-22
+  name: Round 23 (Fri, April 22)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2022-05-15
+  name: Round 29 (Sun, May 15)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2022-05-20
+  name: Round 31 (Fri, May 20)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2022-05-30
+  name: Round 32 (Mon, May 30)
+  official: true
+  over_limit: false
+  points: 0.6666666666666666
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2022-06-03
+  name: Round 33 (Fri, June  3)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 3
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 1
-points: 8.0
-rounds: 5
+overall_wins: 3
+points: 27.333333333333336
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -58,5 +122,16 @@ rounds_by_month:
   - *id004
   3:
   - *id005
-skins: 2
+  4:
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  5:
+  - *id010
+  - *id011
+  - *id012
+  6:
+  - *id013
+skins: 6
 ---

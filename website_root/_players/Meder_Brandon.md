@@ -8,17 +8,36 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id002
+  date: 2022-04-10
+  name: Round 21 (Sun, April 10)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id003
+  date: 2022-04-15
+  name: Round 22 (Fri, April 15)
+  official: true
+  over_limit: false
+  points: 0.6666666666666666
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
-front_wins: 0
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
-overall_wins: 1
-points: 2.0
-rounds: 1
+overall_wins: 2
+points: 8.666666666666666
+rounds: 3
 rounds_by_month:
   1:
   - *id001
+  4:
+  - *id002
+  - *id003
 skins: 0
 ---
