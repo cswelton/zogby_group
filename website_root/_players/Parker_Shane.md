@@ -120,15 +120,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id016
+  date: 2022-06-08
+  name: Round 34 (Wed, June  8)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 5
-front_wins: 7
+front_wins: 8
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 5
-points: 43.0
-rounds: 15
+overall_wins: 6
+points: 48.0
+rounds: 16
 rounds_by_month:
   1:
   - *id001
@@ -151,5 +159,6 @@ rounds_by_month:
   - *id014
   6:
   - *id015
-skins: 9
+  - *id016
+skins: 10
 ---

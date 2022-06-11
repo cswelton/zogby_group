@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 31 (Fri, May 20)
+  replaced_by: Round 34 (Wed, June  8)
   replaces: null
 - &id008
   date: 2022-02-09
@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 32 (Mon, May 30)
+  replaced_by: Round 31 (Fri, May 20)
   replaces: null
 - &id007
   date: 2022-02-17
@@ -59,10 +59,10 @@ all_rounds:
 - &id005
   date: 2022-02-25
   name: Round 13 (Fri, February 25)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 32 (Mon, May 30)
   replaces: null
 - &id009
   date: 2022-03-25
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 2.0
   replaced_by: null
-  replaces: Round 5 (Wed, February  2)
+  replaces: Round 8 (Fri, February 11)
 - &id016
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 0.6666666666666666
   replaced_by: null
-  replaces: Round 8 (Fri, February 11)
+  replaces: Round 13 (Fri, February 25)
 - &id019
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
@@ -152,15 +152,23 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
-back_wins: 6
-flight_wins: 4
+- &id020
+  date: 2022-06-08
+  name: Round 34 (Wed, June  8)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 5 (Wed, February  2)
+back_wins: 7
+flight_wins: 5
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 5
-points: 46.333333333333336
-rounds: 19
+points: 51.333333333333336
+rounds: 20
 rounds_by_month:
   1:
   - *id001
@@ -187,5 +195,6 @@ rounds_by_month:
   - *id018
   6:
   - *id019
-skins: 11
+  - *id020
+skins: 12
 ---

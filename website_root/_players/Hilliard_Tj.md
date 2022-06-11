@@ -176,7 +176,15 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 17 (Fri, March 18)
-back_wins: 10
+- &id023
+  date: 2022-06-08
+  name: Round 34 (Wed, June  8)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 11
 flight_wins: 10
 front_wins: 9
 ignored_rounds: []
@@ -184,7 +192,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 8
 points: 83.66666666666666
-rounds: 22
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -214,5 +222,6 @@ rounds_by_month:
   - *id021
   6:
   - *id022
-skins: 25
+  - *id023
+skins: 26
 ---

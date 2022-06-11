@@ -72,15 +72,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 7
-flight_wins: 3
+- &id010
+  date: 2022-06-08
+  name: Round 34 (Wed, June  8)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 8
+flight_wins: 4
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 6
-points: 37.0
-rounds: 9
+points: 42.0
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -96,5 +104,7 @@ rounds_by_month:
   - *id008
   5:
   - *id009
-skins: 4
+  6:
+  - *id010
+skins: 5
 ---
