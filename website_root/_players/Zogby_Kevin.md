@@ -168,7 +168,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id022
+- &id023
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
   official: true
@@ -176,6 +176,14 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: March 11 (Fri, March 11)
+- &id022
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 11
 flight_wins: 12
 front_wins: 8
@@ -184,7 +192,7 @@ image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 8
 points: 63.99999999999999
-rounds: 22
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -214,5 +222,6 @@ rounds_by_month:
   6:
   - *id021
   - *id022
+  - *id023
 skins: 5
 ---

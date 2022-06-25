@@ -16,19 +16,38 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 1
-front_wins: 2
+- &id004
+  date: 2022-06-17
+  name: Round 37 (Fri, June 17)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+- &id003
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Akins, Kyle
-overall_wins: 2
-points: 13.666666666666668
-rounds: 2
+overall_wins: 4
+points: 25.666666666666668
+rounds: 4
 rounds_by_month:
   3:
   - *id001
   5:
   - *id002
-skins: 1
+  6:
+  - *id003
+  - *id004
+skins: 4
 ---

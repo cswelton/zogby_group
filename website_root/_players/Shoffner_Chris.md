@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 28 (Fri, May 13)
+  replaced_by: Round 32 (Mon, May 30)
   replaces: null
 - &id008
   date: 2022-03-11
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: Round 32 (Mon, May 30)
+  replaced_by: Round 29 (Sun, May 15)
   replaces: null
 - &id010
   date: 2022-03-25
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 29 (Sun, May 15)
+  replaced_by: Round 37 (Fri, June 17)
   replaces: null
 - &id019
   date: 2022-05-04
@@ -139,11 +139,11 @@ all_rounds:
 - &id016
   date: 2022-05-13
   name: Round 28 (Fri, May 13)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: null
 - &id020
   date: 2022-05-15
   name: Round 29 (Sun, May 15)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 17 (Fri, March 18)
 - &id018
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
@@ -159,8 +159,8 @@ all_rounds:
   over_limit: true
   points: 3.6666666666666665
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
-- &id021
+  replaces: Round 15 (Fri, March  4)
+- &id022
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
   official: true
@@ -168,15 +168,31 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 20 (Fri, April  8)
+- &id023
+  date: 2022-06-17
+  name: Round 37 (Fri, June 17)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 23 (Fri, April 22)
+- &id021
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 9
 flight_wins: 9
-front_wins: 12
+front_wins: 13
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 11
-points: 76.66666666666667
-rounds: 21
+overall_wins: 12
+points: 78.66666666666667
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -205,5 +221,7 @@ rounds_by_month:
   - *id020
   6:
   - *id021
-skins: 10
+  - *id022
+  - *id023
+skins: 11
 ---

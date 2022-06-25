@@ -104,15 +104,31 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 3
-front_wins: 3
+- &id015
+  date: 2022-06-17
+  name: Round 37 (Fri, June 17)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 5
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 3
-points: 27.333333333333336
-rounds: 13
+overall_wins: 4
+points: 38.333333333333336
+rounds: 15
 rounds_by_month:
   1:
   - *id001
@@ -133,5 +149,7 @@ rounds_by_month:
   - *id012
   6:
   - *id013
-skins: 6
+  - *id014
+  - *id015
+skins: 9
 ---

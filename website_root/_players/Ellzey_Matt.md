@@ -67,10 +67,10 @@ all_rounds:
 - &id009
   date: 2022-03-04
   name: Round 15 (Fri, March  4)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 37 (Fri, June 17)
   replaces: null
 - &id010
   date: 2022-03-11
@@ -136,15 +136,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 5 (Wed, February  2)
+- &id018
+  date: 2022-06-17
+  name: Round 37 (Fri, June 17)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 15 (Fri, March  4)
 back_wins: 6
 flight_wins: 5
-front_wins: 8
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 8
-points: 56.0
-rounds: 17
+overall_wins: 9
+points: 60.0
+rounds: 18
 rounds_by_month:
   1:
   - *id001
@@ -169,5 +177,6 @@ rounds_by_month:
   6:
   - *id016
   - *id017
+  - *id018
 skins: 7
 ---

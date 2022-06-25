@@ -40,15 +40,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id006
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
-flight_wins: 1
+flight_wins: 2
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 1
-points: 6.666666666666667
-rounds: 5
+points: 8.666666666666668
+rounds: 6
 rounds_by_month:
   3:
   - *id001
@@ -58,5 +66,6 @@ rounds_by_month:
   - *id004
   6:
   - *id005
+  - *id006
 skins: 1
 ---

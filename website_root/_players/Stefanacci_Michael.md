@@ -96,15 +96,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 6
+- &id013
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 7
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 5
-points: 37.33333333333333
-rounds: 12
+overall_wins: 6
+points: 42.33333333333333
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -123,5 +131,7 @@ rounds_by_month:
   5:
   - *id011
   - *id012
-skins: 3
+  6:
+  - *id013
+skins: 4
 ---

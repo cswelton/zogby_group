@@ -72,15 +72,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 5
+- &id010
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
 flight_wins: 2
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
-overall_wins: 4
-points: 26.333333333333332
-rounds: 9
+overall_wins: 5
+points: 29.333333333333332
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -96,5 +104,6 @@ rounds_by_month:
   - *id008
   6:
   - *id009
+  - *id010
 skins: 2
 ---

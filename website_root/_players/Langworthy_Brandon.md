@@ -56,6 +56,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
 flight_wins: 2
 front_wins: 2
@@ -63,8 +71,8 @@ ignored_rounds: []
 image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 1
-points: 10.666666666666666
-rounds: 7
+points: 11.666666666666666
+rounds: 8
 rounds_by_month:
   4:
   - *id001
@@ -75,5 +83,7 @@ rounds_by_month:
   - *id005
   - *id006
   - *id007
-skins: 0
+  6:
+  - *id008
+skins: 1
 ---

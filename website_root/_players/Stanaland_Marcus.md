@@ -24,20 +24,30 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id004
+  date: 2022-06-24
+  name: June 24 (Fri, June 24)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 0
-front_wins: 0
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Stanaland, Marcus
-overall_wins: 1
-points: 2.0
-rounds: 3
+overall_wins: 2
+points: 5.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   - *id002
   3:
   - *id003
+  6:
+  - *id004
 skins: 0
 ---
