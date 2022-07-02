@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 31 (Fri, May 20)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id007
   date: 2022-02-17
@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 37 (Fri, June 17)
+  replaced_by: Round 39 (Wed, June 29)
   replaces: null
 - &id009
   date: 2022-03-25
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 32 (Mon, May 30)
+  replaced_by: Round 31 (Fri, May 20)
   replaces: null
 - &id011
   date: 2022-04-10
@@ -135,16 +135,16 @@ all_rounds:
   over_limit: true
   points: 2.0
   replaced_by: null
-  replaces: Round 8 (Fri, February 11)
+  replaces: Round 20 (Fri, April  8)
 - &id016
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
-  official: true
+  official: false
   over_limit: true
   points: 0.6666666666666666
   replaced_by: null
-  replaces: Round 20 (Fri, April  8)
-- &id019
+  replaces: null
+- &id020
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
   official: true
@@ -152,7 +152,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
-- &id021
+- &id022
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
   official: true
@@ -160,15 +160,15 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 5 (Wed, February  2)
-- &id022
+- &id023
   date: 2022-06-17
   name: Round 37 (Fri, June 17)
-  official: true
+  official: false
   over_limit: true
   points: 2.0
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
-- &id020
+  replaces: null
+- &id021
   date: 2022-06-24
   name: June 24 (Fri, June 24)
   official: false
@@ -176,15 +176,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 8
+- &id019
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 13 (Fri, February 25)
+- &id024
+  date: 2022-07-01
+  name: Round 40 (Fri, July  1)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 8 (Fri, February 11)
+back_wins: 9
 flight_wins: 5
-front_wins: 6
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 5
-points: 53.333333333333336
-rounds: 22
+overall_wins: 6
+points: 57.66666666666667
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -214,5 +230,8 @@ rounds_by_month:
   - *id020
   - *id021
   - *id022
-skins: 12
+  - *id023
+  7:
+  - *id024
+skins: 14
 ---

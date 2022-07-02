@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: June 24 (Fri, June 24)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id003
   date: 2022-01-09
@@ -27,10 +27,10 @@ all_rounds:
 - &id005
   date: 2022-02-02
   name: Round 5 (Wed, February  2)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: June 24 (Fri, June 24)
   replaces: null
 - &id004
   date: 2022-02-16
@@ -75,10 +75,10 @@ all_rounds:
 - &id010
   date: 2022-03-25
   name: March 25 (Fri, March 25)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 39 (Wed, June 29)
   replaces: null
 - &id013
   date: 2022-04-01
@@ -128,23 +128,39 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id017
+- &id018
   date: 2022-06-24
   name: June 24 (Fri, June 24)
   official: true
   over_limit: true
   points: 3.0
   replaced_by: null
+  replaces: Round 5 (Wed, February  2)
+- &id017
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: March 25 (Fri, March 25)
+- &id019
+  date: 2022-07-01
+  name: Round 40 (Fri, July  1)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
   replaces: Round 1 (Thu, January  6)
-back_wins: 7
-flight_wins: 4
+back_wins: 8
+flight_wins: 6
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 8
-points: 52.66666666666667
-rounds: 17
+points: 60.66666666666667
+rounds: 19
 rounds_by_month:
   1:
   - *id001
@@ -169,5 +185,8 @@ rounds_by_month:
   - *id016
   6:
   - *id017
-skins: 12
+  - *id018
+  7:
+  - *id019
+skins: 15
 ---

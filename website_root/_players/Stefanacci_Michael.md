@@ -104,15 +104,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2022-07-01
+  name: Round 40 (Fri, July  1)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 7
-front_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 6
-points: 42.33333333333333
-rounds: 13
+points: 44.33333333333333
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -133,5 +141,7 @@ rounds_by_month:
   - *id012
   6:
   - *id013
+  7:
+  - *id014
 skins: 4
 ---

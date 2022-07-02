@@ -32,15 +32,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 2
-points: 9.0
-rounds: 4
+points: 11.0
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -49,5 +57,7 @@ rounds_by_month:
   4:
   - *id003
   - *id004
+  6:
+  - *id005
 skins: 0
 ---

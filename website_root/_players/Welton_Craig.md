@@ -88,12 +88,20 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id012
+- &id013
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
   official: true
   over_limit: false
   points: 2.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: true
+  over_limit: false
+  points: 1.0
   replaced_by: null
   replaces: null
 back_wins: 2
@@ -103,8 +111,8 @@ ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 2
-points: 21.0
-rounds: 12
+points: 22.0
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -124,5 +132,6 @@ rounds_by_month:
   - *id011
   6:
   - *id012
-skins: 7
+  - *id013
+skins: 8
 ---

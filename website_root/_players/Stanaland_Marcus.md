@@ -32,15 +32,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id005
+  date: 2022-07-01
+  name: Round 40 (Fri, July  1)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 0
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Stanaland, Marcus
 overall_wins: 2
-points: 5.0
-rounds: 4
+points: 6.0
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -49,5 +57,7 @@ rounds_by_month:
   - *id003
   6:
   - *id004
+  7:
+  - *id005
 skins: 0
 ---

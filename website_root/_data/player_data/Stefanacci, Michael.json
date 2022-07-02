@@ -1,6 +1,6 @@
 {
     "name": "Stefanacci, Michael",
-    "scoring_average": 77.143,
+    "scoring_average": 77.133,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -1219,6 +1219,93 @@
             ],
             "in": 34,
             "out": 40
+        },
+        {
+            "date": "2022-07-01",
+            "date_timestamp": 738337,
+            "score": 77,
+            "total": 77,
+            "name": "Round 40 (Fri, July  1)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 40,
+            "out": 37
         }
     ]
 }

@@ -72,7 +72,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
   official: true
@@ -80,15 +80,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 8
-flight_wins: 4
+- &id010
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 9
+flight_wins: 5
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
-overall_wins: 6
-points: 42.0
-rounds: 10
+overall_wins: 7
+points: 50.0
+rounds: 11
 rounds_by_month:
   1:
   - *id001
@@ -106,5 +114,6 @@ rounds_by_month:
   - *id009
   6:
   - *id010
-skins: 5
+  - *id011
+skins: 7
 ---

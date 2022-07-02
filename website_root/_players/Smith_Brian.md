@@ -160,7 +160,7 @@ all_rounds:
   points: 5.666666666666666
   replaced_by: null
   replaces: Round 22 (Fri, April 15)
-- &id021
+- &id022
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
   official: true
@@ -168,7 +168,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 17 (Fri, March 18)
-- &id023
+- &id024
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
   official: true
@@ -176,7 +176,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 20 (Fri, April  8)
-- &id022
+- &id023
   date: 2022-06-24
   name: June 24 (Fri, June 24)
   official: false
@@ -184,15 +184,31 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 12
+- &id021
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
+- &id025
+  date: 2022-07-01
+  name: Round 40 (Fri, July  1)
+  official: false
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 13
 flight_wins: 13
-front_wins: 10
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 14
+overall_wins: 15
 points: 97.66666666666667
-rounds: 23
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -223,5 +239,8 @@ rounds_by_month:
   - *id021
   - *id022
   - *id023
-skins: 18
+  - *id024
+  7:
+  - *id025
+skins: 20
 ---

@@ -22,7 +22,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 23 (Fri, April 22)
+  replaced_by: Round 37 (Fri, June 17)
   replaces: null
 - &id005
   date: 2022-02-02
@@ -102,7 +102,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 26 (Fri, May  6)
+  replaced_by: Round 39 (Wed, June 29)
   replaces: null
 - &id016
   date: 2022-04-01
@@ -126,16 +126,16 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 37 (Fri, June 17)
+  replaced_by: Round 26 (Fri, May  6)
   replaces: null
 - &id014
   date: 2022-04-22
   name: Round 23 (Fri, April 22)
-  official: true
+  official: false
   over_limit: true
   points: 2.0
   replaced_by: null
-  replaces: Jan 14th (Fri, January 14)
+  replaces: null
 - &id021
   date: 2022-05-04
   name: Round 25 (Wed, May  4)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
+  replaces: Round 22 (Fri, April 15)
 - &id018
   date: 2022-05-13
   name: Round 28 (Fri, May 13)
@@ -168,7 +168,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id022
+- &id023
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
   official: false
@@ -176,15 +176,15 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id024
+- &id025
   date: 2022-06-17
   name: Round 37 (Fri, June 17)
   official: true
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
-- &id023
+  replaces: Jan 14th (Fri, January 14)
+- &id024
   date: 2022-06-24
   name: June 24 (Fri, June 24)
   official: false
@@ -192,15 +192,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 11
-flight_wins: 8
-front_wins: 9
+- &id022
+  date: 2022-06-29
+  name: Round 39 (Wed, June 29)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: March 25 (Fri, March 25)
+- &id026
+  date: 2022-07-01
+  name: Round 40 (Fri, July  1)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 12
+flight_wins: 9
+front_wins: 10
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 10
-points: 74.66666666666666
-rounds: 24
+overall_wins: 11
+points: 78.66666666666666
+rounds: 26
 rounds_by_month:
   1:
   - *id001
@@ -232,5 +248,8 @@ rounds_by_month:
   - *id022
   - *id023
   - *id024
+  - *id025
+  7:
+  - *id026
 skins: 9
 ---
