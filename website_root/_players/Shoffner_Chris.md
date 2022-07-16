@@ -192,7 +192,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id025
+- &id027
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: true
@@ -200,15 +200,31 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: Round 15 (Fri, March  4)
+- &id025
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id026
+  date: 2022-07-13
+  name: Round 43 (Wed, July 13)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 10
-flight_wins: 10
+flight_wins: 11
 front_wins: 13
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 12
 points: 79.0
-rounds: 25
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -242,5 +258,7 @@ rounds_by_month:
   - *id024
   7:
   - *id025
+  - *id026
+  - *id027
 skins: 12
 ---

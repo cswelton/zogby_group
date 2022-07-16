@@ -104,15 +104,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
 flight_wins: 3
-front_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 2
-points: 22.0
-rounds: 13
+points: 25.0
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -133,5 +141,7 @@ rounds_by_month:
   6:
   - *id012
   - *id013
-skins: 8
+  7:
+  - *id014
+skins: 9
 ---

@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 39 (Wed, June 29)
+  replaced_by: Round 44 (Fri, July 15)
   replaces: null
 - &id001
   date: 2022-01-14
@@ -203,12 +203,12 @@ all_rounds:
 - &id022
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
-  official: true
+  official: false
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 1 (Thu, January  6)
-- &id027
+  replaces: null
+- &id030
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: false
@@ -216,15 +216,39 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 14
-flight_wins: 11
-front_wins: 9
+- &id027
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: false
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id029
+  date: 2022-07-13
+  name: Round 43 (Wed, July 13)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id028
+  date: 2022-07-15
+  name: Round 44 (Fri, July 15)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 1 (Thu, January  6)
+back_wins: 15
+flight_wins: 13
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 9
-points: 84.66666666666666
-rounds: 27
+overall_wins: 10
+points: 85.66666666666666
+rounds: 30
 rounds_by_month:
   1:
   - *id001
@@ -260,5 +284,8 @@ rounds_by_month:
   - *id026
   7:
   - *id027
-skins: 29
+  - *id028
+  - *id029
+  - *id030
+skins: 31
 ---

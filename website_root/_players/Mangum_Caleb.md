@@ -80,7 +80,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id011
+- &id013
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: true
@@ -88,15 +88,31 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id011
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2022-07-15
+  name: Round 44 (Fri, July 15)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 6
-flight_wins: 2
-front_wins: 6
+flight_wins: 4
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 5
-points: 31.333333333333332
-rounds: 11
+points: 38.33333333333333
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -115,5 +131,7 @@ rounds_by_month:
   - *id010
   7:
   - *id011
-skins: 2
+  - *id012
+  - *id013
+skins: 3
 ---

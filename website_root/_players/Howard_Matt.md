@@ -48,6 +48,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id007
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 2
 front_wins: 1
@@ -56,7 +64,7 @@ image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 1
 points: 8.666666666666668
-rounds: 6
+rounds: 7
 rounds_by_month:
   3:
   - *id001
@@ -67,5 +75,7 @@ rounds_by_month:
   6:
   - *id005
   - *id006
+  7:
+  - *id007
 skins: 1
 ---

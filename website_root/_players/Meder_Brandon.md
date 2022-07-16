@@ -24,20 +24,30 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
-back_wins: 3
+- &id004
+  date: 2022-07-15
+  name: Round 44 (Fri, July 15)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
 flight_wins: 0
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 2
-points: 8.666666666666666
-rounds: 3
+points: 10.666666666666666
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   4:
   - *id002
   - *id003
-skins: 0
+  7:
+  - *id004
+skins: 1
 ---

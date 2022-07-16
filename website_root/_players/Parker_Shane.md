@@ -51,10 +51,10 @@ all_rounds:
 - &id006
   date: 2022-03-11
   name: March 11 (Fri, March 11)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 43 (Wed, July 13)
   replaces: null
 - &id007
   date: 2022-03-18
@@ -107,10 +107,10 @@ all_rounds:
 - &id014
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
-  official: true
+  official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: null
+  replaced_by: Round 44 (Fri, July 15)
   replaces: null
 - &id015
   date: 2022-06-03
@@ -128,7 +128,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id017
+- &id020
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: true
@@ -136,15 +136,39 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 13 (Fri, February 25)
-back_wins: 6
-flight_wins: 6
-front_wins: 9
+- &id017
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id019
+  date: 2022-07-13
+  name: Round 43 (Wed, July 13)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: March 11 (Fri, March 11)
+- &id018
+  date: 2022-07-15
+  name: Round 44 (Fri, July 15)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 32 (Mon, May 30)
+back_wins: 7
+flight_wins: 7
+front_wins: 10
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 6
-points: 54.0
-rounds: 17
+overall_wins: 7
+points: 62.333333333333336
+rounds: 20
 rounds_by_month:
   1:
   - *id001
@@ -170,5 +194,8 @@ rounds_by_month:
   - *id016
   7:
   - *id017
-skins: 12
+  - *id018
+  - *id019
+  - *id020
+skins: 13
 ---

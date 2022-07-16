@@ -40,6 +40,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id006
+  date: 2022-07-15
+  name: Round 44 (Fri, July 15)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 0
 front_wins: 2
@@ -48,7 +56,7 @@ image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 2
 points: 11.0
-rounds: 5
+rounds: 6
 rounds_by_month:
   1:
   - *id001
@@ -59,5 +67,7 @@ rounds_by_month:
   - *id004
   6:
   - *id005
+  7:
+  - *id006
 skins: 0
 ---

@@ -24,15 +24,23 @@ all_rounds:
   points: 4.666666666666666
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id004
+  date: 2022-07-08
+  name: Round 41 (Fri, July  8)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Schrier, Matthew
-overall_wins: 1
-points: 7.333333333333332
-rounds: 3
+overall_wins: 2
+points: 12.333333333333332
+rounds: 4
 rounds_by_month:
   1:
   - *id001
@@ -40,5 +48,7 @@ rounds_by_month:
   - *id002
   5:
   - *id003
-skins: 0
+  7:
+  - *id004
+skins: 1
 ---
