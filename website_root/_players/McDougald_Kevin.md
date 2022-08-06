@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 37 (Fri, June 17)
+  replaced_by: July 29th (Fri, July 29)
   replaces: null
 - &id002
   date: 2022-01-09
@@ -22,7 +22,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: June 24 (Fri, June 24)
+  replaced_by: Round 37 (Fri, June 17)
   replaces: null
 - &id006
   date: 2022-02-11
@@ -38,7 +38,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 44 (Fri, July 15)
+  replaced_by: Round 39 (Wed, June 29)
   replaces: null
 - &id005
   date: 2022-02-25
@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: June 24 (Fri, June 24)
   replaces: null
 - &id008
   date: 2022-03-11
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 39 (Wed, June 29)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id014
   date: 2022-05-06
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 1 (Thu, January  6)
+  replaces: Round 5 (Wed, February  2)
 - &id018
   date: 2022-06-24
   name: June 24 (Fri, June 24)
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 5 (Wed, February  2)
+  replaces: Round 15 (Fri, March  4)
 - &id017
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
@@ -151,15 +151,15 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
-- &id023
+  replaces: Round 9 (Wed, February 16)
+- &id025
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: true
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: Round 23 (Fri, April 22)
 - &id020
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -168,7 +168,7 @@ all_rounds:
   points: 1.6666666666666665
   replaced_by: null
   replaces: null
-- &id022
+- &id024
   date: 2022-07-13
   name: Round 43 (Wed, July 13)
   official: false
@@ -179,20 +179,44 @@ all_rounds:
 - &id021
   date: 2022-07-15
   name: Round 44 (Fri, July 15)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 9 (Wed, February 16)
-back_wins: 9
-flight_wins: 7
-front_wins: 5
+  replaces: null
+- &id022
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id023
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: Round 1 (Thu, January  6)
+- &id026
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 10
+flight_wins: 8
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
-overall_wins: 8
-points: 53.333333333333336
-rounds: 23
+overall_wins: 9
+points: 58.333333333333336
+rounds: 26
 rounds_by_month:
   1:
   - *id001
@@ -224,5 +248,9 @@ rounds_by_month:
   - *id021
   - *id022
   - *id023
+  - *id024
+  - *id025
+  8:
+  - *id026
 skins: 11
 ---

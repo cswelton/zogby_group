@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 39 (Wed, June 29)
+  replaced_by: August 3 (Wed, August  3)
   replaces: null
 - &id011
   date: 2022-04-10
@@ -179,12 +179,12 @@ all_rounds:
 - &id019
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 20 (Fri, April  8)
-- &id026
+  replaces: null
+- &id027
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: true
@@ -208,15 +208,31 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: Round 5 (Wed, February  2)
+- &id026
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id028
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 20 (Fri, April  8)
 back_wins: 10
 flight_wins: 6
-front_wins: 8
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 7
-points: 62.66666666666667
-rounds: 26
+overall_wins: 8
+points: 63.66666666666667
+rounds: 28
 rounds_by_month:
   1:
   - *id001
@@ -251,5 +267,8 @@ rounds_by_month:
   - *id024
   - *id025
   - *id026
-skins: 16
+  - *id027
+  8:
+  - *id028
+skins: 18
 ---

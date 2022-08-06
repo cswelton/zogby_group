@@ -1,6 +1,6 @@
 {
     "name": "Perry, Robbie",
-    "scoring_average": 73.833,
+    "scoring_average": 73.143,
     "rounds": [
         {
             "date": "2022-01-19",
@@ -523,6 +523,93 @@
             ],
             "in": 41,
             "out": 39
+        },
+        {
+            "date": "2022-08-05",
+            "date_timestamp": 738372,
+            "score": 69,
+            "total": 69,
+            "name": "Round 49 (Fri, August  5)",
+            "valid": false,
+            "reason": "Teams do not contain equal number of players",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 36,
+            "out": 33
         }
     ]
 }

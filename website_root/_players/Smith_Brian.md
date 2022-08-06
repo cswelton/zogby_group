@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 32 (Mon, May 30)
+  replaced_by: Round 41 (Fri, July  8)
   replaces: null
 - &id012
   date: 2022-03-02
@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 41 (Fri, July  8)
+  replaced_by: Round 34 (Wed, June  8)
   replaces: null
 - &id008
   date: 2022-03-04
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 34 (Wed, June  8)
+  replaced_by: August 3 (Wed, August  3)
   replaces: null
 - &id013
   date: 2022-04-22
@@ -155,11 +155,11 @@ all_rounds:
 - &id019
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
-  official: true
+  official: false
   over_limit: true
   points: 5.666666666666666
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
+  replaces: null
 - &id022
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
@@ -175,7 +175,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
+  replaces: Round 14 (Wed, March  2)
 - &id023
   date: 2022-06-24
   name: June 24 (Fri, June 24)
@@ -192,7 +192,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id028
+- &id029
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: false
@@ -207,8 +207,8 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 14 (Wed, March  2)
-- &id027
+  replaces: Round 13 (Fri, February 25)
+- &id028
   date: 2022-07-13
   name: Round 43 (Wed, July 13)
   official: true
@@ -224,15 +224,31 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id027
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id030
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Round 22 (Fri, April 15)
 back_wins: 16
-flight_wins: 14
-front_wins: 12
+flight_wins: 15
+front_wins: 13
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 17
-points: 103.66666666666667
-rounds: 28
+overall_wins: 18
+points: 105.0
+rounds: 30
 rounds_by_month:
   1:
   - *id001
@@ -269,5 +285,8 @@ rounds_by_month:
   - *id026
   - *id027
   - *id028
-skins: 22
+  - *id029
+  8:
+  - *id030
+skins: 25
 ---

@@ -32,15 +32,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
-flight_wins: 2
+flight_wins: 3
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Akins, Kyle
 overall_wins: 4
-points: 25.666666666666668
-rounds: 4
+points: 29.666666666666668
+rounds: 5
 rounds_by_month:
   3:
   - *id001
@@ -49,5 +57,7 @@ rounds_by_month:
   6:
   - *id003
   - *id004
-skins: 4
+  7:
+  - *id005
+skins: 6
 ---

@@ -104,6 +104,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 10
 front_wins: 5
@@ -111,8 +119,8 @@ ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 2
-points: 49.0
-rounds: 13
+points: 50.0
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -133,5 +141,7 @@ rounds_by_month:
   - *id012
   6:
   - *id013
-skins: 11
+  7:
+  - *id014
+skins: 12
 ---

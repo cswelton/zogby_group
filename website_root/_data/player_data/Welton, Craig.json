@@ -1,6 +1,6 @@
 {
     "name": "Welton, Craig",
-    "scoring_average": 76.375,
+    "scoring_average": 76.235,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -1393,6 +1393,93 @@
             ],
             "in": 40,
             "out": 38
+        },
+        {
+            "date": "2022-08-05",
+            "date_timestamp": 738372,
+            "score": 74,
+            "total": 74,
+            "name": "Round 49 (Fri, August  5)",
+            "valid": false,
+            "reason": "Teams do not contain equal number of players",
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 39
         }
     ]
 }

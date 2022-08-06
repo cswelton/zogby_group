@@ -64,6 +64,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id009
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 2
 flight_wins: 2
 front_wins: 2
@@ -72,7 +80,7 @@ image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 1
 points: 11.666666666666666
-rounds: 8
+rounds: 9
 rounds_by_month:
   4:
   - *id001
@@ -85,5 +93,7 @@ rounds_by_month:
   - *id007
   6:
   - *id008
+  7:
+  - *id009
 skins: 1
 ---

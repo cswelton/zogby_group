@@ -43,10 +43,10 @@ all_rounds:
 - &id006
   date: 2022-02-11
   name: Round 8 (Fri, February 11)
-  official: true
+  official: false
   over_limit: false
   points: 1.0
-  replaced_by: null
+  replaced_by: Round 37 (Fri, June 17)
   replaces: null
 - &id004
   date: 2022-02-16
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 34 (Wed, June  8)
+  replaced_by: Round 45 (Fri, July 22)
   replaces: null
 - &id011
   date: 2022-03-18
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 37 (Fri, June 17)
+  replaced_by: Round 34 (Wed, June  8)
   replaces: null
 - &id012
   date: 2022-04-22
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: March 11 (Fri, March 11)
+  replaces: Round 17 (Fri, March 18)
 - &id019
   date: 2022-06-17
   name: Round 37 (Fri, June 17)
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
+  replaces: Round 8 (Fri, February 11)
 - &id016
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
@@ -160,7 +160,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 15 (Fri, March  4)
-- &id021
+- &id022
   date: 2022-07-13
   name: Round 43 (Wed, July 13)
   official: true
@@ -168,15 +168,31 @@ all_rounds:
   points: 10.0
   replaced_by: null
   replaces: Round 5 (Wed, February  2)
-back_wins: 8
+- &id021
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: March 11 (Fri, March 11)
+- &id023
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 9
 flight_wins: 7
-front_wins: 10
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 11
-points: 76.0
-rounds: 21
+overall_wins: 12
+points: 81.0
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -206,5 +222,8 @@ rounds_by_month:
   7:
   - *id020
   - *id021
+  - *id022
+  8:
+  - *id023
 skins: 10
 ---

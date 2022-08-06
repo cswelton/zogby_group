@@ -104,7 +104,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id015
+- &id016
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: true
@@ -120,6 +120,22 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id015
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id017
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 7
 front_wins: 5
@@ -127,8 +143,8 @@ ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 6
-points: 46.33333333333333
-rounds: 15
+points: 47.33333333333333
+rounds: 17
 rounds_by_month:
   1:
   - *id001
@@ -152,5 +168,8 @@ rounds_by_month:
   7:
   - *id014
   - *id015
-skins: 4
+  - *id016
+  8:
+  - *id017
+skins: 5
 ---

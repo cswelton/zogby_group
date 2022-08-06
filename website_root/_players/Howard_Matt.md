@@ -56,15 +56,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id008
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 2
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
-overall_wins: 1
-points: 8.666666666666668
-rounds: 7
+overall_wins: 2
+points: 15.666666666666668
+rounds: 9
 rounds_by_month:
   3:
   - *id001
@@ -77,5 +93,7 @@ rounds_by_month:
   - *id006
   7:
   - *id007
-skins: 1
+  - *id008
+  - *id009
+skins: 2
 ---

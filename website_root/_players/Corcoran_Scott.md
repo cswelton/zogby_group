@@ -120,6 +120,14 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id016
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 5
 front_wins: 4
@@ -128,7 +136,7 @@ image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 4
 points: 38.333333333333336
-rounds: 15
+rounds: 16
 rounds_by_month:
   1:
   - *id001
@@ -151,5 +159,7 @@ rounds_by_month:
   - *id013
   - *id014
   - *id015
+  7:
+  - *id016
 skins: 9
 ---

@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 44 (Fri, July 15)
+  replaced_by: August 3 (Wed, August  3)
   replaces: null
 - &id003
   date: 2022-01-09
@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: Round 44 (Fri, July 15)
   replaces: null
 - &id004
   date: 2022-02-16
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: June 24 (Fri, June 24)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id013
   date: 2022-04-01
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 39 (Wed, June 29)
+  replaced_by: June 24 (Fri, June 24)
   replaces: null
 - &id012
   date: 2022-04-08
@@ -123,10 +123,10 @@ all_rounds:
 - &id016
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 39 (Wed, June 29)
   replaces: null
 - &id018
   date: 2022-06-24
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
+  replaces: Round 19 (Fri, April  1)
 - &id017
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 19 (Fri, April  1)
+  replaces: Round 32 (Mon, May 30)
 - &id021
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 5 (Wed, February  2)
+  replaces: March 25 (Fri, March 25)
 - &id019
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -167,16 +167,24 @@ all_rounds:
   over_limit: true
   points: 8.0
   replaced_by: null
+  replaces: Round 5 (Wed, February  2)
+- &id022
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: true
+  over_limit: true
+  points: 9.0
+  replaced_by: null
   replaces: Round 1 (Thu, January  6)
 back_wins: 9
-flight_wins: 7
-front_wins: 6
+flight_wins: 8
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
-overall_wins: 9
-points: 68.66666666666667
-rounds: 21
+overall_wins: 10
+points: 77.66666666666667
+rounds: 22
 rounds_by_month:
   1:
   - *id001
@@ -206,5 +214,7 @@ rounds_by_month:
   - *id019
   - *id020
   - *id021
-skins: 16
+  8:
+  - *id022
+skins: 19
 ---

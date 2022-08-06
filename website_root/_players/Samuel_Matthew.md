@@ -11,10 +11,10 @@ all_rounds:
 - &id001
   date: 2022-01-14
   name: Jan 14th (Fri, January 14)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: July 29th (Fri, July 29)
   replaces: null
 - &id003
   date: 2022-02-02
@@ -128,15 +128,23 @@ all_rounds:
   points: 7.666666666666667
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 5
-front_wins: 8
+- &id017
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: Jan 14th (Fri, January 14)
+back_wins: 6
+flight_wins: 6
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 7
-points: 50.33333333333333
-rounds: 16
+overall_wins: 8
+points: 58.33333333333333
+rounds: 17
 rounds_by_month:
   1:
   - *id001
@@ -159,5 +167,7 @@ rounds_by_month:
   - *id014
   - *id015
   - *id016
+  7:
+  - *id017
 skins: 8
 ---

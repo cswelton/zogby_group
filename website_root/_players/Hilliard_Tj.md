@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 44 (Fri, July 15)
+  replaced_by: Round 25 (Wed, May  4)
   replaces: null
 - &id001
   date: 2022-01-14
@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 25 (Wed, May  4)
+  replaced_by: July 29th (Fri, July 29)
   replaces: null
 - &id003
   date: 2022-02-16
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 7.0
   replaced_by: null
-  replaces: Round 8 (Fri, February 11)
+  replaces: Round 1 (Thu, January  6)
 - &id019
   date: 2022-05-06
   name: Round 26 (Fri, May  6)
@@ -208,7 +208,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id030
+- &id032
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
   official: false
@@ -224,7 +224,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id029
+- &id031
   date: 2022-07-13
   name: Round 43 (Wed, July 13)
   official: false
@@ -235,20 +235,44 @@ all_rounds:
 - &id028
   date: 2022-07-15
   name: Round 44 (Fri, July 15)
-  official: true
+  official: false
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 1 (Thu, January  6)
-back_wins: 15
-flight_wins: 13
-front_wins: 11
+  replaces: null
+- &id029
+  date: 2022-07-22
+  name: Round 45 (Fri, July 22)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id030
+  date: 2022-07-29
+  name: July 29th (Fri, July 29)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: Round 8 (Fri, February 11)
+- &id033
+  date: 2022-08-03
+  name: August 3 (Wed, August  3)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+back_wins: 16
+flight_wins: 14
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 10
-points: 85.66666666666666
-rounds: 30
+overall_wins: 11
+points: 87.66666666666666
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -287,5 +311,9 @@ rounds_by_month:
   - *id028
   - *id029
   - *id030
+  - *id031
+  - *id032
+  8:
+  - *id033
 skins: 31
 ---
