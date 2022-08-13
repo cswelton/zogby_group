@@ -72,15 +72,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id010
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 2
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 2
-points: 15.666666666666668
-rounds: 9
+points: 16.666666666666668
+rounds: 10
 rounds_by_month:
   3:
   - *id001
@@ -95,5 +103,7 @@ rounds_by_month:
   - *id007
   - *id008
   - *id009
+  8:
+  - *id010
 skins: 2
 ---

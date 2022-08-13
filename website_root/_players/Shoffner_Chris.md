@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 29 (Sun, May 15)
+  replaced_by: August 3 (Wed, August  3)
   replaces: null
 - &id008
   date: 2022-03-11
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: August 3 (Wed, August  3)
+  replaced_by: Round 37 (Fri, June 17)
   replaces: null
 - &id010
   date: 2022-03-25
@@ -102,7 +102,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 34 (Wed, June  8)
+  replaced_by: Round 50 (Wed, August 10)
   replaces: null
 - &id013
   date: 2022-04-10
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 37 (Fri, June 17)
+  replaced_by: Round 34 (Wed, June  8)
   replaces: null
 - &id019
   date: 2022-05-04
@@ -147,11 +147,11 @@ all_rounds:
 - &id020
   date: 2022-05-15
   name: Round 29 (Sun, May 15)
-  official: true
+  official: false
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: null
 - &id018
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 20 (Fri, April  8)
+  replaces: Round 23 (Fri, April 22)
 - &id024
   date: 2022-06-17
   name: Round 37 (Fri, June 17)
@@ -175,7 +175,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 17 (Fri, March 18)
 - &id022
   date: 2022-06-24
   name: June 24 (Fri, June 24)
@@ -223,16 +223,32 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
-back_wins: 11
-flight_wins: 12
-front_wins: 13
+  replaces: Round 15 (Fri, March  4)
+- &id030
+  date: 2022-08-10
+  name: Round 50 (Wed, August 10)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 20 (Fri, April  8)
+- &id029
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 12
+flight_wins: 14
+front_wins: 14
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 12
-points: 80.0
-rounds: 28
+overall_wins: 13
+points: 82.0
+rounds: 30
 rounds_by_month:
   1:
   - *id001
@@ -270,5 +286,7 @@ rounds_by_month:
   - *id027
   8:
   - *id028
+  - *id029
+  - *id030
 skins: 13
 ---

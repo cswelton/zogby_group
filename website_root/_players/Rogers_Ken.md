@@ -72,15 +72,23 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2022-08-10
+  name: Round 50 (Wed, August 10)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
-flight_wins: 1
-front_wins: 3
+flight_wins: 2
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
 overall_wins: 2
-points: 17.333333333333332
-rounds: 9
+points: 21.333333333333332
+rounds: 10
 rounds_by_month:
   2:
   - *id001
@@ -97,5 +105,6 @@ rounds_by_month:
   - *id008
   8:
   - *id009
+  - *id010
 skins: 2
 ---

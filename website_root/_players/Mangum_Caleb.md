@@ -112,15 +112,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id015
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 4
-front_wins: 7
+front_wins: 8
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 5
-points: 38.33333333333333
-rounds: 14
+points: 40.33333333333333
+rounds: 15
 rounds_by_month:
   1:
   - *id001
@@ -142,5 +150,7 @@ rounds_by_month:
   - *id012
   - *id013
   - *id014
+  8:
+  - *id015
 skins: 3
 ---

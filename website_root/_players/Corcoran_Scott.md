@@ -11,10 +11,10 @@ all_rounds:
 - &id002
   date: 2022-02-02
   name: Round 5 (Wed, February  2)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 51 (Fri, August 12)
   replaces: null
 - &id004
   date: 2022-02-11
@@ -128,15 +128,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 6
-flight_wins: 5
+- &id017
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 5 (Wed, February  2)
+back_wins: 7
+flight_wins: 6
 front_wins: 4
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 4
-points: 38.333333333333336
-rounds: 16
+overall_wins: 5
+points: 42.333333333333336
+rounds: 17
 rounds_by_month:
   1:
   - *id001
@@ -161,5 +169,7 @@ rounds_by_month:
   - *id015
   7:
   - *id016
+  8:
+  - *id017
 skins: 9
 ---

@@ -112,15 +112,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id015
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 3
 front_wins: 4
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 2
-points: 25.0
-rounds: 14
+points: 26.0
+rounds: 15
 rounds_by_month:
   1:
   - *id001
@@ -143,5 +151,7 @@ rounds_by_month:
   - *id013
   7:
   - *id014
+  8:
+  - *id015
 skins: 9
 ---

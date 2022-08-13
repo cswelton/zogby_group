@@ -240,15 +240,23 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: Round 22 (Fri, April 15)
+- &id031
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 16
 flight_wins: 15
-front_wins: 13
+front_wins: 14
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
 overall_wins: 18
 points: 105.0
-rounds: 30
+rounds: 31
 rounds_by_month:
   1:
   - *id001
@@ -288,5 +296,6 @@ rounds_by_month:
   - *id029
   8:
   - *id030
-skins: 25
+  - *id031
+skins: 26
 ---

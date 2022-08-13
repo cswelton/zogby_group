@@ -35,10 +35,10 @@ all_rounds:
 - &id004
   date: 2022-02-25
   name: Round 13 (Fri, February 25)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 51 (Fri, August 12)
   replaces: null
 - &id006
   date: 2022-03-04
@@ -136,15 +136,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Jan 14th (Fri, January 14)
-back_wins: 6
+- &id018
+  date: 2022-08-12
+  name: Round 51 (Fri, August 12)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: Round 13 (Fri, February 25)
+back_wins: 7
 flight_wins: 6
 front_wins: 9
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 8
-points: 58.33333333333333
-rounds: 17
+overall_wins: 9
+points: 61.33333333333333
+rounds: 18
 rounds_by_month:
   1:
   - *id001
@@ -169,5 +177,7 @@ rounds_by_month:
   - *id016
   7:
   - *id017
+  8:
+  - *id018
 skins: 8
 ---
