@@ -1,6 +1,6 @@
 {
     "name": "Samuel, Matthew",
-    "scoring_average": 76.167,
+    "scoring_average": 76.368,
     "rounds": [
         {
             "date": "2022-01-09",
@@ -1563,6 +1563,93 @@
                 {
                     "score": 4,
                     "type": "par"
+                }
+            ],
+            "in": 40,
+            "out": 40
+        },
+        {
+            "date": "2022-08-14",
+            "date_timestamp": 738381,
+            "score": 80,
+            "total": 80,
+            "name": "Round 52 (Sun, August 14)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
                 }
             ],
             "in": 40,

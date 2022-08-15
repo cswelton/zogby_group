@@ -32,15 +32,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 0
+- &id005
+  date: 2022-08-14
+  name: Round 52 (Sun, August 14)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 1
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
-overall_wins: 2
-points: 10.666666666666666
-rounds: 4
+overall_wins: 3
+points: 14.666666666666666
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -49,5 +57,7 @@ rounds_by_month:
   - *id003
   7:
   - *id004
+  8:
+  - *id005
 skins: 1
 ---

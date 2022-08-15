@@ -1,6 +1,6 @@
 {
     "name": "Whartenby, Robert",
-    "scoring_average": 74.0,
+    "scoring_average": 76.0,
     "rounds": [
         {
             "date": "2022-05-15",
@@ -88,6 +88,93 @@
             ],
             "in": 37,
             "out": 37
+        },
+        {
+            "date": "2022-08-14",
+            "date_timestamp": 738381,
+            "score": 78,
+            "total": 78,
+            "name": "Round 52 (Sun, August 14)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 37,
+            "out": 41
         }
     ]
 }

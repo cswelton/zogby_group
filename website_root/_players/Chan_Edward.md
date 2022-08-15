@@ -112,15 +112,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 5
+- &id015
+  date: 2022-08-14
+  name: Round 52 (Sun, August 14)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
 flight_wins: 10
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 2
-points: 50.0
-rounds: 14
+points: 53.0
+rounds: 15
 rounds_by_month:
   1:
   - *id001
@@ -143,5 +151,7 @@ rounds_by_month:
   - *id013
   7:
   - *id014
-skins: 12
+  8:
+  - *id015
+skins: 14
 ---

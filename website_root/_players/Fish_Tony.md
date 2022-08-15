@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: Round 52 (Sun, August 14)
   replaces: null
 - &id013
   date: 2022-04-01
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 51 (Fri, August 12)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id012
   date: 2022-04-08
@@ -126,16 +126,16 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: June 24 (Fri, June 24)
+  replaced_by: Round 51 (Fri, August 12)
   replaces: null
 - &id018
   date: 2022-06-24
   name: June 24 (Fri, June 24)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 32 (Mon, May 30)
+  replaces: null
 - &id017
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
+  replaces: Round 19 (Fri, April  1)
 - &id019
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -176,7 +176,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
-- &id024
+- &id025
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: false
@@ -191,16 +191,24 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 19 (Fri, April  1)
+  replaces: Round 32 (Mon, May 30)
+- &id024
+  date: 2022-08-14
+  name: Round 52 (Sun, August 14)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: March 25 (Fri, March 25)
 back_wins: 10
-flight_wins: 9
-front_wins: 8
+flight_wins: 10
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
-overall_wins: 11
-points: 79.66666666666667
-rounds: 24
+overall_wins: 12
+points: 83.66666666666667
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -234,5 +242,6 @@ rounds_by_month:
   - *id022
   - *id023
   - *id024
-skins: 20
+  - *id025
+skins: 22
 ---

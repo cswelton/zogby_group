@@ -216,7 +216,15 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 10
+- &id028
+  date: 2022-08-14
+  name: Round 52 (Sun, August 14)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 11
 flight_wins: 8
 front_wins: 7
 ignored_rounds: []
@@ -224,7 +232,7 @@ image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 9
 points: 58.333333333333336
-rounds: 27
+rounds: 28
 rounds_by_month:
   1:
   - *id001
@@ -261,5 +269,6 @@ rounds_by_month:
   8:
   - *id026
   - *id027
-skins: 12
+  - *id028
+skins: 13
 ---
