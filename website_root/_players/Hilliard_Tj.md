@@ -256,7 +256,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 8 (Fri, February 11)
-- &id033
+- &id034
   date: 2022-08-03
   name: August 3 (Wed, August  3)
   official: false
@@ -264,7 +264,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id034
+- &id035
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: true
@@ -272,6 +272,14 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
+- &id033
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 17
 flight_wins: 15
 front_wins: 12
@@ -280,7 +288,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 12
 points: 88.66666666666666
-rounds: 34
+rounds: 35
 rounds_by_month:
   1:
   - *id001
@@ -324,5 +332,6 @@ rounds_by_month:
   8:
   - *id033
   - *id034
+  - *id035
 skins: 33
 ---

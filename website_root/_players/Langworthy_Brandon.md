@@ -72,7 +72,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: true
@@ -80,15 +80,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id010
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 2
-front_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/default.png
 name: Langworthy, Brandon
-overall_wins: 1
-points: 14.666666666666666
-rounds: 10
+overall_wins: 2
+points: 20.666666666666664
+rounds: 11
 rounds_by_month:
   4:
   - *id001
@@ -105,5 +113,6 @@ rounds_by_month:
   - *id009
   8:
   - *id010
+  - *id011
 skins: 2
 ---

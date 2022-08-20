@@ -224,7 +224,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id031
+- &id032
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: false
@@ -232,7 +232,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id029
+- &id030
   date: 2022-08-12
   name: Round 51 (Fri, August 12)
   official: true
@@ -240,7 +240,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 2 (Sun, January  9)
-- &id030
+- &id031
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
   official: false
@@ -248,15 +248,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id029
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 18
-flight_wins: 15
+flight_wins: 16
 front_wins: 9
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 13
 points: 80.33333333333333
-rounds: 31
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -297,5 +305,6 @@ rounds_by_month:
   - *id029
   - *id030
   - *id031
+  - *id032
 skins: 10
 ---

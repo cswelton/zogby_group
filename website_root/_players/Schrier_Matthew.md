@@ -32,6 +32,14 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 0
 front_wins: 2
@@ -40,7 +48,7 @@ image: /assets/images/default.png
 name: Schrier, Matthew
 overall_wins: 2
 points: 12.333333333333332
-rounds: 4
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -50,5 +58,7 @@ rounds_by_month:
   - *id003
   7:
   - *id004
+  8:
+  - *id005
 skins: 1
 ---

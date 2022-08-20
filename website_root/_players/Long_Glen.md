@@ -112,7 +112,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: null
-- &id015
+- &id016
   date: 2022-08-03
   name: August 3 (Wed, August  3)
   official: true
@@ -120,12 +120,20 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id016
+- &id017
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: true
   over_limit: false
   points: 9.0
+  replaced_by: null
+  replaces: null
+- &id015
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
+  official: false
+  over_limit: true
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 12
@@ -136,7 +144,7 @@ image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 9
 points: 72.0
-rounds: 16
+rounds: 17
 rounds_by_month:
   1:
   - *id001
@@ -162,5 +170,6 @@ rounds_by_month:
   8:
   - *id015
   - *id016
+  - *id017
 skins: 13
 ---

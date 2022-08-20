@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 41 (Fri, July  8)
+  replaced_by: Round 34 (Wed, June  8)
   replaces: null
 - &id012
   date: 2022-03-02
@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 34 (Wed, June  8)
+  replaced_by: August 3 (Wed, August  3)
   replaces: null
 - &id008
   date: 2022-03-04
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 33 (Fri, June  3)
+  replaced_by: Round 54 (Fri, August 19)
   replaces: null
 - &id011
   date: 2022-03-25
@@ -110,7 +110,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 43 (Wed, July 13)
+  replaced_by: Round 33 (Fri, June  3)
   replaces: null
 - &id016
   date: 2022-04-15
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: August 3 (Wed, August  3)
+  replaced_by: Round 43 (Wed, July 13)
   replaces: null
 - &id013
   date: 2022-04-22
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 9.0
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
+  replaces: Round 20 (Fri, April  8)
 - &id024
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
@@ -175,7 +175,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 14 (Wed, March  2)
+  replaces: Round 13 (Fri, February 25)
 - &id023
   date: 2022-06-24
   name: June 24 (Fri, June 24)
@@ -203,11 +203,11 @@ all_rounds:
 - &id025
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
-  official: true
+  official: false
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
+  replaces: null
 - &id028
   date: 2022-07-13
   name: Round 43 (Wed, July 13)
@@ -215,7 +215,7 @@ all_rounds:
   over_limit: true
   points: 8.0
   replaced_by: null
-  replaces: Round 20 (Fri, April  8)
+  replaces: Round 22 (Fri, April 15)
 - &id026
   date: 2022-07-15
   name: Round 44 (Fri, July 15)
@@ -232,15 +232,15 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id030
+- &id031
   date: 2022-08-03
   name: August 3 (Wed, August  3)
   official: true
   over_limit: true
   points: 7.0
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
-- &id031
+  replaces: Round 14 (Wed, March  2)
+- &id032
   date: 2022-08-12
   name: Round 51 (Fri, August 12)
   official: false
@@ -248,15 +248,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 16
-flight_wins: 15
-front_wins: 14
+- &id030
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
+  official: true
+  over_limit: true
+  points: 11.0
+  replaced_by: null
+  replaces: Round 17 (Fri, March 18)
+back_wins: 17
+flight_wins: 16
+front_wins: 15
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 18
-points: 105.0
-rounds: 31
+overall_wins: 19
+points: 110.0
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -297,5 +305,6 @@ rounds_by_month:
   8:
   - *id030
   - *id031
-skins: 26
+  - *id032
+skins: 29
 ---

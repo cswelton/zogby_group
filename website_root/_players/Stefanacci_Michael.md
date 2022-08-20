@@ -128,9 +128,17 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id017
+- &id018
   date: 2022-08-03
   name: August 3 (Wed, August  3)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id017
+  date: 2022-08-19
+  name: Round 54 (Fri, August 19)
   official: false
   over_limit: true
   points: 0
@@ -144,7 +152,7 @@ image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 6
 points: 47.33333333333333
-rounds: 17
+rounds: 18
 rounds_by_month:
   1:
   - *id001
@@ -171,5 +179,6 @@ rounds_by_month:
   - *id016
   8:
   - *id017
+  - *id018
 skins: 5
 ---
