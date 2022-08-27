@@ -72,7 +72,7 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: true
@@ -80,15 +80,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 2
-front_wins: 4
+- &id010
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: true
+  over_limit: false
+  points: 3.6666666666666665
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 3
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
-overall_wins: 2
-points: 21.333333333333332
-rounds: 10
+overall_wins: 3
+points: 25.0
+rounds: 11
 rounds_by_month:
   2:
   - *id001
@@ -106,5 +114,6 @@ rounds_by_month:
   8:
   - *id009
   - *id010
+  - *id011
 skins: 2
 ---

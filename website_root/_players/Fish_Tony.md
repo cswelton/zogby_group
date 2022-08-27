@@ -176,7 +176,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
-- &id026
+- &id027
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: false
@@ -192,7 +192,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id025
+- &id026
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
   official: true
@@ -208,7 +208,15 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: March 25 (Fri, March 25)
-back_wins: 11
+- &id025
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: false
+  over_limit: true
+  points: 0.6666666666666666
+  replaced_by: null
+  replaces: null
+back_wins: 12
 flight_wins: 11
 front_wins: 10
 ignored_rounds: []
@@ -216,7 +224,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 13
 points: 86.66666666666667
-rounds: 26
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -252,5 +260,6 @@ rounds_by_month:
   - *id024
   - *id025
   - *id026
+  - *id027
 skins: 22
 ---

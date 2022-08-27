@@ -256,15 +256,23 @@ all_rounds:
   points: 11.0
   replaced_by: null
   replaces: Round 17 (Fri, March 18)
-back_wins: 17
+- &id033
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: false
+  over_limit: true
+  points: 3.6666666666666665
+  replaced_by: null
+  replaces: null
+back_wins: 18
 flight_wins: 16
-front_wins: 15
+front_wins: 16
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 19
+overall_wins: 20
 points: 110.0
-rounds: 32
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -306,5 +314,6 @@ rounds_by_month:
   - *id030
   - *id031
   - *id032
-skins: 29
+  - *id033
+skins: 30
 ---

@@ -224,7 +224,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id032
+- &id033
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: true
@@ -240,7 +240,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id031
+- &id032
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
   official: true
@@ -256,7 +256,15 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
-back_wins: 13
+- &id031
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: false
+  over_limit: true
+  points: 1.6666666666666665
+  replaced_by: null
+  replaces: null
+back_wins: 14
 flight_wins: 15
 front_wins: 16
 ignored_rounds: []
@@ -264,7 +272,7 @@ image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 15
 points: 86.0
-rounds: 32
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -306,5 +314,6 @@ rounds_by_month:
   - *id030
   - *id031
   - *id032
-skins: 16
+  - *id033
+skins: 17
 ---

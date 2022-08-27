@@ -59,10 +59,10 @@ all_rounds:
 - &id008
   date: 2022-04-08
   name: Round 20 (Fri, April  8)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 55 (Wed, August 24)
   replaces: null
 - &id009
   date: 2022-05-04
@@ -120,7 +120,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id017
+- &id018
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
   official: true
@@ -136,15 +136,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 12
-flight_wins: 7
-front_wins: 4
+- &id017
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: true
+  over_limit: true
+  points: 3.6666666666666665
+  replaced_by: null
+  replaces: Round 20 (Fri, April  8)
+back_wins: 13
+flight_wins: 8
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
-overall_wins: 9
-points: 72.0
-rounds: 17
+overall_wins: 10
+points: 75.66666666666667
+rounds: 18
 rounds_by_month:
   1:
   - *id001
@@ -171,5 +179,6 @@ rounds_by_month:
   - *id015
   - *id016
   - *id017
+  - *id018
 skins: 13
 ---

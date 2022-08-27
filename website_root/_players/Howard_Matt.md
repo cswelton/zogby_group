@@ -80,15 +80,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 3
+- &id011
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: true
+  over_limit: false
+  points: 2.6666666666666665
+  replaced_by: null
+  replaces: null
+back_wins: 4
 flight_wins: 2
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
-overall_wins: 2
-points: 16.666666666666668
-rounds: 10
+overall_wins: 3
+points: 19.333333333333336
+rounds: 11
 rounds_by_month:
   3:
   - *id001
@@ -105,5 +113,6 @@ rounds_by_month:
   - *id009
   8:
   - *id010
+  - *id011
 skins: 2
 ---

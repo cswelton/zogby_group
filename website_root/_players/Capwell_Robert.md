@@ -232,7 +232,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id031
+- &id032
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
   official: false
@@ -248,15 +248,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 12
+- &id031
+  date: 2022-08-24
+  name: Round 55 (Wed, August 24)
+  official: false
+  over_limit: true
+  points: 2.6666666666666665
+  replaced_by: null
+  replaces: null
+back_wins: 13
 flight_wins: 7
-front_wins: 9
+front_wins: 10
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 8
+overall_wins: 9
 points: 63.66666666666667
-rounds: 31
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -297,5 +305,6 @@ rounds_by_month:
   - *id029
   - *id030
   - *id031
+  - *id032
 skins: 20
 ---
