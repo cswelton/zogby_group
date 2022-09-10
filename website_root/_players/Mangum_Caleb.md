@@ -128,6 +128,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id017
+  date: 2022-09-09
+  name: September 9th (Fri, September  9)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 7
 flight_wins: 4
 front_wins: 8
@@ -136,7 +144,7 @@ image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 6
 points: 42.33333333333333
-rounds: 16
+rounds: 17
 rounds_by_month:
   1:
   - *id001
@@ -161,5 +169,7 @@ rounds_by_month:
   8:
   - *id015
   - *id016
+  9:
+  - *id017
 skins: 3
 ---

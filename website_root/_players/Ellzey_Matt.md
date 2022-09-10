@@ -192,6 +192,14 @@ all_rounds:
   points: 5.666666666666667
   replaced_by: null
   replaces: Round 17 (Fri, March 18)
+- &id025
+  date: 2022-09-09
+  name: September 9th (Fri, September  9)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 10
 flight_wins: 8
 front_wins: 12
@@ -200,7 +208,7 @@ image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 13
 points: 82.66666666666667
-rounds: 24
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -234,5 +242,7 @@ rounds_by_month:
   8:
   - *id023
   - *id024
+  9:
+  - *id025
 skins: 11
 ---

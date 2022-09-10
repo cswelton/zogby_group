@@ -264,6 +264,14 @@ all_rounds:
   points: 5.666666666666667
   replaced_by: null
   replaces: Jan 14th (Fri, January 14)
+- &id034
+  date: 2022-09-02
+  name: Round 58 (Fri, September  2)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 17
 flight_wins: 13
 front_wins: 13
@@ -272,7 +280,7 @@ image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 14
 points: 84.33333333333333
-rounds: 33
+rounds: 34
 rounds_by_month:
   1:
   - *id001
@@ -315,5 +323,7 @@ rounds_by_month:
   - *id031
   - *id032
   - *id033
+  9:
+  - *id034
 skins: 13
 ---

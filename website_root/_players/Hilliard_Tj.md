@@ -280,6 +280,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id036
+  date: 2022-09-02
+  name: Round 58 (Fri, September  2)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 17
 flight_wins: 15
 front_wins: 12
@@ -288,7 +296,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 12
 points: 88.66666666666666
-rounds: 35
+rounds: 36
 rounds_by_month:
   1:
   - *id001
@@ -333,5 +341,7 @@ rounds_by_month:
   - *id033
   - *id034
   - *id035
-skins: 33
+  9:
+  - *id036
+skins: 34
 ---

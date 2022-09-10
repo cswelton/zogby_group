@@ -1,0 +1,197 @@
+{
+    "name": "September 7th (Wed, September  7)",
+    "results": {
+        "teams": [
+            [
+                "Fish, Tony",
+                "Roberts, Evan",
+                "Capwell, Robert",
+                "Shoffner, Chris"
+            ],
+            [
+                "Smith, Brian",
+                "Long, Glen",
+                "Ellzey, Matt",
+                "Zogby, Kevin"
+            ]
+        ],
+        "scores": {
+            "Fish, Tony": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    }
+                }
+            },
+            "Roberts, Evan": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    }
+                }
+            },
+            "Capwell, Robert": {
+                "scores": {
+                    "1": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    }
+                }
+            },
+            "Shoffner, Chris": {
+                "scores": {
+                    "1": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    }
+                }
+            },
+            "Smith, Brian": {
+                "scores": {
+                    "1": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 2,
+                        "type": "birdie"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Long, Glen": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Ellzey, Matt": {
+                "scores": {
+                    "1": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "4": {
+                        "score": 6,
+                        "type": "plus2"
+                    }
+                }
+            },
+            "Zogby, Kevin": {
+                "scores": {
+                    "1": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 3,
+                        "type": "birdie"
+                    }
+                }
+            }
+        }
+    }
+}

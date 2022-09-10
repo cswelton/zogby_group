@@ -40,15 +40,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 5
+- &id006
+  date: 2022-09-09
+  name: September 9th (Fri, September  9)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
 flight_wins: 1
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 3
-points: 14.666666666666666
-rounds: 5
+points: 15.666666666666666
+rounds: 6
 rounds_by_month:
   1:
   - *id001
@@ -59,5 +67,7 @@ rounds_by_month:
   - *id004
   8:
   - *id005
+  9:
+  - *id006
 skins: 1
 ---

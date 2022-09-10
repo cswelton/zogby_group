@@ -184,15 +184,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id024
+  date: 2022-09-02
+  name: Round 58 (Fri, September  2)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id025
+  date: 2022-09-09
+  name: September 9th (Fri, September  9)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 9
-flight_wins: 7
+flight_wins: 9
 front_wins: 10
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 8
 points: 66.33333333333334
-rounds: 23
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -225,5 +241,8 @@ rounds_by_month:
   - *id021
   - *id022
   - *id023
-skins: 15
+  9:
+  - *id024
+  - *id025
+skins: 16
 ---

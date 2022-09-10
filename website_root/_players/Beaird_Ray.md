@@ -48,6 +48,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id007
+  date: 2022-09-09
+  name: September 9th (Fri, September  9)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 0
 front_wins: 2
@@ -56,7 +64,7 @@ image: /assets/images/Beaird_Ray.png
 name: Beaird, Ray
 overall_wins: 2
 points: 11.0
-rounds: 6
+rounds: 7
 rounds_by_month:
   1:
   - *id001
@@ -69,5 +77,7 @@ rounds_by_month:
   - *id005
   7:
   - *id006
+  9:
+  - *id007
 skins: 0
 ---

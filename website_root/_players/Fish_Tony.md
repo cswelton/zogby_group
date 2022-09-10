@@ -216,6 +216,22 @@ all_rounds:
   points: 0.6666666666666666
   replaced_by: null
   replaces: null
+- &id028
+  date: 2022-09-02
+  name: Round 58 (Fri, September  2)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id029
+  date: 2022-09-09
+  name: September 9th (Fri, September  9)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 12
 flight_wins: 11
 front_wins: 10
@@ -224,7 +240,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 13
 points: 86.66666666666667
-rounds: 27
+rounds: 29
 rounds_by_month:
   1:
   - *id001
@@ -261,5 +277,8 @@ rounds_by_month:
   - *id025
   - *id026
   - *id027
+  9:
+  - *id028
+  - *id029
 skins: 22
 ---
