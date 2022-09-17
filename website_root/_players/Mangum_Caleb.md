@@ -3,10 +3,10 @@ all_rounds:
 - &id001
   date: 2022-01-06
   name: Round 1 (Thu, January  6)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: September 16th (Fri, September 16)
   replaces: null
 - &id002
   date: 2022-03-11
@@ -128,7 +128,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id017
+- &id018
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: false
@@ -136,15 +136,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id017
+  date: 2022-09-16
+  name: September 16th (Fri, September 16)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 1 (Thu, January  6)
 back_wins: 7
 flight_wins: 4
-front_wins: 8
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 6
-points: 42.33333333333333
-rounds: 17
+points: 47.33333333333333
+rounds: 18
 rounds_by_month:
   1:
   - *id001
@@ -171,5 +179,6 @@ rounds_by_month:
   - *id016
   9:
   - *id017
-skins: 3
+  - *id018
+skins: 6
 ---

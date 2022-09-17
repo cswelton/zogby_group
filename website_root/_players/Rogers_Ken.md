@@ -88,15 +88,23 @@ all_rounds:
   points: 3.6666666666666665
   replaced_by: null
   replaces: null
+- &id012
+  date: 2022-09-16
+  name: September 16th (Fri, September 16)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 4
-flight_wins: 3
-front_wins: 5
+flight_wins: 4
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Rogers_Ken.png
 name: Rogers, Ken
 overall_wins: 3
-points: 25.0
-rounds: 11
+points: 29.0
+rounds: 12
 rounds_by_month:
   2:
   - *id001
@@ -115,5 +123,7 @@ rounds_by_month:
   - *id009
   - *id010
   - *id011
+  9:
+  - *id012
 skins: 2
 ---

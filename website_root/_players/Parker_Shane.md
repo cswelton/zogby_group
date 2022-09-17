@@ -14,7 +14,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: August 3 (Wed, August  3)
+  replaced_by: Round 44 (Fri, July 15)
   replaces: null
 - &id004
   date: 2022-02-11
@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: September 16th (Fri, September 16)
   replaces: null
 - &id009
   date: 2022-03-02
@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 52 (Sun, August 14)
+  replaced_by: August 3 (Wed, August  3)
   replaces: null
 - &id006
   date: 2022-03-11
@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 43 (Wed, July 13)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id007
   date: 2022-03-18
@@ -110,7 +110,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: Round 44 (Fri, July 15)
+  replaced_by: Round 43 (Wed, July 13)
   replaces: null
 - &id015
   date: 2022-06-03
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
+  replaces: March 11 (Fri, March 11)
 - &id017
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: March 11 (Fri, March 11)
+  replaces: Round 32 (Mon, May 30)
 - &id018
   date: 2022-07-15
   name: Round 44 (Fri, July 15)
@@ -159,7 +159,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 32 (Mon, May 30)
+  replaces: Jan 14th (Fri, January 14)
 - &id022
   date: 2022-08-03
   name: August 3 (Wed, August  3)
@@ -167,15 +167,15 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Jan 14th (Fri, January 14)
+  replaces: Round 15 (Fri, March  4)
 - &id023
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: null
 - &id021
   date: 2022-08-19
   name: Round 54 (Fri, August 19)
@@ -192,7 +192,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id025
+- &id026
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: false
@@ -200,15 +200,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 9
-flight_wins: 9
+- &id025
+  date: 2022-09-16
+  name: September 16th (Fri, September 16)
+  official: true
+  over_limit: true
+  points: 10.0
+  replaced_by: null
+  replaces: Round 13 (Fri, February 25)
+back_wins: 10
+flight_wins: 10
 front_wins: 10
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 8
-points: 66.33333333333334
-rounds: 25
+overall_wins: 9
+points: 73.33333333333334
+rounds: 26
 rounds_by_month:
   1:
   - *id001
@@ -244,5 +252,6 @@ rounds_by_month:
   9:
   - *id024
   - *id025
-skins: 16
+  - *id026
+skins: 20
 ---
