@@ -296,15 +296,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id038
+  date: 2022-09-23
+  name: September 23rd (Fri, September 23)
+  official: false
+  over_limit: true
+  points: 0.5
+  replaced_by: null
+  replaces: null
 back_wins: 17
 flight_wins: 15
 front_wins: 13
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 12
+overall_wins: 13
 points: 88.66666666666666
-rounds: 37
+rounds: 38
 rounds_by_month:
   1:
   - *id001
@@ -352,5 +360,6 @@ rounds_by_month:
   9:
   - *id036
   - *id037
+  - *id038
 skins: 34
 ---

@@ -88,7 +88,7 @@ all_rounds:
   points: 2.6666666666666665
   replaced_by: null
   replaces: null
-- &id012
+- &id013
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: true
@@ -96,15 +96,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 4
+- &id012
+  date: 2022-09-23
+  name: September 23rd (Fri, September 23)
+  official: true
+  over_limit: false
+  points: 2.5
+  replaced_by: null
+  replaces: null
+back_wins: 5
 flight_wins: 2
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
-overall_wins: 3
-points: 19.333333333333336
-rounds: 12
+overall_wins: 4
+points: 21.833333333333336
+rounds: 13
 rounds_by_month:
   3:
   - *id001
@@ -124,5 +132,6 @@ rounds_by_month:
   - *id011
   9:
   - *id012
+  - *id013
 skins: 2
 ---

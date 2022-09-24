@@ -59,10 +59,10 @@ all_rounds:
 - &id007
   date: 2022-03-18
   name: Round 17 (Fri, March 18)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id008
   date: 2022-03-25
@@ -136,7 +136,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: Round 9 (Wed, February 16)
-- &id018
+- &id019
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: true
@@ -144,15 +144,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
+- &id018
+  date: 2022-09-23
+  name: September 23rd (Fri, September 23)
+  official: true
+  over_limit: true
+  points: 1.5
+  replaced_by: null
+  replaces: Round 17 (Fri, March 18)
 back_wins: 5
 flight_wins: 5
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 4
-points: 38.0
-rounds: 18
+overall_wins: 5
+points: 39.5
+rounds: 19
 rounds_by_month:
   1:
   - *id001
@@ -181,5 +189,6 @@ rounds_by_month:
   9:
   - *id017
   - *id018
-skins: 10
+  - *id019
+skins: 11
 ---

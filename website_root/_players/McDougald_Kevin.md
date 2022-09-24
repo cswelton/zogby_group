@@ -232,15 +232,23 @@ all_rounds:
   points: 2.6666666666666665
   replaced_by: null
   replaces: null
+- &id030
+  date: 2022-09-23
+  name: September 23rd (Fri, September 23)
+  official: false
+  over_limit: true
+  points: 1.5
+  replaced_by: null
+  replaces: null
 back_wins: 12
 flight_wins: 8
 front_wins: 8
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
-overall_wins: 10
+overall_wins: 11
 points: 58.333333333333336
-rounds: 29
+rounds: 30
 rounds_by_month:
   1:
   - *id001
@@ -279,5 +287,7 @@ rounds_by_month:
   - *id027
   - *id028
   - *id029
-skins: 13
+  9:
+  - *id030
+skins: 14
 ---

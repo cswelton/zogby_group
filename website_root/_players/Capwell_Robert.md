@@ -256,15 +256,23 @@ all_rounds:
   points: 2.6666666666666665
   replaced_by: null
   replaces: null
-back_wins: 13
+- &id033
+  date: 2022-09-23
+  name: September 23rd (Fri, September 23)
+  official: false
+  over_limit: true
+  points: 2.5
+  replaced_by: null
+  replaces: null
+back_wins: 14
 flight_wins: 7
 front_wins: 10
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 9
+overall_wins: 10
 points: 63.66666666666667
-rounds: 32
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -306,5 +314,7 @@ rounds_by_month:
   - *id030
   - *id031
   - *id032
+  9:
+  - *id033
 skins: 20
 ---
