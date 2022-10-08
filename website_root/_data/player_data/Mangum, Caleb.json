@@ -1,6 +1,6 @@
 {
     "name": "Mangum, Caleb",
-    "scoring_average": 82.286,
+    "scoring_average": 82.091,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -1828,6 +1828,93 @@
             ],
             "in": 41,
             "out": 40
+        },
+        {
+            "date": "2022-10-02",
+            "date_timestamp": 738430,
+            "score": 78,
+            "total": 78,
+            "name": "Round 67 (Sun, October  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 40,
+            "out": 38
         }
     ]
 }

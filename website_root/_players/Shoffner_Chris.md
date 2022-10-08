@@ -264,7 +264,7 @@ all_rounds:
   points: 1.6666666666666665
   replaced_by: null
   replaces: null
-- &id036
+- &id037
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: false
@@ -288,15 +288,31 @@ all_rounds:
   points: 4.5
   replaced_by: null
   replaces: null
-back_wins: 16
+- &id036
+  date: 2022-09-28
+  name: Round 66 (Wed, September 28)
+  official: false
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id038
+  date: 2022-10-02
+  name: Round 67 (Sun, October  2)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 18
 flight_wins: 16
 front_wins: 17
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 17
+overall_wins: 18
 points: 86.0
-rounds: 36
+rounds: 38
 rounds_by_month:
   1:
   - *id001
@@ -343,5 +359,8 @@ rounds_by_month:
   - *id034
   - *id035
   - *id036
-skins: 18
+  - *id037
+  10:
+  - *id038
+skins: 19
 ---

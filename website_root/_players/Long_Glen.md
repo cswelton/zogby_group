@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 55 (Wed, August 24)
+  replaced_by: Round 67 (Sun, October  2)
   replaces: null
 - &id011
   date: 2022-06-08
@@ -94,15 +94,15 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 55 (Wed, August 24)
   replaces: null
 - &id012
   date: 2022-07-15
   name: Round 44 (Fri, July 15)
-  official: true
+  official: false
   over_limit: false
   points: 1.0
-  replaced_by: null
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id013
   date: 2022-07-22
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 3.6666666666666665
   replaced_by: null
-  replaces: Round 25 (Wed, May  4)
+  replaces: Round 43 (Wed, July 13)
 - &id019
   date: 2022-09-02
   name: Round 58 (Fri, September  2)
@@ -152,7 +152,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 20 (Fri, April  8)
-- &id021
+- &id022
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: false
@@ -167,16 +167,32 @@ all_rounds:
   over_limit: true
   points: 2.1666666666666665
   replaced_by: null
-  replaces: Round 43 (Wed, July 13)
-back_wins: 14
-flight_wins: 9
+  replaces: Round 44 (Fri, July 15)
+- &id021
+  date: 2022-09-28
+  name: Round 66 (Wed, September 28)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id023
+  date: 2022-10-02
+  name: Round 67 (Sun, October  2)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 25 (Wed, May  4)
+back_wins: 15
+flight_wins: 10
 front_wins: 6
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 12
-points: 83.83333333333334
-rounds: 21
+points: 86.83333333333334
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -208,5 +224,8 @@ rounds_by_month:
   - *id019
   - *id020
   - *id021
-skins: 14
+  - *id022
+  10:
+  - *id023
+skins: 15
 ---

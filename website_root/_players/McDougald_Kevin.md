@@ -240,15 +240,23 @@ all_rounds:
   points: 1.5
   replaced_by: null
   replaces: null
+- &id031
+  date: 2022-09-28
+  name: Round 66 (Wed, September 28)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 12
 flight_wins: 8
-front_wins: 8
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 11
 points: 58.333333333333336
-rounds: 30
+rounds: 31
 rounds_by_month:
   1:
   - *id001
@@ -289,5 +297,6 @@ rounds_by_month:
   - *id029
   9:
   - *id030
+  - *id031
 skins: 14
 ---

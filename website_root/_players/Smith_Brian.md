@@ -272,7 +272,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 14 (Wed, March  2)
-- &id037
+- &id038
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: false
@@ -296,15 +296,23 @@ all_rounds:
   points: 2.5
   replaced_by: null
   replaces: null
+- &id037
+  date: 2022-09-28
+  name: Round 66 (Wed, September 28)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 21
 flight_wins: 17
-front_wins: 17
+front_wins: 18
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
 overall_wins: 23
 points: 112.0
-rounds: 37
+rounds: 38
 rounds_by_month:
   1:
   - *id001
@@ -352,5 +360,6 @@ rounds_by_month:
   - *id035
   - *id036
   - *id037
-skins: 35
+  - *id038
+skins: 36
 ---

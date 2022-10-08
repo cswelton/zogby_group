@@ -224,7 +224,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id030
+- &id031
   date: 2022-09-09
   name: September 9th (Fri, September  9)
   official: false
@@ -240,15 +240,23 @@ all_rounds:
   points: 6.5
   replaced_by: null
   replaces: Round 32 (Mon, May 30)
-back_wins: 12
-flight_wins: 12
+- &id030
+  date: 2022-09-28
+  name: Round 66 (Wed, September 28)
+  official: false
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 13
+flight_wins: 13
 front_wins: 11
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
-overall_wins: 14
+overall_wins: 15
 points: 88.16666666666667
-rounds: 30
+rounds: 31
 rounds_by_month:
   1:
   - *id001
@@ -289,5 +297,6 @@ rounds_by_month:
   - *id028
   - *id029
   - *id030
+  - *id031
 skins: 24
 ---

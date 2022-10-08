@@ -1,6 +1,6 @@
 {
     "name": "Shoffner, Chris",
-    "scoring_average": 76.867,
+    "scoring_average": 76.851,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -3916,6 +3916,180 @@
             ],
             "in": 35,
             "out": 36
+        },
+        {
+            "date": "2022-09-28",
+            "date_timestamp": 738426,
+            "score": 76,
+            "total": 76,
+            "name": "Round 66 (Wed, September 28)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 38,
+            "out": 38
+        },
+        {
+            "date": "2022-10-02",
+            "date_timestamp": 738430,
+            "score": 77,
+            "total": 77,
+            "name": "Round 67 (Sun, October  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 34,
+            "out": 43
         }
     ]
 }

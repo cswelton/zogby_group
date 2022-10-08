@@ -304,6 +304,14 @@ all_rounds:
   points: 0.5
   replaced_by: null
   replaces: null
+- &id039
+  date: 2022-09-28
+  name: Round 66 (Wed, September 28)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 17
 flight_wins: 15
 front_wins: 13
@@ -312,7 +320,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 13
 points: 88.66666666666666
-rounds: 38
+rounds: 39
 rounds_by_month:
   1:
   - *id001
@@ -361,5 +369,6 @@ rounds_by_month:
   - *id036
   - *id037
   - *id038
+  - *id039
 skins: 34
 ---
