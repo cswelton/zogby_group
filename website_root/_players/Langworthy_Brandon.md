@@ -96,6 +96,14 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 4
 flight_wins: 3
 front_wins: 4
@@ -104,7 +112,7 @@ image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 3
 points: 26.666666666666664
-rounds: 12
+rounds: 13
 rounds_by_month:
   4:
   - *id001
@@ -124,5 +132,7 @@ rounds_by_month:
   - *id011
   9:
   - *id012
+  10:
+  - *id013
 skins: 2
 ---

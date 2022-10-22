@@ -296,7 +296,7 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: Round 22 (Fri, April 15)
-- &id038
+- &id039
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
   official: true
@@ -304,15 +304,31 @@ all_rounds:
   points: 10.0
   replaced_by: null
   replaces: Round 8 (Fri, February 11)
+- &id038
+  date: 2022-10-19
+  name: Round 68 (Wed, October 19)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id040
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 18
-flight_wins: 16
+flight_wins: 18
 front_wins: 15
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 17
 points: 89.66666666666666
-rounds: 38
+rounds: 40
 rounds_by_month:
   1:
   - *id001
@@ -362,5 +378,7 @@ rounds_by_month:
   - *id037
   10:
   - *id038
+  - *id039
+  - *id040
 skins: 19
 ---

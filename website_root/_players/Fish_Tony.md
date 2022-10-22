@@ -248,6 +248,14 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id032
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 13
 flight_wins: 13
 front_wins: 11
@@ -256,7 +264,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 15
 points: 88.16666666666667
-rounds: 31
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -298,5 +306,7 @@ rounds_by_month:
   - *id029
   - *id030
   - *id031
+  10:
+  - *id032
 skins: 24
 ---

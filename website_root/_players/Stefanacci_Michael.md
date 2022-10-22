@@ -152,6 +152,14 @@ all_rounds:
   points: 3.5
   replaced_by: null
   replaces: Round 13 (Fri, February 25)
+- &id020
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 8
 front_wins: 5
@@ -160,7 +168,7 @@ image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 7
 points: 50.83333333333333
-rounds: 19
+rounds: 20
 rounds_by_month:
   1:
   - *id001
@@ -190,5 +198,7 @@ rounds_by_month:
   - *id018
   9:
   - *id019
+  10:
+  - *id020
 skins: 6
 ---

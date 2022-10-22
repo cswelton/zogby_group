@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 51 (Fri, August 12)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id001
   date: 2022-01-14
@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: September 9th (Fri, September  9)
+  replaced_by: Round 51 (Fri, August 12)
   replaces: null
 - &id006
   date: 2022-02-11
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: October 21st (Fri, October 21)
   replaces: null
 - &id017
   date: 2022-04-15
@@ -199,7 +199,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 20 (Fri, April  8)
+  replaces: Round 2 (Sun, January  9)
 - &id025
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -239,7 +239,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 2 (Sun, January  9)
+  replaces: Feb 9 (Wed, February  9)
 - &id032
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
@@ -275,11 +275,11 @@ all_rounds:
 - &id037
   date: 2022-09-09
   name: September 9th (Fri, September  9)
-  official: true
+  official: false
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Feb 9 (Wed, February  9)
+  replaces: null
 - &id035
   date: 2022-09-23
   name: September 23rd (Fri, September 23)
@@ -304,15 +304,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 20
+- &id039
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 20 (Fri, April  8)
+back_wins: 21
 flight_wins: 17
-front_wins: 11
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
-overall_wins: 16
-points: 81.33333333333333
-rounds: 38
+overall_wins: 17
+points: 82.33333333333333
+rounds: 39
 rounds_by_month:
   1:
   - *id001
@@ -362,5 +370,6 @@ rounds_by_month:
   - *id037
   10:
   - *id038
+  - *id039
 skins: 12
 ---

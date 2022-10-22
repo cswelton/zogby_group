@@ -14,7 +14,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: July 29th (Fri, July 29)
+  replaced_by: October 21st (Fri, October 21)
   replaces: null
 - &id003
   date: 2022-02-02
@@ -38,7 +38,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 9th (Fri, September  9)
+  replaced_by: July 29th (Fri, July 29)
   replaces: null
 - &id006
   date: 2022-03-04
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 67 (Sun, October  2)
+  replaced_by: September 9th (Fri, September  9)
   replaces: null
 - &id012
   date: 2022-04-01
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 67 (Sun, October  2)
   replaces: null
 - &id014
   date: 2022-05-06
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 51 (Fri, August 12)
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id015
   date: 2022-05-30
@@ -135,15 +135,15 @@ all_rounds:
   over_limit: true
   points: 8.0
   replaced_by: null
-  replaces: Jan 14th (Fri, January 14)
+  replaces: Round 13 (Fri, February 25)
 - &id018
   date: 2022-08-12
   name: Round 51 (Fri, August 12)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 31 (Fri, May 20)
+  replaces: null
 - &id019
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
@@ -159,7 +159,7 @@ all_rounds:
   over_limit: true
   points: 7.0
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
+  replaces: March 25 (Fri, March 25)
 - &id020
   date: 2022-09-23
   name: September 23rd (Fri, September 23)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 3.5
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 31 (Fri, May 20)
 - &id022
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
@@ -175,16 +175,24 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
-back_wins: 9
-flight_wins: 8
-front_wins: 12
+  replaces: Round 23 (Fri, April 22)
+- &id023
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: true
+  over_limit: true
+  points: 10.0
+  replaced_by: null
+  replaces: Jan 14th (Fri, January 14)
+back_wins: 10
+flight_wins: 9
+front_wins: 13
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 12
-points: 76.83333333333333
-rounds: 22
+overall_wins: 13
+points: 83.83333333333333
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -217,5 +225,6 @@ rounds_by_month:
   - *id021
   10:
   - *id022
-skins: 10
+  - *id023
+skins: 12
 ---

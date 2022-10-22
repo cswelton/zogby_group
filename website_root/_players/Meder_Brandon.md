@@ -48,15 +48,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 6
-flight_wins: 1
-front_wins: 1
+- &id007
+  date: 2022-10-19
+  name: Round 68 (Wed, October 19)
+  official: true
+  over_limit: false
+  points: 9.0
+  replaced_by: null
+  replaces: null
+back_wins: 7
+flight_wins: 2
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
-overall_wins: 3
-points: 15.666666666666666
-rounds: 6
+overall_wins: 4
+points: 24.666666666666664
+rounds: 7
 rounds_by_month:
   1:
   - *id001
@@ -69,5 +77,7 @@ rounds_by_month:
   - *id005
   9:
   - *id006
-skins: 1
+  10:
+  - *id007
+skins: 2
 ---

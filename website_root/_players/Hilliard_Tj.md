@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 50 (Wed, August 10)
+  replaced_by: July 29th (Fri, July 29)
   replaces: null
 - &id001
   date: 2022-01-14
@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: July 29th (Fri, July 29)
+  replaced_by: Round 33 (Fri, June  3)
   replaces: null
 - &id003
   date: 2022-02-16
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: Round 33 (Fri, June  3)
+  replaced_by: Round 28 (Fri, May 13)
   replaces: null
 - &id011
   date: 2022-03-25
@@ -126,7 +126,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 28 (Fri, May 13)
+  replaced_by: October 21st (Fri, October 21)
   replaces: null
 - &id020
   date: 2022-05-04
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 8.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 17 (Fri, March 18)
 - &id021
   date: 2022-05-15
   name: Round 29 (Sun, May 15)
@@ -175,7 +175,7 @@ all_rounds:
   over_limit: true
   points: 8.0
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
+  replaces: Round 8 (Fri, February 11)
 - &id025
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
@@ -255,7 +255,7 @@ all_rounds:
   over_limit: true
   points: 8.0
   replaced_by: null
-  replaces: Round 8 (Fri, February 11)
+  replaces: Round 1 (Thu, January  6)
 - &id034
   date: 2022-08-03
   name: August 3 (Wed, August  3)
@@ -267,11 +267,11 @@ all_rounds:
 - &id035
   date: 2022-08-10
   name: Round 50 (Wed, August 10)
-  official: true
+  official: false
   over_limit: true
   points: 8.0
   replaced_by: null
-  replaces: Round 1 (Thu, January  6)
+  replaces: null
 - &id033
   date: 2022-08-19
   name: Round 54 (Fri, August 19)
@@ -312,15 +312,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 17
-flight_wins: 15
-front_wins: 13
+- &id040
+  date: 2022-10-19
+  name: Round 68 (Wed, October 19)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id041
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: true
+  over_limit: true
+  points: 9.0
+  replaced_by: null
+  replaces: Round 23 (Fri, April 22)
+back_wins: 18
+flight_wins: 16
+front_wins: 14
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 13
-points: 88.66666666666666
-rounds: 39
+overall_wins: 14
+points: 89.66666666666666
+rounds: 41
 rounds_by_month:
   1:
   - *id001
@@ -370,5 +386,8 @@ rounds_by_month:
   - *id037
   - *id038
   - *id039
-skins: 34
+  10:
+  - *id040
+  - *id041
+skins: 35
 ---

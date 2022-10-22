@@ -14,7 +14,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 51 (Fri, August 12)
+  replaced_by: Round 68 (Wed, October 19)
   replaces: null
 - &id004
   date: 2022-02-11
@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 51 (Fri, August 12)
   replaces: null
 - &id005
   date: 2022-03-25
@@ -38,7 +38,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 55 (Wed, August 24)
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id008
   date: 2022-04-08
@@ -51,10 +51,10 @@ all_rounds:
 - &id007
   date: 2022-04-10
   name: Round 21 (Sun, April 10)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: October 21st (Fri, October 21)
   replaces: null
 - &id009
   date: 2022-04-15
@@ -83,10 +83,10 @@ all_rounds:
 - &id010
   date: 2022-05-20
   name: Round 31 (Fri, May 20)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 55 (Wed, August 24)
   replaces: null
 - &id011
   date: 2022-05-30
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 5 (Wed, February  2)
+  replaces: Round 13 (Fri, February 25)
 - &id018
   date: 2022-08-24
   name: Round 55 (Wed, August 24)
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 0.6666666666666666
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
+  replaces: Round 31 (Fri, May 20)
 - &id019
   date: 2022-09-23
   name: September 23rd (Fri, September 23)
@@ -151,16 +151,32 @@ all_rounds:
   over_limit: true
   points: 3.1666666666666665
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
-back_wins: 9
-flight_wins: 7
-front_wins: 4
+  replaces: March 25 (Fri, March 25)
+- &id020
+  date: 2022-10-19
+  name: Round 68 (Wed, October 19)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Round 5 (Wed, February  2)
+- &id021
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: true
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: Round 21 (Sun, April 10)
+back_wins: 10
+flight_wins: 8
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 6
-points: 46.166666666666664
-rounds: 19
+overall_wins: 7
+points: 54.166666666666664
+rounds: 21
 rounds_by_month:
   1:
   - *id001
@@ -190,5 +206,8 @@ rounds_by_month:
   - *id018
   9:
   - *id019
-skins: 9
+  10:
+  - *id020
+  - *id021
+skins: 10
 ---

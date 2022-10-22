@@ -136,6 +136,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: Round 33 (Fri, June  3)
+- &id018
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 8
 flight_wins: 11
 front_wins: 6
@@ -144,7 +152,7 @@ image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 3
 points: 64.0
-rounds: 17
+rounds: 18
 rounds_by_month:
   1:
   - *id001
@@ -172,5 +180,7 @@ rounds_by_month:
   9:
   - *id016
   - *id017
-skins: 16
+  10:
+  - *id018
+skins: 17
 ---

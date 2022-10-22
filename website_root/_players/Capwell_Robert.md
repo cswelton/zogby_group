@@ -272,7 +272,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id035
+- &id036
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
   official: true
@@ -280,15 +280,31 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 13 (Fri, February 25)
+- &id035
+  date: 2022-10-19
+  name: Round 68 (Wed, October 19)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id037
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 14
-flight_wins: 8
+flight_wins: 10
 front_wins: 12
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 11
 points: 64.66666666666667
-rounds: 35
+rounds: 37
 rounds_by_month:
   1:
   - *id001
@@ -335,5 +351,7 @@ rounds_by_month:
   - *id034
   10:
   - *id035
+  - *id036
+  - *id037
 skins: 21
 ---

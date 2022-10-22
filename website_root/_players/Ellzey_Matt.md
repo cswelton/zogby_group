@@ -200,15 +200,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id026
+  date: 2022-10-19
+  name: Round 68 (Wed, October 19)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
+- &id027
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 10
-flight_wins: 8
+flight_wins: 9
 front_wins: 12
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 13
 points: 82.66666666666667
-rounds: 25
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -244,5 +260,8 @@ rounds_by_month:
   - *id024
   9:
   - *id025
+  10:
+  - *id026
+  - *id027
 skins: 11
 ---

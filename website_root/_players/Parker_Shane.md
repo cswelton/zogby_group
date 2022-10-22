@@ -208,6 +208,14 @@ all_rounds:
   points: 10.0
   replaced_by: null
   replaces: Round 13 (Fri, February 25)
+- &id027
+  date: 2022-10-21
+  name: October 21st (Fri, October 21)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 10
 flight_wins: 10
 front_wins: 10
@@ -216,7 +224,7 @@ image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 9
 points: 73.33333333333334
-rounds: 26
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -253,5 +261,7 @@ rounds_by_month:
   - *id024
   - *id025
   - *id026
+  10:
+  - *id027
 skins: 20
 ---
