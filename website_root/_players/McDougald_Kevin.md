@@ -38,7 +38,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 39 (Wed, June 29)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id005
   date: 2022-02-25
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id014
   date: 2022-05-06
@@ -147,11 +147,11 @@ all_rounds:
 - &id017
   date: 2022-06-29
   name: Round 39 (Wed, June 29)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 9 (Wed, February 16)
+  replaces: null
 - &id025
   date: 2022-07-01
   name: Round 40 (Fri, July  1)
@@ -159,7 +159,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 9 (Wed, February 16)
 - &id020
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -248,7 +248,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id032
+- &id033
   date: 2022-10-21
   name: October 21st (Fri, October 21)
   official: false
@@ -256,15 +256,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 12
-flight_wins: 8
+- &id032
+  date: 2022-10-28
+  name: October 28th (Fri, October 28)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 23 (Fri, April 22)
+back_wins: 13
+flight_wins: 9
 front_wins: 9
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 11
-points: 58.333333333333336
-rounds: 32
+points: 60.333333333333336
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -308,5 +316,6 @@ rounds_by_month:
   - *id031
   10:
   - *id032
-skins: 14
+  - *id033
+skins: 15
 ---

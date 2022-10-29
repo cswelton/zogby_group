@@ -296,7 +296,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id038
+- &id039
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
   official: false
@@ -304,7 +304,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id039
+- &id040
   date: 2022-10-21
   name: October 21st (Fri, October 21)
   official: true
@@ -312,6 +312,14 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 20 (Fri, April  8)
+- &id038
+  date: 2022-10-28
+  name: October 28th (Fri, October 28)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 21
 flight_wins: 17
 front_wins: 12
@@ -320,7 +328,7 @@ image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 17
 points: 82.33333333333333
-rounds: 39
+rounds: 40
 rounds_by_month:
   1:
   - *id001
@@ -371,5 +379,6 @@ rounds_by_month:
   10:
   - *id038
   - *id039
+  - *id040
 skins: 12
 ---

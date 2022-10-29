@@ -46,15 +46,15 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id005
   date: 2022-04-22
   name: Round 23 (Fri, April 22)
-  official: true
+  official: false
   over_limit: false
   points: 2.0
-  replaced_by: null
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id008
   date: 2022-05-13
@@ -151,8 +151,8 @@ all_rounds:
   over_limit: true
   points: 2.5
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
-- &id020
+  replaces: Round 23 (Fri, April 22)
+- &id021
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
   official: true
@@ -160,15 +160,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: Round 45 (Fri, July 22)
+- &id020
+  date: 2022-10-28
+  name: October 28th (Fri, October 28)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 22 (Fri, April 15)
 back_wins: 7
 flight_wins: 4
-front_wins: 11
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
-overall_wins: 8
-points: 53.166666666666664
-rounds: 20
+overall_wins: 9
+points: 55.166666666666664
+rounds: 21
 rounds_by_month:
   1:
   - *id001
@@ -199,5 +207,6 @@ rounds_by_month:
   - *id019
   10:
   - *id020
+  - *id021
 skins: 6
 ---

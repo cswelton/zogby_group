@@ -3,10 +3,10 @@ all_rounds:
 - &id001
   date: 2022-01-09
   name: Round 2 (Sun, January  9)
-  official: true
+  official: false
   over_limit: false
   points: 2.0
-  replaced_by: null
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id002
   date: 2022-02-02
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 67 (Sun, October  2)
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id011
   date: 2022-06-08
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 55 (Wed, August 24)
+  replaced_by: Round 67 (Sun, October  2)
   replaces: null
 - &id012
   date: 2022-07-15
@@ -102,7 +102,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 55 (Wed, August 24)
   replaces: null
 - &id013
   date: 2022-07-22
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 3.6666666666666665
   replaced_by: null
-  replaces: Round 43 (Wed, July 13)
+  replaces: Round 44 (Fri, July 15)
 - &id019
   date: 2022-09-02
   name: Round 58 (Fri, September  2)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 2.1666666666666665
   replaced_by: null
-  replaces: Round 44 (Fri, July 15)
+  replaces: Round 2 (Sun, January  9)
 - &id021
   date: 2022-09-28
   name: Round 66 (Wed, September 28)
@@ -176,23 +176,31 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id023
+- &id024
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
   official: true
   over_limit: true
   points: 4.0
   replaced_by: null
+  replaces: Round 43 (Wed, July 13)
+- &id023
+  date: 2022-10-28
+  name: October 28th (Fri, October 28)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
   replaces: Round 25 (Wed, May  4)
 back_wins: 15
 flight_wins: 10
-front_wins: 6
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
-overall_wins: 12
-points: 86.83333333333334
-rounds: 23
+overall_wins: 13
+points: 89.83333333333334
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -227,5 +235,6 @@ rounds_by_month:
   - *id022
   10:
   - *id023
-skins: 15
+  - *id024
+skins: 16
 ---

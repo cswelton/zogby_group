@@ -312,7 +312,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id040
+- &id041
   date: 2022-10-19
   name: Round 68 (Wed, October 19)
   official: false
@@ -320,7 +320,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id041
+- &id042
   date: 2022-10-21
   name: October 21st (Fri, October 21)
   official: true
@@ -328,15 +328,23 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 23 (Fri, April 22)
+- &id040
+  date: 2022-10-28
+  name: October 28th (Fri, October 28)
+  official: false
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: null
 back_wins: 18
-flight_wins: 16
-front_wins: 14
+flight_wins: 17
+front_wins: 15
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 14
+overall_wins: 15
 points: 89.66666666666666
-rounds: 41
+rounds: 42
 rounds_by_month:
   1:
   - *id001
@@ -389,5 +397,6 @@ rounds_by_month:
   10:
   - *id040
   - *id041
-skins: 35
+  - *id042
+skins: 37
 ---
