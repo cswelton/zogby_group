@@ -1,6 +1,6 @@
 {
     "name": "Shoffner, Chris",
-    "scoring_average": 76.96,
+    "scoring_average": 76.941,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -4351,6 +4351,93 @@
             ],
             "in": 38,
             "out": 40
+        },
+        {
+            "date": "2022-11-02",
+            "date_timestamp": 738461,
+            "score": 76,
+            "total": 76,
+            "name": "November 2nd (Wed, November  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 38,
+            "out": 38
         }
     ]
 }

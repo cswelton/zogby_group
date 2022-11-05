@@ -264,6 +264,14 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 23 (Fri, April 22)
+- &id034
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 13
 flight_wins: 9
 front_wins: 9
@@ -272,7 +280,7 @@ image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 11
 points: 60.333333333333336
-rounds: 33
+rounds: 34
 rounds_by_month:
   1:
   - *id001
@@ -317,5 +325,7 @@ rounds_by_month:
   10:
   - *id032
   - *id033
+  11:
+  - *id034
 skins: 15
 ---

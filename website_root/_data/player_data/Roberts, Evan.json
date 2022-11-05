@@ -1,6 +1,6 @@
 {
     "name": "Roberts, Evan",
-    "scoring_average": 73.82,
+    "scoring_average": 73.745,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -4350,6 +4350,93 @@
                 }
             ],
             "in": 39,
+            "out": 38
+        },
+        {
+            "date": "2022-11-02",
+            "date_timestamp": 738461,
+            "score": 70,
+            "total": 70,
+            "name": "November 2nd (Wed, November  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 3,
+                    "type": "eagle"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                }
+            ],
+            "in": 32,
             "out": 38
         }
     ]

@@ -216,15 +216,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id028
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 10
-flight_wins: 9
+flight_wins: 10
 front_wins: 12
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 13
 points: 82.66666666666667
-rounds: 27
+rounds: 28
 rounds_by_month:
   1:
   - *id001
@@ -263,5 +271,7 @@ rounds_by_month:
   10:
   - *id026
   - *id027
+  11:
+  - *id028
 skins: 11
 ---

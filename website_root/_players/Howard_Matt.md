@@ -104,15 +104,23 @@ all_rounds:
   points: 2.5
   replaced_by: null
   replaces: null
+- &id014
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 2
-front_wins: 3
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 4
-points: 21.833333333333336
-rounds: 13
+points: 24.833333333333336
+rounds: 14
 rounds_by_month:
   3:
   - *id001
@@ -133,5 +141,7 @@ rounds_by_month:
   9:
   - *id012
   - *id013
-skins: 2
+  11:
+  - *id014
+skins: 3
 ---

@@ -336,6 +336,14 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
+- &id043
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 18
 flight_wins: 17
 front_wins: 15
@@ -344,7 +352,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 15
 points: 89.66666666666666
-rounds: 42
+rounds: 43
 rounds_by_month:
   1:
   - *id001
@@ -398,5 +406,7 @@ rounds_by_month:
   - *id040
   - *id041
   - *id042
+  11:
+  - *id043
 skins: 37
 ---

@@ -1,6 +1,6 @@
 {
     "name": "Fish, Tony",
-    "scoring_average": 73.897,
+    "scoring_average": 74.025,
     "rounds": [
         {
             "date": "2022-01-06",
@@ -3394,6 +3394,93 @@
             ],
             "in": 39,
             "out": 42
+        },
+        {
+            "date": "2022-11-02",
+            "date_timestamp": 738461,
+            "score": 79,
+            "total": 79,
+            "name": "November 2nd (Wed, November  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 39,
+            "out": 40
         }
     ]
 }

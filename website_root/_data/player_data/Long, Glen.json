@@ -1,6 +1,6 @@
 {
     "name": "Long, Glen",
-    "scoring_average": 76.867,
+    "scoring_average": 76.935,
     "rounds": [
         {
             "date": "2022-01-09",
@@ -2611,6 +2611,93 @@
             ],
             "in": 36,
             "out": 45
+        },
+        {
+            "date": "2022-11-02",
+            "date_timestamp": 738461,
+            "score": 79,
+            "total": 79,
+            "name": "November 2nd (Wed, November  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "in": 38,
+            "out": 41
         }
     ]
 }

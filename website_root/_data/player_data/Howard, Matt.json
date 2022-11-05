@@ -1,6 +1,6 @@
 {
     "name": "Howard, Matt",
-    "scoring_average": 85.895,
+    "scoring_average": 86.0,
     "rounds": [
         {
             "date": "2022-02-23",
@@ -1654,6 +1654,93 @@
             ],
             "in": 45,
             "out": 44
+        },
+        {
+            "date": "2022-11-02",
+            "date_timestamp": 738461,
+            "score": 88,
+            "total": 88,
+            "name": "November 2nd (Wed, November  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "in": 45,
+            "out": 43
         }
     ]
 }

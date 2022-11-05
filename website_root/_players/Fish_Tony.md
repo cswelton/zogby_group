@@ -256,15 +256,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 13
-flight_wins: 13
+- &id033
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: false
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 14
+flight_wins: 14
 front_wins: 11
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
-overall_wins: 15
+overall_wins: 16
 points: 88.16666666666667
-rounds: 32
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -308,5 +316,7 @@ rounds_by_month:
   - *id031
   10:
   - *id032
+  11:
+  - *id033
 skins: 24
 ---

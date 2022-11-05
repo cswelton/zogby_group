@@ -22,7 +22,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 28 (Fri, May 13)
+  replaced_by: November 2nd (Wed, November  2)
   replaces: null
 - &id005
   date: 2022-02-02
@@ -155,11 +155,11 @@ all_rounds:
 - &id018
   date: 2022-05-13
   name: Round 28 (Fri, May 13)
-  official: true
+  official: false
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Jan 14th (Fri, January 14)
+  replaces: null
 - &id020
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
@@ -328,15 +328,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 18
+- &id042
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Jan 14th (Fri, January 14)
+back_wins: 19
 flight_wins: 18
 front_wins: 15
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 17
-points: 89.66666666666666
-rounds: 41
+overall_wins: 18
+points: 90.66666666666666
+rounds: 42
 rounds_by_month:
   1:
   - *id001
@@ -389,5 +397,7 @@ rounds_by_month:
   - *id039
   - *id040
   - *id041
-skins: 19
+  11:
+  - *id042
+skins: 22
 ---

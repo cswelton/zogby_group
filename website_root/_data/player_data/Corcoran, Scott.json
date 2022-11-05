@@ -1,6 +1,6 @@
 {
     "name": "Corcoran, Scott",
-    "scoring_average": 76.192,
+    "scoring_average": 76.37,
     "rounds": [
         {
             "date": "2022-01-14",
@@ -2263,6 +2263,93 @@
             ],
             "in": 39,
             "out": 39
+        },
+        {
+            "date": "2022-11-02",
+            "date_timestamp": 738461,
+            "score": 81,
+            "total": 81,
+            "name": "November 2nd (Wed, November  2)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "in": 41,
+            "out": 40
         }
     ]
 }

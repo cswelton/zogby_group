@@ -328,15 +328,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 19
-flight_wins: 16
+- &id042
+  date: 2022-11-02
+  name: November 2nd (Wed, November  2)
+  official: false
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 20
+flight_wins: 17
 front_wins: 19
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 20
+overall_wins: 21
 points: 87.0
-rounds: 41
+rounds: 42
 rounds_by_month:
   1:
   - *id001
@@ -389,5 +397,7 @@ rounds_by_month:
   - *id039
   - *id040
   - *id041
+  11:
+  - *id042
 skins: 20
 ---
