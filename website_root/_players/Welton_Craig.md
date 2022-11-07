@@ -62,15 +62,15 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 73 (Sun, November  6)
   replaces: null
 - &id008
   date: 2022-03-25
   name: March 25 (Fri, March 25)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id010
   date: 2022-04-01
@@ -151,16 +151,24 @@ all_rounds:
   over_limit: true
   points: 1.5
   replaced_by: null
+  replaces: March 25 (Fri, March 25)
+- &id020
+  date: 2022-11-06
+  name: Round 73 (Sun, November  6)
+  official: true
+  over_limit: true
+  points: 3.0
+  replaced_by: null
   replaces: Round 17 (Fri, March 18)
-back_wins: 5
+back_wins: 6
 flight_wins: 5
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 5
-points: 39.5
-rounds: 19
+points: 42.5
+rounds: 20
 rounds_by_month:
   1:
   - *id001
@@ -190,5 +198,7 @@ rounds_by_month:
   - *id017
   - *id018
   - *id019
-skins: 11
+  11:
+  - *id020
+skins: 12
 ---

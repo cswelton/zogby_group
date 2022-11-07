@@ -328,12 +328,20 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id042
+- &id043
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
   over_limit: true
   points: 6.0
+  replaced_by: null
+  replaces: null
+- &id042
+  date: 2022-11-06
+  name: Round 73 (Sun, November  6)
+  official: false
+  over_limit: true
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 20
@@ -344,7 +352,7 @@ image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 21
 points: 87.0
-rounds: 42
+rounds: 43
 rounds_by_month:
   1:
   - *id001
@@ -399,5 +407,6 @@ rounds_by_month:
   - *id041
   11:
   - *id042
+  - *id043
 skins: 20
 ---

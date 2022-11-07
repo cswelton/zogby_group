@@ -304,7 +304,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id039
+- &id040
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -312,15 +312,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id039
+  date: 2022-11-06
+  name: Round 73 (Sun, November  6)
+  official: false
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 16
 flight_wins: 11
-front_wins: 12
+front_wins: 13
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 12
+overall_wins: 13
 points: 64.66666666666667
-rounds: 39
+rounds: 40
 rounds_by_month:
   1:
   - *id001
@@ -372,5 +380,6 @@ rounds_by_month:
   - *id038
   11:
   - *id039
+  - *id040
 skins: 21
 ---

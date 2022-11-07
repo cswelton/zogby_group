@@ -32,15 +32,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 0
-flight_wins: 1
+- &id005
+  date: 2022-11-06
+  name: Round 73 (Sun, November  6)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 1
+flight_wins: 2
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Perry_Robbie.png
 name: Perry, Robbie
 overall_wins: 0
-points: 7.0
-rounds: 4
+points: 11.0
+rounds: 5
 rounds_by_month:
   2:
   - *id001
@@ -49,5 +57,7 @@ rounds_by_month:
   - *id003
   5:
   - *id004
+  11:
+  - *id005
 skins: 4
 ---

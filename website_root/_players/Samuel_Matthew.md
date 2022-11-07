@@ -184,6 +184,14 @@ all_rounds:
   points: 10.0
   replaced_by: null
   replaces: Jan 14th (Fri, January 14)
+- &id024
+  date: 2022-11-06
+  name: Round 73 (Sun, November  6)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 10
 flight_wins: 9
 front_wins: 13
@@ -192,7 +200,7 @@ image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 13
 points: 83.83333333333333
-rounds: 23
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -226,5 +234,7 @@ rounds_by_month:
   10:
   - *id022
   - *id023
+  11:
+  - *id024
 skins: 12
 ---

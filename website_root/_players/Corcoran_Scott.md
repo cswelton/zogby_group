@@ -38,7 +38,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 73 (Sun, November  6)
   replaces: null
 - &id008
   date: 2022-04-08
@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: October 21st (Fri, October 21)
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id009
   date: 2022-04-15
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: November 2nd (Wed, November  2)
+  replaced_by: October 21st (Fri, October 21)
   replaces: null
 - &id011
   date: 2022-05-30
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 3.1666666666666665
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
+  replaces: Round 21 (Sun, April 10)
 - &id021
   date: 2022-10-19
   name: Round 68 (Wed, October 19)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 1.0
   replaced_by: null
-  replaces: Round 21 (Sun, April 10)
+  replaces: Round 31 (Fri, May 20)
 - &id020
   date: 2022-10-28
   name: October 28th (Fri, October 28)
@@ -176,23 +176,31 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id023
+- &id024
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
-  official: true
+  official: false
   over_limit: true
   points: 1.0
   replaced_by: null
-  replaces: Round 31 (Fri, May 20)
+  replaces: null
+- &id023
+  date: 2022-11-06
+  name: Round 73 (Sun, November  6)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: March 25 (Fri, March 25)
 back_wins: 10
 flight_wins: 8
-front_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
-overall_wins: 7
-points: 54.5
-rounds: 23
+overall_wins: 8
+points: 57.5
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -228,5 +236,6 @@ rounds_by_month:
   - *id022
   11:
   - *id023
+  - *id024
 skins: 11
 ---
