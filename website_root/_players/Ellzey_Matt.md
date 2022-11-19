@@ -216,7 +216,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id028
+- &id029
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -224,15 +224,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id028
+  date: 2022-11-16
+  name: Round 74 (Wed, November 16)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 10
 flight_wins: 10
-front_wins: 12
+front_wins: 13
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
 overall_wins: 13
 points: 82.66666666666667
-rounds: 28
+rounds: 29
 rounds_by_month:
   1:
   - *id001
@@ -273,5 +281,6 @@ rounds_by_month:
   - *id027
   11:
   - *id028
+  - *id029
 skins: 11
 ---

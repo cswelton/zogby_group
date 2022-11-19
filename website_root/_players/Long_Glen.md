@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 55 (Wed, August 24)
+  replaced_by: Round 67 (Sun, October  2)
   replaces: null
 - &id002
   date: 2022-02-02
@@ -102,7 +102,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 67 (Sun, October  2)
+  replaced_by: Round 74 (Wed, November 16)
   replaces: null
 - &id013
   date: 2022-07-22
@@ -139,11 +139,11 @@ all_rounds:
 - &id017
   date: 2022-08-24
   name: Round 55 (Wed, August 24)
-  official: true
+  official: false
   over_limit: true
   points: 3.6666666666666665
   replaced_by: null
-  replaces: Round 2 (Sun, January  9)
+  replaces: null
 - &id019
   date: 2022-09-02
   name: Round 58 (Fri, September  2)
@@ -183,7 +183,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 44 (Fri, July 15)
+  replaces: Round 2 (Sun, January  9)
 - &id023
   date: 2022-10-28
   name: October 28th (Fri, October 28)
@@ -192,7 +192,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: Round 43 (Wed, July 13)
-- &id026
+- &id027
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -200,7 +200,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id025
+- &id026
   date: 2022-11-06
   name: Round 73 (Sun, November  6)
   official: true
@@ -208,15 +208,23 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: Round 20 (Fri, April  8)
-back_wins: 15
+- &id025
+  date: 2022-11-16
+  name: Round 74 (Wed, November 16)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 44 (Fri, July 15)
+back_wins: 16
 flight_wins: 12
 front_wins: 9
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
-overall_wins: 14
-points: 94.66666666666667
-rounds: 26
+overall_wins: 15
+points: 96.0
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -255,5 +263,6 @@ rounds_by_month:
   11:
   - *id025
   - *id026
-skins: 17
+  - *id027
+skins: 18
 ---

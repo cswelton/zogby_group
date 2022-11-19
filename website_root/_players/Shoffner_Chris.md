@@ -62,7 +62,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 68 (Wed, October 19)
+  replaced_by: Round 52 (Sun, August 14)
   replaces: null
 - &id008
   date: 2022-03-11
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: Round 52 (Sun, August 14)
+  replaced_by: Round 50 (Wed, August 10)
   replaces: null
 - &id010
   date: 2022-03-25
@@ -102,7 +102,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 26 (Fri, May  6)
+  replaced_by: Round 74 (Wed, November 16)
   replaces: null
 - &id013
   date: 2022-04-10
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 50 (Wed, August 10)
+  replaced_by: Round 26 (Fri, May  6)
   replaces: null
 - &id019
   date: 2022-05-04
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 20 (Fri, April  8)
+  replaces: Round 23 (Fri, April 22)
 - &id016
   date: 2022-05-13
   name: Round 28 (Fri, May 13)
@@ -231,7 +231,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 17 (Fri, March 18)
 - &id030
   date: 2022-08-12
   name: Round 51 (Fri, August 12)
@@ -247,7 +247,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
+  replaces: Round 15 (Fri, March  4)
 - &id028
   date: 2022-08-19
   name: Round 54 (Fri, August 19)
@@ -307,11 +307,11 @@ all_rounds:
 - &id039
   date: 2022-10-19
   name: Round 68 (Wed, October 19)
-  official: true
+  official: false
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: null
 - &id041
   date: 2022-10-21
   name: October 21st (Fri, October 21)
@@ -328,7 +328,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id043
+- &id044
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -336,7 +336,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id042
+- &id043
   date: 2022-11-06
   name: Round 73 (Sun, November  6)
   official: false
@@ -344,15 +344,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 20
-flight_wins: 17
+- &id042
+  date: 2022-11-16
+  name: Round 74 (Wed, November 16)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Round 20 (Fri, April  8)
+back_wins: 21
+flight_wins: 18
 front_wins: 19
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 21
-points: 87.0
-rounds: 43
+overall_wins: 22
+points: 88.0
+rounds: 44
 rounds_by_month:
   1:
   - *id001
@@ -408,5 +416,6 @@ rounds_by_month:
   11:
   - *id042
   - *id043
-skins: 20
+  - *id044
+skins: 21
 ---
