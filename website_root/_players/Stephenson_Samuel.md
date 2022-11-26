@@ -8,17 +8,27 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id002
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
-flight_wins: 1
+flight_wins: 2
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/default.png
 name: Stephenson, Samuel
 overall_wins: 0
-points: 4.0
-rounds: 1
+points: 6.0
+rounds: 2
 rounds_by_month:
   10:
   - *id001
+  11:
+  - *id002
 skins: 0
 ---

@@ -56,7 +56,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: null
-- &id008
+- &id009
   date: 2022-11-06
   name: Round 73 (Sun, November  6)
   official: true
@@ -64,15 +64,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id008
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 8
-flight_wins: 2
-front_wins: 2
+flight_wins: 3
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 4
-points: 26.666666666666664
-rounds: 8
+points: 30.666666666666664
+rounds: 9
 rounds_by_month:
   1:
   - *id001
@@ -89,5 +97,6 @@ rounds_by_month:
   - *id007
   11:
   - *id008
-skins: 2
+  - *id009
+skins: 3
 ---

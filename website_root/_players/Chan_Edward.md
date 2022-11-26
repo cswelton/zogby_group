@@ -152,7 +152,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: July 29th (Fri, July 29)
-- &id020
+- &id021
   date: 2022-11-06
   name: Round 73 (Sun, November  6)
   official: true
@@ -160,6 +160,14 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: Round 33 (Fri, June  3)
+- &id020
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 9
 flight_wins: 12
 front_wins: 7
@@ -168,7 +176,7 @@ image: /assets/images/Chan_Edward.png
 name: Chan, Edward
 overall_wins: 4
 points: 73.0
-rounds: 20
+rounds: 21
 rounds_by_month:
   1:
   - *id001
@@ -201,5 +209,6 @@ rounds_by_month:
   - *id019
   11:
   - *id020
+  - *id021
 skins: 20
 ---

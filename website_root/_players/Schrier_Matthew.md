@@ -40,15 +40,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id006
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 0
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Schrier, Matthew
 overall_wins: 2
-points: 12.333333333333332
-rounds: 5
+points: 13.333333333333332
+rounds: 6
 rounds_by_month:
   1:
   - *id001
@@ -60,5 +68,7 @@ rounds_by_month:
   - *id004
   8:
   - *id005
+  11:
+  - *id006
 skins: 1
 ---

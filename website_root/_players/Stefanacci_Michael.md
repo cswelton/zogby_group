@@ -30,7 +30,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 75 (Wed, November 23)
   replaces: null
 - &id005
   date: 2022-03-18
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: October 28th (Fri, October 28)
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id007
   date: 2022-04-22
@@ -91,10 +91,10 @@ all_rounds:
 - &id012
   date: 2022-05-30
   name: Round 32 (Mon, May 30)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id013
   date: 2022-06-24
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 3.5
   replaced_by: null
-  replaces: Round 13 (Fri, February 25)
+  replaces: Round 22 (Fri, April 15)
 - &id021
   date: 2022-10-21
   name: October 21st (Fri, October 21)
@@ -167,16 +167,24 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
-back_wins: 6
-flight_wins: 9
+  replaces: Round 32 (Mon, May 30)
+- &id022
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 13 (Fri, February 25)
+back_wins: 7
+flight_wins: 10
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 7
-points: 53.83333333333333
-rounds: 21
+overall_wins: 8
+points: 59.83333333333333
+rounds: 22
 rounds_by_month:
   1:
   - *id001
@@ -209,5 +217,7 @@ rounds_by_month:
   10:
   - *id020
   - *id021
+  11:
+  - *id022
 skins: 7
 ---

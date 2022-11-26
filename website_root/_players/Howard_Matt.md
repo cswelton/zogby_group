@@ -104,7 +104,7 @@ all_rounds:
   points: 2.5
   replaced_by: null
   replaces: null
-- &id015
+- &id016
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: true
@@ -120,6 +120,14 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id015
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 6
 flight_wins: 3
 front_wins: 4
@@ -128,7 +136,7 @@ image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 5
 points: 30.833333333333336
-rounds: 15
+rounds: 16
 rounds_by_month:
   3:
   - *id001
@@ -152,5 +160,6 @@ rounds_by_month:
   11:
   - *id014
   - *id015
+  - *id016
 skins: 3
 ---

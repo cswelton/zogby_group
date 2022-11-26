@@ -14,7 +14,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 44 (Fri, July 15)
+  replaced_by: Round 75 (Wed, November 23)
   replaces: null
 - &id004
   date: 2022-02-11
@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: August 3 (Wed, August  3)
+  replaced_by: Round 44 (Fri, July 15)
   replaces: null
 - &id006
   date: 2022-03-11
@@ -159,15 +159,15 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Jan 14th (Fri, January 14)
+  replaces: Round 15 (Fri, March  4)
 - &id022
   date: 2022-08-03
   name: August 3 (Wed, August  3)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: null
 - &id023
   date: 2022-08-14
   name: Round 52 (Sun, August 14)
@@ -216,15 +216,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 10
+- &id028
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Jan 14th (Fri, January 14)
+back_wins: 11
 flight_wins: 10
 front_wins: 10
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 9
-points: 73.33333333333334
-rounds: 27
+overall_wins: 10
+points: 75.33333333333334
+rounds: 28
 rounds_by_month:
   1:
   - *id001
@@ -263,5 +271,7 @@ rounds_by_month:
   - *id026
   10:
   - *id027
-skins: 20
+  11:
+  - *id028
+skins: 21
 ---

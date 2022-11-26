@@ -168,15 +168,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: Round 22 (Fri, April 15)
+- &id022
+  date: 2022-11-23
+  name: Round 75 (Wed, November 23)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 7
 flight_wins: 4
-front_wins: 12
+front_wins: 13
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 9
 points: 55.166666666666664
-rounds: 21
+rounds: 22
 rounds_by_month:
   1:
   - *id001
@@ -208,5 +216,7 @@ rounds_by_month:
   10:
   - *id020
   - *id021
+  11:
+  - *id022
 skins: 6
 ---
