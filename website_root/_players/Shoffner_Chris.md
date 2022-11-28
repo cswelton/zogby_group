@@ -328,7 +328,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id045
+- &id046
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -360,15 +360,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 21
+- &id045
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: false
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 22
 flight_wins: 18
-front_wins: 20
+front_wins: 21
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 22
+overall_wins: 23
 points: 88.0
-rounds: 45
+rounds: 46
 rounds_by_month:
   1:
   - *id001
@@ -426,5 +434,6 @@ rounds_by_month:
   - *id043
   - *id044
   - *id045
+  - *id046
 skins: 21
 ---

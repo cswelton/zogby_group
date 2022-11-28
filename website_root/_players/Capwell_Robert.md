@@ -304,7 +304,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id041
+- &id042
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -328,15 +328,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id041
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 16
-flight_wins: 11
+flight_wins: 12
 front_wins: 14
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 13
 points: 64.66666666666667
-rounds: 41
+rounds: 42
 rounds_by_month:
   1:
   - *id001
@@ -390,5 +398,6 @@ rounds_by_month:
   - *id039
   - *id040
   - *id041
+  - *id042
 skins: 21
 ---

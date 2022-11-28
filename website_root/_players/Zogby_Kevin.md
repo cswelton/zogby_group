@@ -320,7 +320,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id043
+- &id044
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
   official: false
@@ -344,15 +344,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id043
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: false
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 23
-flight_wins: 18
+flight_wins: 19
 front_wins: 13
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 18
 points: 82.33333333333333
-rounds: 43
+rounds: 44
 rounds_by_month:
   1:
   - *id001
@@ -408,5 +416,6 @@ rounds_by_month:
   - *id041
   - *id042
   - *id043
-skins: 12
+  - *id044
+skins: 14
 ---

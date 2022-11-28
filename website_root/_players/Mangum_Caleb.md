@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 16th (Fri, September 16)
+  replaced_by: Round 76 (Sat, November 26)
   replaces: null
 - &id002
   date: 2022-03-11
@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: October 28th (Fri, October 28)
+  replaced_by: Round 67 (Sun, October  2)
   replaces: null
 - &id005
   date: 2022-04-22
@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id008
   date: 2022-05-13
@@ -67,10 +67,10 @@ all_rounds:
 - &id009
   date: 2022-06-03
   name: Round 33 (Fri, June  3)
-  official: true
+  official: false
   over_limit: false
   points: 2.0
-  replaced_by: null
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id010
   date: 2022-06-24
@@ -110,7 +110,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 67 (Sun, October  2)
+  replaced_by: September 16th (Fri, September 16)
   replaces: null
 - &id015
   date: 2022-08-12
@@ -143,7 +143,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 1 (Thu, January  6)
+  replaces: Round 45 (Fri, July 22)
 - &id018
   date: 2022-09-23
   name: September 23rd (Fri, September 23)
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 2.5
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 33 (Fri, June  3)
 - &id021
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
@@ -159,7 +159,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 45 (Fri, July 22)
+  replaces: Round 22 (Fri, April 15)
 - &id020
   date: 2022-10-28
   name: October 28th (Fri, October 28)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
+  replaces: Round 23 (Fri, April 22)
 - &id022
   date: 2022-11-23
   name: Round 75 (Wed, November 23)
@@ -176,15 +176,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 7
+- &id023
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: true
+  over_limit: true
+  points: 6.0
+  replaced_by: null
+  replaces: Round 1 (Thu, January  6)
+back_wins: 8
 flight_wins: 4
-front_wins: 13
+front_wins: 14
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
-overall_wins: 9
-points: 55.166666666666664
-rounds: 22
+overall_wins: 10
+points: 59.166666666666664
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -218,5 +226,6 @@ rounds_by_month:
   - *id021
   11:
   - *id022
+  - *id023
 skins: 6
 ---

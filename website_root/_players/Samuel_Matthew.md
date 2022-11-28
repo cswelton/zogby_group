@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 9th (Fri, September  9)
+  replaced_by: Round 76 (Sat, November 26)
   replaces: null
 - &id012
   date: 2022-04-01
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 67 (Sun, October  2)
+  replaced_by: September 9th (Fri, September  9)
   replaces: null
 - &id014
   date: 2022-05-06
@@ -118,7 +118,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 67 (Sun, October  2)
   replaces: null
 - &id015
   date: 2022-05-30
@@ -159,15 +159,15 @@ all_rounds:
   over_limit: true
   points: 7.0
   replaced_by: null
-  replaces: March 25 (Fri, March 25)
+  replaces: Round 23 (Fri, April 22)
 - &id020
   date: 2022-09-23
   name: September 23rd (Fri, September 23)
-  official: true
+  official: false
   over_limit: true
   points: 3.5
   replaced_by: null
-  replaces: Round 31 (Fri, May 20)
+  replaces: null
 - &id022
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
@@ -175,7 +175,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 23 (Fri, April 22)
+  replaces: Round 31 (Fri, May 20)
 - &id023
   date: 2022-10-21
   name: October 21st (Fri, October 21)
@@ -192,15 +192,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 10
+- &id025
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: March 25 (Fri, March 25)
+back_wins: 11
 flight_wins: 9
-front_wins: 13
+front_wins: 14
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 13
-points: 83.83333333333333
-rounds: 24
+overall_wins: 14
+points: 88.33333333333333
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -236,5 +244,6 @@ rounds_by_month:
   - *id023
   11:
   - *id024
-skins: 12
+  - *id025
+skins: 14
 ---

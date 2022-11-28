@@ -14,7 +14,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 75 (Wed, November 23)
+  replaced_by: Round 43 (Wed, July 13)
   replaces: null
 - &id004
   date: 2022-02-11
@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 44 (Fri, July 15)
+  replaced_by: Round 75 (Wed, November 23)
   replaces: null
 - &id006
   date: 2022-03-11
@@ -54,7 +54,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 40 (Fri, July  1)
+  replaced_by: Round 76 (Sat, November 26)
   replaces: null
 - &id007
   date: 2022-03-18
@@ -110,7 +110,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: Round 43 (Wed, July 13)
+  replaced_by: Round 40 (Fri, July  1)
   replaces: null
 - &id015
   date: 2022-06-03
@@ -135,7 +135,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: March 11 (Fri, March 11)
+  replaces: Round 32 (Mon, May 30)
 - &id017
   date: 2022-07-08
   name: Round 41 (Fri, July  8)
@@ -151,15 +151,15 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 32 (Mon, May 30)
+  replaces: Jan 14th (Fri, January 14)
 - &id018
   date: 2022-07-15
   name: Round 44 (Fri, July 15)
-  official: true
+  official: false
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: null
 - &id022
   date: 2022-08-03
   name: August 3 (Wed, August  3)
@@ -223,16 +223,24 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Jan 14th (Fri, January 14)
-back_wins: 11
-flight_wins: 10
-front_wins: 10
+  replaces: Round 15 (Fri, March  4)
+- &id029
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: true
+  over_limit: true
+  points: 8.0
+  replaced_by: null
+  replaces: March 11 (Fri, March 11)
+back_wins: 12
+flight_wins: 11
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 10
-points: 75.33333333333334
-rounds: 28
+overall_wins: 11
+points: 80.33333333333334
+rounds: 29
 rounds_by_month:
   1:
   - *id001
@@ -273,5 +281,6 @@ rounds_by_month:
   - *id027
   11:
   - *id028
+  - *id029
 skins: 21
 ---

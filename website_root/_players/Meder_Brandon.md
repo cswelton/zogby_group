@@ -72,15 +72,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2022-11-26
+  name: Round 76 (Sat, November 26)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 8
-flight_wins: 3
+flight_wins: 4
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 4
-points: 30.666666666666664
-rounds: 9
+points: 34.666666666666664
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -98,5 +106,6 @@ rounds_by_month:
   11:
   - *id008
   - *id009
-skins: 3
+  - *id010
+skins: 5
 ---
