@@ -368,15 +368,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id047
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 22
-flight_wins: 18
+flight_wins: 19
 front_wins: 21
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 23
 points: 88.0
-rounds: 46
+rounds: 47
 rounds_by_month:
   1:
   - *id001
@@ -435,5 +443,7 @@ rounds_by_month:
   - *id044
   - *id045
   - *id046
+  12:
+  - *id047
 skins: 21
 ---

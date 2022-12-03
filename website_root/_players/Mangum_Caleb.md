@@ -184,15 +184,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 1 (Thu, January  6)
+- &id024
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 8
 flight_wins: 4
-front_wins: 14
+front_wins: 15
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 10
 points: 59.166666666666664
-rounds: 23
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -227,5 +235,7 @@ rounds_by_month:
   11:
   - *id022
   - *id023
+  12:
+  - *id024
 skins: 6
 ---

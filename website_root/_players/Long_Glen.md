@@ -6,7 +6,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 2.0
-  replaced_by: Round 67 (Sun, October  2)
+  replaced_by: Round 74 (Wed, November 16)
   replaces: null
 - &id002
   date: 2022-02-02
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 58 (Fri, September  2)
+  replaced_by: December 2nd (Fri, December  2)
   replaces: null
 - &id011
   date: 2022-06-08
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: October 28th (Fri, October 28)
+  replaced_by: Round 58 (Fri, September  2)
   replaces: null
 - &id012
   date: 2022-07-15
@@ -102,7 +102,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 74 (Wed, November 16)
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id013
   date: 2022-07-22
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 25 (Wed, May  4)
+  replaces: Round 43 (Wed, July 13)
 - &id022
   date: 2022-09-09
   name: September 9th (Fri, September  9)
@@ -179,11 +179,11 @@ all_rounds:
 - &id024
   date: 2022-10-02
   name: Round 67 (Sun, October  2)
-  official: true
+  official: false
   over_limit: true
   points: 4.0
   replaced_by: null
-  replaces: Round 2 (Sun, January  9)
+  replaces: null
 - &id023
   date: 2022-10-28
   name: October 28th (Fri, October 28)
@@ -191,7 +191,7 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 43 (Wed, July 13)
+  replaces: Round 44 (Fri, July 15)
 - &id027
   date: 2022-11-02
   name: November 2nd (Wed, November  2)
@@ -215,16 +215,24 @@ all_rounds:
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 44 (Fri, July 15)
-back_wins: 16
-flight_wins: 12
-front_wins: 9
+  replaces: Round 2 (Sun, January  9)
+- &id028
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Round 25 (Wed, May  4)
+back_wins: 17
+flight_wins: 13
+front_wins: 10
 ignored_rounds: []
 image: /assets/images/Long_Glen.png
 name: Long, Glen
-overall_wins: 15
-points: 96.0
-rounds: 27
+overall_wins: 16
+points: 99.0
+rounds: 28
 rounds_by_month:
   1:
   - *id001
@@ -264,5 +272,7 @@ rounds_by_month:
   - *id025
   - *id026
   - *id027
-skins: 18
+  12:
+  - *id028
+skins: 19
 ---

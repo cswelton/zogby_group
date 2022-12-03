@@ -35,10 +35,10 @@ all_rounds:
 - &id005
   date: 2022-03-18
   name: Round 17 (Fri, March 18)
-  official: true
+  official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: null
+  replaced_by: December 2nd (Fri, December  2)
   replaces: null
 - &id006
   date: 2022-03-25
@@ -176,15 +176,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: Round 13 (Fri, February 25)
+- &id023
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: true
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: Round 17 (Fri, March 18)
 back_wins: 7
 flight_wins: 10
-front_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 8
-points: 59.83333333333333
-rounds: 22
+points: 61.16666666666667
+rounds: 23
 rounds_by_month:
   1:
   - *id001
@@ -219,5 +227,7 @@ rounds_by_month:
   - *id021
   11:
   - *id022
-skins: 7
+  12:
+  - *id023
+skins: 8
 ---

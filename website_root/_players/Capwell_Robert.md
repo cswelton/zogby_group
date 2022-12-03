@@ -336,6 +336,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id043
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 16
 flight_wins: 12
 front_wins: 14
@@ -344,7 +352,7 @@ image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 13
 points: 64.66666666666667
-rounds: 42
+rounds: 43
 rounds_by_month:
   1:
   - *id001
@@ -399,5 +407,7 @@ rounds_by_month:
   - *id040
   - *id041
   - *id042
+  12:
+  - *id043
 skins: 21
 ---

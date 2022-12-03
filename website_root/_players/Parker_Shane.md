@@ -232,15 +232,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: March 11 (Fri, March 11)
+- &id030
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 12
 flight_wins: 11
-front_wins: 11
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 11
 points: 80.33333333333334
-rounds: 29
+rounds: 30
 rounds_by_month:
   1:
   - *id001
@@ -282,5 +290,7 @@ rounds_by_month:
   11:
   - *id028
   - *id029
+  12:
+  - *id030
 skins: 21
 ---

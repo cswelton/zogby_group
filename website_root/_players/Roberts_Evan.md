@@ -352,15 +352,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id045
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: false
+  over_limit: true
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 20
-flight_wins: 19
-front_wins: 16
+flight_wins: 20
+front_wins: 17
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 19
 points: 90.66666666666666
-rounds: 44
+rounds: 45
 rounds_by_month:
   1:
   - *id001
@@ -417,5 +425,7 @@ rounds_by_month:
   - *id042
   - *id043
   - *id044
+  12:
+  - *id045
 skins: 24
 ---

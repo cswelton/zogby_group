@@ -46,7 +46,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 1.0
-  replaced_by: Round 34 (Wed, June  8)
+  replaced_by: Round 55 (Wed, August 24)
   replaces: null
 - &id004
   date: 2022-02-16
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 41 (Fri, July  8)
+  replaced_by: December 2nd (Fri, December  2)
   replaces: null
 - &id010
   date: 2022-03-11
@@ -78,7 +78,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 45 (Fri, July 22)
+  replaced_by: Round 41 (Fri, July  8)
   replaces: null
 - &id011
   date: 2022-03-18
@@ -86,7 +86,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: Round 55 (Wed, August 24)
+  replaced_by: Round 45 (Fri, July 22)
   replaces: null
 - &id012
   date: 2022-04-22
@@ -131,11 +131,11 @@ all_rounds:
 - &id018
   date: 2022-06-08
   name: Round 34 (Wed, June  8)
-  official: true
+  official: false
   over_limit: true
   points: 5.0
   replaced_by: null
-  replaces: Round 8 (Fri, February 11)
+  replaces: null
 - &id019
   date: 2022-06-17
   name: Round 37 (Fri, June 17)
@@ -159,7 +159,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: Round 15 (Fri, March  4)
+  replaces: March 11 (Fri, March 11)
 - &id022
   date: 2022-07-13
   name: Round 43 (Wed, July 13)
@@ -175,7 +175,7 @@ all_rounds:
   over_limit: true
   points: 6.0
   replaced_by: null
-  replaces: March 11 (Fri, March 11)
+  replaces: Round 17 (Fri, March 18)
 - &id023
   date: 2022-08-03
   name: August 3 (Wed, August  3)
@@ -191,7 +191,7 @@ all_rounds:
   over_limit: true
   points: 5.666666666666667
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
+  replaces: Round 8 (Fri, February 11)
 - &id025
   date: 2022-09-09
   name: September 9th (Fri, September  9)
@@ -232,15 +232,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 10
-flight_wins: 10
-front_wins: 13
+- &id030
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Round 15 (Fri, March  4)
+back_wins: 11
+flight_wins: 11
+front_wins: 14
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 13
-points: 82.66666666666667
-rounds: 29
+overall_wins: 14
+points: 84.66666666666667
+rounds: 30
 rounds_by_month:
   1:
   - *id001
@@ -282,5 +290,7 @@ rounds_by_month:
   11:
   - *id028
   - *id029
+  12:
+  - *id030
 skins: 11
 ---

@@ -200,6 +200,14 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: March 25 (Fri, March 25)
+- &id026
+  date: 2022-12-02
+  name: December 2nd (Fri, December  2)
+  official: false
+  over_limit: true
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 11
 flight_wins: 9
 front_wins: 14
@@ -208,7 +216,7 @@ image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
 overall_wins: 14
 points: 88.33333333333333
-rounds: 25
+rounds: 26
 rounds_by_month:
   1:
   - *id001
@@ -245,5 +253,7 @@ rounds_by_month:
   11:
   - *id024
   - *id025
-skins: 14
+  12:
+  - *id026
+skins: 15
 ---
