@@ -368,15 +368,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id047
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 19
 flight_wins: 18
-front_wins: 16
+front_wins: 17
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 16
+overall_wins: 17
 points: 89.66666666666666
-rounds: 46
+rounds: 47
 rounds_by_month:
   1:
   - *id001
@@ -436,5 +444,6 @@ rounds_by_month:
   - *id045
   12:
   - *id046
-skins: 37
+  - *id047
+skins: 39
 ---

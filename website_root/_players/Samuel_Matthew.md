@@ -208,15 +208,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 11
+- &id027
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
+back_wins: 12
 flight_wins: 9
 front_wins: 14
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 14
+overall_wins: 15
 points: 88.33333333333333
-rounds: 26
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -255,5 +263,6 @@ rounds_by_month:
   - *id025
   12:
   - *id026
+  - *id027
 skins: 15
 ---

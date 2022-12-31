@@ -376,15 +376,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 22
-flight_wins: 19
+- &id048
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 23
+flight_wins: 20
 front_wins: 21
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 23
+overall_wins: 24
 points: 88.0
-rounds: 47
+rounds: 48
 rounds_by_month:
   1:
   - *id001
@@ -445,5 +453,6 @@ rounds_by_month:
   - *id046
   12:
   - *id047
+  - *id048
 skins: 21
 ---

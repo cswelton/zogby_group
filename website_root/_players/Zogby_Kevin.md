@@ -352,15 +352,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 23
-flight_wins: 19
+- &id045
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 24
+flight_wins: 20
 front_wins: 13
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
-overall_wins: 18
+overall_wins: 19
 points: 82.33333333333333
-rounds: 44
+rounds: 45
 rounds_by_month:
   1:
   - *id001
@@ -417,5 +425,7 @@ rounds_by_month:
   - *id042
   - *id043
   - *id044
+  12:
+  - *id045
 skins: 14
 ---

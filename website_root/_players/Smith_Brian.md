@@ -368,15 +368,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: Round 13 (Fri, February 25)
+- &id047
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 23
-flight_wins: 20
+flight_wins: 21
 front_wins: 23
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
 overall_wins: 25
 points: 113.0
-rounds: 46
+rounds: 47
 rounds_by_month:
   1:
   - *id001
@@ -436,5 +444,6 @@ rounds_by_month:
   - *id045
   12:
   - *id046
-skins: 41
+  - *id047
+skins: 42
 ---

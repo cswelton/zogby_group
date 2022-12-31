@@ -38,7 +38,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: December 2nd (Fri, December  2)
+  replaced_by: October 28th (Fri, October 28)
   replaces: null
 - &id006
   date: 2022-03-25
@@ -59,10 +59,10 @@ all_rounds:
 - &id008
   date: 2022-04-08
   name: Round 20 (Fri, April  8)
-  official: true
+  official: false
   over_limit: false
   points: 0.6666666666666666
-  replaced_by: null
+  replaced_by: December 2nd (Fri, December  2)
   replaces: null
 - &id010
   date: 2022-04-15
@@ -70,7 +70,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: September 23rd (Fri, September 23)
+  replaced_by: Round 80 (Thu, December 29)
   replaces: null
 - &id007
   date: 2022-04-22
@@ -94,7 +94,7 @@ all_rounds:
   official: false
   over_limit: false
   points: 0
-  replaced_by: October 28th (Fri, October 28)
+  replaced_by: September 23rd (Fri, September 23)
   replaces: null
 - &id013
   date: 2022-06-24
@@ -151,7 +151,7 @@ all_rounds:
   over_limit: true
   points: 3.5
   replaced_by: null
-  replaces: Round 22 (Fri, April 15)
+  replaces: Round 32 (Mon, May 30)
 - &id021
   date: 2022-10-21
   name: October 21st (Fri, October 21)
@@ -167,7 +167,7 @@ all_rounds:
   over_limit: true
   points: 3.0
   replaced_by: null
-  replaces: Round 32 (Mon, May 30)
+  replaces: Round 17 (Fri, March 18)
 - &id022
   date: 2022-11-23
   name: Round 75 (Wed, November 23)
@@ -183,16 +183,24 @@ all_rounds:
   over_limit: true
   points: 2.0
   replaced_by: null
-  replaces: Round 17 (Fri, March 18)
+  replaces: Round 20 (Fri, April  8)
+- &id024
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 22 (Fri, April 15)
 back_wins: 7
-flight_wins: 10
-front_wins: 6
+flight_wins: 11
+front_wins: 7
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 8
-points: 61.16666666666667
-rounds: 23
+overall_wins: 9
+points: 64.5
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -229,5 +237,6 @@ rounds_by_month:
   - *id022
   12:
   - *id023
+  - *id024
 skins: 8
 ---

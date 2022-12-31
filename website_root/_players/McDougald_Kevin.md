@@ -280,6 +280,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id036
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 13
 flight_wins: 9
 front_wins: 9
@@ -288,7 +296,7 @@ image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 11
 points: 60.333333333333336
-rounds: 35
+rounds: 36
 rounds_by_month:
   1:
   - *id001
@@ -336,5 +344,7 @@ rounds_by_month:
   11:
   - *id034
   - *id035
+  12:
+  - *id036
 skins: 16
 ---

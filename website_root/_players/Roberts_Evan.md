@@ -360,15 +360,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id046
+  date: 2022-12-29
+  name: Round 80 (Thu, December 29)
+  official: false
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: null
 back_wins: 20
-flight_wins: 20
-front_wins: 17
+flight_wins: 21
+front_wins: 18
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 19
+overall_wins: 20
 points: 90.66666666666666
-rounds: 45
+rounds: 46
 rounds_by_month:
   1:
   - *id001
@@ -427,5 +435,6 @@ rounds_by_month:
   - *id044
   12:
   - *id045
-skins: 24
+  - *id046
+skins: 26
 ---
