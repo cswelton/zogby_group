@@ -8,8 +8,8 @@
             "score": 100,
             "total": 100,
             "name": "Round 74 (Wed, November 16)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-11-16, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 8,

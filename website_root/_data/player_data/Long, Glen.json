@@ -1,15 +1,102 @@
 {
     "name": "Long, Glen",
-    "scoring_average": 76.5,
+    "scoring_average": 76.722,
     "rounds": [
+        {
+            "date": "2022-01-02",
+            "date_timestamp": 738157,
+            "score": 86,
+            "total": 86,
+            "name": "Round 1 (Mon, January  2)",
+            "valid": false,
+            "reason": "Round date 2023-01-02, does not fall within season (2022-01-01 to 2022-12-30)",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 42,
+            "out": 44
+        },
         {
             "date": "2022-01-09",
             "date_timestamp": 738164,
             "score": 80,
             "total": 80,
             "name": "Round 2 (Sun, January  9)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-01-09, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -95,8 +182,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 5 (Wed, February  2)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-02-02, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -177,13 +264,100 @@
             "out": 36
         },
         {
+            "date": "2022-02-08",
+            "date_timestamp": 738194,
+            "score": 75,
+            "total": 75,
+            "name": "February 8th (Wed, February  8)",
+            "valid": false,
+            "reason": "Round date 2023-02-08, does not fall within season (2022-01-01 to 2022-12-30)",
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 38,
+            "out": 37
+        },
+        {
             "date": "2022-02-09",
             "date_timestamp": 738195,
             "score": 77,
             "total": 77,
             "name": "Feb 9 (Wed, February  9)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-02-09, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -270,7 +444,7 @@
             "total": 73,
             "name": "Round 12 (Wed, February 23)",
             "valid": false,
-            "reason": "Only 6 players, 8 are required",
+            "reason": "Round date 2023-02-23, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -356,8 +530,8 @@
             "score": 73,
             "total": 73,
             "name": "Round 13 (Fri, February 25)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-02-25, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -443,8 +617,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 14 (Wed, March  2)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-03-02, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -530,8 +704,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 15 (Fri, March  4)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-03-04, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -617,8 +791,8 @@
             "score": 77,
             "total": 77,
             "name": "March 25 (Fri, March 25)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-03-25, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -704,8 +878,8 @@
             "score": 87,
             "total": 87,
             "name": "Round 20 (Fri, April  8)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-04-08, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -791,8 +965,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 25 (Wed, May  4)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-05-04, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -878,8 +1052,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 34 (Wed, June  8)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-06-08, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -965,8 +1139,8 @@
             "score": 71,
             "total": 71,
             "name": "Round 39 (Wed, June 29)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-06-29, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -1052,8 +1226,8 @@
             "score": 78,
             "total": 78,
             "name": "Round 43 (Wed, July 13)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-07-13, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -1139,8 +1313,8 @@
             "score": 84,
             "total": 84,
             "name": "Round 44 (Fri, July 15)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-07-15, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,
@@ -1226,8 +1400,8 @@
             "score": 72,
             "total": 72,
             "name": "Round 45 (Fri, July 22)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-07-22, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -1314,7 +1488,7 @@
             "total": 79,
             "name": "Round 46 (Wed, July 27)",
             "valid": false,
-            "reason": "Teams do not contain equal number of players",
+            "reason": "Round date 2023-07-27, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -1400,8 +1574,8 @@
             "score": 76,
             "total": 76,
             "name": "August 3 (Wed, August  3)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-08-03, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -1487,8 +1661,8 @@
             "score": 72,
             "total": 72,
             "name": "Round 50 (Wed, August 10)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-08-10, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -1575,7 +1749,7 @@
             "total": 77,
             "name": "Round 53 (Wed, August 17)",
             "valid": false,
-            "reason": "Teams do not contain equal number of players",
+            "reason": "Round date 2023-08-17, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -1661,8 +1835,8 @@
             "score": 74,
             "total": 74,
             "name": "Round 54 (Fri, August 19)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-08-19, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -1748,8 +1922,8 @@
             "score": 73,
             "total": 73,
             "name": "Round 55 (Wed, August 24)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-08-24, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -1836,7 +2010,7 @@
             "total": 75,
             "name": "August 26 (Fri, August 26)",
             "valid": false,
-            "reason": "Teams do not contain equal number of players",
+            "reason": "Round date 2023-08-26, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -1922,8 +2096,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 58 (Fri, September  2)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-09-02, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -2009,8 +2183,8 @@
             "score": 74,
             "total": 74,
             "name": "September 9th (Fri, September  9)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-09-09, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -2097,7 +2271,7 @@
             "total": 78,
             "name": "September 14th (Wed, September 14)",
             "valid": false,
-            "reason": "Only 6 players, 8 are required",
+            "reason": "Round date 2023-09-14, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -2184,7 +2358,7 @@
             "total": 81,
             "name": "Round 64 (Wed, September 21)",
             "valid": false,
-            "reason": "Teams do not contain equal number of players",
+            "reason": "Round date 2023-09-21, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 4,
@@ -2270,8 +2444,8 @@
             "score": 75,
             "total": 75,
             "name": "September 23rd (Fri, September 23)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-09-23, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -2357,8 +2531,8 @@
             "score": 78,
             "total": 78,
             "name": "Round 66 (Wed, September 28)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-09-28, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,
@@ -2444,8 +2618,8 @@
             "score": 75,
             "total": 75,
             "name": "Round 67 (Sun, October  2)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-10-02, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -2531,8 +2705,8 @@
             "score": 81,
             "total": 81,
             "name": "October 28th (Fri, October 28)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-10-28, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,
@@ -2618,8 +2792,8 @@
             "score": 79,
             "total": 79,
             "name": "November 2nd (Wed, November  2)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-11-02, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -2705,8 +2879,8 @@
             "score": 69,
             "total": 69,
             "name": "Round 73 (Sun, November  6)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-11-06, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -2792,8 +2966,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 74 (Wed, November 16)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-11-16, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -2879,8 +3053,8 @@
             "score": 70,
             "total": 70,
             "name": "December 2nd (Fri, December  2)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-12-02, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,

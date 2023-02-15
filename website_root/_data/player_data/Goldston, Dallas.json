@@ -8,8 +8,8 @@
             "score": 82,
             "total": 82,
             "name": "Round 29 (Sun, May 15)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-05-15, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,

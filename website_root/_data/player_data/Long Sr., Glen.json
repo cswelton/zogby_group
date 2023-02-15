@@ -8,8 +8,8 @@
             "score": 89,
             "total": 89,
             "name": "September 9th (Fri, September  9)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-09-09, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,

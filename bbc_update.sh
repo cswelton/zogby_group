@@ -5,7 +5,7 @@
 # It is meant to be run in a cron job to automatically update the website following play.
 
 echo "Checking for new round data...";
-/Users/crwelton/virtualenv/golfgenius/bin/bbc-sync --results-directory='./results' ekjusj;
+/Users/crwelton/virtualenv/golfgenius/bin/bbc-sync --results-directory='./results' uspfuw;
 retVal=$?;
 
 if [ $retVal -eq 0 ]; then

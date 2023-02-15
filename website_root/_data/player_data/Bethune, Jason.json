@@ -8,8 +8,8 @@
             "score": 71,
             "total": 71,
             "name": "June 24 (Fri, June 24)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-06-24, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,

@@ -1,0 +1,259 @@
+{
+    "name": "Round 9 (Thu, January 26)",
+    "results": {
+        "teams": [
+            [
+                "Hilliard, Tj",
+                "Long, Glen",
+                "Howard, Matt"
+            ],
+            [
+                "Capwell, Robert",
+                "Smith, Brian",
+                "Schrier, Matthew"
+            ]
+        ],
+        "scores": {
+            "Hilliard, Tj": {
+                "scores": {
+                    "10": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "15": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 5,
+                        "type": "plus1"
+                    }
+                }
+            },
+            "Long, Glen": {
+                "scores": {
+                    "10": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 3,
+                        "type": "eagle"
+                    },
+                    "15": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 5,
+                        "type": "plus1"
+                    }
+                }
+            },
+            "Howard, Matt": {
+                "scores": {
+                    "10": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "15": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "16": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "17": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "18": {
+                        "score": 5,
+                        "type": "plus1"
+                    }
+                }
+            },
+            "Capwell, Robert": {
+                "scores": {
+                    "10": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "13": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "14": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "15": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "16": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "17": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "18": {
+                        "score": 3,
+                        "type": "birdie"
+                    }
+                }
+            },
+            "Smith, Brian": {
+                "scores": {
+                    "10": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "18": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Schrier, Matthew": {
+                "scores": {
+                    "10": {
+                        "score": 7,
+                        "type": "plus2"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "13": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 6,
+                        "type": "plus2"
+                    }
+                }
+            }
+        }
+    }
+}

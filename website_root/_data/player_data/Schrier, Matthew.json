@@ -1,6 +1,6 @@
 {
     "name": "Schrier, Matthew",
-    "scoring_average": 86.143,
+    "scoring_average": 86.7,
     "rounds": [
         {
             "date": "2022-01-09",
@@ -8,8 +8,8 @@
             "score": 97,
             "total": 97,
             "name": "Round 2 (Sun, January  9)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-01-09, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,
@@ -90,13 +90,274 @@
             "out": 49
         },
         {
+            "date": "2022-01-11",
+            "date_timestamp": 738166,
+            "score": 85,
+            "total": 85,
+            "name": "Jan 11 (Wed, January 11)",
+            "valid": false,
+            "reason": "Round date 2023-01-11, does not fall within season (2022-01-01 to 2022-12-30)",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 41,
+            "out": 44
+        },
+        {
+            "date": "2022-01-18",
+            "date_timestamp": 738173,
+            "score": 88,
+            "total": 88,
+            "name": "Round 7 (Wed, January 18)",
+            "valid": false,
+            "reason": "Round date 2023-01-18, does not fall within season (2022-01-01 to 2022-12-30)",
+            "front": [
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 37,
+            "out": 51
+        },
+        {
+            "date": "2022-02-08",
+            "date_timestamp": 738194,
+            "score": 91,
+            "total": 91,
+            "name": "February 8th (Wed, February  8)",
+            "valid": false,
+            "reason": "Round date 2023-02-08, does not fall within season (2022-01-01 to 2022-12-30)",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "back": [
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                }
+            ],
+            "in": 45,
+            "out": 46
+        },
+        {
             "date": "2022-04-15",
             "date_timestamp": 738260,
             "score": 90,
             "total": 90,
             "name": "Round 22 (Fri, April 15)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-04-15, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -182,8 +443,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 32 (Mon, May 30)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-05-30, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,
@@ -269,8 +530,8 @@
             "score": 83,
             "total": 83,
             "name": "Round 41 (Fri, July  8)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-07-08, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -356,8 +617,8 @@
             "score": 81,
             "total": 81,
             "name": "Round 54 (Fri, August 19)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-08-19, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -444,7 +705,7 @@
             "total": 88,
             "name": "Round 59 (Mon, September  5)",
             "valid": false,
-            "reason": "Teams do not contain equal number of players",
+            "reason": "Round date 2023-09-05, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -530,8 +791,8 @@
             "score": 83,
             "total": 83,
             "name": "Round 75 (Wed, November 23)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-11-23, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,

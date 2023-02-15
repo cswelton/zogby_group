@@ -8,8 +8,8 @@
             "score": 77,
             "total": 77,
             "name": "Round 73 (Sun, November  6)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-11-06, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,

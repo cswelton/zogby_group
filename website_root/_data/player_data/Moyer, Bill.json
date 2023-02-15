@@ -1,6 +1,6 @@
 {
     "name": "Moyer, Bill",
-    "scoring_average": 75.0,
+    "scoring_average": 72.5,
     "rounds": [
         {
             "date": "2022-01-09",
@@ -8,8 +8,8 @@
             "score": 75,
             "total": 75,
             "name": "Round 2 (Sun, January  9)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-01-09, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -88,6 +88,93 @@
             ],
             "in": 41,
             "out": 34
+        },
+        {
+            "date": "2022-01-13",
+            "date_timestamp": 738168,
+            "score": 70,
+            "total": 70,
+            "name": "Round 6 (Fri, January 13)",
+            "valid": false,
+            "reason": "Round date 2023-01-13, does not fall within season (2022-01-01 to 2022-12-30)",
+            "front": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                }
+            ],
+            "in": 34,
+            "out": 36
         }
     ]
 }

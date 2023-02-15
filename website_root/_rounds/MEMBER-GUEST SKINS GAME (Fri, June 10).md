@@ -1,6 +1,6 @@
 ---
-date: '2022-06-10'
-date_timestamp: 738316
+date: '2023-06-10'
+date_timestamp: 738681
 gg_url: null
 name: MEMBER-GUEST SKINS GAME (Fri, June 10)
 points: {}

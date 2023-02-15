@@ -8,8 +8,8 @@
             "score": 80,
             "total": 80,
             "name": "Round 44 (Fri, July 15)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-07-15, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,

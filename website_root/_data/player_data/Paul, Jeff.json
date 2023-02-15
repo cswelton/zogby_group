@@ -8,8 +8,8 @@
             "score": 84,
             "total": 84,
             "name": "Round 8 (Fri, February 11)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-02-11, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -95,8 +95,8 @@
             "score": 79,
             "total": 79,
             "name": "March 11 (Fri, March 11)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-03-11, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 5,
@@ -183,7 +183,7 @@
             "total": 78,
             "name": "Round 24 (Fri, April 29)",
             "valid": false,
-            "reason": "Teams do not contain equal number of players",
+            "reason": "Round date 2023-04-29, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 6,
@@ -269,8 +269,8 @@
             "score": 83,
             "total": 83,
             "name": "Round 32 (Mon, May 30)",
-            "valid": true,
-            "reason": null,
+            "valid": false,
+            "reason": "Round date 2023-05-30, does not fall within season (2022-01-01 to 2022-12-30)",
             "front": [
                 {
                     "score": 7,
