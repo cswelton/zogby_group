@@ -24,20 +24,29 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
+- &id004
+  date: 2023-02-15
+  name: Feb 15th (Wed, February 15)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
-flight_wins: 1
-front_wins: 0
+flight_wins: 2
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 1
-points: 9.0
-rounds: 3
+points: 14.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   - *id002
   2:
   - *id003
-skins: 2
+  - *id004
+skins: 3
 ---
