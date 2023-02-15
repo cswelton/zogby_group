@@ -9,6 +9,14 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id002
+  date: 2023-01-07
+  name: Jan 7 (Sat, January  7)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id003
   date: 2023-01-20
   name: Jan 20 (Fri, January 20)
   official: true
@@ -16,7 +24,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id003
+- &id004
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -32,12 +40,13 @@ image: /assets/images/default.png
 name: Meder, Brandon
 overall_wins: 1
 points: 6.0
-rounds: 3
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   - *id002
-  2:
   - *id003
+  2:
+  - *id004
 skins: 2
 ---

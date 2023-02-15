@@ -1,6 +1,6 @@
 {
     "name": "Meder, Brandon",
-    "scoring_average": 78.333,
+    "scoring_average": 78.0,
     "rounds": [
         {
             "date": "2022-01-02",
@@ -84,6 +84,93 @@
                 {
                     "score": 5,
                     "type": "plus1"
+                }
+            ],
+            "in": 39,
+            "out": 38
+        },
+        {
+            "date": "2022-01-07",
+            "date_timestamp": 738162,
+            "score": 77,
+            "total": 77,
+            "name": "Jan 7 (Sat, January  7)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
                 }
             ],
             "in": 39,

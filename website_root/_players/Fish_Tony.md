@@ -9,6 +9,14 @@ all_rounds:
   replaced_by: null
   replaces: null
 - &id003
+  date: 2023-01-07
+  name: Jan 7 (Sat, January  7)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id004
   date: 2023-01-11
   name: Jan 11 (Wed, January 11)
   official: true
@@ -24,7 +32,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id004
+- &id005
   date: 2023-01-20
   name: Jan 20 (Fri, January 20)
   official: true
@@ -32,7 +40,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id006
+- &id007
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -40,7 +48,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-- &id005
+- &id006
   date: 2023-02-10
   name: Feb 10 (Fri, February 10)
   official: true
@@ -55,16 +63,17 @@ ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 2
-points: 24.0
-rounds: 6
+points: 25.0
+rounds: 7
 rounds_by_month:
   1:
   - *id001
   - *id002
   - *id003
   - *id004
-  2:
   - *id005
+  2:
   - *id006
-skins: 2
+  - *id007
+skins: 3
 ---

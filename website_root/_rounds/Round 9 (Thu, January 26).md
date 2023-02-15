@@ -4,7 +4,7 @@ date_timestamp: 738546
 gg_url: null
 name: Round 9 (Thu, January 26)
 points: {}
-reason: Not all players finished 18 holes
+reason: Only 6 players, 8 are required
 total_points: 0
 valid: false
 ---

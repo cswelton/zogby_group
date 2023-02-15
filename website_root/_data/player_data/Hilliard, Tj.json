@@ -1,6 +1,6 @@
 {
     "name": "Hilliard, Tj",
-    "scoring_average": 76.444,
+    "scoring_average": 75.091,
     "rounds": [
         {
             "date": "2022-01-02",
@@ -175,6 +175,93 @@
             ],
             "in": 46,
             "out": 44
+        },
+        {
+            "date": "2022-01-07",
+            "date_timestamp": 738162,
+            "score": 67,
+            "total": 67,
+            "name": "Jan 7 (Sat, January  7)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 35,
+            "out": 32
         },
         {
             "date": "2022-01-11",
@@ -522,6 +609,93 @@
                 }
             ],
             "in": 34,
+            "out": 34
+        },
+        {
+            "date": "2022-01-26",
+            "date_timestamp": 738181,
+            "score": 71,
+            "total": 71,
+            "name": "Round 9 (Thu, January 26)",
+            "valid": false,
+            "reason": "Only 6 players, 8 are required",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 37,
             "out": 34
         },
         {
