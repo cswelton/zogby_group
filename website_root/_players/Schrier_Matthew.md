@@ -8,7 +8,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id003
+- &id004
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -16,7 +16,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id002
+- &id003
   date: 2023-02-16
   name: Round 14 (Thu, February 16)
   official: true
@@ -24,20 +24,29 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id002
+  date: 2023-02-24
+  name: Feb 24 (Fri, February 24)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 0
-front_wins: 2
+front_wins: 3
 ignored_rounds: []
 image: /assets/images/default.png
 name: Schrier, Matthew
 overall_wins: 2
-points: 8.0
-rounds: 3
+points: 10.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
   - *id003
+  - *id004
 skins: 0
 ---

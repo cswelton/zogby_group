@@ -8,7 +8,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id003
+- &id004
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -16,12 +16,20 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id002
+- &id003
   date: 2023-02-15
   name: Feb 15th (Wed, February 15)
   official: true
   over_limit: false
   points: 5.0
+  replaced_by: null
+  replaces: null
+- &id002
+  date: 2023-02-24
+  name: Feb 24 (Fri, February 24)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 0
@@ -32,12 +40,13 @@ image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 0
 points: 6.0
-rounds: 3
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
   - *id003
+  - *id004
 skins: 1
 ---

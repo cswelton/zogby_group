@@ -24,7 +24,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id006
+- &id008
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -32,7 +32,7 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: null
-- &id004
+- &id005
   date: 2023-02-10
   name: Feb 10 (Fri, February 10)
   official: true
@@ -40,7 +40,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id005
+- &id007
   date: 2023-02-15
   name: Feb 15th (Wed, February 15)
   official: true
@@ -48,15 +48,31 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 3
+- &id006
+  date: 2023-02-22
+  name: Feb 22nd (Wed, February 22)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id004
+  date: 2023-02-24
+  name: Feb 24 (Fri, February 24)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
 flight_wins: 1
-front_wins: 4
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
-overall_wins: 3
-points: 24.0
-rounds: 6
+overall_wins: 5
+points: 35.0
+rounds: 8
 rounds_by_month:
   1:
   - *id001
@@ -66,5 +82,7 @@ rounds_by_month:
   - *id004
   - *id005
   - *id006
-skins: 3
+  - *id007
+  - *id008
+skins: 5
 ---

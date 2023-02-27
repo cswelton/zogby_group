@@ -40,7 +40,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id009
+- &id010
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -48,7 +48,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id006
+- &id007
   date: 2023-02-10
   name: Feb 10 (Fri, February 10)
   official: true
@@ -56,7 +56,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id008
+- &id009
   date: 2023-02-15
   name: Feb 15th (Wed, February 15)
   official: true
@@ -64,12 +64,20 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id007
+- &id008
   date: 2023-02-16
   name: Round 14 (Thu, February 16)
   official: true
   over_limit: false
   points: 4.0
+  replaced_by: null
+  replaces: null
+- &id006
+  date: 2023-02-24
+  name: Feb 24 (Fri, February 24)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 4
@@ -80,7 +88,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 3
 points: 39.0
-rounds: 9
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -93,5 +101,6 @@ rounds_by_month:
   - *id007
   - *id008
   - *id009
+  - *id010
 skins: 12
 ---

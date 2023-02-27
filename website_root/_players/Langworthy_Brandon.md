@@ -8,12 +8,20 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id002
+- &id003
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
   over_limit: false
   points: 1.0
+  replaced_by: null
+  replaces: null
+- &id002
+  date: 2023-02-24
+  name: Feb 24 (Fri, February 24)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 0
@@ -24,11 +32,12 @@ image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 0
 points: 3.0
-rounds: 2
+rounds: 3
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
+  - *id003
 skins: 1
 ---
