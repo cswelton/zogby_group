@@ -80,15 +80,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 3
+- &id011
+  date: 2023-03-03
+  name: March 3rd (Fri, March  3)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 4
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
-overall_wins: 3
-points: 39.0
-rounds: 10
+overall_wins: 4
+points: 45.0
+rounds: 11
 rounds_by_month:
   1:
   - *id001
@@ -102,5 +110,7 @@ rounds_by_month:
   - *id008
   - *id009
   - *id010
-skins: 12
+  3:
+  - *id011
+skins: 13
 ---

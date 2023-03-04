@@ -72,15 +72,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 6
+- &id010
+  date: 2023-03-03
+  name: March 3rd (Fri, March  3)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 7
 front_wins: 3
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 3
-points: 31.0
-rounds: 9
+overall_wins: 4
+points: 38.0
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -93,5 +101,7 @@ rounds_by_month:
   - *id007
   - *id008
   - *id009
-skins: 2
+  3:
+  - *id010
+skins: 3
 ---

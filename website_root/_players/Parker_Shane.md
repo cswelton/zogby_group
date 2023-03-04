@@ -24,20 +24,30 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
-flight_wins: 1
+- &id004
+  date: 2023-03-03
+  name: March 3rd (Fri, March  3)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
+flight_wins: 2
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 1
-points: 9.0
-rounds: 3
+overall_wins: 2
+points: 17.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
   - *id003
-skins: 0
+  3:
+  - *id004
+skins: 2
 ---

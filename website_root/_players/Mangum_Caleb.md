@@ -24,20 +24,30 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 1
+- &id004
+  date: 2023-03-03
+  name: March 3rd (Fri, March  3)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
 flight_wins: 0
 front_wins: 1
 ignored_rounds: []
 image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
-overall_wins: 1
-points: 6.0
-rounds: 3
+overall_wins: 2
+points: 11.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
   - *id003
-skins: 1
+  3:
+  - *id004
+skins: 2
 ---

@@ -24,20 +24,30 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id004
+  date: 2023-03-03
+  name: March 3rd (Fri, March  3)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
-flight_wins: 3
-front_wins: 1
+flight_wins: 4
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
 overall_wins: 2
-points: 15.0
-rounds: 3
+points: 19.0
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
   - *id003
+  3:
+  - *id004
 skins: 1
 ---
