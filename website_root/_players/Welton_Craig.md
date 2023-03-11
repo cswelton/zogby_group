@@ -32,6 +32,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id005
+  date: 2023-03-08
+  name: Round 19 (Wed, March  8)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 1
 front_wins: 2
@@ -39,8 +47,8 @@ ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 0
-points: 6.0
-rounds: 4
+points: 7.0
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -48,5 +56,7 @@ rounds_by_month:
   - *id002
   - *id003
   - *id004
-skins: 1
+  3:
+  - *id005
+skins: 2
 ---

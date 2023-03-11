@@ -80,12 +80,20 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2023-03-03
   name: March 3rd (Fri, March  3)
   official: true
   over_limit: false
   points: 3.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2023-03-08
+  name: Round 19 (Wed, March  8)
+  official: true
+  over_limit: false
+  points: 2.0
   replaced_by: null
   replaces: null
 back_wins: 5
@@ -95,8 +103,8 @@ ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
 overall_wins: 5
-points: 44.0
-rounds: 11
+points: 46.0
+rounds: 12
 rounds_by_month:
   1:
   - *id001
@@ -112,5 +120,6 @@ rounds_by_month:
   - *id010
   3:
   - *id011
-skins: 7
+  - *id012
+skins: 9
 ---
