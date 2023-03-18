@@ -1,6 +1,6 @@
 {
     "name": "Chan, Edward",
-    "scoring_average": 75.2,
+    "scoring_average": 75.667,
     "rounds": [
         {
             "date": "2022-01-02",
@@ -436,6 +436,93 @@
             ],
             "in": 35,
             "out": 36
+        },
+        {
+            "date": "2022-03-17",
+            "date_timestamp": 738231,
+            "score": 78,
+            "total": 78,
+            "name": "Round 20 (Fri, March 17)",
+            "valid": false,
+            "reason": "Teams do not contain equal number of players",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 37,
+            "out": 41
         }
     ]
 }
