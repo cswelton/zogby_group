@@ -48,15 +48,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 1
-front_wins: 1
+- &id007
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 2
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
-overall_wins: 2
-points: 11.0
-rounds: 6
+overall_wins: 3
+points: 18.0
+rounds: 7
 rounds_by_month:
   1:
   - *id001
@@ -66,5 +74,7 @@ rounds_by_month:
   - *id004
   - *id005
   - *id006
+  3:
+  - *id007
 skins: 2
 ---

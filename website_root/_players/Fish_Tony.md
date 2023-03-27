@@ -80,12 +80,20 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2023-03-08
   name: Round 19 (Wed, March  8)
   official: true
   over_limit: false
   points: 1.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 5
@@ -96,7 +104,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 2
 points: 36.0
-rounds: 11
+rounds: 12
 rounds_by_month:
   1:
   - *id001
@@ -112,5 +120,6 @@ rounds_by_month:
   - *id010
   3:
   - *id011
+  - *id012
 skins: 6
 ---

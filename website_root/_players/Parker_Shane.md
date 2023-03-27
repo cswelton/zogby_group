@@ -24,12 +24,20 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id004
+- &id005
   date: 2023-03-03
   name: March 3rd (Fri, March  3)
   official: true
   over_limit: false
   points: 8.0
+  replaced_by: null
+  replaces: null
+- &id004
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 1.0
   replaced_by: null
   replaces: null
 back_wins: 2
@@ -39,8 +47,8 @@ ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 2
-points: 17.0
-rounds: 4
+points: 18.0
+rounds: 5
 rounds_by_month:
   1:
   - *id001
@@ -49,5 +57,6 @@ rounds_by_month:
   - *id003
   3:
   - *id004
-skins: 2
+  - *id005
+skins: 3
 ---

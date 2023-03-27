@@ -72,7 +72,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2023-03-03
   name: March 3rd (Fri, March  3)
   official: true
@@ -80,7 +80,7 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2023-03-08
   name: Round 19 (Wed, March  8)
   official: true
@@ -88,15 +88,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
+- &id010
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
 back_wins: 6
-flight_wins: 8
+flight_wins: 9
 front_wins: 4
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 5
-points: 46.0
-rounds: 11
+points: 48.0
+rounds: 12
 rounds_by_month:
   1:
   - *id001
@@ -112,5 +120,6 @@ rounds_by_month:
   3:
   - *id010
   - *id011
+  - *id012
 skins: 4
 ---

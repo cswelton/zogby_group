@@ -64,7 +64,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id009
+- &id010
   date: 2023-03-08
   name: Round 19 (Wed, March  8)
   official: true
@@ -72,15 +72,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 5
+- &id009
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
 flight_wins: 2
-front_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
-overall_wins: 5
-points: 37.0
-rounds: 9
+overall_wins: 6
+points: 44.0
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -94,5 +102,6 @@ rounds_by_month:
   - *id008
   3:
   - *id009
-skins: 5
+  - *id010
+skins: 6
 ---

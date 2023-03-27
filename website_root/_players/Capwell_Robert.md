@@ -56,7 +56,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id009
+- &id010
   date: 2023-03-03
   name: March 3rd (Fri, March  3)
   official: true
@@ -64,12 +64,20 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id008
+- &id009
   date: 2023-03-08
   name: Round 19 (Wed, March  8)
   official: true
   over_limit: false
   points: 6.0
+  replaced_by: null
+  replaces: null
+- &id008
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 3.0
   replaced_by: null
   replaces: null
 back_wins: 5
@@ -79,8 +87,8 @@ ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 3
-points: 32.0
-rounds: 9
+points: 35.0
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -94,5 +102,6 @@ rounds_by_month:
   3:
   - *id008
   - *id009
-skins: 4
+  - *id010
+skins: 7
 ---

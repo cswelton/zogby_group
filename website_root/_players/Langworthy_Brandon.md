@@ -24,6 +24,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id004
+  date: 2023-03-24
+  name: Round 22 (Fri, March 24)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 0
 flight_wins: 1
 front_wins: 0
@@ -32,12 +40,14 @@ image: /assets/images/default.png
 name: Langworthy, Brandon
 overall_wins: 0
 points: 3.0
-rounds: 3
+rounds: 4
 rounds_by_month:
   1:
   - *id001
   2:
   - *id002
   - *id003
+  3:
+  - *id004
 skins: 1
 ---
