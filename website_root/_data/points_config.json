@@ -5,8 +5,8 @@
   "ba": 2,
   "ov": 2,
   "max_rounds_per_month": 0,
-  "season_round_count": 16,
-  "replacement_scores": 5,
+  "season_round_count": 300,
+  "replacement_scores": 100,
   "min_players": 8,
   "fedex_cup_start_date": "2023-01-01",
   "fedex_cup_end_date": "2023-12-30"
