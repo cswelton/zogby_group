@@ -8,7 +8,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id004
+- &id002
   date: 2023-02-08
   name: February 8th (Wed, February  8)
   official: true
@@ -16,7 +16,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id003
+- &id004
   date: 2023-02-10
   name: Feb 10 (Fri, February 10)
   official: true
@@ -24,7 +24,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id002
+- &id003
   date: 2023-02-24
   name: Feb 24 (Fri, February 24)
   official: true
@@ -40,15 +40,55 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 0
-flight_wins: 0
+- &id007
+  date: 2023-04-05
+  name: Round 25 (Wed, April  5)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id006
+  date: 2023-04-23
+  name: Round 31 (Sun, April 23)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id008
+  date: 2023-06-07
+  name: Round 46 (Wed, June  7)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2023-08-02
+  name: Round 67 (Wed, August  2)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2023-08-18
+  name: Round 74 (Fri, August 18)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 2
+flight_wins: 2
 front_wins: 0
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 0
-points: 0
-rounds: 5
+overall_wins: 1
+points: 12.0
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -58,5 +98,13 @@ rounds_by_month:
   - *id004
   3:
   - *id005
-skins: 0
+  4:
+  - *id006
+  - *id007
+  6:
+  - *id008
+  8:
+  - *id009
+  - *id010
+skins: 2
 ---

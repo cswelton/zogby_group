@@ -1,1 +1,14 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","sourcesContent":[],"file":"styles.css"}
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"assets/css/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

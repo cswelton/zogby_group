@@ -19,10 +19,10 @@ all_rounds:
 - &id002
   date: 2023-02-24
   name: Feb 24 (Fri, February 24)
-  official: true
+  official: false
   over_limit: false
   points: 0
-  replaced_by: null
+  replaced_by: Round 56 (Fri, July  7)
   replaces: null
 - &id005
   date: 2023-03-03
@@ -35,20 +35,140 @@ all_rounds:
 - &id004
   date: 2023-03-24
   name: Round 22 (Fri, March 24)
-  official: true
+  official: false
   over_limit: false
   points: 1.0
+  replaced_by: Round 74 (Fri, August 18)
+  replaces: null
+- &id006
+  date: 2023-03-31
+  name: Round 24 (Fri, March 31)
+  official: true
+  over_limit: false
+  points: 6.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 2
-front_wins: 2
+- &id008
+  date: 2023-04-14
+  name: April 14 (Fri, April 14)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2023-04-21
+  name: April 21 (Fri, April 21)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2023-04-23
+  name: Round 31 (Sun, April 23)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2023-05-12
+  name: Round 38 (Fri, May 12)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2023-05-26
+  name: Round 42 (Fri, May 26)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id012
+  date: 2023-06-02
+  name: Round 45 (Fri, June  2)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2023-06-07
+  name: Round 46 (Wed, June  7)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id015
+  date: 2023-06-16
+  name: Round 49 (Fri, June 16)
+  official: false
+  over_limit: false
+  points: 0
+  replaced_by: Round 68 (Fri, August  4)
+  replaces: null
+- &id014
+  date: 2023-06-23
+  name: Round 51 (Fri, June 23)
+  official: false
+  over_limit: false
+  points: 0
+  replaced_by: July 4 (Tue, July  4)
+  replaces: null
+- &id016
+  date: 2023-06-28
+  name: Round 52 (Wed, June 28)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id018
+  date: 2023-07-04
+  name: July 4 (Tue, July  4)
+  official: true
+  over_limit: true
+  points: 5.0
+  replaced_by: null
+  replaces: Round 51 (Fri, June 23)
+- &id017
+  date: 2023-07-07
+  name: Round 56 (Fri, July  7)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Feb 24 (Fri, February 24)
+- &id019
+  date: 2023-08-04
+  name: Round 68 (Fri, August  4)
+  official: true
+  over_limit: true
+  points: 7.0
+  replaced_by: null
+  replaces: Round 49 (Fri, June 16)
+- &id020
+  date: 2023-08-18
+  name: Round 74 (Fri, August 18)
+  official: true
+  over_limit: true
+  points: 4.0
+  replaced_by: null
+  replaces: Round 22 (Fri, March 24)
+back_wins: 10
+flight_wins: 10
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 2
-points: 18.0
-rounds: 5
+overall_wins: 12
+points: 89.0
+rounds: 20
 rounds_by_month:
   1:
   - *id001
@@ -58,5 +178,25 @@ rounds_by_month:
   3:
   - *id004
   - *id005
-skins: 3
+  - *id006
+  4:
+  - *id007
+  - *id008
+  - *id009
+  5:
+  - *id010
+  - *id011
+  6:
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+  - *id016
+  7:
+  - *id017
+  - *id018
+  8:
+  - *id019
+  - *id020
+skins: 13
 ---

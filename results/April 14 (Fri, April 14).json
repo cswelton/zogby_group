@@ -1,0 +1,629 @@
+{
+    "name": "April 14 (Fri, April 14)",
+    "results": {
+        "teams": [
+            [
+                "Roberts, Evan",
+                "Rogers, Ken",
+                "Stefanacci, Michael",
+                "Mangum, Caleb"
+            ],
+            [
+                "Parker, Shane",
+                "Beaird, Ray",
+                "Capwell, Robert",
+                "Zogby, Kevin"
+            ]
+        ],
+        "scores": {
+            "Roberts, Evan": {
+                "scores": {
+                    "1": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 2,
+                        "type": "birdie"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "6": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "7": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "8": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "9": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "10": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 7,
+                        "type": "plus2"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Rogers, Ken": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 5,
+                        "type": "plus2"
+                    },
+                    "4": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "5": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "6": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "7": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "8": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "9": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "10": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "18": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Stefanacci, Michael": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 2,
+                        "type": "birdie"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "6": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "7": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "8": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "9": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "10": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "11": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "12": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "18": {
+                        "score": 6,
+                        "type": "plus2"
+                    }
+                }
+            },
+            "Mangum, Caleb": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "3": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "6": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "7": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "8": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "9": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "10": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "11": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "16": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Parker, Shane": {
+                "scores": {
+                    "1": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "6": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "7": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "8": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "9": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "10": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "11": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 3,
+                        "type": "birdie"
+                    }
+                }
+            },
+            "Beaird, Ray": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "3": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "6": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "7": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "8": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "9": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "10": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "11": {
+                        "score": 2,
+                        "type": "birdie"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Capwell, Robert": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "5": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "6": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "7": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "8": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "9": {
+                        "score": 6,
+                        "type": "plus2"
+                    },
+                    "10": {
+                        "score": 7,
+                        "type": "plus2"
+                    },
+                    "11": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 5,
+                        "type": "plus1"
+                    }
+                }
+            },
+            "Zogby, Kevin": {
+                "scores": {
+                    "1": {
+                        "score": 6,
+                        "type": "plus1"
+                    },
+                    "2": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "3": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "4": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "5": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "6": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "7": {
+                        "score": 5,
+                        "type": "plus1"
+                    },
+                    "8": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "9": {
+                        "score": 3,
+                        "type": "birdie"
+                    },
+                    "10": {
+                        "score": 4,
+                        "type": "birdie"
+                    },
+                    "11": {
+                        "score": 4,
+                        "type": "plus1"
+                    },
+                    "12": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "13": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "14": {
+                        "score": 5,
+                        "type": "par"
+                    },
+                    "15": {
+                        "score": 3,
+                        "type": "par"
+                    },
+                    "16": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "17": {
+                        "score": 4,
+                        "type": "par"
+                    },
+                    "18": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            }
+        }
+    }
+}

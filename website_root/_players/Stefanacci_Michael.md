@@ -32,15 +32,63 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 4
-front_wins: 2
+- &id005
+  date: 2023-04-14
+  name: April 14 (Fri, April 14)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+- &id006
+  date: 2023-04-19
+  name: Round 29 (Wed, April 19)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2023-05-26
+  name: Round 42 (Fri, May 26)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+- &id009
+  date: 2023-07-12
+  name: Round 58 (Wed, July 12)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id008
+  date: 2023-07-21
+  name: Round 62 (Fri, July 21)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id010
+  date: 2023-07-26
+  name: Round 64 (Wed, July 26)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 7
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 2
-points: 19.0
-rounds: 4
+overall_wins: 5
+points: 39.0
+rounds: 10
 rounds_by_month:
   1:
   - *id001
@@ -49,5 +97,14 @@ rounds_by_month:
   - *id003
   3:
   - *id004
-skins: 1
+  4:
+  - *id005
+  - *id006
+  5:
+  - *id007
+  7:
+  - *id008
+  - *id009
+  - *id010
+skins: 2
 ---

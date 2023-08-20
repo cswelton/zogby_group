@@ -1,0 +1,70 @@
+{
+    "name": "Round 40 (Fri, May 19)",
+    "results": {
+        "teams": [
+            [
+                "Hilliard, Tj",
+                "Capwell, Robert",
+                "McDougald, Kevin",
+                "Langworthy, Brandon"
+            ],
+            [
+                "Roberts, Evan",
+                "Ellzey, Matt",
+                "Corcoran, Scott",
+                "Howell, Currie"
+            ]
+        ],
+        "scores": {
+            "Hilliard, Tj": {
+                "scores": {
+                    "6": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Capwell, Robert": {
+                "scores": {
+                    "6": {
+                        "score": 5,
+                        "type": "plus1"
+                    }
+                }
+            },
+            "McDougald, Kevin": {
+                "scores": {
+                    "6": {
+                        "score": 4,
+                        "type": "par"
+                    }
+                }
+            },
+            "Langworthy, Brandon": {
+                "scores": {
+                    "6": {
+                        "score": 5,
+                        "type": "plus1"
+                    }
+                }
+            },
+            "Roberts, Evan": {
+                "scores": {}
+            },
+            "Ellzey, Matt": {
+                "scores": {}
+            },
+            "Corcoran, Scott": {
+                "scores": {
+                    "1": {
+                        "score": 5,
+                        "type": "par"
+                    }
+                }
+            },
+            "Howell, Currie": {
+                "scores": {}
+            }
+        }
+    }
+}

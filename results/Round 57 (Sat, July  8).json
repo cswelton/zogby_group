@@ -1,0 +1,41 @@
+{
+    "name": "Round 57 (Sat, July  8)",
+    "results": {
+        "teams": [
+            [
+                "Fish, Tony",
+                "Samuel, Matthew",
+                "Zogby, Kevin"
+            ],
+            [
+                "Moyer, Bill",
+                "Schrier, Matthew",
+                "Shoffner, Chris",
+                "Langworthy, Brandon"
+            ]
+        ],
+        "scores": {
+            "Fish, Tony": {
+                "scores": {}
+            },
+            "Samuel, Matthew": {
+                "scores": {}
+            },
+            "Zogby, Kevin": {
+                "scores": {}
+            },
+            "Moyer, Bill": {
+                "scores": {}
+            },
+            "Schrier, Matthew": {
+                "scores": {}
+            },
+            "Shoffner, Chris": {
+                "scores": {}
+            },
+            "Langworthy, Brandon": {
+                "scores": {}
+            }
+        }
+    }
+}
