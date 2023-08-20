@@ -13,7 +13,7 @@ if [ $retVal -eq 0 ]; then
     retVal=$?;
     if [ $retVal -eq 0 ]; then
         echo "Building website...";
-        docker run --rm --volume="$PWD:/srv/jekyll:Z" -it jekyll/builder jekyll build --source website_root --destination docs
+        docker run --rm --volume="$PWD:/srv/jekyll:Z" jekyll/builder jekyll build --source website_root --destination docs
         retVal=$?;
         if [ $retVal -eq 0 ]; then
             echo "Deploying website...";
