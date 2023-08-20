@@ -1,6 +1,6 @@
 {
     "name": "Smith, Brian",
-    "scoring_average": 72.868,
+    "scoring_average": 73.026,
     "rounds": [
         {
             "date": "2022-01-02",
@@ -2263,6 +2263,93 @@
             ],
             "in": 34,
             "out": 36
+        },
+        {
+            "date": "2022-05-05",
+            "date_timestamp": 738280,
+            "score": 79,
+            "total": 79,
+            "name": "Cinco de Drinko (Fri, May  5)",
+            "valid": false,
+            "reason": "Round deemed unofficial",
+            "front": [
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "back": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 37,
+            "out": 42
         },
         {
             "date": "2022-05-07",

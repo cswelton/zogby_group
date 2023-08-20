@@ -11,18 +11,18 @@ all_rounds:
 - &id001
   date: 2023-01-13
   name: Round 6 (Fri, January 13)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: Round 62 (Fri, July 21)
+  replaced_by: null
   replaces: null
 - &id003
   date: 2023-01-20
   name: Jan 20 (Fri, January 20)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: Round 74 (Fri, August 18)
+  replaced_by: null
   replaces: null
 - &id004
   date: 2023-02-08
@@ -83,10 +83,10 @@ all_rounds:
 - &id010
   date: 2023-03-31
   name: Round 24 (Fri, March 31)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: Round 38 (Fri, May 12)
+  replaced_by: null
   replaces: null
 - &id014
   date: 2023-04-14
@@ -107,10 +107,10 @@ all_rounds:
 - &id015
   date: 2023-04-21
   name: April 21 (Fri, April 21)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 52 (Wed, June 28)
+  replaced_by: null
   replaces: null
 - &id013
   date: 2023-04-26
@@ -132,23 +132,23 @@ all_rounds:
   date: 2023-05-12
   name: Round 38 (Fri, May 12)
   official: true
-  over_limit: true
+  over_limit: false
   points: 2.0
   replaced_by: null
-  replaces: Round 24 (Fri, March 31)
+  replaces: null
 - &id018
   date: 2023-06-02
   name: Round 45 (Fri, June  2)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 2.0
   replaced_by: null
   replaces: null
 - &id019
   date: 2023-06-07
   name: Round 46 (Wed, June  7)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 2.0
   replaced_by: null
   replaces: null
@@ -156,15 +156,15 @@ all_rounds:
   date: 2023-06-28
   name: Round 52 (Wed, June 28)
   official: true
-  over_limit: true
+  over_limit: false
   points: 8.0
   replaced_by: null
-  replaces: April 21 (Fri, April 21)
+  replaces: null
 - &id021
   date: 2023-07-04
   name: July 4 (Tue, July  4)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 0
   replaced_by: null
   replaces: null
@@ -172,18 +172,18 @@ all_rounds:
   date: 2023-07-21
   name: Round 62 (Fri, July 21)
   official: true
-  over_limit: true
+  over_limit: false
   points: 4.0
   replaced_by: null
-  replaces: Round 6 (Fri, January 13)
+  replaces: null
 - &id023
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
   official: true
-  over_limit: true
+  over_limit: false
   points: 4.0
   replaced_by: null
-  replaces: Jan 20 (Fri, January 20)
+  replaces: null
 back_wins: 10
 flight_wins: 7
 front_wins: 12
@@ -191,7 +191,7 @@ ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 13
-points: 76.0
+points: 83.0
 rounds: 23
 rounds_by_month:
   1:

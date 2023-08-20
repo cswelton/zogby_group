@@ -11,10 +11,10 @@ all_rounds:
 - &id002
   date: 2023-01-20
   name: Jan 20 (Fri, January 20)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 49 (Fri, June 16)
+  replaced_by: null
   replaces: null
 - &id007
   date: 2023-02-10
@@ -51,10 +51,10 @@ all_rounds:
 - &id006
   date: 2023-02-24
   name: Feb 24 (Fri, February 24)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 42 (Fri, May 26)
+  replaced_by: null
   replaces: null
 - &id009
   date: 2023-03-03
@@ -107,10 +107,10 @@ all_rounds:
 - &id014
   date: 2023-04-21
   name: April 21 (Fri, April 21)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: July 4 (Tue, July  4)
+  replaced_by: null
   replaces: null
 - &id017
   date: 2023-05-07
@@ -123,32 +123,32 @@ all_rounds:
 - &id016
   date: 2023-05-12
   name: Round 38 (Fri, May 12)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: Round 52 (Wed, June 28)
+  replaced_by: null
   replaces: null
 - &id015
   date: 2023-05-26
   name: Round 42 (Fri, May 26)
   official: true
-  over_limit: true
+  over_limit: false
   points: 8.0
   replaced_by: null
-  replaces: Feb 24 (Fri, February 24)
+  replaces: null
 - &id018
   date: 2023-06-02
   name: Round 45 (Fri, June  2)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 1.0
   replaced_by: null
   replaces: null
 - &id019
   date: 2023-06-07
   name: Round 46 (Wed, June  7)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 1.0
   replaced_by: null
   replaces: null
@@ -156,39 +156,39 @@ all_rounds:
   date: 2023-06-16
   name: Round 49 (Fri, June 16)
   official: true
-  over_limit: true
+  over_limit: false
   points: 9.0
   replaced_by: null
-  replaces: Jan 20 (Fri, January 20)
+  replaces: null
 - &id021
   date: 2023-06-28
   name: Round 52 (Wed, June 28)
   official: true
-  over_limit: true
+  over_limit: false
   points: 2.0
   replaced_by: null
-  replaces: Round 38 (Fri, May 12)
+  replaces: null
 - &id023
   date: 2023-07-04
   name: July 4 (Tue, July  4)
   official: true
-  over_limit: true
+  over_limit: false
   points: 6.0
   replaced_by: null
-  replaces: April 21 (Fri, April 21)
+  replaces: null
 - &id022
   date: 2023-07-07
   name: Round 56 (Fri, July  7)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 2.0
   replaced_by: null
   replaces: null
 - &id024
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 0
   replaced_by: null
   replaces: null
@@ -199,7 +199,7 @@ ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 10
-points: 79.0
+points: 85.0
 rounds: 24
 rounds_by_month:
   1:

@@ -19,10 +19,10 @@ all_rounds:
 - &id002
   date: 2023-02-24
   name: Feb 24 (Fri, February 24)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 56 (Fri, July  7)
+  replaced_by: null
   replaces: null
 - &id005
   date: 2023-03-03
@@ -35,10 +35,10 @@ all_rounds:
 - &id004
   date: 2023-03-24
   name: Round 22 (Fri, March 24)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: Round 74 (Fri, August 18)
+  replaced_by: null
   replaces: null
 - &id006
   date: 2023-03-31
@@ -107,18 +107,18 @@ all_rounds:
 - &id015
   date: 2023-06-16
   name: Round 49 (Fri, June 16)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 68 (Fri, August  4)
+  replaced_by: null
   replaces: null
 - &id014
   date: 2023-06-23
   name: Round 51 (Fri, June 23)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: July 4 (Tue, July  4)
+  replaced_by: null
   replaces: null
 - &id016
   date: 2023-06-28
@@ -132,34 +132,34 @@ all_rounds:
   date: 2023-07-04
   name: July 4 (Tue, July  4)
   official: true
-  over_limit: true
+  over_limit: false
   points: 5.0
   replaced_by: null
-  replaces: Round 51 (Fri, June 23)
+  replaces: null
 - &id017
   date: 2023-07-07
   name: Round 56 (Fri, July  7)
   official: true
-  over_limit: true
+  over_limit: false
   points: 7.0
   replaced_by: null
-  replaces: Feb 24 (Fri, February 24)
+  replaces: null
 - &id019
   date: 2023-08-04
   name: Round 68 (Fri, August  4)
   official: true
-  over_limit: true
+  over_limit: false
   points: 7.0
   replaced_by: null
-  replaces: Round 49 (Fri, June 16)
+  replaces: null
 - &id020
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
   official: true
-  over_limit: true
+  over_limit: false
   points: 4.0
   replaced_by: null
-  replaces: Round 22 (Fri, March 24)
+  replaces: null
 back_wins: 10
 flight_wins: 10
 front_wins: 11
@@ -167,7 +167,7 @@ ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 12
-points: 89.0
+points: 90.0
 rounds: 20
 rounds_by_month:
   1:

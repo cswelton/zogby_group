@@ -11,10 +11,10 @@ all_rounds:
 - &id002
   date: 2023-02-08
   name: February 8th (Wed, February  8)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 68 (Fri, August  4)
+  replaced_by: null
   replaces: null
 - &id004
   date: 2023-04-05
@@ -83,10 +83,10 @@ all_rounds:
 - &id012
   date: 2023-06-16
   name: Round 49 (Fri, June 16)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 74 (Fri, August 18)
+  replaced_by: null
   replaces: null
 - &id011
   date: 2023-06-23
@@ -132,18 +132,18 @@ all_rounds:
   date: 2023-08-04
   name: Round 68 (Fri, August  4)
   official: true
-  over_limit: true
+  over_limit: false
   points: 7.0
   replaced_by: null
-  replaces: February 8th (Wed, February  8)
+  replaces: null
 - &id018
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
   official: true
-  over_limit: true
+  over_limit: false
   points: 4.0
   replaced_by: null
-  replaces: Round 49 (Fri, June 16)
+  replaces: null
 back_wins: 10
 flight_wins: 10
 front_wins: 8

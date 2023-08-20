@@ -11,10 +11,10 @@ all_rounds:
 - &id004
   date: 2023-01-07
   name: Jan 7 (Sat, January  7)
-  official: false
+  official: true
   over_limit: false
   points: 1.0
-  replaced_by: Round 68 (Fri, August  4)
+  replaced_by: null
   replaces: null
 - &id002
   date: 2023-01-11
@@ -35,10 +35,10 @@ all_rounds:
 - &id005
   date: 2023-01-20
   name: Jan 20 (Fri, January 20)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 51 (Fri, June 23)
+  replaced_by: null
   replaces: null
 - &id006
   date: 2023-02-08
@@ -91,18 +91,18 @@ all_rounds:
 - &id011
   date: 2023-03-24
   name: Round 22 (Fri, March 24)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 58 (Wed, July 12)
+  replaced_by: null
   replaces: null
 - &id014
   date: 2023-04-05
   name: Round 25 (Wed, April  5)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 45 (Fri, June  2)
+  replaced_by: null
   replaces: null
 - &id015
   date: 2023-04-19
@@ -115,10 +115,10 @@ all_rounds:
 - &id016
   date: 2023-04-21
   name: April 21 (Fri, April 21)
-  official: false
+  official: true
   over_limit: false
   points: 0
-  replaced_by: Round 42 (Fri, May 26)
+  replaced_by: null
   replaces: null
 - &id013
   date: 2023-04-23
@@ -131,8 +131,8 @@ all_rounds:
 - &id018
   date: 2023-05-12
   name: Round 38 (Fri, May 12)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 4.0
   replaced_by: null
   replaces: null
@@ -140,23 +140,23 @@ all_rounds:
   date: 2023-05-26
   name: Round 42 (Fri, May 26)
   official: true
-  over_limit: true
+  over_limit: false
   points: 5.0
   replaced_by: null
-  replaces: April 21 (Fri, April 21)
+  replaces: null
 - &id019
   date: 2023-06-02
   name: Round 45 (Fri, June  2)
   official: true
-  over_limit: true
+  over_limit: false
   points: 5.666666666666666
   replaced_by: null
-  replaces: Round 25 (Wed, April  5)
+  replaces: null
 - &id020
   date: 2023-06-07
   name: Round 46 (Wed, June  7)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 2.0
   replaced_by: null
   replaces: null
@@ -164,23 +164,23 @@ all_rounds:
   date: 2023-06-23
   name: Round 51 (Fri, June 23)
   official: true
-  over_limit: true
+  over_limit: false
   points: 8.0
   replaced_by: null
-  replaces: Jan 20 (Fri, January 20)
+  replaces: null
 - &id022
   date: 2023-06-28
   name: Round 52 (Wed, June 28)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 0
   replaced_by: null
   replaces: null
 - &id023
   date: 2023-07-04
   name: July 4 (Tue, July  4)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 4.0
   replaced_by: null
   replaces: null
@@ -188,23 +188,23 @@ all_rounds:
   date: 2023-07-12
   name: Round 58 (Wed, July 12)
   official: true
-  over_limit: true
+  over_limit: false
   points: 6.0
   replaced_by: null
-  replaces: Round 22 (Fri, March 24)
+  replaces: null
 - &id025
   date: 2023-08-04
   name: Round 68 (Fri, August  4)
   official: true
-  over_limit: true
+  over_limit: false
   points: 5.0
   replaced_by: null
-  replaces: Jan 7 (Sat, January  7)
+  replaces: null
 - &id026
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
-  official: false
-  over_limit: true
+  official: true
+  over_limit: false
   points: 0
   replaced_by: null
   replaces: null
@@ -215,7 +215,7 @@ ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 9
-points: 67.66666666666666
+points: 78.66666666666666
 rounds: 26
 rounds_by_month:
   1:
