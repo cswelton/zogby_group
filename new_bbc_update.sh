@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /home/craig/zogby_group;
 
 echo "Checking for new round data...";
 
