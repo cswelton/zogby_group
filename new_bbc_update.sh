@@ -2,6 +2,7 @@
 
 
 echo "Checking for new round data...";
+
 /home/craig/venv/bin/bbc-sync --results-directory='./results' uspfuw;
 retVal=$?;
 
