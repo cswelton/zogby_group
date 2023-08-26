@@ -192,15 +192,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 13
+- &id025
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 14
 flight_wins: 9
 front_wins: 8
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
 overall_wins: 10
-points: 85.0
-rounds: 24
+points: 86.0
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -234,5 +242,6 @@ rounds_by_month:
   - *id023
   8:
   - *id024
+  - *id025
 skins: 17
 ---

@@ -184,15 +184,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 10
+- &id024
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 11
 flight_wins: 7
 front_wins: 12
 ignored_rounds: []
 image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 13
-points: 83.0
-rounds: 23
+points: 84.0
+rounds: 24
 rounds_by_month:
   1:
   - *id001
@@ -225,5 +233,6 @@ rounds_by_month:
   - *id022
   8:
   - *id023
+  - *id024
 skins: 10
 ---

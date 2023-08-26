@@ -248,6 +248,14 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id032
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 11
 flight_wins: 10
 front_wins: 12
@@ -255,8 +263,8 @@ ignored_rounds: []
 image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 8
-points: 97.66666666666667
-rounds: 31
+points: 98.66666666666667
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -297,5 +305,6 @@ rounds_by_month:
   - *id029
   - *id030
   - *id031
-skins: 28
+  - *id032
+skins: 29
 ---

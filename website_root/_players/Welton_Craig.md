@@ -104,15 +104,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
+- &id014
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 1.6666666666666665
+  replaced_by: null
+  replaces: null
 back_wins: 3
-flight_wins: 3
+flight_wins: 4
 front_wins: 5
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
 overall_wins: 3
-points: 31.0
-rounds: 13
+points: 32.666666666666664
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -134,5 +142,6 @@ rounds_by_month:
   - *id012
   8:
   - *id013
-skins: 6
+  - *id014
+skins: 7
 ---

@@ -208,6 +208,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id027
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 13
 flight_wins: 10
 front_wins: 8
@@ -216,7 +224,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 9
 points: 78.66666666666666
-rounds: 26
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -252,5 +260,6 @@ rounds_by_month:
   8:
   - *id025
   - *id026
+  - *id027
 skins: 10
 ---

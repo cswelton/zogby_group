@@ -256,6 +256,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id033
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 18
 flight_wins: 15
 front_wins: 10
@@ -264,7 +272,7 @@ image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
 overall_wins: 14
 points: 111.0
-rounds: 32
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -306,5 +314,6 @@ rounds_by_month:
   8:
   - *id031
   - *id032
+  - *id033
 skins: 11
 ---

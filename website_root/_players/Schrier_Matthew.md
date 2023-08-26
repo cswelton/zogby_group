@@ -96,6 +96,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 3
 flight_wins: 4
 front_wins: 5
@@ -104,7 +112,7 @@ image: /assets/images/default.png
 name: Schrier, Matthew
 overall_wins: 3
 points: 29.0
-rounds: 12
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -125,5 +133,6 @@ rounds_by_month:
   8:
   - *id011
   - *id012
+  - *id013
 skins: 1
 ---

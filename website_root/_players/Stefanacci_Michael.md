@@ -80,15 +80,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 7
-front_wins: 4
+- &id011
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 8
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Stefanacci_Michael.png
 name: Stefanacci, Michael
-overall_wins: 5
-points: 39.0
-rounds: 10
+overall_wins: 6
+points: 47.0
+rounds: 11
 rounds_by_month:
   1:
   - *id001
@@ -106,5 +114,7 @@ rounds_by_month:
   - *id008
   - *id009
   - *id010
-skins: 2
+  8:
+  - *id011
+skins: 3
 ---

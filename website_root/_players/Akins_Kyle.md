@@ -64,15 +64,23 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-back_wins: 5
+- &id009
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
 flight_wins: 4
 front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Akins, Kyle
 overall_wins: 4
-points: 41.0
-rounds: 8
+points: 43.0
+rounds: 9
 rounds_by_month:
   1:
   - *id001
@@ -88,5 +96,6 @@ rounds_by_month:
   - *id007
   8:
   - *id008
-skins: 12
+  - *id009
+skins: 13
 ---

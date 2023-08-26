@@ -160,6 +160,14 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id021
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 10
 flight_wins: 10
 front_wins: 11
@@ -168,7 +176,7 @@ image: /assets/images/Parker_Shane.png
 name: Parker, Shane
 overall_wins: 12
 points: 90.0
-rounds: 20
+rounds: 21
 rounds_by_month:
   1:
   - *id001
@@ -198,5 +206,6 @@ rounds_by_month:
   8:
   - *id019
   - *id020
+  - *id021
 skins: 13
 ---

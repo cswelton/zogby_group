@@ -144,15 +144,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
+- &id019
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 10
-flight_wins: 10
+flight_wins: 11
 front_wins: 8
 ignored_rounds: []
 image: /assets/images/Corcoran_Scott.png
 name: Corcoran, Scott
 overall_wins: 5
-points: 71.0
-rounds: 18
+points: 74.0
+rounds: 19
 rounds_by_month:
   1:
   - *id001
@@ -179,5 +187,6 @@ rounds_by_month:
   8:
   - *id017
   - *id018
-skins: 11
+  - *id019
+skins: 12
 ---

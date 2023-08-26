@@ -248,15 +248,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 11
+- &id032
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
+back_wins: 12
 flight_wins: 16
-front_wins: 18
+front_wins: 19
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 13
-points: 126.66666666666667
-rounds: 31
+overall_wins: 14
+points: 131.66666666666669
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -297,5 +305,6 @@ rounds_by_month:
   8:
   - *id030
   - *id031
+  - *id032
 skins: 23
 ---

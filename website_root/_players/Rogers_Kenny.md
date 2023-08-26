@@ -24,15 +24,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 1
-front_wins: 1
+- &id004
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 5.666666666666666
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 2
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Rogers, Kenny
-overall_wins: 0
-points: 9.0
-rounds: 3
+overall_wins: 1
+points: 14.666666666666666
+rounds: 4
 rounds_by_month:
   4:
   - *id001
@@ -40,5 +48,6 @@ rounds_by_month:
   - *id002
   8:
   - *id003
+  - *id004
 skins: 3
 ---

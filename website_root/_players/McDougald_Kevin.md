@@ -104,15 +104,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 10
+- &id014
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
+back_wins: 11
 flight_wins: 6
 front_wins: 7
 ignored_rounds: []
 image: /assets/images/McDougald_Kevin.png
 name: McDougald, Kevin
 overall_wins: 10
-points: 61.0
-rounds: 13
+points: 62.0
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -135,5 +143,6 @@ rounds_by_month:
   - *id012
   8:
   - *id013
+  - *id014
 skins: 2
 ---

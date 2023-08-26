@@ -96,15 +96,23 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 4
-flight_wins: 3
-front_wins: 3
+- &id013
+  date: 2023-08-25
+  name: Round 77 (Fri, August 25)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 5
+flight_wins: 4
+front_wins: 4
 ignored_rounds: []
 image: /assets/images/default.png
 name: Meder, Brandon
-overall_wins: 4
-points: 27.0
-rounds: 12
+overall_wins: 5
+points: 35.0
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -125,5 +133,7 @@ rounds_by_month:
   7:
   - *id011
   - *id012
-skins: 4
+  8:
+  - *id013
+skins: 5
 ---
