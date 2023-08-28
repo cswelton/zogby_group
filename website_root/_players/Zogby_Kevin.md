@@ -176,7 +176,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id023
+- &id024
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
   official: true
@@ -184,12 +184,20 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id024
+- &id025
   date: 2023-08-25
   name: Round 77 (Fri, August 25)
   official: true
   over_limit: false
   points: 1.0
+  replaced_by: null
+  replaces: null
+- &id023
+  date: 2023-08-27
+  name: SUNDAY GOLF (Sun, August 27)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 11
@@ -200,7 +208,7 @@ image: /assets/images/Zogby_Kevin.png
 name: Zogby, Kevin
 overall_wins: 13
 points: 84.0
-rounds: 24
+rounds: 25
 rounds_by_month:
   1:
   - *id001
@@ -234,5 +242,6 @@ rounds_by_month:
   8:
   - *id023
   - *id024
+  - *id025
 skins: 10
 ---

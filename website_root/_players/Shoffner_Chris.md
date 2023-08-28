@@ -240,7 +240,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id032
+- &id033
   date: 2023-08-02
   name: Round 67 (Wed, August  2)
   official: true
@@ -248,7 +248,7 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-- &id031
+- &id032
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
   official: true
@@ -256,7 +256,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id033
+- &id034
   date: 2023-08-25
   name: Round 77 (Fri, August 25)
   official: true
@@ -264,15 +264,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 18
-flight_wins: 15
-front_wins: 10
+- &id031
+  date: 2023-08-27
+  name: SUNDAY GOLF (Sun, August 27)
+  official: true
+  over_limit: false
+  points: 9.0
+  replaced_by: null
+  replaces: null
+back_wins: 19
+flight_wins: 16
+front_wins: 11
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 14
-points: 111.0
-rounds: 33
+overall_wins: 15
+points: 120.0
+rounds: 34
 rounds_by_month:
   1:
   - *id001
@@ -315,5 +323,6 @@ rounds_by_month:
   - *id031
   - *id032
   - *id033
-skins: 11
+  - *id034
+skins: 12
 ---

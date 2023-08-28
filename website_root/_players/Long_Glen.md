@@ -80,9 +80,17 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2023-08-18
   name: Round 74 (Fri, August 18)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
+- &id011
+  date: 2023-08-27
+  name: SUNDAY GOLF (Sun, August 27)
   official: true
   over_limit: false
   points: 0
@@ -96,7 +104,7 @@ image: /assets/images/Long_Glen.png
 name: Long, Glen
 overall_wins: 4
 points: 32.0
-rounds: 11
+rounds: 12
 rounds_by_month:
   1:
   - *id001
@@ -117,5 +125,6 @@ rounds_by_month:
   - *id010
   8:
   - *id011
+  - *id012
 skins: 7
 ---

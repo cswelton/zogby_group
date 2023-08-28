@@ -96,7 +96,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id013
+- &id014
   date: 2023-08-04
   name: Round 68 (Fri, August  4)
   official: true
@@ -104,7 +104,7 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-- &id014
+- &id015
   date: 2023-08-25
   name: Round 77 (Fri, August 25)
   official: true
@@ -112,15 +112,23 @@ all_rounds:
   points: 1.6666666666666665
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 4
-front_wins: 5
+- &id013
+  date: 2023-08-27
+  name: SUNDAY GOLF (Sun, August 27)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/Welton_Craig.png
 name: Welton, Craig
-overall_wins: 3
-points: 32.666666666666664
-rounds: 14
+overall_wins: 4
+points: 40.666666666666664
+rounds: 15
 rounds_by_month:
   1:
   - *id001
@@ -143,5 +151,6 @@ rounds_by_month:
   8:
   - *id013
   - *id014
+  - *id015
 skins: 7
 ---
