@@ -64,7 +64,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id010
+- &id011
   date: 2023-08-02
   name: Round 67 (Wed, August  2)
   official: true
@@ -80,15 +80,23 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-back_wins: 2
-flight_wins: 2
-front_wins: 0
+- &id010
+  date: 2023-08-30
+  name: Round 80 (Wed, August 30)
+  official: true
+  over_limit: false
+  points: 9.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
+flight_wins: 3
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/Ellzey_Matt.png
 name: Ellzey, Matt
-overall_wins: 1
-points: 12.0
-rounds: 10
+overall_wins: 2
+points: 21.0
+rounds: 11
 rounds_by_month:
   1:
   - *id001
@@ -106,5 +114,6 @@ rounds_by_month:
   8:
   - *id009
   - *id010
-skins: 2
+  - *id011
+skins: 4
 ---

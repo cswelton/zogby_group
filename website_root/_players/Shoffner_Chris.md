@@ -240,7 +240,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id033
+- &id034
   date: 2023-08-02
   name: Round 67 (Wed, August  2)
   official: true
@@ -256,7 +256,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id034
+- &id035
   date: 2023-08-25
   name: Round 77 (Fri, August 25)
   official: true
@@ -272,15 +272,23 @@ all_rounds:
   points: 9.0
   replaced_by: null
   replaces: null
-back_wins: 19
-flight_wins: 16
-front_wins: 11
+- &id033
+  date: 2023-08-30
+  name: Round 80 (Wed, August 30)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 20
+flight_wins: 17
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Shoffner_Chris.png
 name: Shoffner, Chris
-overall_wins: 15
-points: 120.0
-rounds: 34
+overall_wins: 16
+points: 128.0
+rounds: 35
 rounds_by_month:
   1:
   - *id001
@@ -324,5 +332,6 @@ rounds_by_month:
   - *id032
   - *id033
   - *id034
-skins: 12
+  - *id035
+skins: 13
 ---

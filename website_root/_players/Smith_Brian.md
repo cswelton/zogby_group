@@ -240,15 +240,23 @@ all_rounds:
   points: 3.0
   replaced_by: null
   replaces: null
-back_wins: 13
-flight_wins: 18
-front_wins: 15
+- &id031
+  date: 2023-08-30
+  name: Round 80 (Wed, August 30)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 14
+flight_wins: 19
+front_wins: 16
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 14
-points: 144.0
-rounds: 30
+overall_wins: 15
+points: 150.0
+rounds: 31
 rounds_by_month:
   1:
   - *id001
@@ -288,5 +296,6 @@ rounds_by_month:
   - *id029
   8:
   - *id030
+  - *id031
 skins: 36
 ---

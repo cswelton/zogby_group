@@ -232,7 +232,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-- &id031
+- &id032
   date: 2023-08-02
   name: Round 67 (Wed, August  2)
   official: true
@@ -248,7 +248,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id032
+- &id033
   date: 2023-08-25
   name: Round 77 (Fri, August 25)
   official: true
@@ -256,15 +256,23 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-back_wins: 12
-flight_wins: 16
-front_wins: 19
+- &id031
+  date: 2023-08-30
+  name: Round 80 (Wed, August 30)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 13
+flight_wins: 17
+front_wins: 20
 ignored_rounds: []
 image: /assets/images/default.png
 name: Roberts, Evan
-overall_wins: 14
-points: 131.66666666666669
-rounds: 32
+overall_wins: 15
+points: 138.66666666666669
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -306,5 +314,6 @@ rounds_by_month:
   - *id030
   - *id031
   - *id032
+  - *id033
 skins: 23
 ---

@@ -208,7 +208,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id027
+- &id028
   date: 2023-08-25
   name: Round 77 (Fri, August 25)
   official: true
@@ -216,15 +216,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 13
-flight_wins: 10
+- &id027
+  date: 2023-08-30
+  name: Round 80 (Wed, August 30)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 14
+flight_wins: 11
 front_wins: 8
 ignored_rounds: []
 image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 9
-points: 78.66666666666666
-rounds: 27
+points: 80.66666666666666
+rounds: 28
 rounds_by_month:
   1:
   - *id001
@@ -261,5 +269,6 @@ rounds_by_month:
   - *id025
   - *id026
   - *id027
+  - *id028
 skins: 10
 ---
