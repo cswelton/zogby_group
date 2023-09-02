@@ -256,6 +256,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id033
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 11
 flight_wins: 10
 front_wins: 12
@@ -264,7 +272,7 @@ image: /assets/images/Hilliard_Tj.png
 name: Hilliard, Tj
 overall_wins: 8
 points: 98.66666666666667
-rounds: 32
+rounds: 33
 rounds_by_month:
   1:
   - *id001
@@ -306,5 +314,7 @@ rounds_by_month:
   - *id030
   - *id031
   - *id032
+  9:
+  - *id033
 skins: 29
 ---

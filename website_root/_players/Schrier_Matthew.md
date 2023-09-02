@@ -104,15 +104,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 3
-flight_wins: 4
-front_wins: 5
+- &id014
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+back_wins: 4
+flight_wins: 5
+front_wins: 6
 ignored_rounds: []
 image: /assets/images/default.png
 name: Schrier, Matthew
-overall_wins: 3
-points: 29.0
-rounds: 13
+overall_wins: 4
+points: 37.0
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -134,5 +142,7 @@ rounds_by_month:
   - *id011
   - *id012
   - *id013
+  9:
+  - *id014
 skins: 1
 ---

@@ -168,15 +168,23 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-back_wins: 10
-flight_wins: 10
-front_wins: 11
+- &id022
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 10.0
+  replaced_by: null
+  replaces: null
+back_wins: 11
+flight_wins: 11
+front_wins: 12
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 12
-points: 90.0
-rounds: 21
+overall_wins: 13
+points: 100.0
+rounds: 22
 rounds_by_month:
   1:
   - *id001
@@ -207,5 +215,7 @@ rounds_by_month:
   - *id019
   - *id020
   - *id021
-skins: 13
+  9:
+  - *id022
+skins: 15
 ---

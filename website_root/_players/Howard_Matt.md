@@ -96,6 +96,14 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
+- &id013
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 5
 flight_wins: 4
 front_wins: 4
@@ -104,7 +112,7 @@ image: /assets/images/default.png
 name: Howard, Matt
 overall_wins: 3
 points: 34.0
-rounds: 12
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -124,5 +132,7 @@ rounds_by_month:
   8:
   - *id011
   - *id012
+  9:
+  - *id013
 skins: 4
 ---

@@ -200,15 +200,23 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-back_wins: 14
-flight_wins: 9
-front_wins: 8
+- &id026
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 9.0
+  replaced_by: null
+  replaces: null
+back_wins: 15
+flight_wins: 10
+front_wins: 9
 ignored_rounds: []
 image: /assets/images/Capwell_Robert.png
 name: Capwell, Robert
-overall_wins: 10
-points: 86.0
-rounds: 25
+overall_wins: 11
+points: 95.0
+rounds: 26
 rounds_by_month:
   1:
   - *id001
@@ -243,5 +251,7 @@ rounds_by_month:
   8:
   - *id024
   - *id025
-skins: 17
+  9:
+  - *id026
+skins: 18
 ---

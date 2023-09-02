@@ -224,6 +224,14 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
+- &id029
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 0
+  replaced_by: null
+  replaces: null
 back_wins: 14
 flight_wins: 11
 front_wins: 8
@@ -232,7 +240,7 @@ image: /assets/images/Fish_Tony.png
 name: Fish, Tony
 overall_wins: 9
 points: 80.66666666666666
-rounds: 28
+rounds: 29
 rounds_by_month:
   1:
   - *id001
@@ -270,5 +278,7 @@ rounds_by_month:
   - *id026
   - *id027
   - *id028
+  9:
+  - *id029
 skins: 10
 ---

@@ -248,15 +248,23 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-back_wins: 14
-flight_wins: 19
-front_wins: 16
+- &id032
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 9.0
+  replaced_by: null
+  replaces: null
+back_wins: 15
+flight_wins: 20
+front_wins: 17
 ignored_rounds: []
 image: /assets/images/Smith_Brian.png
 name: Smith, Brian
-overall_wins: 15
-points: 150.0
-rounds: 31
+overall_wins: 16
+points: 159.0
+rounds: 32
 rounds_by_month:
   1:
   - *id001
@@ -297,5 +305,7 @@ rounds_by_month:
   8:
   - *id030
   - *id031
-skins: 36
+  9:
+  - *id032
+skins: 37
 ---

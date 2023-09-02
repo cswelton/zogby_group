@@ -48,6 +48,14 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
+- &id007
+  date: 2023-09-01
+  name: Round 81 (Fri, September  1)
+  official: true
+  over_limit: false
+  points: 1.0
+  replaced_by: null
+  replaces: null
 back_wins: 2
 flight_wins: 2
 front_wins: 4
@@ -55,8 +63,8 @@ ignored_rounds: []
 image: /assets/images/default.png
 name: Sonski, Nick
 overall_wins: 2
-points: 19.0
-rounds: 6
+points: 20.0
+rounds: 7
 rounds_by_month:
   3:
   - *id001
@@ -68,5 +76,7 @@ rounds_by_month:
   7:
   - *id005
   - *id006
-skins: 1
+  9:
+  - *id007
+skins: 2
 ---
