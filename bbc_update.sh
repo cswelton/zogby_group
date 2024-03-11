@@ -14,7 +14,8 @@ if [ $retVal -eq 0 ]; then
     retVal=$?;
     if [ $retVal -eq 0 ]; then
         echo "Building website...";
-        /Users/crwelton/.gem/ruby/3.1.3/bin/bundle exec /Users/crwelton/.gem/ruby/3.1.3/bin/jekyll build --source='./website_root' --destination='./docs'
+        #/Users/crwelton/.gem/ruby/3.1.3/bin/bundle exec /Users/crwelton/.gem/ruby/3.1.3/bin/jekyll build --source='./website_root' --destination='./docs'
+        docker run --rm --volume="$PWD:/srv/jekyll:Z" jekyll/builder jekyll build --source website_root --destination docs
         retVal=$?;
         if [ $retVal -eq 0 ]; then
             echo "Deploying website...";
