@@ -24,7 +24,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id005
+- &id006
   date: 2023-03-03
   name: March 3rd (Fri, March  3)
   official: true
@@ -40,7 +40,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id006
+- &id005
   date: 2023-03-31
   name: Round 24 (Fri, March 31)
   official: true
@@ -88,7 +88,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id012
+- &id015
   date: 2023-06-02
   name: Round 45 (Fri, June  2)
   official: true
@@ -104,7 +104,7 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
-- &id015
+- &id012
   date: 2023-06-16
   name: Round 49 (Fri, June 16)
   official: true
@@ -128,7 +128,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id018
+- &id017
   date: 2023-07-04
   name: July 4 (Tue, July  4)
   official: true
@@ -136,7 +136,7 @@ all_rounds:
   points: 5.0
   replaced_by: null
   replaces: null
-- &id017
+- &id018
   date: 2023-07-07
   name: Round 56 (Fri, July  7)
   official: true
@@ -176,15 +176,55 @@ all_rounds:
   points: 10.0
   replaced_by: null
   replaces: null
-back_wins: 11
-flight_wins: 11
-front_wins: 12
+- &id023
+  date: 2023-09-04
+  name: Round 83 (Mon, September  4)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+- &id024
+  date: 2023-09-13
+  name: Round 86 (Wed, September 13)
+  official: true
+  over_limit: false
+  points: 8.0
+  replaced_by: null
+  replaces: null
+- &id025
+  date: 2023-10-29
+  name: Round 109 (Sun, October 29)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id026
+  date: 2023-11-08
+  name: Round 114 (Wed, November  8)
+  official: true
+  over_limit: false
+  points: 4.0
+  replaced_by: null
+  replaces: null
+- &id027
+  date: 2023-12-15
+  name: Round 126 (Fri, December 15)
+  official: true
+  over_limit: false
+  points: 2.0
+  replaced_by: null
+  replaces: null
+back_wins: 14
+flight_wins: 14
+front_wins: 16
 ignored_rounds: []
 image: /assets/images/Parker_Shane.png
 name: Parker, Shane
-overall_wins: 13
-points: 100.0
-rounds: 22
+overall_wins: 16
+points: 127.0
+rounds: 27
 rounds_by_month:
   1:
   - *id001
@@ -217,5 +257,13 @@ rounds_by_month:
   - *id021
   9:
   - *id022
-skins: 15
+  - *id023
+  - *id024
+  10:
+  - *id025
+  11:
+  - *id026
+  12:
+  - *id027
+skins: 19
 ---

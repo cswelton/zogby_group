@@ -16,19 +16,29 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-back_wins: 2
+- &id003
+  date: 2023-10-18
+  name: Round 103 (Wed, October 18)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+back_wins: 3
 flight_wins: 0
-front_wins: 0
+front_wins: 1
 ignored_rounds: []
 image: /assets/images/Williford_Luke.png
 name: Williford, Luke
-overall_wins: 1
-points: 5.0
-rounds: 2
+overall_wins: 2
+points: 11.0
+rounds: 3
 rounds_by_month:
   2:
   - *id001
   8:
   - *id002
+  10:
+  - *id003
 skins: 0
 ---

@@ -16,7 +16,7 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
-- &id003
+- &id004
   date: 2023-02-15
   name: Feb 15th (Wed, February 15)
   official: true
@@ -24,7 +24,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id004
+- &id003
   date: 2023-02-24
   name: Feb 24 (Fri, February 24)
   official: true
@@ -40,7 +40,7 @@ all_rounds:
   points: 2.0
   replaced_by: null
   replaces: null
-- &id006
+- &id008
   date: 2023-04-19
   name: Round 28 (Wed, April 19)
   official: true
@@ -56,7 +56,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-- &id007
+- &id006
   date: 2023-04-23
   name: Round 31 (Sun, April 23)
   official: true
@@ -64,7 +64,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id008
+- &id007
   date: 2023-04-26
   name: April 26 (Wed, April 26)
   official: true
@@ -96,15 +96,31 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-back_wins: 5
-flight_wins: 4
-front_wins: 6
+- &id013
+  date: 2023-09-04
+  name: Round 83 (Mon, September  4)
+  official: true
+  over_limit: false
+  points: 9.0
+  replaced_by: null
+  replaces: null
+- &id014
+  date: 2023-10-29
+  name: Round 109 (Sun, October 29)
+  official: true
+  over_limit: false
+  points: 7.0
+  replaced_by: null
+  replaces: null
+back_wins: 6
+flight_wins: 6
+front_wins: 8
 ignored_rounds: []
 image: /assets/images/Samuel_Matthew.png
 name: Samuel, Matthew
-overall_wins: 5
-points: 39.0
-rounds: 12
+overall_wins: 7
+points: 55.0
+rounds: 14
 rounds_by_month:
   1:
   - *id001
@@ -124,5 +140,9 @@ rounds_by_month:
   - *id011
   8:
   - *id012
-skins: 4
+  9:
+  - *id013
+  10:
+  - *id014
+skins: 7
 ---

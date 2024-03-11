@@ -1,6 +1,6 @@
 {
     "name": "Mangum, Caleb",
-    "scoring_average": 81.933,
+    "scoring_average": 80.944,
     "rounds": [
         {
             "date": "2022-01-02",
@@ -527,93 +527,6 @@
         {
             "date": "2022-04-19",
             "date_timestamp": 738264,
-            "score": 84,
-            "total": 84,
-            "name": "Round 28 (Wed, April 19)",
-            "valid": true,
-            "reason": null,
-            "front": [
-                {
-                    "score": 6,
-                    "type": "plus1"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                },
-                {
-                    "score": 4,
-                    "type": "plus1"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 5,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                },
-                {
-                    "score": 3,
-                    "type": "par"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                }
-            ],
-            "back": [
-                {
-                    "score": 5,
-                    "type": "par"
-                },
-                {
-                    "score": 3,
-                    "type": "par"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                },
-                {
-                    "score": 6,
-                    "type": "plus2"
-                },
-                {
-                    "score": 7,
-                    "type": "plus2"
-                },
-                {
-                    "score": 5,
-                    "type": "plus2"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                },
-                {
-                    "score": 5,
-                    "type": "plus1"
-                },
-                {
-                    "score": 4,
-                    "type": "par"
-                }
-            ],
-            "in": 45,
-            "out": 39
-        },
-        {
-            "date": "2022-04-19",
-            "date_timestamp": 738264,
             "score": 78,
             "total": 78,
             "name": "Round 29 (Wed, April 19)",
@@ -697,6 +610,93 @@
             ],
             "in": 38,
             "out": 40
+        },
+        {
+            "date": "2022-04-19",
+            "date_timestamp": 738264,
+            "score": 84,
+            "total": 84,
+            "name": "Round 28 (Wed, April 19)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 7,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus2"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 45,
+            "out": 39
         },
         {
             "date": "2022-05-05",
@@ -1306,6 +1306,267 @@
             ],
             "in": 40,
             "out": 45
+        },
+        {
+            "date": "2022-09-04",
+            "date_timestamp": 738402,
+            "score": 79,
+            "total": 79,
+            "name": "Round 83 (Mon, September  4)",
+            "valid": true,
+            "reason": null,
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 6,
+                    "type": "plus2"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                }
+            ],
+            "in": 37,
+            "out": 42
+        },
+        {
+            "date": "2022-09-23",
+            "date_timestamp": 738421,
+            "score": 71,
+            "total": 71,
+            "name": "Round 92 (Sat, September 23)",
+            "valid": false,
+            "reason": "Not all players finished 18 holes",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 2,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 34,
+            "out": 37
+        },
+        {
+            "date": "2022-11-17",
+            "date_timestamp": 738476,
+            "score": 78,
+            "total": 78,
+            "name": "Round 118 (Fri, November 17)",
+            "valid": false,
+            "reason": "Teams do not contain equal number of players",
+            "front": [
+                {
+                    "score": 6,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 5,
+                    "type": "plus1"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 39,
+            "out": 39
         }
     ]
 }

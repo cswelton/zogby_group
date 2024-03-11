@@ -16,7 +16,7 @@ all_rounds:
   points: 1.0
   replaced_by: null
   replaces: null
-- &id005
+- &id004
   date: 2023-02-10
   name: Feb 10 (Fri, February 10)
   official: true
@@ -24,7 +24,7 @@ all_rounds:
   points: 4.0
   replaced_by: null
   replaces: null
-- &id003
+- &id005
   date: 2023-02-22
   name: Feb 22nd (Wed, February 22)
   official: true
@@ -32,7 +32,7 @@ all_rounds:
   points: 8.0
   replaced_by: null
   replaces: null
-- &id004
+- &id003
   date: 2023-02-24
   name: Feb 24 (Fri, February 24)
   official: true
@@ -40,15 +40,31 @@ all_rounds:
   points: 7.0
   replaced_by: null
   replaces: null
+- &id006
+  date: 2023-10-29
+  name: Round 109 (Sun, October 29)
+  official: true
+  over_limit: false
+  points: 6.0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2023-12-15
+  name: Round 126 (Fri, December 15)
+  official: true
+  over_limit: false
+  points: 3.0
+  replaced_by: null
+  replaces: null
 back_wins: 3
-flight_wins: 3
-front_wins: 3
+flight_wins: 4
+front_wins: 5
 ignored_rounds: []
 image: /assets/images/Chan_Edward.png
 name: Chan, Edward
-overall_wins: 3
-points: 25.0
-rounds: 5
+overall_wins: 4
+points: 34.0
+rounds: 7
 rounds_by_month:
   1:
   - *id001
@@ -57,5 +73,9 @@ rounds_by_month:
   - *id003
   - *id004
   - *id005
-skins: 4
+  10:
+  - *id006
+  12:
+  - *id007
+skins: 5
 ---

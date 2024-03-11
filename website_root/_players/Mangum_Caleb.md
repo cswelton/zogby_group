@@ -42,18 +42,18 @@ all_rounds:
   replaces: null
 - &id005
   date: 2023-04-19
-  name: Round 28 (Wed, April 19)
-  official: true
-  over_limit: false
-  points: 3.0
-  replaced_by: null
-  replaces: null
-- &id007
-  date: 2023-04-19
   name: Round 29 (Wed, April 19)
   official: true
   over_limit: false
   points: 2.0
+  replaced_by: null
+  replaces: null
+- &id007
+  date: 2023-04-19
+  name: Round 28 (Wed, April 19)
+  official: true
+  over_limit: false
+  points: 3.0
   replaced_by: null
   replaces: null
 - &id009
@@ -80,7 +80,7 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id012
+- &id011
   date: 2023-07-04
   name: July 4 (Tue, July  4)
   official: true
@@ -88,12 +88,20 @@ all_rounds:
   points: 0
   replaced_by: null
   replaces: null
-- &id011
+- &id012
   date: 2023-07-07
   name: Round 56 (Fri, July  7)
   official: true
   over_limit: false
   points: 3.0
+  replaced_by: null
+  replaces: null
+- &id013
+  date: 2023-09-04
+  name: Round 83 (Mon, September  4)
+  official: true
+  over_limit: false
+  points: 0
   replaced_by: null
   replaces: null
 back_wins: 4
@@ -104,7 +112,7 @@ image: /assets/images/Mangum_Caleb.png
 name: Mangum, Caleb
 overall_wins: 5
 points: 29.0
-rounds: 12
+rounds: 13
 rounds_by_month:
   1:
   - *id001
@@ -125,5 +133,7 @@ rounds_by_month:
   7:
   - *id011
   - *id012
+  9:
+  - *id013
 skins: 6
 ---

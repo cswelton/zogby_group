@@ -8,17 +8,27 @@ all_rounds:
   points: 6.0
   replaced_by: null
   replaces: null
+- &id002
+  date: 2023-10-29
+  name: Round 109 (Sun, October 29)
+  official: true
+  over_limit: false
+  points: 5.0
+  replaced_by: null
+  replaces: null
 back_wins: 1
 flight_wins: 0
-front_wins: 1
+front_wins: 2
 ignored_rounds: []
 image: /assets/images/default.png
 name: Whartenby, Robert
-overall_wins: 1
-points: 6.0
-rounds: 1
+overall_wins: 2
+points: 11.0
+rounds: 2
 rounds_by_month:
   8:
   - *id001
-skins: 0
+  10:
+  - *id002
+skins: 1
 ---

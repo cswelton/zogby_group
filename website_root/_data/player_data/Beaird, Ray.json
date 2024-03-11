@@ -1,6 +1,6 @@
 {
     "name": "Beaird, Ray",
-    "scoring_average": 80.0,
+    "scoring_average": 76.75,
     "rounds": [
         {
             "date": "2022-01-20",
@@ -262,6 +262,93 @@
             ],
             "in": 34,
             "out": 41
+        },
+        {
+            "date": "2022-09-23",
+            "date_timestamp": 738421,
+            "score": 67,
+            "total": 67,
+            "name": "Round 92 (Sat, September 23)",
+            "valid": false,
+            "reason": "Not all players finished 18 holes",
+            "front": [
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "back": [
+                {
+                    "score": 4,
+                    "type": "birdie"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 5,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "par"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                },
+                {
+                    "score": 3,
+                    "type": "birdie"
+                },
+                {
+                    "score": 4,
+                    "type": "par"
+                }
+            ],
+            "in": 33,
+            "out": 34
         }
     ]
 }
